@@ -1,0 +1,18 @@
+# JetBrains / IntelliJ / PyCharm IDE settings
+.idea/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSSharedFileList
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Build / Output directories (if applicable)
+dist/
+build/
+*.pyc
+node_modules/
