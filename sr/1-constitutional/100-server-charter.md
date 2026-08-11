@@ -194,8 +194,5 @@ b. with the options: *Yes*, *No*, and *Abstain*.
 
 <sup>1</sup> Any laws written in another language other than English shall have no legal force.
 
----
 
 [^1]: Adopted unilaterally by The Director on 11 Aug. 2026, in force since 11 Aug. 2026.
-
----
