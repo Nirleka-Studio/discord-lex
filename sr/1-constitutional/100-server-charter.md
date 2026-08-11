@@ -182,7 +182,7 @@ b. with the options: *Yes*, *No*, and *Abstain*.
 #### Art. 15 Supremacy of the Charter
 <sup>1</sup> This Charter is the primary governing law of the server.
 
-<sup>2</sup> Any lower code (including the Public Code, Penal Code, and Administration Codes), executive decision, or channel rule that conflicts with this Charter is invalid and unenforceable.
+<sup>2</sup> Any lower laws, codes, executive decision, or channel rule that conflicts with this Charter is invalid and unenforceable.
 
 #### Art. 16 Amendments.
 <sup>1</sup> The Director shall have the power to unilaterally modify all laws governing this server.[^1]
