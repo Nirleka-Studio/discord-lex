@@ -175,7 +175,15 @@ When committing a law change to Git, format the commit message so the Discord We
 git commit -m "amend(SR 310 Art. 14): double timeout duration for repeat spam offenses"
 ```
 
-Here is the missing section to add directly to your **Legislative Drafting Guide** under Section 3 (or as its own Section 8).
+### Commit prefixes
+
+| Prefix             | Description                                       |
+|--------------------|---------------------------------------------------|
+| `feat(...): ...`   | A brand new law has been passed.                  |
+| `amend(...): ...`  | Modification to an existing law.                  |
+| `repeal(...): ...` | Deleting a law or provision.                      |
+| `insert(...): ...` | Inserting new article(s) into an existing law.    |
+| `fix(...): ...`    | Minor patch, such as grammar or cross-references. |
 
 ---
 
@@ -192,7 +200,6 @@ Instead, use the **Decimal Insertion System**.
    If you need to insert a new rule between `Art. 11` and `Art. 12`, name the new article **`Art. 11a`**.
 * *First insertion:* `Art. 11a`
 * *Second insertion:* `Art. 11b`
-
 
 2. **Sub-insertions (Adding between decimal articles):**
    If you need to insert a rule between `Art. 11a` and `Art. 11b`, use numbers after the letter:
