@@ -185,14 +185,15 @@ b. with the options: *Yes*, *No*, and *Abstain*.
 <sup>2</sup> Any lower code (including the Public Code, Penal Code, and Administration Codes), executive decision, or channel rule that conflicts with this Charter is invalid and unenforceable.
 
 #### Art. 16 Amendments.
-<sup>1</sup> The Director, based on a majority vote on the 19th of June 2026, shall have the power to unilaterally modify all laws governing this server.
+<sup>1</sup> The Director shall have the power to unilaterally modify all laws governing this server.[^1]
 
 <sup>2</sup> All amendments and passing of laws and regulations shall be publicly announced.
 
-#### Art. 17. Official Language.[^1]
+#### Art. 17. Official Language.[^2]
 <sup>1</sup> The official language is British English.
 
 <sup>1</sup> Any laws written in another language other than English shall have no legal force.
 
 
-[^1]: Adopted unilaterally by The Director on 11 Aug. 2026, in force since 11 Aug. 2026.
+[^1]: Adopted based on a majority vote on 19 June 2026, in force since 30 May 2023.
+[^2]: Adopted unilaterally by The Director on 11 Aug. 2026, in force since 11 Aug. 2026.
