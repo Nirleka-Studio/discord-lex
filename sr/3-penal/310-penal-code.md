@@ -2,7 +2,7 @@
 sr_id: "SR 310"
 title: "Penal Code"
 abbreviation: "Penal Code"
-version: "1.0.0"
+version: "1.0.1"
 category: "Penal Law"
 enacted_date: "2026-08-11"
 last_amended: "2026-08-11"
@@ -173,11 +173,11 @@ d. a kick on the fifth offence.
 <sup>6</sup> For the purposes of paragraph 4, prohibited depictions include, but are not limited to:
 a. masturbation even if clothed;
 b. sexual acts even if cropped;
-d. presence of fluids that is made for, during and / or as a result of sexual acts;
-e. intentional physical contact of sex organs and other organs for sexual pleasure;
-f. clothing specifically designed for sexual pleasure;
-d. sexual acts done by other species besides humans; and
-e. sexual organs clearly visible through clothing.
+c. presence of fluids that is made for, during and / or as a result of sexual acts;
+d. intentional physical contact of sex organs and other organs for sexual pleasure;
+e. clothing specifically designed for sexual pleasure;
+f. sexual acts done by other species besides humans; and
+g. sexual organs clearly visible through clothing.
 
 <sup>7</sup> Media that only includes the following and does not depict anything above does not constitute a violation:
 a. adult novelties that do not necessarily have the form of a sex organ; and
