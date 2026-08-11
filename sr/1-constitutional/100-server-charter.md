@@ -24,7 +24,7 @@ authority: "The Director"
 <sup>2</sup> Retroactive enforcement and penalties are prohibited.
 
 #### Art. 2 Due Process
-<sup>1</sup> No member may be banned, kicked, or penalized without:
+<sup>1</sup> No member may be banned, kicked, or penalised without:
 a. formal notice specifying the alleged violation;
 b. an explicit citation of the violated law; and
 c. an opportunity to submit an appeal.
@@ -150,7 +150,7 @@ c. members may vote for up to two (2) candidates.
 <sup>3</sup> Upon validating the petition, the Secretary shall issue a poll lasting six (6) days within 24 hours. Sitting Executive members and their appointees cannot vote.
 
 <sup>4</sup> The motion passes if:
-a. a two-thirds (66% + 1) majority of cast votes favor removal; and
+a. a two-thirds (66% + 1) majority of cast votes favour removal; and
 b. a minimum voter quorum of 25% of active members is met.
 
 <sup>5</sup> If a motion fails, a 30-day cooldown period applies before another petition may be submitted.
@@ -171,7 +171,7 @@ b. the Secretary assumes the position of Caretaker Administrator.
 a. lasts for at least three (3) days; and
 b. with the options: *Yes*, *No*, and *Abstain*.
 
-<sup>3</sup> An Administrator is removed immediately if a simple majority (50% + 1) of voting members vote in favor. The accused Administrator cannot vote on their own impeachment.
+<sup>3</sup> An Administrator is removed immediately if a simple majority (50% + 1) of voting members vote in favour. The accused Administrator cannot vote on their own impeachment.
 
 ---
 
