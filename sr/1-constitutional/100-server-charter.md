@@ -2,7 +2,7 @@
 sr_id: "SR 100"
 title: "Charter of the Nirleka Studios Discord Server"
 abbreviation: "Server Charter"
-version: "1.1.3"
+version: "1.1.4"
 category: "Constitutional Law"
 enacted_date: "2026-08-11"
 last_amended: "2026-08-11"
