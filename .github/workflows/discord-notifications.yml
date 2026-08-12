@@ -1,0 +1,48 @@
+name: Discord Push Notification
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Send Discord Webhook Notification
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: |
+          AUTHOR="${{ github.actor }}"
+          COMMIT_MSG=$(echo "${{ github.event.head_commit.message }}" | head -n 1)
+          COMMIT_URL="${{ github.event.head_commit.url }}"
+          BRANCH="${{ github.ref_name }}"
+          REPO="${{ github.repository }}"
+
+          JSON_PAYLOAD=$(jq -n \
+            --arg author "$AUTHOR" \
+            --arg msg "$COMMIT_MSG" \
+            --arg url "$COMMIT_URL" \
+            --arg branch "$BRANCH" \
+            --arg repo "$REPO" \
+            '{
+              embeds: [{
+                title: "Legislative Update Pushed",
+                url: $url,
+                color: 3447003,
+                fields: [
+                  { name: "Repository", value: $repo, inline: true },
+                  { name: "Branch", value: $branch, inline: true },
+                  { name: "Author", value: $author, inline: true },
+                  { name: "Commit Message", value: $msg, inline: false }
+                ]
+              }]
+            }')
+
+          curl -H "Content-Type: application/json" \
+               -X POST \
+               -d "$JSON_PAYLOAD" \
+               "$DISCORD_WEBHOOK"
