@@ -80,9 +80,9 @@ jobs:
             # Convert each SR file into a Markdown link pointing to its GitHub path
             FORMATTED_LINKS=""
             while IFS= read -r file; do
-              [ -z "$file" ] && continue
-              LINK="* [${file}](https://github.com/${REPO}/blob/${github.sha}/${file})"
-              FORMATTED_LINKS="${FORMATTED_LINKS}${LINK}\n"
+            [ -z "$file" ] && continue
+            LINK="* [${file}](https://github.com/${REPO}/blob/${{ github.sha }}/${file})"
+            FORMATTED_LINKS="${FORMATTED_LINKS}${LINK}\n"
             done <<< "$SR_FILES"
 
             # Clean trailing newline
