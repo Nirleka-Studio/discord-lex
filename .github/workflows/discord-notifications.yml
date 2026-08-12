@@ -11,38 +11,103 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 2 # Fetches current and previous commit for diff checking
 
-      - name: Send Discord Webhook Notification
+      - name: Send Discord Webhook
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         run: |
-          AUTHOR="${{ github.actor }}"
           COMMIT_MSG=$(echo "${{ github.event.head_commit.message }}" | head -n 1)
           COMMIT_URL="${{ github.event.head_commit.url }}"
-          BRANCH="${{ github.ref_name }}"
+          AUTHOR="${{ github.actor }}"
           REPO="${{ github.repository }}"
 
-          JSON_PAYLOAD=$(jq -n \
+          # Extract prefix (e.g., 'amend' from 'amend(SR 310 Art. 14): message')
+          PREFIX=$(echo "$COMMIT_MSG" | grep -oE '^[a-z]+' || echo "default")
+
+          IS_SR_PREFIX=false
+
+          # Determine title, color, and whether it matches a legislative prefix
+          case "$PREFIX" in
+            feat)
+              TITLE="📜 New Enactment"
+              COLOR=3066993   # Green
+              IS_SR_PREFIX=true
+              ;;
+            amend)
+              TITLE="✏️ Legislative Amendment"
+              COLOR=3447003   # Blue
+              IS_SR_PREFIX=true
+              ;;
+            repeal)
+              TITLE="🗑️ Law Repealed"
+              COLOR=15158332  # Red
+              IS_SR_PREFIX=true
+              ;;
+            insert)
+              TITLE="📌 Article Inserted"
+              COLOR=15844367  # Gold
+              IS_SR_PREFIX=true
+              ;;
+            fix)
+              TITLE="🔧 Patch / Correction"
+              COLOR=9807270   # Grey
+              IS_SR_PREFIX=true
+              ;;
+            *)
+              TITLE="🚀 Repository Update"
+              COLOR=10181046  # Purple
+              ;;
+          esac
+
+          # Identify changed files inside the sr/ directory
+          SR_FILES=$(git diff-tree --no-commit-id --name-only -r ${{ github.sha }} | grep '^sr/' || true)
+
+          # Construct basic fields array
+          FIELDS=$(jq -n \
+            --arg repo "$REPO" \
             --arg author "$AUTHOR" \
             --arg msg "$COMMIT_MSG" \
+            '[
+              { name: "SR Repository", value: $repo, inline: true },
+              { name: "Authority", value: $author, inline: true },
+              { name: "Log", value: ("`" + $msg + "`"), inline: false }
+            ]')
+
+          # If the commit used a valid SR prefix and modified files in sr/, append "Affected laws"
+          if [ "$IS_SR_PREFIX" = true ] && [ -n "$SR_FILES" ]; then
+            # Convert each SR file into a Markdown link pointing to its GitHub path
+            FORMATTED_LINKS=""
+            while IFS= read -r file; do
+              [ -z "$file" ] && continue
+              LINK="* [${file}](https://github.com/${REPO}/blob/${github.sha}/${file})"
+              FORMATTED_LINKS="${FORMATTED_LINKS}${LINK}\n"
+            done <<< "$SR_FILES"
+
+            # Clean trailing newline
+            FORMATTED_LINKS=$(printf "$FORMATTED_LINKS" | sed 's/\\n$//')
+
+            FIELDS=$(echo "$FIELDS" | jq \
+              --arg files "$FORMATTED_LINKS" \
+              '. + [{ name: "Affected laws:", value: $files, inline: false }]')
+          fi
+
+          PAYLOAD=$(jq -n \
+            --arg title "$TITLE" \
             --arg url "$COMMIT_URL" \
-            --arg branch "$BRANCH" \
-            --arg repo "$REPO" \
+            --arg color "$COLOR" \
+            --argjson fields "$FIELDS" \
             '{
               embeds: [{
-                title: "Legislative Update Pushed",
+                title: $title,
                 url: $url,
-                color: 3447003,
-                fields: [
-                  { name: "Repository", value: $repo, inline: true },
-                  { name: "Branch", value: $branch, inline: true },
-                  { name: "Author", value: $author, inline: true },
-                  { name: "Commit Message", value: $msg, inline: false }
-                ]
+                color: ($color | tonumber),
+                fields: $fields
               }]
             }')
 
           curl -H "Content-Type: application/json" \
                -X POST \
-               -d "$JSON_PAYLOAD" \
+               -d "$PAYLOAD" \
                "$DISCORD_WEBHOOK"
