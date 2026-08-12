@@ -4,8 +4,8 @@ title: "Administration Codes Compilations"
 abbreviation: "Admin Codes"
 version: "1.0.0"
 category: "Administration"
-enacted_date: "2026-12-11"
-last_amended: "2026-12-11"
+enacted_date: "2026-08-12"
+last_amended: "2026-08-12"
 authority: "The Director"
 ---
 

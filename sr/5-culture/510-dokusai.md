@@ -4,8 +4,8 @@ title: "The Dokusai-kun and The Server"
 abbreviation: "Dokusai Act"
 version: "1.0.0"
 category: "Culture"
-enacted_date: "2026-12-11"
-last_amended: "2026-12-11"
+enacted_date: "2026-08-12"
+last_amended: "2026-08-12"
 authority: "The Director"
 ---
 
