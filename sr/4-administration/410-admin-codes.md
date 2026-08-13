@@ -12,19 +12,19 @@ authority: "The Director"
 # SR 410 — Administration Codes Compilations
 *(Administration Codes)*
 
-> **Enactment Notice:** Enacted in accordance to Title 4 of the Server Charter (SR 100). Applies to all members of Administration.
+> **Enactment Notice:** Enacted in accordance to Chapter 4 of the Server Charter (SR 100). Applies to all members of Administration.
 
 ---
 
-## Title 1: Purpose and Scope
+## Chapter 1: Purpose and Scope
 
 #### Art. 1 Purpose
 The Administration Codes and its subsequent laws shall govern the conduct of the Administration and its procedures.
 
 #### Art. 2 Scope
-The Administration Codes and its subsequent laws shall apply to all members of Administration, this includes but not limited to all Administrators who holds positions defined in Title 2 of the Server Charter (SR 100) and their appointed staff.
+The Administration Codes and its subsequent laws shall apply to all members of Administration, this includes but not limited to all Administrators who holds positions defined in Chapter 2 of the Server Charter (SR 100) and their appointed staff.
 
-## Title 2: General Provisions
+## Chapter 2: General Provisions
 
 ### Section 1: Definitions and Principles
 
@@ -51,7 +51,7 @@ b. *moderation action* means any action taken to enforce rules or handle members
 
 ### Section 2: Server Features
 
-#### Art. 5 Server Settings
+#### Art. 5 Server settings
 The authority to modify any server settings rests only to the Director.
 
 #### Art. 5a Bots
@@ -59,11 +59,11 @@ The authority to add, remove, or modify server bots shall rest only to the Head 
 
 ---
 
-## Title 3: Specific Provisions and Compilations
+## Chapter 3: Specific Provisions and Compilations
 
 ### Section 1: Behaviours
 
-#### Art. 6 Professional Conduct
+#### Art. 6 Professional conduct
 <sup>1</sup> Administrators are to maintain a respectful manner to all members.
 
 <sup>2</sup> Freedom of speech is limited under Art. 9. of the Public Code (SR 210).
@@ -73,7 +73,7 @@ a. a warning on the first offence;
 b. a 48-hour timeout on the second offence;
 c. removal from position on the third offence.
 
-#### Art. 7 Abuse of Power
+#### Art. 7 Abuse of power
 <sup>1</sup> An Administrator shall not use their powers and act out for personal gain, out of irritation, pettiness, or sheer spite.
 
 <sup>2</sup> Violation of paragraph 1 shall result in:
@@ -95,7 +95,7 @@ Any Administrators that willingly accept any form of compensation by another ind
 
 ### Section 2: Exercise of Power and Documentation
 
-#### Art. 10 Moderation Actions
+#### Art. 10 Moderation actions
 <sup>1</sup> Any moderation actions or any general acts shall comply with the Penal Code and the law.
 
 <sup>2</sup> Violation of paragraph 1 shall result in:
@@ -107,7 +107,7 @@ c. removal from position on the third offence.
 
 <sup>4</sup> Actions taken without good faith by administrators that are not explicitly provided for by an enabling law are not exempt from paragraph 1.
 
-#### Art. 11 Documentation of Moderation Actions
+#### Art. 11 Documentation of moderation actions
 <sup>1</sup> All moderation actions are to be documented based on outlined procedures by the Head Administrator or Director.
 
 <sup>2</sup> Failure to log a moderation action shall result in:
@@ -115,7 +115,7 @@ a. a warning on the first offence;
 b. a 48-hour timeout on the second offence; and
 c. removal from position on the third offence.
 
-#### Art. 12 Tampering of Moderation Logs
+#### Art. 12 Tampering of moderation logs
 <sup>1</sup> The tampering, modification to mislead, or deleting moderation logs shall result in:
 a. a 48-hour timeout on the first offence;
 b. removal from position the second offence.
