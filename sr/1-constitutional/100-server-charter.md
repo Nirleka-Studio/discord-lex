@@ -14,16 +14,16 @@ authority: "The Director"
 
 > **Enactment Notice:** Enacted as the primary governing document of the Nirleka Studios Discord Server. All lower codes, regulations, executive decisions, and administrative guidelines derive their authority from this Charter and must comply with its provisions.
 
-## Title 1: Member Rights and Guarantees
+## Chapter 1: Member Rights and Guarantees
 
 ### Section 1: Fundamental Rights
 
-#### Art. 1 Principle of Legality
+#### Art. 1 Principle of legality
 <sup>1</sup> No member shall be punished for an act that was not defined as a violation by established law at the time it was committed.
 
 <sup>2</sup> Retroactive enforcement and penalties are prohibited.
 
-#### Art. 2 Due Process
+#### Art. 2 Due process
 <sup>1</sup> No member may be banned, kicked, or penalised without:
 a. formal notice specifying the alleged violation;
 b. an explicit citation of the violated law; and
@@ -31,15 +31,15 @@ c. an opportunity to submit an appeal.
 
 <sup>2</sup> Temporary actions taken during emergency situations remain subject to review under paragraph 1.
 
-#### Art. 3 Presumption of Innocence
+#### Art. 3 Presumption of innocence
 Every member is presumed innocent. The burden of proof rests on the enforcing authority to establish a violation using verifiable evidence.
 
-#### Art. 4 Access to Logs and Records
+#### Art. 4 Access to logs and records
 <sup>1</sup> Members shall have the right to access and view the audit logs, moderation actions, related internal communications, and modifications of laws upon requested.
 
 <sup>2</sup> Information restricted under Article 5 is exempt from public disclosure.
 
-#### Art. 5 Data Protection and Deletion
+#### Art. 5 Data protection and deletion
 <sup>1</sup> User messages and IDs are collected solely for moderation and security purposes.
 
 <sup>2</sup> Administrators shall not preserve, and shall immediately delete:
@@ -48,11 +48,11 @@ b. Child Sexual Abuse Material (CSAM) or severe illegal content, which shall be 
 
 ---
 
-## Title 2: Administration Structure
+## Chapter 2: Administration Structure
 
 ### Section 1: Executive Branch
 
-#### Art. 6 Composition and Duties
+#### Art. 6 Composition and duties
 <sup>1</sup> The Executive Branch is responsible for enforcing the Public and Penal Codes, maintaining order, and managing server operations.
 
 <sup>2</sup> The Executive Branch consists of:
@@ -118,7 +118,7 @@ c. review appeals and void invalid administrative actions.
 
 ---
 
-## Title 3: Elections, Referendums, and Removal
+## Chapter 3: Elections, Referendums, and Removal
 
 ### Section 1: Elections
 
@@ -155,7 +155,7 @@ b. a minimum voter quorum of 25% of active members is met.
 
 <sup>5</sup> If a motion fails, a 30-day cooldown period applies before another petition may be submitted.
 
-#### Art. 13 Caretaker Administration
+#### Art. 13 Caretaker administration
 <sup>1</sup> Upon passage of a Vote of No Confidence:
 a. all Executive Branch members are removed from their positions and lose administrative permissions;
 b. the Secretary assumes the position of Caretaker Administrator.
@@ -164,7 +164,7 @@ b. the Secretary assumes the position of Caretaker Administrator.
 
 <sup>3</sup> The Secretary shall hold an emergency election for a new Executive Branch within 48 hours.
 
-#### Art. 14 Individual Impeachment
+#### Art. 14 Individual impeachment
 <sup>1</sup> Members may petition for the impeachment of an Administrator accused of misconduct, illegal acts, or unpunished rule violations.
 
 <sup>2</sup> The Secretary shall review the petition and hold a public poll that:
@@ -175,7 +175,7 @@ b. with the options: *Yes*, *No*, and *Abstain*.
 
 ---
 
-## Title 4: Supremacy and Amendments
+## Chapter 4: Supremacy and Amendments
 
 ### Section 1: Authority and Revisions
 
@@ -184,12 +184,12 @@ b. with the options: *Yes*, *No*, and *Abstain*.
 
 <sup>2</sup> Any lower laws, codes, executive decision, or channel rule that conflicts with this Charter is invalid and unenforceable.
 
-#### Art. 16 Amendments.
+#### Art. 16 Amendments
 <sup>1</sup> The Director shall have the power to unilaterally modify all laws governing this server.[^1]
 
 <sup>2</sup> All amendments and passing of laws and regulations shall be publicly announced.
 
-#### Art. 17. Official Language.[^2]
+#### Art. 17. Official language[^2]
 <sup>1</sup> The official language is British English.
 
 <sup>1</sup> Any laws written in another language other than English shall have no legal force.
