@@ -11,7 +11,7 @@ authority: "The Director"
 
 # SR 620 — The Corner Act
 
-> **Enactment Notice:** Enacted in accordance to Title 4 of the Server Charter (SR 100), by the Director
+> **Enactment Notice:** Enacted in accordance to Chapter 4 of the Server Charter (SR 100), by the Director
 
 ---
 

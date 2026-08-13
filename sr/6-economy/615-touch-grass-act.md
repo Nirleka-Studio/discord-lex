@@ -11,7 +11,7 @@ authority: "The Director"
 
 # SR 615 — The Touch Grass Act
 
-> **Enactment Notice:** Enacted in accordance to Title 4 of the Server Charter (SR 100), by the Director
+> **Enactment Notice:** Enacted in accordance to Chapter 4 of the Server Charter (SR 100), by the Director
 
 ---
 
@@ -25,7 +25,7 @@ b. *proof* means any way to prove that one has touched grass. This includes but 
 
 ## Section 2: Specific Provisions
 
-### Art. 2 Payout for Touching Grass
+### Art. 2 Payout for touching grass
 <sup>1</sup> Members shall be compensated for providing proof of touching grass.
 
 <sup>2</sup> Proofs dated before August 2026 are invalid.
