@@ -11,9 +11,9 @@ authority: "The Director"
 
 # SR 310 — Penal Code
 
-> **Enactment Notice:** Enacted in accordance to Title 4 of the Server Charter (SR 100). Applies to all server members and members of administration.
+> **Enactment Notice:** Enacted in accordance to Chapter 4 of the Server Charter (SR 100). Applies to all server members and members of administration.
 
-## Title 1: General Provisions
+## Chapter 1: General Provisions
 
 ### Section 1: Scope and Terminology
 
@@ -39,11 +39,11 @@ b. *media* means any content or visual/auditory that can be perceived, accessed,
 
 c. *personal information* means any information relating to an identified or identifiable natural person. This includes but not limited to someone's age, legal name, and home address.
 
-## Title 2: Specific Provisions
+## Chapter 2: Specific Provisions
 
 ### Section 1: Common Behaviours
 
-#### Art. 5 Ping Abuse
+#### Art. 5 Ping abuse
 <sup>1</sup> Ping abuse shall be defined as pinging another member without their consent and that serves no purpose and is purely intended to annoy or harass.
 
 <sup>2</sup> A member repeatedly pinging another member in large amounts shall receive:\
@@ -62,7 +62,7 @@ b. clogs a channel with meaningless and / or repeated content
 
 <sup>4</sup> Administrators may delete spam contents if requested.
 
-#### Art. 7. Advertising or Self-promotion
+#### Art. 7. Advertising or self-promotion
 <sup>1</sup> Any kinds of advertising or self-promotion shall only be punishable if:
 a. the advertising is constant and/or disruptive to other members; and / or
 b. the advertiser’s sole intention in the server is to advertise.
@@ -75,7 +75,7 @@ d. a kick on the fourth offence.
 
 ### Section 2: Accounts and Identity
 
-#### Art. 8 Personal Information
+#### Art. 8 Personal information
 <sup>1</sup> Members shall not share any documents containing personal identifiable information.
 
 <sup>2</sup> Such information defined in paragraph 1 shall be deleted immediately, including from any moderation logs.
@@ -91,7 +91,7 @@ b. making false claims of that individual.
 a. a warning on the first offence; and
 b. a kick on the second offence.
 
-#### Art. 10 Alternative Accounts
+#### Art. 10 Alternative accounts
 <sup>1</sup> Members shall not use alternative accounts to:\
 a. gain an extra vote on a poll; and / or\
 b. bypass punishments.
@@ -100,17 +100,17 @@ b. bypass punishments.
 
 ### Section 3: Unsolicited Behaviours and Contents
 
-#### Art. 11. Deletion of Contents
+#### Art. 11. Deletion of contents
 <sup>1</sup> Administrators shall immediately delete any of the contents defined from Article 12 trough 16 that constitutes a violation.
 
-#### Art. 12 Files and Links
+#### Art. 12 Files and links
 The sharing of files or other downloadable attachments containing malicious code, malware, viruses, trojans, ransomware, spyware, or keyloggers shall be punishable by an instant ban.
 
 <sup>2</sup> Sharing links, drive folders, or external repositories that directly host or lead to malicious files or phishing pages is treated identically to direct file uploads and has the same punishment defined in paragraph 1.
 
 <sup>3</sup> Files or attachments that are not necessarily harmful but cause temporary disruptions such as temporarily corrupting the rendering of the Discord application, the sender shall be warned. Repeated behaviours shall lead to a timeout. After four counts, the sender shall be kicked.
 
-#### Art. 13 Non-consensual Romantic Pairings
+#### Art. 13 Non-consensual romantic pairings
 <sup>1</sup> Members shall not pair, “ship”, or depict real individuals of the server in romantic and / or sexual contexts in any media or interaction, without prior explicit consent from any of the parties involved in the depiction.
 
 <sup>2</sup> Members violating paragraph 1 shall receive:
@@ -119,7 +119,7 @@ b. a kick on the second offence.
 
 <sup>3</sup> Such contents shall be removed upon request by any individuals depicted.
 
-#### Art. 14 Forced Feminization and Grooming[^1]
+#### Art. 14 Forced feminization and grooming[^1]
 <sup>1</sup> Members are prohibited from instructing, coercing, or persistently "encouraging" other members to don specific garments, adopt specific personas, or engage in behaviours that are recognised as elements of sexual roleplay, psychological fetishes, or sexual submissiveness. 
 
 <sup>2</sup> The non-consensual application of behaviours defined in paragraph 1 onto other members shall constitute:
@@ -129,7 +129,7 @@ c. a ban on the third offence.
 
 <sup>3</sup> The presentation of media as a humorous image, macro, trend, or ‘meme’ does not grant exemption from the provisions of this Article.
 
-#### Art. 15 Violence and Gore
+#### Art. 15 Violence and gore
 <sup>1</sup> Members shall not post or have media that depicts:
 a. extreme physical violence;
 b. real footage of psychological harm;
@@ -144,7 +144,7 @@ a. medias that depict surgical operations in a clinical context;\
 b. medias depicting real war footages; and\
 c. arts depicting violence and blood.
 
-#### Art. 16 Sexual and Suggestive Media and Interactions
+#### Art. 16 Sexual and suggestive media and interactions
 <sup>1</sup> Not Safe for Work, abbreviated as NSFW, shall be defined as anything which includes media or interactions; that is reasonably considered inappropriate, explicit, or intrusive to be viewed, heard, or engaged with in public spaces, workplaces, or shared social and domestic environments without the explicit consent or prior warning of those present.
 
 <sup>2</sup> Members interacting in a way that depicts or implies an explicit sexual act shall receive:
