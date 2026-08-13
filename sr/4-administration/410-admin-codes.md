@@ -54,7 +54,7 @@ b. *moderation action* means any action taken to enforce rules or handle members
 #### Art. 5 Server Settings
 The authority to modify any server settings rests only to the Director.
 
-#### Art. 6 Bots
+#### Art. 5a Bots
 The authority to add, remove, or modify server bots shall rest only to the Head Administrator and Director.
 
 ---
