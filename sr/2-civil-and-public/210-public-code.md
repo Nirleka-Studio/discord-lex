@@ -12,28 +12,26 @@ authority: "The Director"
 # SR 210 — Public Code of Member Conduct
 *(Public Code)*
 
-> **Enactment Notice:** Enacted in accordance to Title 4 of the Server Charter (SR 100). Applies to all server members and administrative staff.
+> **Enactment Notice:** Enacted in accordance to Chapter 4 of the Server Charter (SR 100). Applies to all server members and administrative staff.
 
 ---
 
-## Title 1: General Provisions
+## Chapter 1: General Provisions
 
-### Section 1: Scope and Purpose
-
-#### Art. 1 Scope
+### Art. 1 Scope
 The Public Code shall apply to all members of the server.
 
-#### Art. 2 Purpose
+### Art. 2 Purpose
 The Public Code serves as a public-facing collection of fundamental rules of the server that all members must follow.
 
-#### Art. 3 Enforcement
+### Art. 3 Enforcement
 All members of the server are to follow the Public Code, violations results in a punishment by Administrators as defined in the Penal Code (SR 310).
 
-## Title 2: Specific Provisions
+## Chapter 2: Specific Provisions
 
 ### Section 1: Disclaimers
 
-#### Art. 4 Members’ User Data
+#### Art. 4 Members’ user data
 <sup>1</sup> By participating in this server, members acknowledge that their user data, including but not limited to Messages and User IDs; will be collected and logged for moderation purposes. Members may leave the server if they disagree.
 
 <sup>2</sup> Administrators however do not conserve any of the following information:
@@ -42,21 +40,21 @@ b. illegal materials.
 
 ### Section 2: Rights
 
-#### Art. 5 Interpretation and Enforcement
-Administrators shall not interpret and enforce the rights of members with this section, as that rests with Title 1 of the Server Charter (SR 100).
+#### Art. 5 Interpretation and enforcement
+Administrators shall not interpret and enforce the rights of members with this section, as that rests with Chapter 1 of the Server Charter (SR 100).
 
-#### Art. 6 Right to View Logs
+#### Art. 6 Right to view logs
 All members have the right to access and view the server audit log, moderation actions, relevant internal communications, and modifications to rules upon request.
 
-#### Art. 7 Right to Due Process and Fair Trial
+#### Art. 7 Right to due process and fair trial
 All members have the right to a due process and fair trial if they are punished for a violation.
 
-#### Art. 8 Principle of Legality
+#### Art. 8 Principle of legality
 No member may be punished for an act that was not expressly defined as a crime by any established law at the time it was committed.
 
 ### Section 3: General Rules
 
-#### Art. 9 Interaction with Other Members
+#### Art. 9 Interaction with other members
 <sup>1</sup> Members are to maintain a respectful manner towards other members.
 
 <sup>2</sup> Harmless or even profanity-laced banter towards each other is allowed.
@@ -66,7 +64,7 @@ Members must not spam in such a manner that:
 a. clogs up a channel with repeated or useless contents; and
 b. disrupts other members' ongoing conversation.
 
-#### Art. 11 Advertisement and Self-promotion
+#### Art. 11 Advertisement and self-promotion
 Advertisement and self-promotion is permitted if:
 a. it is not constant; and
 b. it does not disrupt other members' ongoing conversation.
@@ -79,10 +77,10 @@ Members are encouraged to use channels for their intended purposes. As described
 
 <sup>2</sup> Members are prohibited from sharing malicious files, attachments, or links.
 
-#### Art. 14 Reporting Violations
+#### Art. 14 Reporting violations
 Members are obligated to report violations to available Administrators.
 
-#### Art. 15 Personal Information
+#### Art. 15 Personal information
 <sup>1</sup> Members must not share any personal information that are:
 a. home address; and
 b. documents with personal identifiable information.
