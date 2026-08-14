@@ -121,3 +121,11 @@ a. a 48-hour timeout on the first offence;
 b. removal from position the second offence.
 
 <sup>2</sup> Moderation logs that are a result of clerical errors is exempt from paragraph 1.
+
+#### Art. 13 Compromised accounts
+<sup>1</sup> A user account is considered compromised if it does any of the following:
+a. Sends unauthorised, automated, or deceptive communications, including phishing URLs, fraudulent promotional offers, or mass user mentions;
+b. Alters profile metadata, display names, or profile picture to impersonate platform support personnel, server staff, or system bots; or
+c. Initiates unauthorised administrative modifications, including the creation of rogue webhooks, role privilege escalations, or bulk invite generation.
+
+<sup>2</sup> Upon encountering a user exhibiting behaviours specified in paragraph 1, an Administrator shall ban the user immediately.
