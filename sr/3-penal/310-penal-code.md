@@ -204,5 +204,9 @@ c. a 48-hour timeout on the third offence;
 d. a 1-week timeout on the fourth offence; and
 e. a kick on the fifth offence.
 
+#### Art. 17 Incitement[^2]
+The incitement, endorsement, or encouragement to commit a violation of law, disrupt or threaten the order, peace, and unity of the server shall be punishable by no less than 1-week timeout and a 6000₣ fine.
+
 
 [^1]: Adopted unilaterally by The Director on 19 June 2026, in force since 19 June 2026.
+[^2]: Adopted unilaterally by The Director on 14 Aug. 2026, in force since 14 Aug. 2026.
