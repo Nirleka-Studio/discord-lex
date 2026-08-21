@@ -80,7 +80,7 @@ d. a kick on the fourth offence.
 
 <sup>2</sup> Such information defined in paragraph 1 shall be deleted immediately, including from any moderation logs.
 
-<sup>3</sup> Any user who shares personal information of other individuals without their consent shall be banned immediately.
+<sup>3</sup> Any user who shares any personal information of another individual without their consent shall be banned immediately.
 
 #### Art. 9 Impersonation
 <sup>1</sup> Members shall not impersonate with the intent to:
@@ -104,7 +104,7 @@ b. bypass punishments.
 <sup>1</sup> Administrators shall immediately delete any of the contents defined from Article 12 trough 16 that constitutes a violation.
 
 #### Art. 12 Files and links
-The sharing of files or other downloadable attachments containing malicious code, malware, viruses, trojans, ransomware, spyware, or keyloggers shall be punishable by an instant ban.
+<sup>1</sup> The sharing of files or other downloadable attachments containing malicious code, malware, viruses, trojans, ransomware, spyware, or keyloggers shall be punishable by an instant ban.
 
 <sup>2</sup> Sharing links, drive folders, or external repositories that directly host or lead to malicious files or phishing pages is treated identically to direct file uploads and has the same punishment defined in paragraph 1.
 
@@ -167,7 +167,7 @@ c. a kick on the fifth offence.
 <sup>5</sup> Any depiction of explicit sexual acts, nudity, and adult novelties is punishable by:
 a. a 24-hour timeout on the first offence;
 b. a 48-hour timeout on the second offence;
-c. a 1-week timeout on the fourth offence; and
+c. a 1-week timeout on the third and fourth offence; and
 d. a kick on the fifth offence.
 
 <sup>6</sup> For the purposes of paragraph 4, prohibited depictions include, but are not limited to:
@@ -197,7 +197,7 @@ d. breast;
 e. pelvic or genitalia region; and
 f. thighs;
 
-<sup>10</sup> Violation of paragraph 8 shall be punishable by:
+<sup>10</sup> Violation of paragraph 9 shall be punishable by:
 a. a warning on the first offence;
 b. a 1-hour timeout on the second offence;
 c. a 48-hour timeout on the third offence;
