@@ -195,5 +195,5 @@ b. with the options: *Yes*, *No*, and *Abstain*.
 <sup>1</sup> Any laws written in another language other than English shall have no legal force.
 
 
-[^1]: Adopted based on a majority vote on 19 June 2026, in force since 30 May 2023.
+[^1]: Adopted based on a majority vote on 19 June 2026 (Ref. No. 0), in force since 30 May 2023.
 [^2]: Adopted unilaterally by The Director on 11 Aug. 2026, in force since 11 Aug. 2026.
