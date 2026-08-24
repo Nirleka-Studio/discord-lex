@@ -2,7 +2,7 @@
 sr_id: "SR 100"
 title: "Charter of the Nirleka Studios Discord Server"
 abbreviation: "Server Charter"
-version: "1.1.4"
+version: "1.1.5"
 category: "Constitutional Law"
 enacted_date: "2026-08-11"
 last_amended: "2026-08-11"
@@ -13,6 +13,27 @@ authority: "The Director"
 *(Server Charter)*
 
 > **Enactment Notice:** Enacted as the primary governing document of the Nirleka Studios Discord Server. All lower codes, regulations, executive decisions, and administrative guidelines derive their authority from this Charter and must comply with its provisions.
+
+## Preamble
+In the name of The Cat!
+
+The Director of Nirleka Studios,
+
+in an attempt to maintain a civil Discord server as apparently simply stating « Don't be a dick » is not enough,
+
+to both establish rights for all members, constraining their so-called freedom under law to prevent « dickish behaviours »,
+
+to both give power to the Administrators to enforce the law and restrict their profound ego,
+
+to assert that all persons are equally worthless, made by the hands of a single Creator,
+
+to maintain unity across all members, and shall they continue to discuss and do their non-degenerate niches,
+
+while mutually recognising each-other that their differences does not mean for shit in the eyes of The Cat,
+
+and recognising that a mere Discord server with full democracy is simply impossible due to the nature of a Discord server,
+
+decrees:
 
 ## Chapter 1: Member Rights and Guarantees
 
