@@ -82,3 +82,20 @@ c. *processor* means a private person or federal body that processes personal da
 <sup>1</sup> A punishment scale is written as an escalating lettered list, one offence tier per item, ordered from least to most severe.
 
 <sup>2</sup> Where relevant, "removal from position" is always the terminal tier of a punishment scale for Administration-level offences.
+
+### Art. 9 Registers
+<sup>1</sup> Anything related to the Administration and its procedures must use the High Formal register. This includes but not limited to using "shall" instead of "must" or other words. The Nirleka franc uses the `₣` character (`100₣`) instead of `*** F R A N C S ***`.
+
+<sup>2</sup> Anything that is intended to be public facing uses the Natural Formal register. This includes the Public Code (SR 210), favour "must" instead of "shall", reduce legal jargon, short but precise, while also maintaining a rigid and distant feeling.
+
+<sup>3</sup> Anything else that is about the server's culture, philosophies or non-serious procedures, use the Semi-Formal register.\
+a. For statutes, precision of the High Formal register is still required. But passive-aggression is permitted.\
+b. For non-primary parts of a statute, such as preambles, the Soupurreme register is used. Which permits the use of:
+1. Passive-aggression;
+2. Profanities;
+3. Intentional awkward grammar;
+4. Exclamation marks.
+
+but NOT:
+1. Contractions ("don't" instead of "do not")
+2. Non-deliberate misspellings.

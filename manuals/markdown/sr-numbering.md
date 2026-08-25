@@ -4,6 +4,12 @@ manual_name: "SR Numbering Standard"
 
 # SR Numbering Standard
 
+## But What is "SR"?
+
+_SR_ stands for "Systematische Rechtssammlung" (Systematic Collection of Federal Law) which is the name of Switzerland's official government codification system.
+
+Why use it? Because it is already being used for a long time and it is practical. Do not ask any more questions.
+
 ### Art. 1 Chapters
 <sup>1</sup> `SR 1XX` Constitutional.\
 <sup>2</sup> `SR 2XX` Civil and public.\
