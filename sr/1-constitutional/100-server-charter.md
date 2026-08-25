@@ -213,7 +213,7 @@ b. with the options: *Yes*, *No*, and *Abstain*.
 #### Art. 17. Official language[^2]
 <sup>1</sup> The official language is British English.
 
-<sup>1</sup> Any laws written in another language other than English shall have no legal force.
+<sup>2</sup> Any laws written in another language other than English shall have no legal force.
 
 
 [^1]: Adopted based on a majority vote on 19 June 2026 (Ref. No. 0), in force since 30 May 2023.
