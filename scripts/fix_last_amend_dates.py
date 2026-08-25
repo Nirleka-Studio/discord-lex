@@ -15,9 +15,12 @@ In accordance to the commit standard found in manuals/markdown/commit-standard.m
 This should be run BEFORE committing changes.
 
 Usage:
-    pip install pyyaml
     python sync_amended_dates.py            # apply changes
     python sync_amended_dates.py --dry-run  # preview only, no writes
+
+No third-party dependencies, frontmatter is edited via a targeted regex
+substitution rather than a full YAML parse/re-dump (see update_frontmatter
+for why that distinction matters here).
 """
 
 import argparse
@@ -26,11 +29,14 @@ import subprocess
 import sys
 from pathlib import Path
 
-import yaml  # pip install pyyaml
-
 SR_DIR = Path("sr")
 AMENDING_PREFIXES = {"amend", "repeal", "insert"}
 COMMIT_MSG_RE = re.compile(r"^(feat|amend|repeal|insert|fix)\(([^)]*)\):")
+# Matches a `last_amended:` line inside the frontmatter, capturing whatever
+# quote style (", ', or none) is already in use so we can preserve it.
+LAST_AMENDED_RE = re.compile(
+    r'^(last_amended:\s*)(["\']?)([\d-]+)\2\s*$', re.MULTILINE
+)
 
 
 def get_file_commits(filepath: Path):
@@ -68,34 +74,47 @@ def latest_amending_date(filepath: Path):
 
 
 def update_frontmatter(filepath: Path, new_date: str, dry_run: bool) -> bool:
-    """Rewrite last_amended in a file's YAML frontmatter. Returns True if it changed
-    (or would change, in dry-run mode)."""
+    """Update only the `last_amended:` line in a file's frontmatter, via a
+    targeted regex substitution rather than a full YAML parse/re-dump.
+
+    A parse-and-redump round trip (yaml.safe_load then yaml.dump) is tempting
+    but wrong here: PyYAML doesn't preserve the original quote style or key
+    order, so it silently rewrites every line in the frontmatter (dropping
+    quotes it decides are "unnecessary", switching " to ', etc.) even though
+    only one field's value actually changed. That defeats the Style Guide's
+    "clean Git line-diffs" goal and makes real amendments hard to spot in
+    review. Touching only the matched line keeps every other byte identical.
+
+    Returns True if the file changed (or would change, in dry-run mode).
+    """
     text = filepath.read_text(encoding="utf-8")
     if not text.startswith("---"):
         print(f"  ! no frontmatter found in {filepath}, skipping")
         return False
 
-    end = text.find("\n---", 3)
-    if end == -1:
+    frontmatter_end = text.find("\n---", 3)
+    if frontmatter_end == -1:
         print(f"  ! malformed frontmatter in {filepath}, skipping")
         return False
 
-    frontmatter_raw = text[3:end]
-    body = text[end:]
+    frontmatter = text[:frontmatter_end]
+    match = LAST_AMENDED_RE.search(frontmatter)
+    if not match:
+        print(f"  ! no last_amended field found in {filepath}, skipping")
+        return False
 
-    data = yaml.safe_load(frontmatter_raw)
-    old_date = data.get("last_amended")
+    old_date = match.group(3)
     if old_date == new_date:
         return False  # already correct, nothing to do
 
     print(f"  {'would update' if dry_run else '✓ updated'} {filepath.name}: {old_date} -> {new_date}")
-
     if dry_run:
         return True
 
-    data["last_amended"] = new_date
-    new_frontmatter = yaml.dump(data, sort_keys=False, allow_unicode=True).strip()
-    filepath.write_text(f"---\n{new_frontmatter}\n{body.lstrip(chr(10))}", encoding="utf-8")
+    prefix, quote = match.group(1), match.group(2)
+    replacement = f"{prefix}{quote}{new_date}{quote}"
+    new_frontmatter = LAST_AMENDED_RE.sub(replacement, frontmatter, count=1)
+    filepath.write_text(new_frontmatter + text[frontmatter_end:], encoding="utf-8")
     return True
 
 
