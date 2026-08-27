@@ -129,3 +129,22 @@ b. Alters profile metadata, display names, or profile picture to impersonate pla
 c. Initiates unauthorised administrative modifications, including the creation of rogue webhooks, role privilege escalations, or bulk invite generation.
 
 <sup>2</sup> Upon encountering a user exhibiting behaviours specified in paragraph 1, an Administrator shall ban the user immediately.
+
+#### Art. 14 Celebration of certain events.
+<sup>1</sup> Administrators or any members that manages events shall not organise, host, or promote any events, or programming centered around recognised holidays and cultural observances (including, but not limited to, religious, federal, state, or national holidays, and designated heritage or awareness months) that is not included in paragraph 2.
+
+<sup>2</sup> Permitted events includes:\
+a. Easter;\
+b. Halloween;\
+c. Thanksgiving;\
+d. Christmas;\
+e. Eid al-Fitr;\
+f. Eid al-Adha;\
+g. Valentine's Day;\
+h. Mother’s Day;\
+i. Father’s Day;\
+j. New Year;\
+k. Any country’s celebration on workers’ rights; and\
+l. Any country's Independence Day or Victory Day.
+
+<sup>3</sup> The addition or removal of any events in paragraph 2 can only be permitted by a server-wide vote with a two-thirds majority.
