@@ -2,7 +2,7 @@
 sr_id: "SR 310"
 title: "Penal Code"
 abbreviation: "Penal Code"
-version: "1.4.5"
+version: "1.4.6"
 category: "Penal Law"
 enacted_date: "2026-08-11"
 last_amended: "2026-08-28"
@@ -119,7 +119,7 @@ b. bypass punishments.
 <sup>3</sup> Files or attachments that are not necessarily harmful but cause temporary disruptions such as temporarily corrupting the rendering of the Discord application, the sender shall be warned. Repeated behaviours shall lead to a timeout. After four counts, the sender shall be kicked.
 
 #### Art. 13 Non-consensual romantic pairings
-<sup>1</sup> Members shall not pair, “ship”, or depict real individuals of the server in romantic and / or sexual contexts in any media or interaction, without prior explicit consent from any of the parties involved in the depiction.
+<sup>1</sup> Members shall not pair, “ship”, or depict real individuals of the server in romantic and / or sexual contexts in any media or interaction, without prior explicit consent from all the parties depicted.
 
 <sup>2</sup> Members violating paragraph 1 shall receive:
 a. a 24-hour timeout on the first offence; and:
