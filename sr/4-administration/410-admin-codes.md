@@ -140,17 +140,19 @@ a. Religious holidays and cultural traditions, this includes but are not limited
   3. Christmas;
   4. Eid al-Fitr;
   5. Eid al-Adha;
-  6. St. Patrick's Day.
-  7. Easter;
+  6. St. Patrick's Day; and
+  7. Easter.
 
 b. The celebration or events concerning workers' rights;
 
-c. State and national holidays.
+c. State and national holidays;
+
+d. Birthdays of current server members; and
 
 e. Other broad, secular, familial, and popular celebrations which includes but not limited to:
   1. April Fool's Day;
-  2. Ney Years; and
-  3. Oktoberfest
+  2. New Years;
+  3. Oktoberfest; and
   4. Valentine's Day;
 
 <sup>3</sup> The addition or removal of any events in paragraph 2 can only be permitted by a server-wide vote with a two-thirds majority.
