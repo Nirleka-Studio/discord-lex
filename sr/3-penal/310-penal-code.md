@@ -2,10 +2,10 @@
 sr_id: "SR 310"
 title: "Penal Code"
 abbreviation: "Penal Code"
-version: "1.2.3"
+version: "1.4.4"
 category: "Penal Law"
 enacted_date: "2026-08-11"
-last_amended: "2026-08-21"
+last_amended: "2026-08-28"
 authority: "The Director"
 ---
 
@@ -38,6 +38,12 @@ a. *interactions* means any interaction between members that are:
 b. *media* means any content or visual/auditory that can be perceived, accessed, or viewed by another member.
 
 c. *personal information* means any information relating to an identified or identifiable natural person. This includes but not limited to someone's age, legal name, and home address.
+
+d. *to depict* means to represent, portray, or convey through visual, textual, auditory, or roleplayed means, a person, act, or scenario in a manner that a reasonable member would recognise as representing that person, act, or scenario. This includes but is not limited to:
+  1. images, videos, GIFs, or other visual media;
+  2. written or narrated descriptions, including roleplay or story-format text;
+  3. audio recordings, voice acting, or impersonated sounds; and
+  4. AI-generated or edited content representing a real or implied individual.
 
 ## Chapter 2: Specific Provisions
 
@@ -100,8 +106,10 @@ b. bypass punishments.
 
 ### Section 3: Unsolicited Behaviours and Contents
 
-#### Art. 11. Deletion of contents
+#### Art. 11. Removal of contents
 <sup>1</sup> Administrators shall immediately delete any of the contents defined from Article 12 trough 16 that constitutes a violation.
+
+<sup>2</sup> Where the violating content is not directly deletable by an Administrator, they shall instead require the member to remove or change the content within a reasonable timeframe, with failure to comply treated as a continuing violation.
 
 #### Art. 12 Files and links
 <sup>1</sup> The sharing of files or other downloadable attachments containing malicious code, malware, viruses, trojans, ransomware, spyware, or keyloggers shall be punishable by an instant ban.
@@ -158,6 +166,8 @@ a. a warning on the first offence to move their discussion to a designated chann
 b. a 2-hour timeout on their second offence for failure to move their discussion;
 c. a 12-hour timeout on their third offence; and
 d. a kick on the fourth offence.
+
+<sup>3a</sup> Members discussing the size, girth, dimensions, or other measurements or qualities of genitalia or sexual anatomy, whether their own, another member's, or hypothetical, outside a designated NSFW channel, shall receive the same punishment ladder as paragraph 3.
 
 <sup>4</sup> Members depicting specific gestures, facial expressions, or movements that is otherwise only made during or to represent sexual acts, they shall receive:
 a. a warning on the first offence;
