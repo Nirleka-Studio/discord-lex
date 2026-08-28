@@ -2,7 +2,7 @@
 sr_id: "SR 410"
 title: "Administration Codes Compilations"
 abbreviation: "Admin Codes"
-version: "1.1.0"
+version: "1.2.0"
 category: "Administration"
 enacted_date: "2026-08-12"
 last_amended: "2026-08-28"
@@ -134,17 +134,25 @@ c. Initiates unauthorised administrative modifications, including the creation o
 <sup>1</sup> Administrators or any members that manages events shall not organise, host, or promote any events, or programming centered around recognised holidays and cultural observances (including, but not limited to, religious, federal, state, or national holidays, and designated heritage or awareness months) that is not included in paragraph 2.
 
 <sup>2</sup> Permitted events includes:\
-a. Easter;\
-b. Halloween;\
-c. Thanksgiving;\
-d. Christmas;\
-e. Eid al-Fitr;\
-f. Eid al-Adha;\
-g. Valentine's Day;\
-h. Mother’s Day;\
-i. Father’s Day;\
-j. New Year;\
-k. Any country’s celebration on workers’ rights; and\
-l. Any country's Independence Day or Victory Day.
+a. Religious holidays and cultural traditions, this includes but are not limited to:
+  1. Halloween;
+  2. Thanksgiving;
+  3. Christmas;
+  4. Eid al-Fitr;
+  5. Eid al-Adha;
+  6. St. Patrick's Day.
+  7. Easter;
+
+b. The celebration or events concerning workers' rights;
+
+c. State and national holidays.
+
+e. Other broad, secular, familial, and popular celebrations which includes but not limited to:
+  1. April Fool's Day;
+  2. Ney Years; and
+  3. Oktoberfest
+  4. Valentine's Day;
 
 <sup>3</sup> The addition or removal of any events in paragraph 2 can only be permitted by a server-wide vote with a two-thirds majority.
+
+<sup>4</sup> Events concerning an individual's personal identity or natural characteristics are prohibited.
