@@ -2,7 +2,7 @@
 sr_id: "SR 100"
 title: "Charter of the Nirleka Studios Discord Server"
 abbreviation: "Server Charter"
-version: "2.0.0"
+version: "2.0.1"
 category: "Constitutional Law"
 enacted_date: "2026-08-11"
 last_amended: "2026-08-28"
@@ -161,7 +161,7 @@ d. overturn or uphold any executive moderation decision.
 #### Art. 15 The Secretary
 <sup>1</sup> Judicial authority and legal oversight rest with the Secretary.
 
-<sup>2</sup> The Secretary is responsible for ensuring compliance with the Charter and Public Code, and serves as the final authority on the legal validity of moderation actions and rule changes.
+<sup>2</sup> The Secretary is responsible for ensuring compliance with the Charter and laws, and serves as the final authority on the legal validity of moderation actions and rule changes.
 
 <sup>3</sup> The Secretary has authority to:\
 a. form judicial or investigative committees within Administration;\
