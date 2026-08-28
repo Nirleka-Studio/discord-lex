@@ -2,7 +2,7 @@
 sr_id: "SR 310"
 title: "Penal Code"
 abbreviation: "Penal Code"
-version: "1.4.6"
+version: "1.5.6"
 category: "Penal Law"
 enacted_date: "2026-08-11"
 last_amended: "2026-08-28"
@@ -104,12 +104,18 @@ b. bypass punishments.
 
 <sup>2</sup> Members violating paragraph 1 shall be permanently banned along with their alternative accounts.
 
-### Section 3: Unsolicited Behaviours and Contents
+### Section 3: Grave Unsolicited Behaviours and Contents
 
 #### Art. 11. Removal of contents
-<sup>1</sup> Administrators shall immediately delete any of the contents defined from Article 12 trough 16 that constitutes a violation.
+<sup>1</sup> Administrators shall immediately delete any of the contents defined in all Articles under Section 3 that constitutes a violation.
 
-<sup>2</sup> Where the violating content is not directly deletable by an Administrator, they shall instead require the member to remove or change the content within a reasonable timeframe, with failure to comply treated as a continuing violation.
+<sup>2</sup> Where the violating content is not directly deletable by an Administrator (e.g. member profile pictures, banners, description), they shall instead require the member to remove or change the content.
+
+<sup>3</sup> For profile contents depicting sexual contents, realistic gore, or other distressing contents, the member shall be kicked immediately. An Administrator shall then DM them stating the specific content and provision violated, and order its removal or change. Recurrence of contents violating the same provision, regardless of superficial differences, shall be treated as a continued violation.
+
+<sup>4</sup> For all other violations, an Administrator shall DM the member stating the specific content and provision violated, and order its removal or change within 48 hours. An Administrator may set a different time frame where the nature of the content, technical limitations, or the member's circumstances warrant it, stating the reason. Failure to comply within the applicable time frame shall be treated as a continued violation.
+
+<sup>5</sup> A member may request review of a determination under this Article by another Administrator.
 
 #### Art. 12 Files and links
 <sup>1</sup> The sharing of files or other downloadable attachments containing malicious code, malware, viruses, trojans, ransomware, spyware, or keyloggers shall be punishable by an instant ban.
@@ -213,6 +219,8 @@ b. a 1-hour timeout on the second offence;
 c. a 48-hour timeout on the third offence;
 d. a 1-week timeout on the fourth offence; and
 e. a kick on the fifth offence.
+
+### Section 4: Minor Unsolicited Behaviours and Contents
 
 #### Art. 17 Incitement[^2]
 The incitement, endorsement, or encouragement to commit a violation of law, disrupt or threaten the order, peace, and unity of the server shall be punishable by no less than 1-week timeout and a 6000₣ fine.
