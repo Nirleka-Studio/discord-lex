@@ -54,7 +54,7 @@ The Director is the owner of the Nirleka Studios Discord Server.
 #### Art. 3 Official language
 The official language of the Server is British English.
 
-#### Art. 5 Rule of Law
+#### Art. 4 Rule of Law
 <sup>1</sup> The Server's activities must be based on and limited by the Rule of Law.
 
 <sup>2</sup> Server activity must be in the public interest and proportional to the goals pursued.
@@ -63,7 +63,7 @@ The official language of the Server is British English.
 
 ### Section 2: Fundamental Member Rights and Guarantees
 
-#### Art. 5a Equality before the Law
+#### Art. 5 Equality before the Law
 <sup>1</sup> Every person is equal before the law.
 
 <sup>2</sup> A person's natural characteristics, personal identity, beliefs, and sexual orientation are in no interest of the Server.
