@@ -2,7 +2,7 @@
 sr_id: "SR 310"
 title: "Penal Code"
 abbreviation: "Penal Code"
-version: "1.4.4"
+version: "1.4.5"
 category: "Penal Law"
 enacted_date: "2026-08-11"
 last_amended: "2026-08-28"
@@ -29,11 +29,11 @@ Members of Administration may ensure contents and behaviours comply with Discord
 #### Art. 4. Definitions
 <sup>1</sup> For the purposes of this Code, the following terms shall be defined as:\
 a. *interactions* means any interaction between members that are:
-  1. Text messages;
-  2. Voice messages;
-  3. Video call;
-  4. Livestreams; and / or
-  5. Voice call.
+  1. text messages;
+  2. voice messages;
+  3. video call;
+  4. livestreams; and / or
+  5. voice call.
 
 b. *media* means any content or visual/auditory that can be perceived, accessed, or viewed by another member.
 
