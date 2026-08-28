@@ -83,7 +83,7 @@ c. *processor* means a private person or federal body that processes personal da
 
 <sup>2</sup> Where relevant, "removal from position" is always the terminal tier of a punishment scale for Administration-level offences.
 
-### Art. 9 Registers
+### ~~Art. 9 Registers~~ (repealed)
 <sup>1</sup> Anything related to the Administration and its procedures must use the High Formal register. This includes but not limited to using "shall" instead of "must" or other words. The Nirleka franc uses the `₣` character (`100₣`) instead of `*** F R A N C S ***`.
 
 <sup>2</sup> Anything that is intended to be public facing uses the Natural Formal register. This includes the Public Code (SR 210), favour "must" instead of "shall", reduce legal jargon, short but precise, while also maintaining a rigid and distant feeling.
@@ -99,3 +99,13 @@ b. For non-primary parts of a statute, such as preambles, the Soupurreme registe
 but NOT:
 1. Contractions ("don't" instead of "do not")
 2. Non-deliberate misspellings.
+
+### Art. 10 Verbs and precision
+<sup>1</sup> Follow the standards of UK statutes drafting styles.
+
+<sup>2</sup> Newer laws must not use `shall` any more.
+
+<sup>3</sup> Use the following words as they are intended:
+a. *must* absolute requirement / prohibition.
+b. *may* discretionary.
+c. *can* do not use this at all. Use more precise words, for example 'unable to'.
