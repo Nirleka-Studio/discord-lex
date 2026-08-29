@@ -146,3 +146,6 @@ this applies to other provisions such as paragraphs:
 ```
 
 <sup>3</sup> If you somehow reached `z`, do not continue. Whatever the hell you are doing, it is best to revise it.
+
+### Art. 12 Numbers
+State numbers plainly using Arabic numerals. "5 minutes", "5-minute timeout".
