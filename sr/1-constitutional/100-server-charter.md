@@ -2,7 +2,7 @@
 sr_id: "SR 100"
 title: "Charter of the Nirleka Studios Discord Server"
 abbreviation: "Server Charter"
-version: "2.0.1"
+version: "2.0.2"
 category: "Constitutional Law"
 enacted_date: "2026-08-11"
 last_amended: "2026-08-29"
@@ -175,20 +175,20 @@ c. review appeals and void invalid administrative actions.
 ### Section 1: Elections
 
 #### Art. 16 Election of Lance Administrators
-<sup>1</sup> Elections for Lance Administrators must occur every six (6) weeks.
+<sup>1</sup> Elections for Lance Administrators must occur every 6 weeks.
 
 <sup>2</sup> A Lance Administrator who has completed a 6-week term must step down before the vote, unless that administrator is actively managing an unresolved case that the administrator is unable to transfer.
 
 <sup>3</sup> The election procedure:\
 a. one week before the election, the Secretary must compile a list of eligible candidates who consent to run;\
-b. the Secretary must publish a server-wide poll lasting three (3) days;\
-c. members may vote for up to two (2) candidates.
+b. the Secretary must publish a server-wide poll lasting 3 days;\
+c. members may vote for up to two 2 candidates.
 
 <sup>4</sup> Candidates receiving a majority of cast votes is to be appointed as Lance Administrators.
 
 <sup>5</sup> If there are no Lance Administrators left in the Administration, the Secretary may call an emergency election within 24 hours lasting 24 hours.
 
-<sup>6</sup> If the Server has no members eligible to be Lance Administrators, the Administration may hold the six (6) week timer until eligible members are available.
+<sup>6</sup> If the Server has no members eligible to be Lance Administrators, the Administration may hold the 6 week timer until eligible members are available.
 
 ---
 
@@ -199,7 +199,7 @@ c. members may vote for up to two (2) candidates.
 
 <sup>2</sup> To initiate a referendum, a petition must be submitted to the Secretary containing signatures of at least 15% of active members.
 
-<sup>3</sup> Upon validating the petition, the Secretary must issue a poll lasting six (6) days within 24 hours. Sitting Executive members and their appointees may not vote.
+<sup>3</sup> Upon validating the petition, the Secretary must issue a poll lasting 6 days within 24 hours. Sitting Executive members and their appointees may not vote.
 
 <sup>4</sup> The motion passes if:\
 a. a two-thirds (66% + 1) majority of cast votes favour removal; and\
@@ -220,7 +220,7 @@ b. the Secretary assumes the position of Caretaker Administrator.
 <sup>1</sup> Members may petition for the impeachment of an Administrator accused of misconduct, illegal acts, or unpunished rule violations.
 
 <sup>2</sup> The Secretary must review the petition and hold a public poll that:\
-a. lasts for at least three (3) days; and\
+a. lasts for at least 3 days; and\
 b. with the options: *Yes*, *No*, and *Abstain*.
 
 <sup>3</sup> An Administrator is removed immediately if a simple majority (50% + 1) of voting members vote in favour. The accused Administrator cannot vote on their own impeachment.
