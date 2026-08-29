@@ -5,7 +5,7 @@ abbreviation: "Server Charter"
 version: "2.0.1"
 category: "Constitutional Law"
 enacted_date: "2026-08-11"
-last_amended: "2026-08-28"
+last_amended: "2026-08-29"
 authority: "The Director"
 ---
 
