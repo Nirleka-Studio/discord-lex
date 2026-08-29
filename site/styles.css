@@ -147,7 +147,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .stamp.in_force { color: var(--force); background: var(--force-bg); }
 .stamp.repealed, .stamp.superseded { color: var(--repealed); background: var(--repealed-bg); }
 .stamp.pending { color: var(--pending); background: var(--pending-bg); }
-.stamp.historical { color: var(--ink-soft); background: var(--paper-panel); border-color: var(--rule); transform: rotate(0deg); }
+.stamp.historical { color: var(--repealed); background: var(--repealed-bg); border-color: var(--repealed-border); transform: rotate(0deg); }
 .stamp.historical::before { content: "○"; }
 .stamp.ongoing { color: var(--pending); background: var(--pending-bg); transform: rotate(0deg); }
 .stamp.closed { color: var(--ink-soft); background: var(--paper-panel); border-color: var(--rule); transform: rotate(0deg); }
