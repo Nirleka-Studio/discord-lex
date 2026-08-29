@@ -109,3 +109,40 @@ but NOT:
 a. *must* absolute requirement / prohibition.
 b. *may* discretionary.
 c. *can* do not use this at all. Use more precise words, for example 'unable to'.
+
+### Art. 11 Insertions
+<sup>1</sup> Avoid renumbering articles and its structures when inserting between existing provisions unless during a complete revision.
+
+<sup>2</sup> Inserting a new provision at the end can be made normally. For example inserting Article 3:
+```markdown
+## Art. 1 Lorem ipsum
+
+## Art. 2 Lorem polum
+
+## Art. 3 Kaplow
+```
+
+<sup>3</sup> For inserting provisions between existing provisions, add the letter `a` next to the number before it and continue the alphabet sequentially.
+```markdown
+## Art. 1 Lorem ipsum
+
+## Art. 2 Lorem polum
+
+## Art. 2a Loram polumu
+
+## Art. 3 Kaplow
+```
+
+this applies to other provisions such as paragraphs:
+
+```markdown
+<sup>1</sup> Lorem ipsum
+
+<sup>1a</sup> Lorrry
+
+<sup>1b</sup> Lorrry palem
+
+<sup>2</sup> Loram polum
+```
+
+<sup>3</sup> If you somehow reached `z`, do not continue. Whatever the hell you are doing, it is best to revise it.
