@@ -15,8 +15,8 @@
   --pending: #9a6b13;
   --pending-bg: #f4ecdb;
 
-  --font-display: "Lora", Georgia, serif;
-  --font-body: "IBM Plex Sans", -apple-system, sans-serif;
+  --font-display: "Manrope", -apple-system, serif;
+  --font-body: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --font-mono: "IBM Plex Mono", ui-monospace, monospace;
 }
 
@@ -279,26 +279,39 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 
 .empty-state { color: var(--ink-soft); padding: 40px 0; text-align: center; font-family: var(--font-mono); font-size: 13px; }
 
-/* ---------- lettered / nested lists inside law text ---------- */
-.law-list {
-  margin: 8px 0 16px;
-  padding-left: 2.2rem; /* Indents list & leaves room for markers */
-  list-style-position: outside; /* Crucial: lets selection cover markers naturally */
+/* ---------- Legal / Statutory Lists ---------- */
+.law-body ol.law-list,
+.law-body ul.law-list {
+  margin: 12px 0 16px 0;
+  /* 1. INDENT LEFT SIDE OF ENTIRE LIST (Pushes a., b. inward) */
+  padding-left: 2.2rem !important;
+  list-style-position: outside;
 }
 
-.law-list li {
-  margin: 7px 0;
-  font-weight: normal;
-  /* Creates the space between marker and text while keeping selection contiguous */
+.law-body ol.law-list > li,
+.law-body ul.law-list > li {
+  margin: 8px 0;
+  /* 2. INDENT RIGHT SIDE OF MARKER (Pushes text away from a., b.) */
   padding-left: 2.2rem;
 }
 
-.law-list li::marker {
+.law-body ol.law-list > li::marker,
+.law-body ul.law-list > li::marker {
   font-weight: normal;
 }
 
-.law-list .law-list {
-  margin: 7px 0;
+/* ---------- Sub-lists (1., 2., 3.) ---------- */
+.law-body ol.law-list ol,
+.law-body ol.law-list ul {
+  margin: 8px 0 4px 0;
+  /* 3. INDENT SUB-LIST FROM PARENT TEXT */
+  padding-left: 2.2rem !important;
+}
+
+.law-body ol.law-list ol > li,
+.law-body ol.law-list ul > li {
+  margin: 6px 0;
+  /* SPACING TO THE RIGHT OF NUMBERS (1., 2.) */
   padding-left: 2.2rem;
 }
 
@@ -306,7 +319,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 
 /* paragraph numbering, e.g. <sup>1</sup> at the start of a paragraph */
 .law-body sup {
-  font-family: var(--font-mono);
+  font-family: var(--font-body);
   font-size: 0.68em;
   font-weight: 600;
   color: var(--accent);
