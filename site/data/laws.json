@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T15:27:40.982Z",
+  "generated_at": "2026-08-29T15:55:44.045Z",
   "categories": [
     "Extraterritorial",
     "Constitutional Law",
@@ -932,21 +932,71 @@
   "referendums": [
     {
       "kind": "referendum",
-      "id": "ref-no-0001",
+      "id": "REF 0001",
+      "ref_no": 1,
       "title": "Criminalise saying \"kill yourself?\"",
-      "result": null,
-      "date": null,
-      "amends": null,
+      "initiated_by": "The Director",
+      "created_at": "2026-08-12T21:54:11.836000Z",
+      "duration": "3 days",
+      "ended_at": "2026-08-15T21:54:14.346000Z",
+      "total_voters": 14,
+      "options": [
+        {
+          "option": "yes",
+          "votes": 1
+        },
+        {
+          "option": "no",
+          "votes": 8
+        },
+        {
+          "option": "abstain",
+          "votes": 2
+        },
+        {
+          "option": "only if its directed at another natural person",
+          "votes": 3
+        },
+        {
+          "option": "^ and also not a joke",
+          "votes": 0
+        }
+      ],
       "path": "referendums/ref-no-0001.md",
       "content": "\n## Summary\nN/A."
     },
     {
       "kind": "referendum",
-      "id": "ref-no-0000",
+      "id": "REF 0000",
+      "ref_no": 0,
       "title": "Who should write the rules?",
-      "result": null,
-      "date": null,
-      "amends": null,
+      "initiated_by": "The Director",
+      "created_at": "2026-06-19T21:06:34.144000Z",
+      "duration": "24 hours",
+      "ended_at": "2026-06-20T21:06:37.530000Z",
+      "total_voters": 9,
+      "options": [
+        {
+          "option": "Strictly the members",
+          "votes": 0
+        },
+        {
+          "option": "Strictly the administrators",
+          "votes": 0
+        },
+        {
+          "option": "Strictly the owner (me)",
+          "votes": 6
+        },
+        {
+          "option": "The owner under guidance of the members",
+          "votes": 3
+        },
+        {
+          "option": "The administrators under guidance of the memers",
+          "votes": 0
+        }
+      ],
       "path": "referendums/ref-no-0000.md",
       "content": "\n## Summary\nN/A."
     }

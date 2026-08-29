@@ -133,13 +133,20 @@ function loadLaw(root, file, kind) {
 function loadReferendum(root, file) {
   const raw = fs.readFileSync(file, "utf8");
   const { data, content } = matter(raw);
+  const results = (data.metrics && data.metrics.results) || {};
+  const options = Object.entries(results).map(([option, votes]) => ({ option, votes: Number(votes) || 0 }));
+
   return {
     kind: "referendum",
-    id: data.ref_id || path.basename(file, ".md"),
+    id: `REF ${String(data.ref_no ?? "").padStart(4, "0")}`,
+    ref_no: data.ref_no,
     title: data.title || path.basename(file, ".md"),
-    result: data.result || null,
-    date: data.date || null,
-    amends: data.amends || null,
+    initiated_by: data.initiated_by || null,
+    created_at: data.created_at || null,
+    duration: data.duration || null,
+    ended_at: data.ended_at || null,
+    total_voters: (data.metrics && data.metrics.total_voters) || 0,
+    options,
     path: relGit(root, file),
     content,
   };
@@ -157,7 +164,7 @@ function main() {
 
   const referendums = refFiles
       .map((f) => loadReferendum(CONTENT_ROOT, f))
-      .sort((a, b) => (a.date < b.date ? 1 : -1));
+      .sort((a, b) => (a.created_at < b.created_at ? 1 : -1));
 
   const categories = [...new Set(laws.filter((l) => l.kind === "sr").map((l) => l.category))];
 

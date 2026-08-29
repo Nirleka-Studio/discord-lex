@@ -8,6 +8,8 @@
     superseded: "Superseded",
     pending: "Pending",
     historical: "Historical version",
+    ongoing: "Ongoing",
+    closed: "Closed",
   };
 
   function fmtDate(d) {
@@ -15,6 +17,45 @@
     const dt = new Date(d + "T00:00:00");
     if (isNaN(dt)) return d;
     return dt.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
+  }
+
+  function fmtDateTime(d) {
+    if (!d) return "—";
+    const dt = new Date(d);
+    if (isNaN(dt)) return d;
+    return dt.toLocaleString("en-US", { year: "numeric", month: "long", day: "numeric", hour: "numeric", minute: "2-digit" });
+  }
+
+  function referendumStatus(ref) {
+    if (!ref.ended_at) return "ongoing";
+    const ended = new Date(ref.ended_at);
+    if (isNaN(ended)) return "ongoing";
+    return ended.getTime() <= Date.now() ? "closed" : "ongoing";
+  }
+
+  function referendumChart(ref) {
+    const options = ref.options || [];
+    if (!options.length) return '<p class="empty-state" style="padding:16px 0;">No results recorded.</p>';
+    const totalCast = options.reduce((s, o) => s + o.votes, 0);
+    const maxVotes = Math.max(1, ...options.map((o) => o.votes));
+    const sorted = [...options].sort((a, b) => b.votes - a.votes);
+    const winner = totalCast > 0 ? sorted[0].option : null;
+
+    const rows = sorted
+        .map((o) => {
+          const pct = totalCast ? Math.round((o.votes / totalCast) * 100) : 0;
+          const widthPct = Math.round((o.votes / maxVotes) * 100);
+          const isWinner = o.option === winner && o.votes > 0;
+          return `
+        <div class="ref-bar-row ${isWinner ? "winner" : ""}">
+          <div class="ref-bar-label">${o.option}${isWinner ? '<span class="ref-winner-tag">Leading</span>' : ""}</div>
+          <div class="ref-bar-track"><div class="ref-bar-fill" style="width:${widthPct}%"></div></div>
+          <div class="ref-bar-value">${o.votes}<span class="ref-bar-pct">(${pct}%)</span></div>
+        </div>`;
+        })
+        .join("");
+
+    return `<div class="ref-chart">${rows}</div><div class="ref-total">${totalCast} vote${totalCast === 1 ? "" : "s"} cast · ${ref.total_voters} member${ref.total_voters === 1 ? "" : "s"} eligible</div>`;
   }
 
   function stamp(status) {
@@ -373,20 +414,37 @@
   }
 
   function renderReferendums() {
-    const rows = DATA.referendums
-        .map(
-            (r) => `
-      <div class="ref-row">
-        <div class="ref-title">${r.title}</div>
-        <div class="ref-meta">${r.id} · ${fmtDate(r.date)} · ${r.result || "Pending"}${r.amends ? ` · amends <a href="${lawUrl(r.amends)}">${r.amends}</a>` : ""}</div>
-        <div>${window.marked ? marked.parse(r.content || "") : r.content}</div>
-      </div>`
-        )
+    if (!DATA.referendums.length) {
+      app.innerHTML = `<h2 class="category-heading">Referendums</h2><hr class="category-rule" /><p class="empty-state">No referendums recorded.</p>`;
+      return;
+    }
+    const cards = DATA.referendums
+        .map((r) => {
+          const status = referendumStatus(r);
+          const summaryHtml = window.marked ? marked.parse(r.content || "") : r.content;
+          return `
+      <div class="ref-card">
+        <div class="ref-card-header">
+          <div>
+            <div class="ref-eyebrow">${r.id}</div>
+            <div class="ref-title">${r.title}</div>
+          </div>
+          ${stamp(status)}
+        </div>
+        <div class="ref-meta">
+          Initiated by ${r.initiated_by || "—"} · opened ${fmtDateTime(r.created_at)}
+          ${r.duration ? ` · ran ${r.duration}` : ""}
+          ${r.ended_at ? ` · ${status === "closed" ? "closed" : "closes"} ${fmtDateTime(r.ended_at)}` : ""}
+        </div>
+        ${referendumChart(r)}
+        <div class="ref-summary">${summaryHtml}</div>
+      </div>`;
+        })
         .join("");
     app.innerHTML = `
       <h2 class="category-heading">Referendums</h2>
       <hr class="category-rule" />
-      ${rows || '<p class="empty-state">No referendums recorded.</p>'}
+      ${cards}
     `;
   }
 
