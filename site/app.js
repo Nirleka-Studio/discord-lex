@@ -7,6 +7,7 @@
     repealed: "Repealed",
     superseded: "Superseded",
     pending: "Pending",
+    historical: "Historical version",
   };
 
   function fmtDate(d) {
@@ -20,6 +21,35 @@
     const key = status || "pending";
     const label = STATUS_LABEL[key] || key;
     return `<span class="stamp ${key}">${label}</span>`;
+  }
+
+  // Resolves what should be shown for a given entry in the version history.
+  // history[] is sorted newest-first, so index 0 is always the current text.
+  // Older entries are labelled "historical" regardless of what `status` was
+  // recorded at that commit, since what matters to a reader is simply
+  // "is this the current text or not" — the current status lives on `law`.
+  function versionAt(law, idx) {
+    const hist = law.history || [];
+    if (!hist.length) {
+      return {
+        isCurrent: true,
+        version: law.version,
+        status: law.status,
+        date: law.last_amended,
+        content: law.content,
+        commit: null,
+      };
+    }
+    const h = hist[idx] || hist[0];
+    const isCurrent = idx === 0;
+    return {
+      isCurrent,
+      version: h.version || law.version,
+      status: isCurrent ? law.status : "historical",
+      date: h.date,
+      content: h.content != null ? h.content : law.content,
+      commit: h.commit,
+    };
   }
 
   function lawUrl(id, anchor) {
@@ -230,29 +260,44 @@
     app.querySelector(".registry-search").setSelectionRange(filterText.length, filterText.length);
   }
 
-  function renderLaw(id, anchor) {
+  function renderLaw(id, anchor, versionIndex) {
     const law = findLaw(id);
     if (!law) {
       app.innerHTML = `<p class="empty-state">No law found with identifier “${id}”.</p>`;
       return;
     }
 
-    const historyItems = (law.history || [])
-        .map(
-            (h) => `
-        <li class="history-item">
-          <div class="h-top"><span>${h.date}</span><span class="h-commit">#${h.commit}</span></div>
+    const idx = versionIndex || 0;
+    const selected = versionAt(law, idx);
+    const hist = law.history || [];
+
+    const historyItems = hist.length
+        ? hist
+            .map(
+                (h, i) => `
+        <li class="history-item ${i === idx ? "active" : ""}" data-idx="${i}" tabindex="0" role="button">
+          <div class="h-top">
+            <span><span class="history-dot ${i === 0 ? "current" : ""}"></span>${h.date}</span>
+            <span class="h-commit">#${h.commit}</span>
+          </div>
           <div class="h-msg">${h.message}${h.version ? ` <span class="h-version">v${h.version}</span>` : ""}</div>
         </li>`
-        )
-        .join("");
+            )
+            .join("")
+        : '<li class="history-item">No recorded history.</li>';
 
     const supersededBanner =
         law.kind === "archive"
             ? `<div class="superseded-banner">This text has been superseded${law.superseded_by ? ` by <a href="${lawUrl(law.superseded_by)}">${law.superseded_by}</a>` : ""} and is retained for historical reference only.</div>`
             : "";
 
-    const bodyHtml = renderLawMarkdown(law.content || "");
+    const historicalBanner = !selected.isCurrent
+        ? `<div class="version-banner">Viewing the version dated ${fmtDate(selected.date)}${selected.commit ? ` (commit #${selected.commit})` : ""} — not the current text.
+          <button type="button" class="view-current-btn">View current version</button>
+        </div>`
+        : "";
+
+    const bodyHtml = renderLawMarkdown(selected.content || "");
 
     app.innerHTML = `
       <a class="back-link" href="#/">← Back to registry</a>
@@ -260,28 +305,29 @@
         <aside>
           <div class="sidebar-panel">
             <h3>General information</h3>
-            <div style="margin-bottom:12px;">${stamp(law.status)}</div>
+            <div style="margin-bottom:12px;">${stamp(selected.status)}</div>
             <dl>
               <div class="info-row"><dt>Abbreviation</dt><dd>${law.abbreviation || "—"}</dd></div>
               <div class="info-row mono"><dt>Enacted</dt><dd>${fmtDate(law.enacted_date)}</dd></div>
               <div class="info-row mono"><dt>Last amended</dt><dd>${fmtDate(law.last_amended)}</dd></div>
               <div class="info-row"><dt>Authority</dt><dd>${law.authority || "—"}</dd></div>
-              <div class="info-row mono"><dt>Current version</dt><dd>${law.version || "—"}</dd></div>
+              <div class="info-row mono"><dt>Viewing version</dt><dd>${selected.version || "—"}</dd></div>
               ${law.repeals ? `<div class="info-row"><dt>Repeals</dt><dd><a href="${lawUrl(law.repeals)}">${law.repeals}</a></dd></div>` : ""}
               ${law.superseded_by ? `<div class="info-row"><dt>Superseded by</dt><dd><a href="${lawUrl(law.superseded_by)}">${law.superseded_by}</a></dd></div>` : ""}
             </dl>
           </div>
           <div class="sidebar-panel">
             <h3>Version history</h3>
-            <ul class="history-list">${historyItems || '<li class="history-item">No recorded history.</li>'}</ul>
+            <ul class="history-list">${historyItems}</ul>
           </div>
         </aside>
         <div class="law-content">
           ${supersededBanner}
+          ${historicalBanner}
           <div class="law-header">
             <div class="law-eyebrow">${law.id} · ${law.category || ""}</div>
             <h1 class="law-title">${law.title}</h1>
-            <div class="law-linkrow">${stamp(law.status)}<span class="reg-version">v${law.version || "—"}</span></div>
+            <div class="law-linkrow">${stamp(selected.status)}<span class="reg-version">v${selected.version || "—"}</span></div>
           </div>
           <div class="law-body">${bodyHtml}</div>
         </div>
@@ -290,6 +336,20 @@
 
     attachHeadingAnchors(app.querySelector(".law-body"), law.id);
     if (anchor) scrollToAnchor(anchor);
+
+    app.querySelectorAll(".history-item[data-idx]").forEach((el) => {
+      const go = () => renderLaw(law.id, null, Number(el.dataset.idx));
+      el.addEventListener("click", go);
+      el.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          go();
+        }
+      });
+    });
+
+    const viewCurrentBtn = app.querySelector(".view-current-btn");
+    if (viewCurrentBtn) viewCurrentBtn.addEventListener("click", () => renderLaw(law.id, null, 0));
   }
 
   function renderArchive() {

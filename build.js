@@ -60,16 +60,17 @@ function relGit(root, file) {
   return path.relative(root, file).split(path.sep).join("/");
 }
 
-// Pulls one history entry per commit that touched the file, reading the
-// `version` field of the frontmatter as it existed at that commit.
+// Pulls one history entry per commit that touched the file, including the
+// full frontmatter + body text as they existed at that commit — so the
+// front-end can render any historical version, not just list its metadata.
 function versionHistory(root, file) {
   if (!isGitRepo(root)) return [];
   const relPath = relGit(root, file);
   let log;
   try {
     log = execSync(
-      `git log --follow --format="%H|%ad|%s" --date=short -- "${relPath}"`,
-      { cwd: root, encoding: "utf8" }
+        `git log --follow --format="%H|%ad|%s" --date=short -- "${relPath}"`,
+        { cwd: root, encoding: "utf8" }
     ).trim();
   } catch {
     return [];
@@ -81,23 +82,26 @@ function versionHistory(root, file) {
     return { hash, date, message: msgParts.join("|") };
   });
 
-  return entries
-    .map(({ hash, date, message }) => {
-      let version = null;
-      try {
-        const blob = execSync(`git show ${hash}:"${relPath}"`, {
-          cwd: root,
-          encoding: "utf8",
-        });
-        const fm = matter(blob);
-        version = fm.data.version || null;
-      } catch {
-        // file may not have existed at that path for this commit; skip version
-      }
-      return { commit: hash.slice(0, 7), date, message, version };
-    })
-    // newest first
-    .reverse();
+  return entries.map(({ hash, date, message }) => {
+    let version = null;
+    let status = null;
+    let content = null;
+    try {
+      const blob = execSync(`git show ${hash}:"${relPath}"`, {
+        cwd: root,
+        encoding: "utf8",
+      });
+      const fm = matter(blob);
+      version = fm.data.version || null;
+      status = fm.data.status || null;
+      content = fm.content;
+    } catch {
+      // file may not have existed at that path for this commit; skip
+    }
+    return { commit: hash.slice(0, 7), date, message, version, status, content };
+  });
+  // git log already returns entries newest-first, matching what the
+  // front-end expects at index 0 — do not reverse this.
 }
 
 function loadLaw(root, file, kind) {
@@ -152,8 +156,8 @@ function main() {
   ].sort((a, b) => (a.id > b.id ? 1 : -1));
 
   const referendums = refFiles
-    .map((f) => loadReferendum(CONTENT_ROOT, f))
-    .sort((a, b) => (a.date < b.date ? 1 : -1));
+      .map((f) => loadReferendum(CONTENT_ROOT, f))
+      .sort((a, b) => (a.date < b.date ? 1 : -1));
 
   const categories = [...new Set(laws.filter((l) => l.kind === "sr").map((l) => l.category))];
 
