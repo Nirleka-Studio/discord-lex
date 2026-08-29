@@ -227,6 +227,94 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 
 .empty-state { color: var(--ink-soft); padding: 40px 0; text-align: center; font-family: var(--font-mono); font-size: 13px; }
 
+/* ---------- lettered / nested lists inside law text ---------- */
+/* Clean native list with selectable markers and spacing */
+.law-list {
+  margin: 8px 0 16px;
+  padding-left: 2.2rem; /* Indents list & leaves room for markers */
+  list-style-position: outside; /* Crucial: lets selection cover markers naturally */
+}
+
+.law-list li {
+  margin: 7px 0;
+  font-weight: normal;
+  /* Creates the space between marker and text while keeping selection contiguous */
+  padding-left: 2.2rem;
+}
+
+.law-list li::marker {
+  font-weight: normal;
+}
+
+.law-list .law-list {
+  margin: 7px 0;
+  padding-left: 2.2rem;
+}
+
+.law-body em { color: var(--ink-soft); font-style: italic; }
+
+/* paragraph numbering, e.g. <sup>1</sup> at the start of a paragraph */
+.law-body sup {
+  font-family: var(--font-mono);
+  font-size: 0.68em;
+  font-weight: 600;
+  color: var(--accent);
+  margin-right: 3px;
+}
+
+/* ---------- heading anchors / copy-link ---------- */
+.law-body h1, .law-body h2, .law-body h3, .law-body h4, .law-body h5, .law-body h6 {
+  position: relative;
+  scroll-margin-top: 18px;
+}
+.anchor-link {
+  position: absolute;
+  left: -1.1em;
+  color: var(--rule);
+  font-family: var(--font-mono);
+  font-size: 0.75em;
+  text-decoration: none;
+  opacity: 0;
+  transition: opacity .12s;
+}
+.law-body h1:hover .anchor-link,
+.law-body h2:hover .anchor-link,
+.law-body h3:hover .anchor-link,
+.law-body h4:hover .anchor-link,
+.law-body h5:hover .anchor-link,
+.law-body h6:hover .anchor-link,
+.anchor-link:focus-visible {
+  opacity: 1;
+}
+.anchor-link:hover { color: var(--accent); text-decoration: none; }
+
+.anchor-highlight {
+  animation: anchor-flash 1.6s ease;
+}
+@keyframes anchor-flash {
+  from { background: var(--accent-soft); }
+  to { background: transparent; }
+}
+
+.toast {
+  position: fixed;
+  bottom: 26px;
+  left: 50%;
+  transform: translateX(-50%) translateY(8px);
+  background: var(--ink);
+  color: #fdfdfa;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.03em;
+  padding: 9px 16px;
+  border-radius: 2px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .18s ease, transform .18s ease;
+  z-index: 50;
+}
+.toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
 .ref-row {
   padding: 14px 4px;
   border-bottom: 1px solid var(--rule);
