@@ -2,10 +2,10 @@
 sr_id: "SR 210"
 title: "Public Code of Member Conduct"
 abbreviation: "Public Code"
-version: "1.0.0"
+version: "1.0.1"
 category: "Civil and Public Law"
 enacted_date: "2026-08-12"
-last_amended: "2026-08-12"
+last_amended: "2026-08-29"
 authority: "The Director"
 ---
 
@@ -19,20 +19,20 @@ authority: "The Director"
 ## Chapter 1: General Provisions
 
 ### Art. 1 Scope
-The Public Code shall apply to all members of the server.
+The Public Code applies to all members of the server.
 
 ### Art. 2 Purpose
 The Public Code serves as a public-facing collection of fundamental rules of the server that all members must follow.
 
 ### Art. 3 Enforcement
-All members of the server are to follow the Public Code, violations results in a punishment by Administrators as defined in the Penal Code (SR 310).
+All members of the server must follow the Public Code, violations results in a punishment by Administrators as defined in the Penal Code (SR 310).
 
 ## Chapter 2: Specific Provisions
 
 ### Section 1: Disclaimers
 
 #### Art. 4 Members’ user data
-<sup>1</sup> By participating in this server, members acknowledge that their user data, including but not limited to Messages and User IDs; will be collected and logged for moderation purposes. Members may leave the server if they disagree.
+<sup>1</sup> By participating in this server, members acknowledge that their user data, including but not limited to messages and user IDs; will be collected and logged for moderation purposes. Members may leave the server if they disagree.
 
 <sup>2</sup> Administrators however do not conserve any of the following information:
 a. personal information; and
