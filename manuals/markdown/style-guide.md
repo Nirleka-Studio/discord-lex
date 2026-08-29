@@ -8,9 +8,9 @@ manual_name: "Style Guide for Writing Nirleka Studios SR Laws"
 Spelling must follow the standards of British English.
 
 ### Art. 2 Capitalisation
-<sup>1</sup> Document titles, Titles, Sections, and Article titles are written in Title Case. Example: `#### Art. 9 Bribery`.
+<sup>1</sup> Document titles, Titles, and Sections titles are written in Title Case. Example: `#### Art. 9 Bribery`, `#### Art. 10 Administrative discretion`
 
-<sup>2</sup> Body and title text within an article is written in normal sentence case. Only proper nouns and the start of a sentence are capitalised. Example: `An Administrator shall not use their powers for personal gain.`
+<sup>2</sup> Articles, body and title text within an article is written in normal sentence case. Only proper nouns and the start of a sentence are capitalised. Example: `An Administrator shall not use their powers for personal gain.`
 
 ### Art. 3 Structural hierarchy and nesting
 <sup>1</sup> A law is structured, at most, in four levels: Title → Chapter → Section → Article.
