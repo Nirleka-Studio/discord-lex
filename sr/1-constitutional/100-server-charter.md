@@ -2,10 +2,10 @@
 sr_id: "SR 100"
 title: "Charter of the Nirleka Studios Discord Server"
 abbreviation: "Server Charter"
-version: "2.0.2"
+version: "2.1.2"
 category: "Constitutional Law"
 enacted_date: "2026-08-11"
-last_amended: "2026-08-29"
+last_amended: "2026-08-30"
 authority: "The Director"
 ---
 
@@ -240,6 +240,9 @@ b. with the options: *Yes*, *No*, and *Abstain*.
 <sup>1</sup> The Director has the power to unilaterally modify all laws governing this server.[^1]
 
 <sup>2</sup> All amendments and passing of laws and regulations must be publicly announced.
+
+#### Art. 22 Powers of the Director
+The Director may exercise powers not restricted by law.
 
 
 [^1]: Adopted based on a majority vote on 19 June 2026 (Ref. No. 0), in force since 30 May 2023.
