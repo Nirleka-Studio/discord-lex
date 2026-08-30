@@ -94,7 +94,7 @@ function versionHistory(root, file) {
       const fm = matter(blob);
       version = fm.data.version || null;
       status = fm.data.status || null;
-      content = fm.content;
+      content = stripFirstH1(fm.content);
     } catch {
       // file may not have existed at that path for this commit; skip
     }
@@ -102,6 +102,12 @@ function versionHistory(root, file) {
   });
   // git log already returns entries newest-first, matching what the
   // front-end expects at index 0 — do not reverse this.
+}
+
+function stripFirstH1(markdownText) {
+  if (!markdownText) return markdownText;
+  // Matches the first line that starts with '# ' and removes it along with its trailing newline
+  return markdownText.replace(/^\s*#\s+.*(?:\r?\n)?/, "");
 }
 
 function loadLaw(root, file, kind) {
@@ -125,7 +131,7 @@ function loadLaw(root, file, kind) {
     superseded_by: data.superseded_by || null,
     repeals: data.repeals || null,
     path: relPath,
-    content, // raw markdown body, rendered client-side
+    content: stripFirstH1(content), // raw Markdown body, rendered client-side
     history: versionHistory(root, file),
   };
 }
