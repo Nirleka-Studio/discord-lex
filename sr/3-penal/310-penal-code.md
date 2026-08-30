@@ -48,6 +48,17 @@ d. *to depict* means to represent, portray, or convey through visual, textual, a
   3. audio recordings, voice acting, or impersonated sounds; and
   4. AI-generated or edited content representing a real or implied individual.
 
+e. *unlawful* means any act prohibited by law, or any act performed without legal authority by an entity whose powers are strictly limited by law.
+
+### Section 2: Administration
+
+#### Art. 4a Administrative outreach
+<sup>1</sup> A member of the Administration or Server body does an act that is unlawful but no specific law provides a measure or punishment is subject to the provisions of this article.
+
+<sup>2</sup> An Administrator must punish an unlawful act with no less than a 10,000₣ fine and no more than a 1-week timeout.
+
+<sup>3</sup> The Secretary may override or impose a harsher or lesser punishment.
+
 ## Chapter 2: Specific Provisions
 
 ---
