@@ -2,10 +2,10 @@
 sr_id: "SR 310"
 title: "Penal Code"
 abbreviation: "Penal Code"
-version: "2.0.0"
+version: "2.1.0"
 category: "Penal Law"
 enacted_date: "2026-08-11"
-last_amended: "2026-08-29"
+last_amended: "2026-08-30"
 authority: "The Director"
 ---
 
