@@ -2,10 +2,10 @@
 sr_id: "SR 310"
 title: "Penal Code"
 abbreviation: "Penal Code"
-version: "2.2.0"
+version: "2.2.1"
 category: "Penal Law"
 enacted_date: "2026-08-11"
-last_amended: "2026-08-30"
+last_amended: "2026-08-31"
 authority: "The Director"
 ---
 
@@ -242,7 +242,10 @@ d. a 1-week timeout on the fourth offence; and
 e. a kick on the fifth offence.
 
 #### Art. 16a Associated accounts
-<sup>1</sup> A member who shares, associates with, has a linked account on their profile, or maintains an account of their same name that is associated with or contains pornographic, fetish, gore, or violent content is subject to this article.
+<sup>1</sup> A member who shares, associates with, has a linked account on their profile, or maintains an account of their same name is subject to this article if it contains or is associated with:
+a. pornographic content;
+b. fetish contents; or
+c. gore or violent contents.
 
 <sup>2</sup> A member who fits the definition defined in paragraph 1 must receive:
 a. a warning on the first offence to remove such content;
