@@ -149,3 +149,12 @@ this applies to other provisions such as paragraphs:
 
 ### Art. 12 Numbers
 State numbers plainly using Arabic numerals. "5 minutes", "5-minute timeout".
+
+### Art. 13 Terms convention
+<sup>1</sup> "Law" should always refer to Server laws unless otherwise specified.
+
+<sup>2</sup> "Illegal" is strictly used for real-world laws.
+
+<sup>3</sup> "Lawful" / "Unlawful" should always refer to Server laws.
+
+<sup>4</sup> A "Code" is an Act that holds a collection of rules while an "Act" is a single law that manages a roughly single topic.
