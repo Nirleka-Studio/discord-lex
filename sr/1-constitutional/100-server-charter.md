@@ -2,7 +2,7 @@
 sr_id: "SR 100"
 title: "Charter of the Nirleka Studios Discord Server"
 abbreviation: "Server Charter"
-version: "2.1.2"
+version: "2.3.2"
 category: "Constitutional Law"
 enacted_date: "2026-08-11"
 last_amended: "2026-08-30"
@@ -112,6 +112,8 @@ c. The Head Administrator.
 
 <sup>3</sup> Members of the Executive are bound by this Charter and lower codes, and must not exercise powers beyond those explicitly assigned to their roles.
 
+<sup>4</sup> A member holding a position within the Executive Branch or the Judiciary Branch must not simultaneously hold another position within either branch, unless explicitly authorised by this Charter.
+
 #### Art. 12 Lance Administrator
 <sup>1</sup> Lance Administrators serve as entry-level moderators.
 
@@ -146,13 +148,15 @@ a. 1 for the first 20 members; and\
 b. 1 additional Senior Administrator for each doubling of total members past 20.
 
 #### Art. 14 Head Administrator
-<sup>1</sup> The Head Administrator oversees operations of the Executive Branch.
+<sup>1</sup> The Head Administrator is a single position that oversees operations of the Executive Branch.
 
 <sup>2</sup> The Head Administrator has authority to:\
 a. appoint, demote, suspend, or remove Executive Branch members;\
 b. issue executive directives;\
 c. manage server bot integrations, roles, and channel permissions; and\
 d. overturn or uphold any executive moderation decision.
+
+<sup>3</sup> The Head Administrator may be appointed and removed by the Director.
 
 ---
 
@@ -188,7 +192,7 @@ c. members may vote for up to two 2 candidates.
 
 <sup>5</sup> If there are no Lance Administrators left in the Administration, the Secretary may call an emergency election within 24 hours lasting 24 hours.
 
-<sup>6</sup> If the Server has no members eligible to be Lance Administrators, the Administration may hold the 6 week timer until eligible members are available.
+<sup>6</sup> If the Server has no members eligible to be Lance Administrators, the Administration may hold the 6-week timer until eligible members are available.
 
 ---
 
