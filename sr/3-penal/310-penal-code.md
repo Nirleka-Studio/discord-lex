@@ -157,7 +157,7 @@ b. using a VPN, proxy, or altered identity to re-enter the Server after a kick o
 c. relying on or coordinating with another member to send messages, post content, or act on their behalf during an active penalty.
 
 <sup>2</sup> Committing a punishment bypass violation incurs:
-a. an immediate extension of the original penalty to a 30-day timeout or permanent ban, at moderator discretion; and
+a. an immediate extension of the original penalty to a 30-day timeout or permanent ban, at Administrator discretion; and
 b. an immediate permanent ban for any secondary or alternative account used to facilitate the bypass.
 
 ---
