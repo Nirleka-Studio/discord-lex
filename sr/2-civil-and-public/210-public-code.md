@@ -12,7 +12,7 @@ authority: "The Director"
 # SR 210 — Public Code of Member Conduct
 *(Public Code)*
 
-> **Enactment Notice:** Enacted in accordance to Chapter 4 of the Server Charter (SR 100). Applies to all server members and administrative staff.
+> **Enactment Notice:** Enacted in accordance with Chapter 4 of the Server Charter (SR 100). Applies to all server members and administrative staff.
 
 ---
 

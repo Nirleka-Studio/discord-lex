@@ -11,7 +11,7 @@ authority: "The Director"
 
 # SR 515 — The Kai-Dokusai and The Server
 
-> **Enactment Notice:** Enacted in accordance to Chapter 4 of the Server Charter (SR 100), by the Director
+> **Enactment Notice:** Enacted in accordance with Chapter 4 of the Server Charter (SR 100), by the Director
 
 ---
 

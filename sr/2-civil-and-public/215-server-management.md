@@ -12,7 +12,7 @@ authority: "The Director"
 # SR 215 — Server Management Code
 *(Server Management Code, SMC)*
 
-> **Enactment Notice:** Enacted in accordance to Chapter 4 of the Server Charter (SR 100).
+> **Enactment Notice:** Enacted in accordance with Chapter 4 of the Server Charter (SR 100).
 
 ---
 
