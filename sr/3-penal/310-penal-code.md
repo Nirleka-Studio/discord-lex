@@ -2,7 +2,7 @@
 sr_id: "SR 310"
 title: "Penal Code"
 abbreviation: "Penal Code"
-version: "3.2.0"
+version: "3.3.0"
 category: "Penal Law"
 enacted_date: "2026-08-11"
 last_amended: "2026-09-6"
@@ -42,11 +42,12 @@ b. *media* means any content or visual/auditory that can be perceived, accessed,
 
 c. *personal information* means any information relating to an identified or identifiable natural person. This includes but not is limited to someone's age, legal name, and home address.
 
-d. *to depict* means to represent, portray, or convey through visual, textual, auditory, or roleplayed means, a person, act, or scenario in a manner that a reasonable member would recognise as representing that person, act, or scenario. This includes but is not limited to:
+d. *to depict* means to represent, portray, or convey through visual, textual, auditory, roleplayed, or linked means, a person, act, or scenario in a manner that a reasonable member would recognise as representing that person, act, or scenario. This includes but is not limited to:
   1. images, videos, GIFs, or other visual media;
   2. written or narrated descriptions, including roleplay or story-format text;
-  3. audio recordings, voice acting, or impersonated sounds; and
-  4. AI-generated or edited content representing a real or implied individual.
+  3. audio recordings, voice acting, or impersonated sounds;
+  4. AI-generated or edited content representing a real or implied individual; and
+  5. hyperlinks, URLs, QR codes, or any other routing medium provided for a user to access, view, or download such representations.
 
 e. *unlawful* means any act prohibited by law, or any act performed without legal authority by an entity whose powers are strictly limited by law.
 
@@ -256,20 +257,26 @@ a. a warning on the first offence;
 b. a 4-hour timeout on the second through fourth offences; and
 c. a kick on the fifth offence.
 
-<sup>5</sup> Any depiction of explicit sexual acts, nudity, and adult novelties incurs:
-a. a 24-hour timeout on the first offence;
-b. a 48-hour timeout on the second offence;
-c. a 1-week timeout on the third and fourth offence; and
-d. a kick on the fifth offence.
+<sup>5</sup> Depictions of explicit sexual acts and adult novelties incurs:
+a. a 1-week timeout on the first offence;
+b. a kick on the second offence; and
+c. a ban on the third offence.
+
+<sup>5a</sup> Depictions of plain nudity without sexual acts or suggestions outside designated NSFW channels incurs:
+a. a warning on the first offence;
+b. a 24-hour timeout on the second offence;
+c. a 1-week timeout on the third offence; and
+d. a kick on the fourth offence.
 
 <sup>6</sup> For the purposes of paragraph 5, prohibited depictions include, but are not limited to:
 a. masturbation even if clothed;
-b. sexual acts even if cropped;
+b. sexual acts even if cropped or censored;
 c. presence of fluids that is made for, during or as a result of sexual acts;
 d. intentional physical contact of sex organs and other organs for sexual pleasure;
 e. clothing specifically designed for sexual pleasure;
-f. sexual acts done by other species besides humans; and
-g. sexual organs clearly visible through clothing.
+f. sexual acts done by other species besides humans;
+g. sexual organs clearly visible through clothing; and
+h. erect penis.
 
 <sup>7</sup> Media that only includes the following and does not depict anything above does not constitute a violation:
 a. adult novelties that do not necessarily have the form of a sex organ; and
