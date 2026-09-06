@@ -5,7 +5,7 @@ abbreviation: "Penal Code"
 version: "3.3.0"
 category: "Penal Law"
 enacted_date: "2026-08-11"
-last_amended: "2026-09-6"
+last_amended: "2026-09-06"
 authority: "The Director"
 ---
 
