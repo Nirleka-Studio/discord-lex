@@ -18,7 +18,7 @@
     if (!d) return "—";
     const dt = new Date(d + "T00:00:00");
     if (isNaN(dt)) return d;
-    return dt.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
+    return dt.toLocaleDateString("en-GB", { year: "numeric", month: "long", day: "numeric" });
   }
 
   function fmtDateTime(d) {
