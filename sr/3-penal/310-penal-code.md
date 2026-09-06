@@ -2,10 +2,10 @@
 sr_id: "SR 310"
 title: "Penal Code"
 abbreviation: "Penal Code"
-version: "3.0.0"
+version: "3.2.0"
 category: "Penal Law"
 enacted_date: "2026-08-11"
-last_amended: "2026-09-01"
+last_amended: "2026-09-6"
 authority: "The Director"
 ---
 
@@ -313,6 +313,53 @@ a. refuses to delete the sharing of the account;
 b. refuses to unlink the account from their profile;
 c. refuses to remove such contents from such account; or
 d. refuses to delete the account.
+
+#### Art. 16b Profiles
+<sup>1</sup> Any elements of a user's profile that can be viewed by another person are subject to the provisions of this article. This includes but is not limited to:
+a. username;
+b. profile picture;
+c. banner;
+d. "pronoun" text; and
+e. description / bio text.
+
+<sup>2</sup> Elements of a user's profile must not contain:
+a. any explicit sexual or suggestive depictions or implications; or
+b. any gory or violent content.
+
+<sup>3</sup> Fine arts depicting nudity are exempt from paragraph 2.
+
+<sup>4</sup> Depicting close-ups of body parts as defined in Art. 16 para. 9 is not exempt from paragraph 2. This also includes fine arts.
+
+<sup>5</sup> Violating paragraph 2 incurs:
+a. a kick on the first offence; and
+b. a ban on the second offence.
+
+<sup>6</sup> Paragraph 5 does not apply for texts.
+
+<sup>7</sup> The procedures outlined in Art. 11 must be followed.
+
+#### Art. 16c Text in profiles
+<sup>1</sup> Any visible writing on a user's profile is subject to the provisions of this article.
+
+<sup>2</sup> Profile texts must not depict:
+a. explicit sexual acts;
+b. suggestions or encouragement to conduct sexual acts; or
+c. any of the following against a person or group:
+  1. suggestions of violence;
+  2. incitement to violence;
+  3. encouragement of violence;
+  4. threats of violence;
+  5. general support for violence; or
+  6. leaking personally identifiable information.
+
+<sup>3</sup> Violating paragraph 2 incurs:
+a. a warning on the first offence to remove such content;
+b. a kick on the second offence; and
+c. a ban on the third offence.
+
+<sup>4</sup> A member is in continuous violation if they:
+a. refuse to delete the text; or
+b. refuse to edit the text to be lawful.
 
 ---
 
