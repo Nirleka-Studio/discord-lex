@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nirleka-studio.github.io/discord-lex/sitemap.xml

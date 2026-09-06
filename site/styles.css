@@ -1,14 +1,14 @@
 :root {
-  --ink: #1c2438;
-  --ink-soft: #414a63;
-  --paper: #faf9f6;
-  --paper-panel: #f1efe9;
-  --rule: #cdc7ba;
+  --ink: #1A1A1A;
+  --paper: #F8F9FA;
+  --paper-panel: #F8F9FA;
+  --panel-border: #cfcfcf;
+  --rule: #111111;
   --rule-strong: #1c2438;
   --accent: #2b3a67;
   --accent-soft: #e7e9f2;
-  --force: #2f5d45;
-  --force-bg: #e6efe9;
+  --force: #ffffff;
+  --force-bg: #589164;
   --repealed: #ffffff;
   --repealed-bg: #ff2544;
   --repealed-border: #ff0027;
@@ -37,8 +37,8 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 
 /* ---------- masthead ---------- */
 .masthead {
-  border-bottom: 3px double var(--rule-strong);
   background: var(--paper);
+  border-bottom: 2px solid var(--panel-border);
 }
 .masthead-inner {
   max-width: 1080px;
@@ -57,12 +57,17 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   font-size: 11px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--ink-soft);
+  color: var(--ink);
 }
 .masthead-main {
   font-family: var(--font-display);
   font-weight: 700;
   font-size: 28px;
+}
+.masthead-logo {
+  height: 36px;
+  width: auto;
+  display: block;
 }
 .masthead-nav { display: flex; gap: 22px; }
 .masthead-nav a {
@@ -70,7 +75,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   font-size: 12.5px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--ink-soft);
+  color: var(--ink);
   padding-bottom: 2px;
   border-bottom: 2px solid transparent;
 }
@@ -82,7 +87,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .site-footer {
   text-align: center;
   font-size: 12px;
-  color: var(--ink-soft);
+  color: var(--ink);
   padding: 24px;
   border-top: 1px solid var(--rule);
 }
@@ -115,14 +120,14 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   gap: 16px;
   align-items: baseline;
   padding: 10px 4px;
-  border-bottom: 1px solid var(--rule);
+  border-bottom: 1px solid var(--panel-border);
 }
 .registry-row:hover { background: var(--paper-panel); }
-.reg-id { font-family: var(--font-mono); font-size: 13px; color: var(--ink-soft); }
+.reg-id { font-family: var(--font-mono); font-size: 13px; color: var(--ink); }
 .reg-title a { color: var(--ink); font-weight: 500; }
-.reg-title .abbr { color: var(--ink-soft); font-size: 12.5px; margin-left: 6px; }
-.reg-version { font-family: var(--font-mono); font-size: 12.5px; color: var(--ink-soft); white-space: nowrap; }
-.reg-date { font-family: var(--font-mono); font-size: 12.5px; color: var(--ink-soft); white-space: nowrap; }
+.reg-title .abbr { color: var(--ink); font-size: 12.5px; margin-left: 6px; }
+.reg-version { font-family: var(--font-mono); font-size: 12.5px; color: var(--ink); white-space: nowrap; }
+.reg-date { font-family: var(--font-mono); font-size: 12.5px; color: var(--ink); white-space: nowrap; }
 
 @media (max-width: 640px) {
   .registry-row { grid-template-columns: 1fr; gap: 2px; }
@@ -139,37 +144,40 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   letter-spacing: 0.08em;
   text-transform: uppercase;
   padding: 6px 12px;
-  border: 2px solid currentColor;
-  border-radius: 3px;
+  border-radius: 5px;
   position: relative;
 }
 .stamp::before { content: "●"; font-size: 8px; }
-.stamp.in_force { color: var(--force); background: var(--force-bg); }
+.stamp.in_force {
+  color: var(--force);
+  background: var(--force-bg);
+}
 .stamp.repealed, .stamp.superseded { color: var(--repealed); background: var(--repealed-bg); }
 .stamp.pending { color: var(--pending); background: var(--pending-bg); }
 .stamp.historical { color: var(--repealed); background: var(--repealed-bg); border-color: var(--repealed-border); transform: rotate(0deg); }
 .stamp.historical::before { content: "○"; }
 .stamp.ongoing { color: var(--pending); background: var(--pending-bg); transform: rotate(0deg); }
-.stamp.closed { color: var(--ink-soft); background: var(--paper-panel); border-color: var(--rule); transform: rotate(0deg); }
+.stamp.closed { color: var(--ink); background: var(--paper-panel); border-color: var(--rule); transform: rotate(0deg); }
 
 /* ---------- law detail ---------- */
 .law-layout { display: grid; grid-template-columns: 260px 1fr; gap: 36px; align-items: start; }
 @media (max-width: 820px) { .law-layout { grid-template-columns: 1fr; } }
 
-.back-link { display: inline-block; margin-bottom: 18px; font-family: var(--font-mono); font-size: 12.5px; }
+.back-link { display: inline-block; margin-bottom: 18px; font-family: var(--font-mono); font-size: 12.5px; color: var(--ink); }
 
 .sidebar-panel {
   background: var(--paper-panel);
-  border: 1px solid var(--rule);
+  border: 2px solid var(--panel-border);
   padding: 18px;
   margin-bottom: 20px;
+  border-radius: 5px;
 }
 .sidebar-panel h3 {
   font-family: var(--font-mono);
   font-size: 11px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--ink-soft);
+  color: var(--ink);
   margin: 0 0 12px;
 }
 .info-row {
@@ -177,11 +185,11 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   justify-content: space-between;
   gap: 10px;
   padding: 7px 0;
-  border-bottom: 1px solid var(--rule);
+  border-bottom: 1px solid var(--panel-border);
   font-size: 13px;
 }
 .info-row:last-child { border-bottom: none; }
-.info-row dt { color: var(--ink-soft); }
+.info-row dt { color: var(--ink); }
 .info-row dd { margin: 0; text-align: right; font-weight: 500; }
 .info-row.mono dd { font-family: var(--font-mono); font-weight: 400; }
 
@@ -189,7 +197,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .history-item {
   padding: 10px 8px;
   margin: 0 -8px;
-  border-bottom: 1px solid var(--rule);
+  border-bottom: 1px solid var(--panel-border);
   font-size: 12.5px;
   cursor: pointer;
   border-radius: 2px;
@@ -200,26 +208,26 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   background: var(--accent-soft);
   border-bottom-color: var(--accent-soft);
 }
-.history-item:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.history-item:focus-visible { outline: 2px solid var(--force-bg); outline-offset: -2px; }
 .history-dot {
   display: inline-block;
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background: var(--rule);
+  background: var(--repealed-bg);
   margin-right: 7px;
   vertical-align: middle;
 }
-.history-dot.current { background: var(--force); }
-.history-item .h-top { display: flex; justify-content: space-between; font-family: var(--font-mono); color: var(--ink-soft); align-items: center; }
+.history-dot.current { background: var(--force-bg); }
+.history-item .h-top { display: flex; justify-content: space-between; font-family: var(--font-mono); color: var(--ink); align-items: center; }
 .history-item .h-version { color: var(--accent); font-weight: 600; }
 .history-item .h-msg { margin-top: 3px; color: var(--ink); padding-left: 14px; }
-.history-item .h-commit { color: var(--ink-soft); }
+.history-item .h-commit { color: var(--ink); }
 
 .version-banner {
   background: var(--paper-panel);
   border: 1px solid var(--rule);
-  color: var(--ink-soft);
+  color: var(--ink);
   padding: 10px 14px;
   font-size: 13px;
   margin-bottom: 20px;
@@ -249,7 +257,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .law-eyebrow {
   font-family: var(--font-mono);
   font-size: 12.5px;
-  color: var(--ink-soft);
+  color: var(--ink);
   letter-spacing: 0.06em;
 }
 .law-title { font-family: var(--font-display); font-size: 30px; font-weight: 700; margin: 6px 0 12px; line-height: 1.2; }
@@ -258,7 +266,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .law-body { font-size: 15.5px; }
 .law-body h2 {
   font-family: var(--font-display);
-  font-size: 19px;
+  font-size: 21px;
   font-weight: 600;
   margin: 30px 0 10px;
   padding-top: 14px;
@@ -277,7 +285,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   margin-bottom: 20px;
 }
 
-.empty-state { color: var(--ink-soft); padding: 40px 0; text-align: center; font-family: var(--font-mono); font-size: 13px; }
+.empty-state { color: var(--ink); padding: 40px 0; text-align: center; font-family: var(--font-mono); font-size: 13px; }
 
 /* ---------- Legal / Statutory Lists ---------- */
 .law-body ol.law-list,
@@ -315,14 +323,14 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   padding-left: 2.2rem;
 }
 
-.law-body em { color: var(--ink-soft); font-style: italic; }
+.law-body em { color: var(--ink); font-style: italic; }
 
 /* paragraph numbering, e.g. <sup>1</sup> at the start of a paragraph */
 .law-body sup {
   font-family: var(--font-body);
-  font-size: 0.68em;
-  font-weight: 600;
-  color: var(--accent);
+  font-size: 0.9em;
+  font-weight: 100;
+  color: var(--rule);
   margin-right: 3px;
 }
 
@@ -396,14 +404,14 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   font-family: var(--font-mono);
   font-size: 11.5px;
   letter-spacing: 0.06em;
-  color: var(--ink-soft);
+  color: var(--ink);
   text-transform: uppercase;
 }
 .ref-title { font-family: var(--font-display); font-weight: 600; font-size: 19px; margin-top: 2px; }
 .ref-meta {
   font-family: var(--font-mono);
   font-size: 12px;
-  color: var(--ink-soft);
+  color: var(--ink);
   margin: 10px 0 4px;
   padding-bottom: 12px;
   border-bottom: 1px solid var(--rule);
@@ -425,7 +433,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 }
 .ref-bar-fill {
   height: 100%;
-  background: var(--ink-soft);
+  background: var(--ink);
   transition: width .4s ease;
 }
 .ref-bar-row.winner .ref-bar-fill { background: var(--force); }
@@ -442,7 +450,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .ref-bar-value {
   font-family: var(--font-mono);
   font-size: 12px;
-  color: var(--ink-soft);
+  color: var(--ink);
   white-space: nowrap;
   text-align: right;
   min-width: 68px;
@@ -451,7 +459,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .ref-total {
   font-family: var(--font-mono);
   font-size: 11.5px;
-  color: var(--ink-soft);
+  color: var(--ink);
   margin-top: 10px;
 }
 .ref-summary {

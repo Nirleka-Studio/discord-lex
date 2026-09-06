@@ -2,6 +2,8 @@
   const app = document.getElementById("app");
   let DATA = null;
 
+  const GITHUB_REPO_URL = "https://github.com/Nirleka-Studio/discord-lex";
+
   const STATUS_LABEL = {
     in_force: "In force",
     repealed: "Repealed",
@@ -339,7 +341,7 @@
         : "";
 
     const bodyHtml = renderLawMarkdown(selected.content || "");
-
+    
     app.innerHTML = `
       <a class="back-link" href="#/">← Back to registry</a>
       <div class="law-layout">
@@ -353,7 +355,15 @@
               <div class="info-row mono"><dt>Last amended</dt><dd>${fmtDate(law.last_amended)}</dd></div>
               <div class="info-row"><dt>Authority</dt><dd>${law.authority || "—"}</dd></div>
               <div class="info-row mono"><dt>Viewing version</dt><dd>${selected.version || "—"}</dd></div>
-              ${law.repeals ? `<div class="info-row"><dt>Repeals</dt><dd><a href="${lawUrl(law.repeals)}">${law.repeals}</a></dd></div>` : ""}
+              <div class="info-row mono">
+                <dt>Current source</dt>
+                <dd>
+                  <a href="${GITHUB_REPO_URL}/blob/${selected.commit || "main"}/${law.path || `laws/${law.id}.md`}" target="_blank" rel="noopener noreferrer">
+                    ${selected.commit ? selected.commit.slice(0, 7) : "View file"} ↗
+                  </a>
+                </dd>
+              </div>
+${law.repeals ? `<div class="info-row"><dt>Repeals</dt><dd><a href="${lawUrl(law.repeals)}">${law.repeals}</a></dd></div>` : ""}
               ${law.superseded_by ? `<div class="info-row"><dt>Superseded by</dt><dd><a href="${lawUrl(law.superseded_by)}">${law.superseded_by}</a></dd></div>` : ""}
             </dl>
           </div>
