@@ -23,15 +23,15 @@ in an attempt to maintain a unified and civil Discord server as apparently simpl
 
 to both establish rights for all members, constraining their so-called freedom under law to prevent « dickish behaviours »,
 
-to both give power to the Administrators to enforce the law and restrict their profound ego,
+and to give power to the Administrators to enforce the law and restrict their profound ego,
 
 to assert that all persons are equally worthless, made by the hands of a single Creator,
 
-to maintain unity across all members, and shall they continue to discuss and do their non-degenerate niches,
+to maintain unity across all members, and so that they may continue to discuss and pursue their non-degenerate niches,
 
-while mutually recognising each-other that their differences do not mean for shit in the eyes of The Cat,
+while mutually recognising that their differences do not mean shit in the eyes of The Cat,
 
-and recognising that a mere Discord server with full democracy is simply impossible due to the nature of a Discord server,
+and recognising a full democracy is simply impossible due to the nature of a Discord server,
 
 decrees:
 
@@ -45,7 +45,7 @@ decrees:
 The Director is the owner of the Nirleka Studios Discord Server.
 
 #### Art. 2 Aims
-<sup>1</sup> The Server is a place for persons to discuss, share, and practice some various broad and niche topics.
+<sup>1</sup> The Server is a place for persons to discuss, share, and practice various broad and niche topics.
 
 <sup>2</sup> It must promote a common ground and unity among members.
 
@@ -66,7 +66,7 @@ The official language of the Server is British English.
 #### Art. 5 Equality before the Law
 <sup>1</sup> Every person is equal before the law.
 
-<sup>2</sup> A person's natural characteristics, personal identity, beliefs, and sexual orientation are in no interest of the Server.
+<sup>2</sup> A person's natural characteristics, personal identity, beliefs, and sexual orientation are of no interest of the Server.
 
 #### Art. 6 Principle of Legality
 <sup>1</sup> A member must not be punished for an act that was not a violation under established law at the time it was committed.
@@ -186,13 +186,13 @@ c. review appeals and void invalid administrative actions.
 <sup>3</sup> The election procedure:\
 a. one week before the election, the Secretary must compile a list of eligible candidates who consent to run;\
 b. the Secretary must publish a server-wide poll lasting 3 days;\
-c. members may vote for up to two 2 candidates.
+c. members may vote for up to 2 candidates.
 
 <sup>4</sup> Candidates receiving a majority of cast votes is to be appointed as Lance Administrators.
 
-<sup>5</sup> If there are no Lance Administrators left in the Administration, the Secretary may call an emergency election within 24 hours lasting 24 hours.
+<sup>5</sup> If there are no Lance Administrators left in the Administration, the Secretary may call an emergency election within 24 hours, lasting for a duration of 24 hours.
 
-<sup>6</sup> If the Server has no members eligible to be Lance Administrators, the Administration may hold the 6-week timer until eligible members are available.
+<sup>6</sup> If the Server has no members eligible to be Lance Administrators, the Administration may pause the 6-week timer until eligible members are available.
 
 ---
 
@@ -203,7 +203,7 @@ c. members may vote for up to two 2 candidates.
 
 <sup>2</sup> To initiate a referendum, a petition must be submitted to the Secretary containing signatures of at least 15% of active members.
 
-<sup>3</sup> Upon validating the petition, the Secretary must issue a poll lasting 6 days within 24 hours. Sitting Executive members and their appointees may not vote.
+<sup>3</sup> Upon validating the petition, the Secretary must, within 24 hours, issue a poll lasting 6 days. Sitting Executive members and their appointees may not vote.
 
 <sup>4</sup> The motion passes if:\
 a. a two-thirds (66% + 1) majority of cast votes favour removal; and\
@@ -238,15 +238,15 @@ b. with the options: *Yes*, *No*, and *Abstain*.
 #### Art. 20 Supremacy of the Charter
 <sup>1</sup> This Charter is the primary governing law of the server.
 
-<sup>2</sup> Any lower laws, codes, executive decision, or channel rule that conflicts with this Charter is invalid and unenforceable.
+<sup>2</sup> Any lower laws, executive decisions, or channel rules that conflicts with this Charter is invalid and unenforceable.
 
 #### Art. 21 Amendments
-<sup>1</sup> The Director has the power to unilaterally modify all laws governing this server.[^1]
+<sup>1</sup> The Director retains the power to unilaterally enact, amend, or repeal any law or regulation governing this server.[^1]
 
-<sup>2</sup> All amendments and passing of laws and regulations must be publicly announced.
+<sup>2</sup> All amendments and newly enacted laws and regulations must be publicly announced.
 
 #### Art. 22 Powers of the Director
 The Director may exercise powers not restricted by law.
 
 
-[^1]: Adopted based on a majority vote on 19 June 2026 (Ref. No. 0), in force since 30 May 2023.
+[^1]: Adopted based on a majority vote on 19 June 2026 (Ref. No. 0), technically in force since 30 May 2023.
