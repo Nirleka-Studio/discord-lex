@@ -472,3 +472,36 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   .ref-bar-row { grid-template-columns: 1fr; gap: 4px; }
   .ref-bar-value { text-align: left; }
 }
+
+mark.search-highlight {
+  background-color: #fef08a;
+  color: #854d0e;
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.search-bar-container .registry-search {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+.search-count {
+  font-size: 0.85rem;
+  color: #64748b;
+  white-space: nowrap;
+}
+
+.search-snippet {
+  font-size: 0.85rem;
+  color: #64748b;
+  margin-top: 4px;
+  font-weight: normal;
+  line-height: 1.4;
+}

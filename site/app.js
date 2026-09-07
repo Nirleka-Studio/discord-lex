@@ -144,6 +144,22 @@
     return `<ol class="law-list" type="${type}">${items}</ol>`;
   }
 
+  function stripMarkdown(md) {
+    if (!md) return "";
+    return md
+        .replace(/#+\s+/g, "")       // Headings
+        .replace(/[*_~`]/g, "")      // Bold/Italics/Code
+        .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1") // Links
+        .replace(/<[^>]*>/g, "");    // HTML tags
+  }
+  
+  function highlightMatches(text, query) {
+    if (!text || !query) return text || "";
+    const escaped = query.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    const regex = new RegExp(`(${escaped})`, "gi");
+    return text.replace(regex, "<mark class=\"search-highlight\">$1</mark>");
+  }
+
   // A trailing "\" at the very end of a line is a GitHub-only device to force
   // a line break there; it should never be visible in our own renderer. Strip
   // it before anything else so it can't leak through as a literal backslash
@@ -259,29 +275,80 @@
   function renderRegistry(filterText = "") {
     const q = filterText.trim().toLowerCase();
     const srLaws = DATA.laws.filter((l) => l.kind === "sr");
-    const byCategory = {};
+
+    const scoredLaws = [];
+
     for (const law of srLaws) {
-      if (q && !(law.title.toLowerCase().includes(q) || law.id.toLowerCase().includes(q) || (law.abbreviation || "").toLowerCase().includes(q))) {
+      if (!q) {
+        scoredLaws.push({ law, score: 1, snippet: null });
         continue;
       }
-      (byCategory[law.category] = byCategory[law.category] || []).push(law);
+
+      const id = law.id.toLowerCase();
+      const title = law.title.toLowerCase();
+      const abbr = (law.abbreviation || "").toLowerCase();
+      const category = (law.category || "").toLowerCase();
+      const authority = (law.authority || "").toLowerCase();
+      const plainContent = stripMarkdown(law.content).toLowerCase();
+
+      let score = 0;
+      let snippet = null;
+
+      // Relevance Scoring Model
+      if (id === q) score += 100;
+      if (abbr === q) score += 90;
+      if (title.includes(q)) score += 50;
+      if (id.includes(q)) score += 40;
+      if (abbr.includes(q)) score += 30;
+      if (category.includes(q) || authority.includes(q)) score += 20;
+
+      // Content Search & Snippet Extraction
+      const contentIdx = plainContent.indexOf(q);
+      if (contentIdx !== -1) {
+        score += 10;
+        const start = Math.max(0, contentIdx - 40);
+        const end = Math.min(plainContent.length, contentIdx + q.length + 60);
+        const rawSnippet = (start > 0 ? "…" : "") + plainContent.slice(start, end) + (end < plainContent.length ? "…" : "");
+        snippet = highlightMatches(rawSnippet, q);
+      }
+
+      if (score > 0) {
+        scoredLaws.push({ law, score, snippet });
+      }
+    }
+
+    // Sort by Relevance Score descending, then SR ID
+    scoredLaws.sort((a, b) => b.score - a.score || (a.law.id > b.law.id ? 1 : -1));
+
+    // Group matching laws by Category
+    const byCategory = {};
+    for (const item of scoredLaws) {
+      (byCategory[item.law.category] = byCategory[item.law.category] || []).push(item);
     }
 
     const blocks = DATA.categories
         .filter((c) => byCategory[c] && byCategory[c].length)
         .map((cat) => {
           const rows = byCategory[cat]
-              .sort((a, b) => (a.id > b.id ? 1 : -1))
-              .map(
-                  (law) => `
-          <div class="registry-row">
-            <span class="reg-id">${law.id}</span>
-            <span class="reg-title"><a href="${lawUrl(law.id)}">${law.title}</a>${law.abbreviation ? `<span class="abbr">(${law.abbreviation})</span>` : ""}</span>
-            <span class="reg-version">v${law.version || "—"}</span>
-            <span class="reg-date">${fmtDate(law.last_amended)}</span>
-          </div>`
-              )
+              .map(({ law, snippet }) => {
+                const highlightedTitle = q ? highlightMatches(law.title, q) : law.title;
+                const highlightedId = q ? highlightMatches(law.id, q) : law.id;
+                const highlightedAbbr = law.abbreviation ? (q ? highlightMatches(law.abbreviation, q) : law.abbreviation) : null;
+
+                return `
+            <div class="registry-row">
+              <span class="reg-id">${highlightedId}</span>
+              <span class="reg-title">
+                <a href="${lawUrl(law.id)}">${highlightedTitle}</a>
+                ${highlightedAbbr ? `<span class="abbr">(${highlightedAbbr})</span>` : ""}
+                ${snippet ? `<div class="search-snippet">${snippet}</div>` : ""}
+              </span>
+              <span class="reg-version">v${law.version || "—"}</span>
+              <span class="reg-date">${fmtDate(law.last_amended)}</span>
+            </div>`;
+              })
               .join("");
+
           return `
         <section class="category-block">
           <h2 class="category-heading">${cat}</h2>
@@ -292,15 +359,26 @@
         .join("");
 
     app.innerHTML = `
-      <input class="registry-search" type="search" placeholder="Search laws by title, SR number, or abbreviation…" value="${filterText}" />
+      <div class="search-bar-container">
+        <input class="registry-search" type="search" placeholder="Search laws by title, ID, abbreviation, or body text…" value="${filterText}" />
+        ${q ? `<span class="search-count">${scoredLaws.length} result${scoredLaws.length === 1 ? "" : "s"} found</span>` : ""}
+      </div>
       ${blocks || `<p class="empty-state">No laws match “${filterText}”.</p>`}
     `;
 
-    app.querySelector(".registry-search").addEventListener("input", (e) => {
-      renderRegistry(e.target.value);
+    const searchInput = app.querySelector(".registry-search");
+
+    // Debounced listener to keep search smooth when checking body text
+    let timeout = null;
+    searchInput.addEventListener("input", (e) => {
+      clearTimeout(timeout);
+      timeout = setTimeout(() => {
+        renderRegistry(e.target.value);
+      }, 150);
     });
-    app.querySelector(".registry-search").focus();
-    app.querySelector(".registry-search").setSelectionRange(filterText.length, filterText.length);
+
+    searchInput.focus();
+    searchInput.setSelectionRange(filterText.length, filterText.length);
   }
 
   function renderLaw(id, anchor, versionIndex) {
