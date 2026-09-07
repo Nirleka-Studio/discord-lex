@@ -194,11 +194,11 @@ Example: `The Head Administrator and the Director jointly hold the power to diss
 ### Art. 16 Prohibited collocations
 <sup>1</sup> The following phrasings must not be used. The listed alternative must be used instead.
 
-| Prohibited | Required |
-|---|---|
-| `in accordance to` | `in accordance with` |
-| `rests to [Role]` | `rests with [Role]` |
-| `includes but not limited to` | `includes, but is not limited to,` |
+| Prohibited                       | Required                           |
+|----------------------------------|------------------------------------|
+| `in accordance to`               | `in accordance with`               |
+| `rests to [Role]`                | `rests with [Role]`                |
+| `includes but not limited to`    | `includes, but is not limited to,` |
 | `includes but not is limited to` | `includes, but is not limited to,` |
 
 <sup>2</sup> Art. 7 (Definitions) is amended: every use of the phrase in paragraph 1 must be written identically, word-for-word, every time it appears. No variant spelling or word order is permitted.
