@@ -41,7 +41,7 @@ a. *interaction* means any communication or interaction between members, regardl
 
 b. *media* means any content or visual/auditory that can be perceived, accessed, or viewed by another member.
 
-c. *personal information* means any information relating to an identified or identifiable natural person. This includes but not is limited to someone's age, legal name, and home address.
+c. *personal information* means any information relating to an identified or identifiable natural person. This includes but is not limited to someone's age, legal name, and home address.
 
 d. *to depict* means to represent, portray, or convey through visual, textual, auditory, roleplayed, or linked means, a person, act, or scenario in a manner that a reasonable member would recognise as representing that person, act, or scenario. This includes but is not limited to:
   1. images, videos, GIFs, or other visual media;
@@ -73,7 +73,7 @@ g. *a minor* means a person below the age of 18, whether by fact or claim.
 <sup>3</sup> A ban imposed under this article must be for a duration of no less than 6 months. The ban is deemed permanent unless the Secretary explicitly specifies a shorter duration at the time of enforcement.
 
 #### Art. 4c Penalty decay
-<sup>1</sup> A member’s progression on a punishment ladder resets to the first offence if they commit no further violations of that specific article for a continuous period of 90 days.
+<sup>1</sup> A member's progression on a punishment ladder resets to the first offence if they commit no further violations of that specific article for a continuous period of 90 days.
 
 <sup>2</sup> The 90-day decay period defined in paragraph 1 pauses for the duration of any active timeout or banishment, resuming only upon the penalty's conclusion.
 
@@ -82,9 +82,9 @@ a. offences under section 3;
 b. offences under section 5; or
 c. any provision where the prescribed penalty is an immediate ban.
 
-<sup>4</sup> The 90-day decay defined in paragraph 1 applies exclusively to incomplete ladders. Once a member reaches the final penalty of an applicable ladder, or incurs a kick under this article, the decay timer for that offence is permanently nullified. Kicks accumulated under this article do not expire, and all future violations of that specific Article will directly trigger this article.
+<sup>4</sup> The 90-day decay defined in paragraph 1 applies exclusively to incomplete ladders. Once a member reaches the final penalty of an applicable ladder, or incurs a kick under this article, the decay timer for that offence is permanently nullified. Kicks accumulated under this article do not expire, and all future violations of that specific article will directly trigger this article.
 
-<sup>5</sup> A member whose record is locked under paragraph 4 may only have their ladder and this article kick-count reset via an explicit pardon from the Secretary, which may only be granted after a minimum of 1 year (365 days) without a single penal infraction of any kind.
+<sup>5</sup> A member whose record is locked under paragraph 4 may only have their ladder and this article's kick-count reset via an explicit pardon from the Secretary, which may only be granted after a minimum of 1 year (365 days) without a single penal infraction of any kind.
 
 ## Chapter 2: Specific Provisions
 
@@ -99,13 +99,13 @@ b. with the intent to annoy, disturb, or harass.
 
 <sup>2</sup> Committing ping abuse incurs:
 a. a 5-minute timeout on the first offence;
-b. subsequent offences or more raises the duration in minutes by multiplying the last time out duration by 2;
-c. if they persist after their timeout with the duration of 1 week or more, they must be kicked.
+b. the second and every subsequent offence raises the duration, in minutes, by multiplying the last timeout duration by 2;
+c. if a member persists after receiving a timeout of 1 week or more, they must be kicked.
 
 #### Art. 6 Unsolicited spamming
 <sup>1</sup> A member commits unsolicited spamming if the spamming:
-a. disrupts anyone’s ongoing conversation in the channel(s) being spammed; or
-b. clogs a channel with meaningless or repeated content
+a. disrupts anyone's ongoing conversation in the channel(s) being spammed; or
+b. clogs a channel with meaningless or repeated content.
 
 <sup>2</sup> Committing unsolicited spamming incurs:
 a. a warning on the first offence;
@@ -132,16 +132,16 @@ d. a kick on the fourth offence.
 ### Section 2: Accounts and Identity
 
 #### Art. 8 Personal information
-<sup>1</sup> Members must not share any documents containing personally identifiable information.
+<sup>1</sup> Members must not share any documents containing personal information.
 
-<sup>2</sup> Such information defined in paragraph 1 must be deleted immediately, including from any moderation logs.
+<sup>2</sup> The information defined in paragraph 1 must be deleted immediately, including from any moderation logs.
 
-<sup>3</sup> Any user who shares any personal information of another individual without the individual's consent must be banned immediately.
+<sup>3</sup> A member who shares any personal information of another individual without the individual's consent must be banned immediately.
 
 #### Art. 9 Impersonation
 <sup>1</sup> A member commits an impersonation violation if they have the intent to:
 a. deceive or mislead others into believing they are another natural individual; or
-b. making false claims about that individual.
+b. make false claims about that individual.
 
 <sup>2</sup> A member who commits an impersonation violation incurs:
 a. a warning on the first offence; and
@@ -153,7 +153,7 @@ b. a kick on the second offence.
 <sup>2</sup> Committing an alternative account violation incurs an immediate permanent ban for the alternative account and all associated accounts of the member.
 
 #### Art. 10a Bypassing punishments
-<sup>1</sup> A member commits a punishment bypass violation if they use any method to evade on any restrictions or punishments imposed on them or their account, including but not limited to:
+<sup>1</sup> A member commits a punishment bypass violation if they use any method to evade any restrictions or punishments imposed on them or their account, including but not limited to:
 a. joining or using an alternative account, secondary account, or shared account;
 b. using a VPN, proxy, or altered identity to re-enter the Server after a kick or ban; or
 c. relying on or coordinating with another member to send messages, post content, or act on their behalf during an active penalty.
@@ -169,7 +169,7 @@ b. an immediate permanent ban for any secondary or alternative account used to f
 #### Art. 11 Removal of contents
 <sup>1</sup> Administrators must immediately delete any of the contents defined in all Articles under Section 3 that constitutes a violation.
 
-<sup>2</sup> Where the violating content is not directly deletable by an Administrator (e.g. member profile pictures, banners, description), they must instead require the member to remove or change the content.
+<sup>2</sup> Where the violating content is not directly deletable by an Administrator (e.g. member profile pictures, banners, descriptions), they must instead require the member to remove or change the content.
 
 <sup>3</sup> For profile contents depicting sexual contents, realistic gore, or other distressing contents, the member must be kicked immediately. An Administrator must then DM them stating the specific content and provision violated, and order its removal or change. Recurrence of contents violating the same provision, regardless of superficial differences, must be treated as a continued violation.
 
@@ -182,7 +182,7 @@ b. an immediate permanent ban for any secondary or alternative account used to f
 
 <sup>2</sup> Sharing links, drive folders, or external repositories that directly host or lead to malicious files or phishing pages is treated identically to direct file uploads and has the same punishment defined in paragraph 1.
 
-<sup>3</sup> A member who shares files or attachments that are not necessarily harmful but cause temporary disruptions such as temporarily corrupting the rendering of the Discord application incurs:
+<sup>3</sup> A member who shares files or attachments that are not necessarily harmful but cause temporary disruptions such as corrupting the rendering of the Discord application incurs:
 a. a warning on the first offence;
 b. a 24-hour timeout on the second offence;
 c. a 48-hour timeout on the third offence;
@@ -192,16 +192,16 @@ e. a kick on the fifth offence.
 #### Art. 13 Non-consensual romantic pairings
 <sup>1</sup> A member commits a ship if they pair or depict real individuals of the Server in romantic or sexual contexts in any media or interaction, without prior explicit consent from all parties depicted.
 
-<sup>2</sup> Members commiting shipping incurs:
+<sup>2</sup> A member who commits shipping incurs:
 a. a 24-hour timeout on the first offence; and
 b. a kick on the second offence.
 
 <sup>3</sup> Such contents must be removed upon request by any individuals depicted.
 
 #### Art. 14 Forced feminisation and grooming[^1]
-<sup>1</sup> Members are prohibited from instructing, coercing, or persistently "encouraging" other members to don specific garments, adopt specific personas, or engage in behaviours that are recognised as elements of sexual roleplay, psychological fetishes, or sexual submissiveness. 
+<sup>1</sup> Members are prohibited from instructing, coercing, or persistently "encouraging" other members to don specific garments, adopt specific personas, or engage in behaviours that are recognised as elements of sexual roleplay, psychological fetishes, or sexual submissiveness.
 
-<sup>2</sup> The non-consensual application of behaviours defined in paragraph 1 onto other members incurs:
+<sup>2</sup> The non-consensual application of behaviours defined in paragraph 1 to other members incurs:
 a. a 12-hour timeout on the first offence;
 b. a kick on the second offence; and
 c. a ban on the third offence.
@@ -217,7 +217,7 @@ b. engage in persistent, unwanted sexual propositions after receiving an explici
 a. a 1-week timeout for the first offence; and
 b. a ban for the second offence.
 
-<sup>3</sup> Where the target of the unsolicited request is a minor, the target claims they are a minor, or where the request involves explicit content depicting a minor, paragraph 2 does not apply, and the member is subject to an immediate and permanent ban.
+<sup>3</sup> Where the target of the unsolicited request is a minor, or the target claims they are a minor, or the request involves explicit content depicting a minor, paragraph 2 does not apply, and the member is subject to an immediate and permanent ban.
 
 <sup>4</sup> The provisions of this article apply equally to conduct occurring outside the Server.
 
@@ -232,38 +232,38 @@ e. content fetishising this imagery.
 <sup>2</sup> Violations of paragraph 1 incurs a permanent ban.
 
 <sup>3</sup> The following does not constitute a violation if the sender is using a spoiler tag or in a dedicated NSFW channel:
-a. media that depict surgical operations in a clinical context;
+a. media that depicts surgical operations in a clinical context;
 b. war photos and footage; and
 c. arts depicting violence and blood.
 
 #### Art. 16 Sexual and suggestive media and interactions
 <sup>1</sup> Not Safe for Work (NSFW) means anything which includes media or interactions, that is reasonably considered inappropriate, explicit, or intrusive to be viewed, heard, or engaged with in public spaces, workplaces, or shared social and domestic environments.
 
-<sup>2</sup> Members interacting in a way that depicts or implies an explicit sexual act incurs:
+<sup>2</sup> A member who interacts in a way that depicts or implies an explicit sexual act incurs:
 a. a warning on the first offence;
 b. a 2-hour timeout on the second offence;
 c. a 4-hour timeout on the third offence; and
 d. a kick on the fourth offence.
 
-<sup>3</sup> Members discussing sexual acts, preferences or characters or persons in any channel not designated for NSFW contents, incurs:
+<sup>3</sup> A member who discusses sexual acts, preferences, characters, or persons in any channel not designated for NSFW contents incurs:
 a. a warning on the first offence to move their discussion to a designated channel for NSFW contents;
 b. a 2-hour timeout on their second offence for failure to move their discussion;
 c. a 12-hour timeout on their third offence; and
 d. a kick on the fourth offence.
 
-<sup>3a</sup> Members discussing the size, girth, dimensions, or other measurements or qualities of genitalia or sexual anatomy, whether their own, another member's, or hypothetical, outside a designated NSFW channel, incurs the same punishment ladder as paragraph 3.
+<sup>3a</sup> A member who discusses the size, girth, dimensions, or other measurements or qualities of genitalia or sexual anatomy, whether their own, another member's, or hypothetical, outside a designated NSFW channel, incurs the same punishment ladder as paragraph 3.
 
-<sup>4</sup> Members depicting specific gestures, facial expressions, or movements that is otherwise only made during or to represent sexual acts, incurs:
+<sup>4</sup> A member who depicts specific gestures, facial expressions, or movements that are otherwise only made during, or to represent, sexual acts incurs:
 a. a warning on the first offence;
 b. a 4-hour timeout on the second through fourth offences; and
 c. a kick on the fifth offence.
 
-<sup>5</sup> Depictions of explicit sexual acts and adult novelties incurs:
+<sup>5</sup> Depictions of explicit sexual acts and adult novelties incur:
 a. a 1-week timeout on the first offence;
 b. a kick on the second offence; and
 c. a ban on the third offence.
 
-<sup>5a</sup> Depictions of plain nudity without sexual acts or suggestions outside designated NSFW channels incurs:
+<sup>5a</sup> Depictions of plain nudity without sexual acts or suggestions outside designated NSFW channels incur:
 a. a warning on the first offence;
 b. a 24-hour timeout on the second offence;
 c. a 1-week timeout on the third offence; and
@@ -289,7 +289,7 @@ b. 1-hour timeout on the second offence;
 c. 1-day timeout on the third offence; and
 d. a kick on the fourth violation.
 
-<sup>9</sup> Members must not depict any media where the main content or major portions of it is depictions of suggestive closeups of specific body parts including:
+<sup>9</sup> Members must not depict any media where the main content or major portions of it are depictions of suggestive closeups of specific body parts including:
 a. buttocks;
 b. feet;
 c. armpits;
@@ -306,7 +306,7 @@ d. a 1-week timeout on the fourth offence; and
 e. a kick on the fifth offence.
 
 #### Art. 16a Associated accounts
-<sup>1</sup> A member who shares, associates with, has a linked account on their profile, or maintains an account of their same name is subject to this article if it contains or is associated with:
+<sup>1</sup> A member who shares, associates with, has a linked account on their profile, or maintains an account of the same name is subject to this article if it contains or is associated with:
 a. pornographic content;
 b. fetish contents; or
 c. gore or violent contents.
@@ -316,21 +316,21 @@ a. a warning on the first offence to remove such content;
 b. a kick on the second offence; and
 c. a ban on the third offence.
 
-<sup>3</sup> A member who does the following must be treated as a continued violation:
-a. refuses to delete the sharing of the account;
-b. refuses to unlink the account from their profile;
-c. refuses to remove such contents from such account; or
-d. refuses to delete the account.
+<sup>3</sup> A member is in continued violation if they:
+a. refuse to delete the sharing of the account;
+b. refuse to unlink the account from their profile;
+c. refuse to remove such contents from such account; or
+d. refuse to delete the account.
 
 #### Art. 16b Profiles
-<sup>1</sup> Any elements of a user's profile that can be viewed by another person are subject to the provisions of this article. This includes but is not limited to:
+<sup>1</sup> Any elements of a member's profile that can be viewed by another person are subject to the provisions of this article. This includes but is not limited to:
 a. username;
 b. profile picture;
 c. banner;
 d. "pronoun" text; and
 e. description / bio text.
 
-<sup>2</sup> Elements of a user's profile must not contain:
+<sup>2</sup> Elements of a member's profile must not contain:
 a. any explicit sexual or suggestive depictions or implications; or
 b. any gory or violent content.
 
@@ -342,12 +342,12 @@ b. any gory or violent content.
 a. a kick on the first offence; and
 b. a ban on the second offence.
 
-<sup>6</sup> Paragraph 5 does not apply for texts.
+<sup>6</sup> Paragraph 5 does not apply to texts.
 
 <sup>7</sup> The procedures outlined in Art. 11 must be followed.
 
 #### Art. 16c Text in profiles
-<sup>1</sup> Any visible writing on a user's profile is subject to the provisions of this article.
+<sup>1</sup> Any visible writing on a member's profile is subject to the provisions of this article.
 
 <sup>2</sup> Profile texts must not depict:
 a. explicit sexual acts;
@@ -365,7 +365,7 @@ a. a warning on the first offence to remove such content;
 b. a kick on the second offence; and
 c. a ban on the third offence.
 
-<sup>4</sup> A member is in continuous violation if they:
+<sup>4</sup> A member is in continued violation if they:
 a. refuse to delete the text; or
 b. refuse to edit the text to be lawful.
 
@@ -377,14 +377,14 @@ b. refuse to edit the text to be lawful.
 The incitement, endorsement, or encouragement to commit a violation of law, or to disrupt or threaten the order, peace, and unity of the Server incurs a punishment no less than a 1-week timeout and a 6000₣ fine.
 
 #### Art. 18 Tiresome behaviours
-<sup>1</sup> A member who explicitly disrespects against the death of another member's friend, family member, pet, or significant other, incurs:
+<sup>1</sup> A member who explicitly disrespects the death of another member's friend, family member, pet, or significant other incurs:
 a. a warning on the first offence;
 b. a 1-week timeout on the second offence; and
 c. 2-week Banishment to the Void on the third offence.
 
 <sup>2</sup> Upon request of the victim, the perpetrator may be released early from the Void.
 
-<sup>3</sup> A member who insults, demeans, or asserts superiority against another natural person, or group based on their natural physical traits, sexual orientation, or religious beliefs incurs:
+<sup>3</sup> A member who insults, demeans, or asserts superiority over another natural person or group, based on their natural physical traits, sexual orientation, or religious beliefs, incurs:
 a. a warning on the first offence;
 b. a 24-hour timeout on the second offence;
 c. a 1-week timeout on the third offence;
@@ -392,7 +392,7 @@ d. a kick on the fourth offence; and
 e. a ban on the fifth offence.
 
 #### Art. 19 Violent behaviours
-<sup>1</sup> A member who commits, advocates, threatens violence, leak of personal identifiable information, or death against a natural person or group incurs:
+<sup>1</sup> A member who commits, advocates, or threatens violence, the leaking of personal information, or death against a natural person or group incurs:
 a. a 1-week timeout on the first offence; and
 b. a ban on the second offence.
 
@@ -405,13 +405,13 @@ a. a 1-week timeout on the first offence; and
 b. a ban on the second offence.
 
 #### Art. 20 Slurs
-<sup>1</sup> The use of slurs must be deleted if possible and the user incurs:
+<sup>1</sup> Slurs must be deleted where possible, and the member incurs:
 a. a warning on the first offence;
 b. a 48-hour timeout on the second offence;
 c. a 1-week timeout on the third offence;
 d. a kick on the fourth offence.
 
-<sup>2</sup> The following use of slurs are exempt from paragraph 1 if it is not personally directed or to make a remark of another person and a reasonable person may interpret the context as humorous or banter:
+<sup>2</sup> The following uses of slurs are exempt from paragraph 1 if they are not personally directed at, or made to remark on, another person, and a reasonable person may interpret the context as humorous or banter:
 a. *retard* / *retarded*; and
 b. reclaimed slurs such as *nigga*.
 
