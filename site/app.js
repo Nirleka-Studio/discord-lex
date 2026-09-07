@@ -463,12 +463,23 @@ ${law.repeals ? `<div class="info-row"><dt>Repeals</dt><dd><a href="${lawUrl(law
   function route() {
     const hash = location.hash || "#/";
     const lawMatch = hash.match(/^#\/law\/([^/]+)(?:\/(.+))?$/);
+
     if (lawMatch) {
-      return renderLaw(
-          decodeURIComponent(lawMatch[1]),
-          lawMatch[2] ? decodeURIComponent(lawMatch[2]) : null
-      );
+      const lawId = decodeURIComponent(lawMatch[1]);
+      const anchor = lawMatch[2] ? decodeURIComponent(lawMatch[2]) : null;
+
+      renderLaw(lawId, anchor);
+
+      // Only force scroll to top if we aren't jumping to a specific section anchor
+      if (!anchor) {
+        window.scrollTo(0, 0);
+      }
+      return;
     }
+
+    // Scroll to top for all standard views
+    window.scrollTo(0, 0);
+
     if (hash === "#/archive") return renderArchive();
     if (hash === "#/referendums") return renderReferendums();
     return renderRegistry();
