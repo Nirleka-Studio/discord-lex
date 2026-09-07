@@ -1,10 +1,15 @@
 ---
-archive_id: "200"
-name: "1.1 Lance Administration Reformation Act"
-creation_date: "08-03-2026"
-last_edited_date: "08-03-2026"
-file_version: "08-03-2026"
-repealed_date: "03-04-2026"
+repealed_date: "2026-04-03"
+sr_id: "ARCH 200"
+title: "1.1 Lance Administration Reformation Act"
+abbreviation: "Lance Administration Reformation Act"
+version: "N/A"
+category: "N/A"
+status: "superseded"          # in_force | repealed | superseded | pending
+enacted_date: "2026-08-03"
+last_amended: "2026-08-03"
+authority: "The Director"
+superseded_by: "SR 410"
 ---
 
 # ARCHIVE 200 – 1.1 Lance Administration Reformation Act

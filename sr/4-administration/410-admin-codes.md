@@ -7,6 +7,7 @@ category: "Administration"
 enacted_date: "2026-08-12"
 last_amended: "2026-08-31"
 authority: "The Director"
+repeals: "ARCH 400"
 ---
 
 # SR 410 — Administration Codes Compilations

@@ -6,6 +6,7 @@ version: "1.1.0"
 category: "Constitutional Law"
 enacted_date: "2026-08-13"
 last_amended: "2026-08-30"
+status: "repealed"
 authority: "The Director"
 ---
 

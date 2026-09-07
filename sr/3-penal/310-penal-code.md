@@ -7,6 +7,7 @@ category: "Penal Law"
 enacted_date: "2026-08-11"
 last_amended: "2026-09-06"
 authority: "The Director"
+repeals: "ARCH 300"
 ---
 
 # SR 310 — Penal Code

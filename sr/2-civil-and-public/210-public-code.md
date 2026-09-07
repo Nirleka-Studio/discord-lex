@@ -7,6 +7,7 @@ category: "Civil and Public Law"
 enacted_date: "2026-08-12"
 last_amended: "2026-08-29"
 authority: "The Director"
+repeals: "ARCH 110"
 ---
 
 # SR 210 — Public Code of Member Conduct

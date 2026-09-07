@@ -1,10 +1,15 @@
 ---
-archive_id: "400"
-name: "Administration Codes Compilations"
-creation_date: "26-04-2026"
-last_edited_date: "07-06-2026"
-file_version: "07-06-2026"
-repealed_date: "08-06-2026"
+sr_id: "ARCH 400"
+title: "Administration Codes Compilations"
+abbreviation: "Admin Codes"
+version: "N/A"
+category: "N/A"
+status: "repealed"             # in_force | repealed | superseded | pending
+enacted_date: "2026-04-26"
+last_amended: "2026-06-07"
+repealed_date: "2026-06-08"
+authority: "The Director"
+superseded_by: "SR 410"
 ---
 
 # ARCHIVE 400 – Original Administration Codes

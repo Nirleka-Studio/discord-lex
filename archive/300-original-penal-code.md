@@ -1,10 +1,15 @@
 ---
-archive_id: "300"
-name: "2.1 Penal Code"
-creation_date: "11-04-2026"
-last_edited_date: "05-06-2026"
-file_version: "05-06-2026"
-repealed_date: "05-06-2026"
+sr_id: "ARCH 300"
+title: "2.1 Penal Code"
+abbreviation: "Penal Code"
+version: "N/A"
+category: "N/A"
+status: "repealed"             # in_force | repealed | superseded | pending
+enacted_date: "2026-04-11"
+last_amended: "2026-06-05"
+repealed_date: "2026-06-05"
+authority: "The Director"
+superseded_by: "SR 310"
 ---
 
 # ARCHIVE 300 – Original Penal Code

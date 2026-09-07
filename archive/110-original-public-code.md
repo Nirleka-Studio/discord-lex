@@ -1,10 +1,15 @@
 ---
-archive_id: "110"
-name: "Public Code"
-creation_date: "16-08-2024"
-last_edited_date: "21-12-2024"
-file_version: "21-12-2024"
 repealed_date: "unknown"
+sr_id: "ARCH 110"
+title: "Original Public Code"
+abbreviation: "Public Code"
+version: "N/A"
+category: "N/A"
+status: "superseded"          # in_force | repealed | superseded | pending
+enacted_date: "2024-08-16"
+last_amended: "2024-12-21"
+authority: "The Director"
+superseded_by: "SR 210"
 ---
 
 # ARCHIVE 110 – Original Public Code

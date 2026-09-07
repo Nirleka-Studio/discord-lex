@@ -1,10 +1,15 @@
 ---
-archive_id: "100"
-name: "Original Server Rules"
-creation_date: "30-05-2023"
-last_edited_date: "unknown"
-file_version: "unknown"
-repealed_date: "16-08-2024"
+repealed_date: "2024-08-16"
+sr_id: "ARCH 100"
+title: "Original Server Rules"
+abbreviation: "Server Rules"
+version: "N/A"
+category: "N/A"
+status: "superseded"          # in_force | repealed | superseded | pending
+enacted_date: "2023-05-30"
+last_amended: "2023-12-18"
+authority: "The Director"
+superseded_by: "SR 100"
 ---
 
 # ARCHIVE 100 – Original Server Rules
