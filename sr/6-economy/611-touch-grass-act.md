@@ -1,5 +1,5 @@
 ---
-sr_id: "SR 615"
+sr_id: "SR 611"
 title: "The Touch Grass Act"
 abbreviation: "Touch Grass Act"
 version: "1.0.0"
@@ -9,7 +9,7 @@ last_amended: "2026-08-12"
 authority: "The Director"
 ---
 
-# SR 615 — The Touch Grass Act
+# SR 611 — The Touch Grass Act
 
 > **Enactment Notice:** Enacted in accordance with Chapter 4 of the Server Charter (SR 101), by the Director
 
