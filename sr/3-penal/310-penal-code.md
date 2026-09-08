@@ -2,10 +2,10 @@
 sr_id: "SR 310"
 title: "Penal Code"
 abbreviation: "Penal Code"
-version: "3.3.0"
+version: "3.4.0"
 category: "Penal Law"
 enacted_date: "2026-08-11"
-last_amended: "2026-09-06"
+last_amended: "2026-09-07"
 authority: "The Director"
 repeals: "ARCH 300"
 ---
@@ -20,6 +20,9 @@ repeals: "ARCH 300"
 
 #### Art. 1 No penalty without a law
 A penalty or measure may only be imposed for an act that has been expressly declared to be an offence by law.
+
+#### Art. 1a Prohibition of double jeopardy
+No person who has been convicted or acquitted in the Server by a final legally binding judgment may be prosecuted again for the same offence.
 
 #### Art. 2 Scope
 <sup>1</sup> This Code applies to any offence committed by any member of the Server on or after the date it comes into force.
