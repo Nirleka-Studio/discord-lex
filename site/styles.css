@@ -436,7 +436,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   background: var(--ink);
   transition: width .4s ease;
 }
-.ref-bar-row.winner .ref-bar-fill { background: var(--force); }
+.ref-bar-row.winner .ref-bar-fill { background: var(--force-bg); }
 .ref-bar-row.winner .ref-bar-label { font-weight: 600; }
 .ref-winner-tag {
   font-family: var(--font-mono);
