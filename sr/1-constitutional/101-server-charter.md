@@ -2,7 +2,7 @@
 sr_id: "SR 101"
 title: "Charter of the Nirleka Studios Discord Server"
 abbreviation: "Server Charter"
-version: "2.4.2"
+version: "2.7.2"
 category: "Constitutional Law"
 enacted_date: "2026-08-11"
 last_amended: "2026-09-08"
@@ -99,6 +99,9 @@ b. Child Sexual Abuse Material (CSAM) or severe illegal content, which must be d
 ---
 
 ## Chapter 2: Administration Structure
+
+#### Art. 10a An Administrator
+An Administrator is any member of Administration, including the defined roles in Chapter 2, and their appointed staff.
 
 ### Section 1: Executive Branch
 
@@ -234,7 +237,7 @@ b. with the options: *Yes*, *No*, and *Abstain*.
 
 ---
 
-## Chapter 4: Supremacy and Amendments
+## Chapter 4: Law, Supremacy and Amendments
 
 ### Section 1: Authority and Revisions
 
@@ -248,8 +251,18 @@ b. with the options: *Yes*, *No*, and *Abstain*.
 
 <sup>2</sup> All amendments and newly enacted laws and regulations must be publicly announced.
 
+<sup>3</sup> The Director holds judicial authority.
+
 #### Art. 22 Powers of the Director
 The Director may exercise powers not restricted by law.
 
+### Section 2: Application and Interpretation
 
-[^1]: Adopted based on a majority vote on 19 June 2026 (Ref. No. 0), technically in force since 30 May 2023.
+#### Art. 24 Application of the Law
+<sup>1</sup> The law applies to any legal question it covers, whether by its exact wording or by what that wording means when properly read.
+
+<sup>2</sup> If the law does not cover a question, judicial authority must decide it by applying customary law. If there is no relevant customary law, judicial authority must decide the question as it would if it were the one making the law.
+
+<sup>3</sup> In reaching that decision, judicial authority must take account of established legal writing and previous court decisions.
+
+[^1]: Adopted based on a majority vote on 19 June 2026 (Ref. No. 0), technically in force since 24 September 2022, exercised since 30 May 2023.
