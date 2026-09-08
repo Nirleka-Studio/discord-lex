@@ -1,5 +1,5 @@
 ---
-sr_id: "SR 211"
+sr_id: "SR 220"
 title: "Server Management Code"
 abbreviation: "SMC"
 version: "2.0.0"
@@ -9,7 +9,7 @@ last_amended: "2026-08-31"
 authority: "The Director"
 ---
 
-# SR 211 — Server Management Code
+# SR 220 — Server Management Code
 *(Server Management Code, SMC)*
 
 > **Enactment Notice:** Enacted in accordance with Chapter 4 of the Server Charter (SR 101).
