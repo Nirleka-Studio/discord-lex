@@ -12,7 +12,7 @@ repeals: "ARCH 300"
 
 # SR 310 — Penal Code
 
-> **Enactment Notice:** Enacted in accordance with Chapter 4 of the Server Charter (SR 101). Applies to all Server members and members of administration.
+> **Enactment Notice:** Enacted in accordance with Chapter 4 of the Server Charter (SR 100). Applies to all Server members and members of administration.
 
 ## Chapter 1: General Provisions
 

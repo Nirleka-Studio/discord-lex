@@ -11,7 +11,7 @@ authority: "The Director"
 
 # SR 515 — The Kai-Dokusai and The Server
 
-> **Enactment Notice:** Enacted in accordance with Chapter 4 of the Server Charter (SR 101), by the Director
+> **Enactment Notice:** Enacted in accordance with Chapter 4 of the Server Charter (SR 100), by the Director
 
 ---
 
@@ -32,7 +32,7 @@ does hereby decree:
 The Kai-Dokusai is subordinate to the Dokusai-kun.
 
 #### Art. 2 Under law
-<sup>1</sup> The Kai-Dokusai remains subjected under the Server Charter (SR 101) and its subsequent laws.
+<sup>1</sup> The Kai-Dokusai remains subjected under the Server Charter (SR 100) and its subsequent laws.
 
 ### Section 2: Powers
 
