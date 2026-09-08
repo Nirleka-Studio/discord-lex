@@ -1,18 +1,18 @@
 ---
-sr_id: "SR 100"
+sr_id: "SR 101"
 title: "Charter of the Nirleka Studios Discord Server"
 abbreviation: "Server Charter"
-version: "2.3.2"
+version: "2.4.2"
 category: "Constitutional Law"
 enacted_date: "2026-08-11"
-last_amended: "2026-08-30"
+last_amended: "2026-09-08"
 authority: "The Director"
 ---
 
 # SR 100 — Charter of the Nirleka Studios Discord Server
 *(Server Charter)*
 
-> **Enactment Notice:** Enacted as the primary governing document of the Nirleka Studios Discord Server. All lower codes, regulations, executive decisions, and administrative guidelines derive their authority from this Charter and must comply with its provisions.
+> **Enactment Notice:** Enacted as the primary governing document of the Nirleka Studios Discord Server. All lower laws, executive decisions, and administrative guidelines derive their authority from this Charter and must comply with its provisions.
 
 ## Preamble
 In the name of The Cat!
@@ -74,9 +74,9 @@ The official language of the Server is British English.
 <sup>2</sup> Retroactive enforcement and penalties are prohibited.
 
 #### Art. 7 Due process
-<sup>1</sup> No member may be banned, kicked, or penalised without:\
-a. formal notice specifying the alleged violation;\
-b. an explicit citation of the violated law; and\
+<sup>1</sup> No member may be banned, kicked, or penalised without:
+a. formal notice specifying the alleged violation;
+b. an explicit citation of the violated law; and
 c. an opportunity to submit an appeal.
 
 <sup>2</sup> Temporary actions taken during emergency situations remain subject to review under paragraph 1.
@@ -92,8 +92,8 @@ Every member is presumed innocent. The burden of proof rests on the enforcing au
 #### Art. 10 Data protection and deletion
 <sup>1</sup> User messages and IDs are collected solely for moderation and security purposes.
 
-<sup>2</sup> Administrators must not preserve, and must immediately delete:\
-a. unredacted personal information; and\
+<sup>2</sup> Administrators must not preserve, and must immediately delete:
+a. unredacted personal information; and
 b. Child Sexual Abuse Material (CSAM) or severe illegal content, which must be deleted and reported to Discord Safety.
 
 ---
@@ -105,55 +105,58 @@ b. Child Sexual Abuse Material (CSAM) or severe illegal content, which must be d
 #### Art. 11 Composition and duties
 <sup>1</sup> The Executive Branch is responsible for enforcing Server laws, maintaining order, and managing server operations.
 
-<sup>2</sup> The Executive Branch consists of:\
-a. Lance Administrator;\
-b. Senior Administrator; and\
+<sup>2</sup> The Executive Branch consists of:
+a. Lance Administrator;
+b. Senior Administrator; and
 c. The Head Administrator.
 
 <sup>3</sup> Members of the Executive are bound by this Charter and lower codes, and must not exercise powers beyond those explicitly assigned to their roles.
 
 <sup>4</sup> A member holding a position within the Executive Branch or the Judiciary Branch must not simultaneously hold another position within either branch, unless explicitly authorised by this Charter.
 
+#### Art. 11a Good standing
+No person of bad faith or history of malicious behaviour, abuse, or corruption can be in any position of Administration or Server management.
+
 #### Art. 12 Lance Administrator
 <sup>1</sup> Lance Administrators serve as entry-level moderators.
 
-<sup>2</sup> Lance Administrators have the authority to:\
-a. issue warnings and timeouts under the Penal Code;\
-b. restrict members to designated channels (*Banishment to the Void*);\
-c. delete messages that violate rules; and\
+<sup>2</sup> Lance Administrators have the authority to:
+a. issue warnings and timeouts according to Server laws;
+b. restrict members to designated channels (*Banishment to the Void*);
+c. delete messages that violate rules; and
 d. kick members from the server.
 
-<sup>3</sup> Lance Administrators must not:\
-a. issue permanent bans;\
-b. override decisions of higher administrators; or\
+<sup>3</sup> Lance Administrators must not:
+a. issue permanent bans;
+b. override decisions of higher administrators; or
 c. modify roles outside outlined enforcement procedures.
 
-<sup>4</sup> The number of active Lance Administrators is determined by server population:\
-a. under 40 members: minimum of 1;\
-b. 40 to 99 members: minimum of 2, maximum of 4;\
-c. 100 to 299 members: maximum of 6;\
+<sup>4</sup> The number of active Lance Administrators is determined by server population:
+a. under 40 members: minimum of 1;
+b. 40 to 99 members: minimum of 2, maximum of 4;
+c. 100 to 299 members: maximum of 6;
 d. 300 to 500 members: maximum of 10.
 
 #### Art. 13 Senior Administrator
 <sup>1</sup> Senior Administrators supervise Lance Administrators, manage escalated cases, and enforce compliance within the Executive Branch.
 
-<sup>2</sup> Senior Administrators hold all powers of Lance Administrators, and may:\
-a. issue temporary or permanent bans; and\
+<sup>2</sup> Senior Administrators hold all powers of Lance Administrators, and may:
+a. issue temporary or permanent bans; and
 b. review and reverse decisions made by Lance Administrators.
 
 <sup>3</sup> Senior Administrators must not act on disputes in which they are personally involved or reverse decisions of the Head Administrator.
 
-<sup>4</sup> The maximum number of Senior Administrators is:\
-a. 1 for the first 20 members; and\
+<sup>4</sup> The maximum number of Senior Administrators is:
+a. 1 for the first 20 members; and
 b. 1 additional Senior Administrator for each doubling of total members past 20.
 
 #### Art. 14 Head Administrator
 <sup>1</sup> The Head Administrator is a single position that oversees operations of the Executive Branch.
 
-<sup>2</sup> The Head Administrator has authority to:\
-a. appoint, demote, suspend, or remove Executive Branch members;\
-b. issue executive directives;\
-c. manage server bot integrations, roles, and channel permissions; and\
+<sup>2</sup> The Head Administrator has authority to:
+a. appoint, demote, suspend, or remove Executive Branch members;
+b. issue executive directives;
+c. manage server bot integrations, roles, and channel permissions; and
 d. overturn or uphold any executive moderation decision.
 
 <sup>3</sup> The Head Administrator may be appointed and removed by the Director.
@@ -167,9 +170,9 @@ d. overturn or uphold any executive moderation decision.
 
 <sup>2</sup> The Secretary is responsible for ensuring compliance with the Charter and laws, and serves as the final authority on the legal validity of moderation actions and rule changes.
 
-<sup>3</sup> The Secretary has authority to:\
-a. form judicial or investigative committees within Administration;\
-b. appoint or dissolve members of such committees; and\
+<sup>3</sup> The Secretary has authority to:
+a. form judicial or investigative committees within Administration;
+b. appoint or dissolve members of such committees; and
 c. review appeals and void invalid administrative actions.
 
 ---
@@ -183,9 +186,9 @@ c. review appeals and void invalid administrative actions.
 
 <sup>2</sup> A Lance Administrator who has completed a 6-week term must step down before the vote, unless that administrator is actively managing an unresolved case that the administrator is unable to transfer.
 
-<sup>3</sup> The election procedure:\
-a. one week before the election, the Secretary must compile a list of eligible candidates who consent to run;\
-b. the Secretary must publish a server-wide poll lasting 3 days;\
+<sup>3</sup> The election procedure:
+a. one week before the election, the Secretary must compile a list of eligible candidates who consent to run;
+b. the Secretary must publish a server-wide poll lasting 3 days;
 c. members may vote for up to 2 candidates.
 
 <sup>4</sup> Candidates receiving a majority of cast votes is to be appointed as Lance Administrators.
@@ -205,15 +208,15 @@ c. members may vote for up to 2 candidates.
 
 <sup>3</sup> Upon validating the petition, the Secretary must, within 24 hours, issue a poll lasting 6 days. Sitting Executive members and their appointees may not vote.
 
-<sup>4</sup> The motion passes if:\
-a. a two-thirds (66% + 1) majority of cast votes favour removal; and\
+<sup>4</sup> The motion passes if:
+a. a two-thirds (66% + 1) majority of cast votes favour removal; and
 b. a minimum voter quorum of 25% of active members is met.
 
 <sup>5</sup> If a motion fails, a 30-day cooldown period applies before another petition may be submitted.
 
 #### Art. 18 Caretaker administration
-<sup>1</sup> Upon passage of a Vote of No Confidence:\
-a. all Executive Branch members are removed from their positions and lose administrative permissions;\
+<sup>1</sup> Upon passage of a Vote of No Confidence:
+a. all Executive Branch members are removed from their positions and lose administrative permissions;
 b. the Secretary assumes the position of Caretaker Administrator.
 
 <sup>2</sup> The Caretaker Administrator has authority only to maintain basic security and delete severe violations (such as illegal content), and must not issue permanent bans, modify roles, or change server settings.
@@ -223,8 +226,8 @@ b. the Secretary assumes the position of Caretaker Administrator.
 #### Art. 19 Individual impeachment
 <sup>1</sup> Members may petition for the impeachment of an Administrator accused of misconduct, illegal acts, or unpunished rule violations.
 
-<sup>2</sup> The Secretary must review the petition and hold a public poll that:\
-a. lasts for at least 3 days; and\
+<sup>2</sup> The Secretary must review the petition and hold a public poll that:
+a. lasts for at least 3 days; and
 b. with the options: *Yes*, *No*, and *Abstain*.
 
 <sup>3</sup> An Administrator is removed immediately if a simple majority (50% + 1) of voting members vote in favour. The accused Administrator cannot vote on their own impeachment.
