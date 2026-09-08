@@ -12,7 +12,7 @@ authority: "The Director"
 
 # SR 120 — The Referendum Act
 
-> **Enactment Notice:** Enacted under Chapter 4 of the Server Charter (SR 100). Applies to all members of the server.
+> **Enactment Notice:** Enacted under Chapter 4 of the Server Charter (SR 101). Applies to all members of the server.
 
 ---
 
