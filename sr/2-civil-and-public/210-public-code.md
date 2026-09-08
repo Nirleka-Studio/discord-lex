@@ -70,7 +70,7 @@ decrees:
 ### Art. 4 Account
 <sup>1</sup> A person is responsible for conduct carried out through their account unless there is sufficient reason to believe that the account was not under their control at the time.
 
-<sup>2</sup> A claim that an account was compromised shall be assessed on the circumstances and available evidence and shall not, by itself, excuse a violation.
+<sup>2</sup> A claim that an account was compromised must be assessed on the circumstances and available evidence and must not, by itself, excuse a violation.
 
 ## Chapter 2: Member Conduct
 
