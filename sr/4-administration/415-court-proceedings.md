@@ -11,7 +11,7 @@ authority: "The Director"
 
 # SR 415 — Courts and Appeals Proceedings Code
 
-> **Enactment Notice:** Enacted in accordance with Chapter 4 of the Server Charter (SR 100). Applies to all members of Administration.
+> **Enactment Notice:** Enacted in accordance with Chapter 4 of the Server Charter (SR 101). Applies to all members of Administration.
 
 ---
 

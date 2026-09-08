@@ -13,7 +13,7 @@ repeals: "ARCH 110"
 # SR 210 — Public Code of Member Conduct
 *(Public Code)*
 
-> **Enactment Notice:** Enacted in accordance with Chapter 4 of the Server Charter (SR 100). Applies to all server members and administrative staff.
+> **Enactment Notice:** Enacted in accordance with Chapter 4 of the Server Charter (SR 101). Applies to all server members and administrative staff.
 
 ---
 
@@ -42,7 +42,7 @@ b. illegal materials.
 ### Section 2: Rights
 
 #### Art. 5 Interpretation and enforcement
-Administrators must not interpret or enforce members' rights under this section; those rights are governed by Chapter 1 of the Server Charter (SR 100).
+Administrators must not interpret or enforce members' rights under this section; those rights are governed by Chapter 1 of the Server Charter (SR 101).
 
 #### Art. 6 Right to view logs
 All members have the right to access and view the server audit log, moderation actions, relevant internal communications, and modifications to rules upon request.

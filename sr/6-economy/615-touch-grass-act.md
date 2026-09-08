@@ -11,7 +11,7 @@ authority: "The Director"
 
 # SR 615 — The Touch Grass Act
 
-> **Enactment Notice:** Enacted in accordance with Chapter 4 of the Server Charter (SR 100), by the Director
+> **Enactment Notice:** Enacted in accordance with Chapter 4 of the Server Charter (SR 101), by the Director
 
 ---
 

@@ -13,7 +13,7 @@ repeals: "ARCH 400"
 # SR 410 — Administration Codes Compilations
 *(Administration Codes)*
 
-> **Enactment Notice:** Enacted in accordance with Chapter 4 of the Server Charter (SR 100). Applies to all members of Administration.
+> **Enactment Notice:** Enacted in accordance with Chapter 4 of the Server Charter (SR 101). Applies to all members of Administration.
 
 ---
 
@@ -23,7 +23,7 @@ repeals: "ARCH 400"
 The Administration Codes and subsequent laws govern the conduct of the Administration and its procedures.
 
 #### Art. 2 Scope
-The Administration Codes and subsequent laws apply to all members of Administration, including all Administrators holding positions defined in Chapter 2 of the Server Charter (SR 100) and their appointed staff.
+The Administration Codes and subsequent laws apply to all members of Administration, including all Administrators holding positions defined in Chapter 2 of the Server Charter (SR 101) and their appointed staff.
 
 ## Chapter 2: General Provisions
 
