@@ -118,16 +118,13 @@
     const regex = new RegExp(`(${escaped})`, "gi");
     return text.replace(regex, "<mark class=\"search-highlight\">$1</mark>");
   }
+  
+  function renderLawMarkdown(rawMarkdown, lawId) {
+    const baseUrl = `#/law/${encodeURIComponent(lawId)}/`;
 
-  // Both "a." and "1." top-level markers are routed through the same custom
-  // nested-list builder so they share one styling surface (`.law-list`) and
-  // one indentation knob in CSS — previously only alphabetic markers were
-  // intercepted, so numeric lists (like "1. Lance Administrator;") kept the
-  // browser's default <ol> styling and ignored .law-list entirely.
-  function renderLawMarkdown(rawMarkdown) {
-    let html = LawParser.toHTML(rawMarkdown || "");
-    console.log(html)
-    return html
+    let html = LawParser.toHTML(rawMarkdown || "", baseUrl);
+    console.log(html);
+    return html;
   }
 
   // ---------- heading anchors / copy-link ----------
@@ -289,7 +286,7 @@
         </div>`
         : "";
 
-    const bodyHtml = renderLawMarkdown(selected.content || "");
+    const bodyHtml = renderLawMarkdown(selected.content || "", law.id);
     
     app.innerHTML = `
       <a class="back-link" href="#/">← Back to registry</a>

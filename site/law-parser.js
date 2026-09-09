@@ -159,10 +159,6 @@
         return root;
     }
 
-    function render(tree) {
-        return renderChildren(tree.children, {});
-    }
-
     function renderChildren(nodes, ctx) {
         var out = "";
         var i = 0;
@@ -183,25 +179,6 @@
         }
         return out;
     }
-
-    function renderList(nodes, ctx) {
-        var isItem = nodes[0].type === "item";
-        var listType = isItem ? "a" : "1";
-        var rows = nodes.map(function (n) {
-            var id = (ctx.prefix ? ctx.prefix + "-" : "") + String(n.number).toLowerCase();
-            var childCtx = { prefix: id };
-            return (
-                '<div class="law-list-row" role="listitem">' +
-                '<dt class="law-marker" id="' + id + '">' + escapeHtml(n.number) + '.</dt>' +
-                '<dd class="law-node law-' + n.type + '">' +
-                '<span class="law-text">' + inline(n.text) + '</span>' +
-                renderChildren(n.children, childCtx) +
-                '</dd>' +
-                '</div>'
-            );
-        }).join("");
-        return '<dl class="law-list law-list-' + listType + '" role="list">' + rows + '</dl>';
-    }
     
     var CONTAINER_CONFIG = {
         chapter: { tag: "h2", label: "Chapter" },
@@ -220,23 +197,46 @@
             default: return base + slug(node.title);
         }
     }
+    function toHTML(source, baseUrl) {
+        return render(parse(source), baseUrl);
+    }
 
+    function render(tree, baseUrl) {
+        return renderChildren(tree.children, { baseUrl: baseUrl || "" });
+    }
+    
+    function renderList(nodes, ctx) {
+        var isItem = nodes[0].type === "item";
+        var listType = isItem ? "a" : "1";
+        var rows = nodes.map(function (n) {
+            var id = (ctx.prefix ? ctx.prefix + "-" : "") + String(n.number).toLowerCase();
+            var childCtx = { prefix: id, baseUrl: ctx.baseUrl }; // <--- add baseUrl
+            return (
+                '<div class="law-list-row" role="listitem">' +
+                '<dt class="law-marker" id="' + id + '">' + escapeHtml(n.number) + '.</dt>' +
+                '<dd class="law-node law-' + n.type + '">' +
+                '<span class="law-text">' + inline(n.text) + '</span>' +
+                renderChildren(n.children, childCtx) +
+                '</dd>' +
+                '</div>'
+            );
+        }).join("");
+        return '<dl class="law-list law-list-' + listType + '" role="list">' + rows + '</dl>';
+    }
+    
     function renderContainer(node, ctx) {
         var cfg = CONTAINER_CONFIG[node.type];
         var id = containerId(node, ctx);
-        var childCtx = { prefix: id };
+        var childCtx = { prefix: id, baseUrl: ctx.baseUrl }; // <--- add baseUrl
         var label = cfg.label && node.number ? cfg.label + " " + node.number : (node.type === "article" ? "Article" : "");
+        
+        var href = ctx.baseUrl ? ctx.baseUrl + id : '#' + id;
+
         return (
             '<details class="law-node law-' + node.type + '" id="' + id + '" open>' +
             '<summary class="law-heading">' +
             '<' + cfg.tag + ' class="law-heading-text">' +
-            // Whole heading (label + title) is ONE link - click anywhere on
-            // it to jump (smooth-scrolls if the CSS sets
-            // `scroll-behavior: smooth`), right-click to copy the URL, no
-            // separate "#" glyph. stopPropagation keeps that click from
-            // ALSO toggling the <details> collapse - clicking elsewhere on
-            // the row (e.g. the native disclosure triangle) still does that.
-            '<a class="law-anchor" href="#' + id + '" onclick="event.stopPropagation()">' +
+            '<a class="law-anchor" href="' + href + '" onclick="event.stopPropagation()">' + // <--- Use the new href
             (label ? '<span class="law-label">' + escapeHtml(label) + '</span> ' : '') +
             inline(node.title) +
             '</a>' +
@@ -246,14 +246,15 @@
             '</details>'
         );
     }
-
+    
     function renderNode(node, ctx) {
         ctx = ctx || {};
         switch (node.type) {
             case "title":
+                var href = ctx.baseUrl ? ctx.baseUrl + "title" : "#title"; // <--- Add this
                 return (
                     '<h1 class="law-node law-title" id="title">' +
-                    '<a class="law-anchor" href="#title" onclick="event.stopPropagation()">' + inline(node.title) + '</a>' +
+                    '<a class="law-anchor" href="' + href + '" onclick="event.stopPropagation()">' + inline(node.title) + '</a>' +
                     '</h1>'
                 );
 
@@ -273,7 +274,7 @@
                 return (
                     '<div class="law-node law-paragraph" id="' + pid + '">' +
                     '<p class="law-ptext">' + marker + inline(node.text) + '</p>' +
-                    renderChildren(node.children, { prefix: pid }) +
+                    renderChildren(node.children, { prefix: pid, baseUrl: ctx.baseUrl }) +
                     '</div>'
                 );
             }
@@ -281,10 +282,6 @@
             default:
                 return "";
         }
-    }
-
-    function toHTML(source) {
-        return render(parse(source));
     }
 
     function escapeHtml(s) {
