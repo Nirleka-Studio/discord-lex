@@ -103,47 +103,6 @@
     return DATA.laws.find((l) => l.id === id);
   }
 
-  // ---------- lettered-list rendering ----------
-  // marked (and GitHub) only understand digit-based ordered lists ("1.", "2.").
-  // Legal drafting needs "a.", "b.", "c." (optionally "a\." to stop GitHub from
-  // mangling it) with nested numeric sub-items. This preprocesses those blocks
-  // into real nested <ol> HTML before handing the rest of the document to
-  // marked, so inline formatting (*italics*, escapes, etc.) still works via
-  // marked.parseInline on each item's text.
-  const LIST_ITEM_RE = /^(\s*)([a-zA-Z]|\d+)\\?\.\s+(.*)$/;
-
-  function isAlphaMarker(marker) {
-    return /^[a-zA-Z]$/.test(marker);
-  }
-
-  function buildListTree(blockLines) {
-    const root = { marker: null, text: null, children: [] };
-    const stack = [{ indent: -1, node: root }];
-    for (const line of blockLines) {
-      if (line.trim() === "") continue;
-      const m = line.match(LIST_ITEM_RE);
-      if (!m) continue;
-      const indent = m[1].length;
-      const item = { marker: m[2], text: m[3], children: [] };
-      while (stack.length > 1 && indent <= stack[stack.length - 1].indent) stack.pop();
-      stack[stack.length - 1].node.children.push(item);
-      stack.push({ indent, node: item });
-    }
-    return root;
-  }
-
-  function renderListNode(node) {
-    if (!node.children.length) return "";
-    const type = isAlphaMarker(node.children[0].marker) ? "a" : "1";
-    const items = node.children
-        .map((child) => {
-          const inline = window.marked ? marked.parseInline(child.text) : child.text;
-          return `<li>${inline}${renderListNode(child)}</li>`;
-        })
-        .join("");
-    return `<ol class="law-list" type="${type}">${items}</ol>`;
-  }
-
   function stripMarkdown(md) {
     if (!md) return "";
     return md
@@ -160,106 +119,18 @@
     return text.replace(regex, "<mark class=\"search-highlight\">$1</mark>");
   }
 
-  // A trailing "\" at the very end of a line is a GitHub-only device to force
-  // a line break there; it should never be visible in our own renderer. Strip
-  // it before anything else so it can't leak through as a literal backslash
-  // (which is what CommonMark does when that backslash sits at the very end
-  // of a block, since the hard-break rule explicitly excludes that position).
-  function stripGithubLineBreaks(markdown) {
-    return markdown.replace(/\\(\r?\n)/g, "$1");
-  }
-
   // Both "a." and "1." top-level markers are routed through the same custom
   // nested-list builder so they share one styling surface (`.law-list`) and
   // one indentation knob in CSS — previously only alphabetic markers were
   // intercepted, so numeric lists (like "1. Lance Administrator;") kept the
   // browser's default <ol> styling and ignored .law-list entirely.
   function renderLawMarkdown(rawMarkdown) {
-    const markdown = stripGithubLineBreaks(rawMarkdown || "");
-    const lines = markdown.split("\n");
-    const output = [];
-    let i = 0;
-    while (i < lines.length) {
-      const m = lines[i].match(LIST_ITEM_RE);
-      if (m) {
-        const block = [];
-        let j = i;
-        while (j < lines.length) {
-          const line = lines[j];
-          if (line.trim() === "") {
-            const next = lines[j + 1];
-            if (next && LIST_ITEM_RE.test(next)) {
-              block.push(line);
-              j++;
-              continue;
-            }
-            break;
-          }
-          if (!LIST_ITEM_RE.test(line)) break;
-          block.push(line);
-          j++;
-        }
-        output.push("", renderListNode(buildListTree(block)), "");
-        i = j;
-      } else {
-        output.push(lines[i]);
-        i++;
-      }
-    }
-    return window.marked ? marked.parse(output.join("\n")) : output.join("\n");
+    let html = LawParser.toHTML(rawMarkdown || "");
+    console.log(html)
+    return html
   }
 
   // ---------- heading anchors / copy-link ----------
-
-  function slugify(text) {
-    return text
-        .toLowerCase()
-        .replace(/[^\w\s-]/g, "")
-        .trim()
-        .replace(/\s+/g, "-");
-  }
-
-  let toastTimer = null;
-  function showToast(msg) {
-    let toast = document.getElementById("site-toast");
-    if (!toast) {
-      toast = document.createElement("div");
-      toast.id = "site-toast";
-      toast.className = "toast";
-      document.body.appendChild(toast);
-    }
-    toast.textContent = msg;
-    toast.classList.add("show");
-    clearTimeout(toastTimer);
-    toastTimer = setTimeout(() => toast.classList.remove("show"), 1600);
-  }
-
-  function attachHeadingAnchors(container, lawId) {
-    const used = {};
-    container.querySelectorAll("h1, h2, h3, h4, h5, h6").forEach((h) => {
-      const base = slugify(h.textContent) || "section";
-      let slug = base;
-      let n = 2;
-      while (used[slug]) slug = `${base}-${n++}`;
-      used[slug] = true;
-      h.id = slug;
-
-      const link = document.createElement("a");
-      link.className = "anchor-link";
-      link.href = lawUrl(lawId, slug);
-      link.setAttribute("aria-label", "Copy link to this section");
-      link.textContent = "#";
-      link.addEventListener("click", (e) => {
-        e.preventDefault();
-        const url = `${location.origin}${location.pathname}${lawUrl(lawId, slug)}`;
-        if (navigator.clipboard && navigator.clipboard.writeText) {
-          navigator.clipboard.writeText(url).then(() => showToast("Link copied"));
-        }
-        location.hash = lawUrl(lawId, slug).slice(1);
-      });
-      h.prepend(link);
-    });
-  }
 
   function scrollToAnchor(slug) {
     if (!slug) return;
@@ -462,8 +333,7 @@ ${law.repeals ? `<div class="info-row"><dt>Repeals</dt><dd><a href="${lawUrl(law
         </div>
       </div>
     `;
-
-    attachHeadingAnchors(app.querySelector(".law-body"), law.id);
+    
     if (anchor) scrollToAnchor(anchor);
 
     app.querySelectorAll(".history-item[data-idx]").forEach((el) => {
