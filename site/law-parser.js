@@ -10,6 +10,11 @@
  *   a. item text                  (lettered item, "a\." also accepted)
  *     1. sub-item text            (numbered sub-item)
  *   ---                           (horizontal rule / thematic break)
+ *   [^N]                          (footnote REFERENCE - inline, anywhere in
+ *                                  any title/paragraph/item/number text)
+ *   [^N] some text                (footnote DEFINITION - a line of its own,
+ *                                  anywhere in the source; position in the
+ *                                  source file doesn't matter)
  *
  * Indentation in the source is decorative everywhere - nesting comes purely
  * from marker type (keyword / <sup> / letters / digits), never from
@@ -30,6 +35,19 @@
  *     lettered/numbered provisions) so markers are literal text (handles
  *     "5bis", "44a", skipped letters, etc.) and spacing is a plain CSS grid,
  *     not fought over with ::marker.
+ *   - Footnotes: a reference "[^N]" anywhere in a title/paragraph/item/
+ *     number becomes a clickable superscript link. The matching definition
+ *     "[^N] text" (found anywhere in the source, regardless of where it
+ *     physically sits) is rendered once, sandwiched between two <hr>s,
+ *     directly below the Article that contains the reference - even if
+ *     that reference was in the Article's own title. A reference that
+ *     isn't inside any Article (e.g. sitting in a bare Chapter/Section
+ *     heading, or in the document title) gets its definition appended at
+ *     the very bottom of the whole document instead. Definitions that are
+ *     never referenced are simply never rendered. Footnote links reuse the
+ *     same baseUrl scheme as every other anchor in this file so they route
+ *     correctly through a hash-based SPA router instead of navigating with
+ *     a bare "#fn-N" fragment.
  * ---------------------------------------------------------------------------
  */
 (function (root, factory) {
@@ -46,6 +64,14 @@
     // ---------------------------------------------------------------------
     var HEADING_RE = /^#{1,6}\s+(.*)$/;
     var HR_RE = /^(-{3,}|_{3,}|\*{3,})$/;
+
+    // Footnote definition: a whole line, e.g. `[^11] Amended by Annex No...`
+    // Can appear anywhere in the source - its position doesn't matter, only
+    // where the matching [^11] *reference* is used determines where it renders.
+    var FOOTNOTE_DEF_RE = /^\[\^([\w-]+)\]:\s+(.*)$/;
+    // Footnote reference: inline, can appear inside any title/paragraph/
+    // item/number text, e.g. `Art. 24 Federal jurisdiction[^11]`.
+    var FOOTNOTE_REF_RE = /\[\^([\w-]+)\]/g;
 
     var HEADING_KEYWORDS = [
         { type: "chapter", rank: 1, re: /^chapter\s+([\w.]+)\s*[:.]?\s*(.*)$/i },
@@ -108,10 +134,10 @@
         }
         return null;
     }
-    
+
     function parse(source) {
         var lines = String(source || "").replace(/\r\n/g, "\n").split("\n");
-        var root = { type: "document", rank: -1, number: null, title: null, text: null, children: [] };
+        var root = { type: "document", rank: -1, number: null, title: null, text: null, children: [], footnotes: {} };
         var stack = [root];
         var sawAnyNode = false;
 
@@ -126,6 +152,15 @@
             if (HR_RE.test(line)) {
                 while (stack.length > 1 && stack[stack.length - 1].rank > 3.5) stack.pop();
                 stack[stack.length - 1].children.push({ type: "hr", rank: 3.9, number: null, title: null, text: null, children: [] });
+                return;
+            }
+
+            // Footnote definitions are collected globally and never become
+            // visible nodes in the tree - they're re-attached at render time
+            // based on where the matching [^N] reference was actually used.
+            var fnDef = line.match(FOOTNOTE_DEF_RE);
+            if (fnDef) {
+                root.footnotes[fnDef[1]] = fnDef[2].trim();
                 return;
             }
 
@@ -179,7 +214,7 @@
         }
         return out;
     }
-    
+
     var CONTAINER_CONFIG = {
         chapter: { tag: "h2", label: "Chapter" },
         section: { tag: "h3", label: "Section" },
@@ -197,25 +232,45 @@
             default: return base + slug(node.title);
         }
     }
+
     function toHTML(source, baseUrl) {
         return render(parse(source), baseUrl);
     }
 
     function render(tree, baseUrl) {
-        return renderChildren(tree.children, { baseUrl: baseUrl || "" });
+        var rootFootnotes = [];
+        var ctx = {
+            baseUrl: baseUrl || "",
+            footnoteDefs: tree.footnotes || {},
+            rootFootnotes: rootFootnotes,
+            footnoteCollector: rootFootnotes, // default scope: "not inside any article"
+            seenRefIds: {}
+        };
+        var body = renderChildren(tree.children, ctx);
+        // Anything referenced outside of an Article (bare chapter/section
+        // heading text, or the document title) lands at the very bottom.
+        var trailing = renderFootnotes(rootFootnotes, ctx);
+        return body + trailing;
     }
-    
+
     function renderList(nodes, ctx) {
         var isItem = nodes[0].type === "item";
         var listType = isItem ? "a" : "1";
         var rows = nodes.map(function (n) {
             var id = (ctx.prefix ? ctx.prefix + "-" : "") + String(n.number).toLowerCase();
-            var childCtx = { prefix: id, baseUrl: ctx.baseUrl }; // <--- add baseUrl
+            var childCtx = {
+                prefix: id,
+                baseUrl: ctx.baseUrl,
+                footnoteDefs: ctx.footnoteDefs,
+                rootFootnotes: ctx.rootFootnotes,
+                seenRefIds: ctx.seenRefIds,
+                footnoteCollector: ctx.footnoteCollector
+            };
             return (
                 '<div class="law-list-row" role="listitem">' +
                 '<dt class="law-marker" id="' + id + '">' + escapeHtml(n.number) + '.</dt>' +
                 '<dd class="law-node law-' + n.type + '">' +
-                '<span class="law-text">' + inline(n.text) + '</span>' +
+                '<span class="law-text">' + inline(n.text, ctx) + '</span>' +
                 renderChildren(n.children, childCtx) +
                 '</dd>' +
                 '</div>'
@@ -223,40 +278,60 @@
         }).join("");
         return '<dl class="law-list law-list-' + listType + '" role="list">' + rows + '</dl>';
     }
-    
+
     function renderContainer(node, ctx) {
         var cfg = CONTAINER_CONFIG[node.type];
         var id = containerId(node, ctx);
-        var childCtx = { prefix: id, baseUrl: ctx.baseUrl }; // <--- add baseUrl
+        // Only an Article opens a fresh footnote scope. Chapter/Section/
+        // generic-heading containers just pass their parent's scope through,
+        // so a reference sitting in a Section heading (with no enclosing
+        // Article) still bubbles up to the document-level list at the bottom.
+        var isArticle = node.type === "article";
+        var footnoteCollector = isArticle ? [] : ctx.footnoteCollector;
+        var childCtx = {
+            prefix: id,
+            baseUrl: ctx.baseUrl,
+            footnoteDefs: ctx.footnoteDefs,
+            rootFootnotes: ctx.rootFootnotes,
+            seenRefIds: ctx.seenRefIds,
+            footnoteCollector: footnoteCollector
+        };
         var label = cfg.label && node.number ? cfg.label + " " + node.number : (node.type === "article" ? "Article" : "");
-        
         var href = ctx.baseUrl ? ctx.baseUrl + id : '#' + id;
+
+        // A [^N] sitting in the Article's own title counts as "used in this
+        // article" too, so render the title before locking in the footnote list.
+        var titleHtml = inline(node.title, childCtx);
+        var bodyHtml = renderChildren(node.children, childCtx);
+        var footnotesHtml = isArticle ? renderFootnotes(footnoteCollector, childCtx) : "";
 
         return (
             '<details class="law-node law-' + node.type + '" id="' + id + '" open>' +
             '<summary class="law-heading">' +
             '<' + cfg.tag + ' class="law-heading-text">' +
-            '<a class="law-anchor" href="' + href + '" onclick="event.stopPropagation()">' + // <--- Use the new href
+            '<a class="law-anchor" href="' + href + '" onclick="event.stopPropagation()">' +
             (label ? '<span class="law-label">' + escapeHtml(label) + '</span> ' : '') +
-            inline(node.title) +
+            titleHtml +
             '</a>' +
             '</' + cfg.tag + '>' +
             '</summary>' +
-            '<div class="law-body">' + renderChildren(node.children, childCtx) + '</div>' +
+            '<div class="law-body">' + bodyHtml + '</div>' +
+            footnotesHtml +
             '</details>'
         );
     }
-    
+
     function renderNode(node, ctx) {
         ctx = ctx || {};
         switch (node.type) {
-            case "title":
-                var href = ctx.baseUrl ? ctx.baseUrl + "title" : "#title"; // <--- Add this
+            case "title": {
+                var href = ctx.baseUrl ? ctx.baseUrl + "title" : "#title";
                 return (
                     '<h1 class="law-node law-title" id="title">' +
-                    '<a class="law-anchor" href="' + href + '" onclick="event.stopPropagation()">' + inline(node.title) + '</a>' +
+                    '<a class="law-anchor" href="' + href + '" onclick="event.stopPropagation()">' + inline(node.title, ctx) + '</a>' +
                     '</h1>'
                 );
+            }
 
             case "chapter":
             case "section":
@@ -271,10 +346,18 @@
                 var pbase = ctx.prefix || "p";
                 var pid = node.number ? pbase + "-" + node.number : pbase + "-p" + Math.random().toString(36).slice(2, 6);
                 var marker = node.number ? '<sup class="law-marknum">' + escapeHtml(node.number) + '</sup> ' : "";
+                var childCtx = {
+                    prefix: pid,
+                    baseUrl: ctx.baseUrl,
+                    footnoteDefs: ctx.footnoteDefs,
+                    rootFootnotes: ctx.rootFootnotes,
+                    seenRefIds: ctx.seenRefIds,
+                    footnoteCollector: ctx.footnoteCollector
+                };
                 return (
                     '<div class="law-node law-paragraph" id="' + pid + '">' +
-                    '<p class="law-ptext">' + marker + inline(node.text) + '</p>' +
-                    renderChildren(node.children, { prefix: pid, baseUrl: ctx.baseUrl }) +
+                    '<p class="law-ptext">' + marker + inline(node.text, ctx) + '</p>' +
+                    renderChildren(node.children, childCtx) +
                     '</div>'
                 );
             }
@@ -282,6 +365,66 @@
             default:
                 return "";
         }
+    }
+
+    // ---------------------------------------------------------------------
+    // Footnotes
+    // ---------------------------------------------------------------------
+
+    // Marks id as used in whichever scope is currently open (an Article's
+    // own local list, or the document-level rootFootnotes list).
+    function registerFootnoteUse(id, ctx) {
+        if (!ctx) return;
+        var collector = ctx.footnoteCollector || ctx.rootFootnotes;
+        if (collector && collector.indexOf(id) === -1) collector.push(id);
+    }
+
+    function footnoteRefHtml(id, ctx) {
+        ctx = ctx || {};
+        var fnId = "fn-" + id;
+        var href = ctx.baseUrl ? ctx.baseUrl + fnId : "#" + fnId;
+        // Only the first occurrence of a given footnote number gets the
+        // fnref-N id (ids must be unique), so the definition's "back to
+        // reference" arrow has exactly one place to land.
+        var idAttr = "";
+        var seen = ctx.seenRefIds;
+        if (!seen || !seen[id]) {
+            idAttr = ' id="fnref-' + escapeHtml(id) + '"';
+            if (seen) seen[id] = true;
+        }
+        return (
+            '<a class="law-anchor law-footnote-ref" href="' + href + '"' + idAttr + ' onclick="event.stopPropagation()">' +
+            escapeHtml(id) +
+            '</a>'
+        );
+    }
+
+    // Renders the definitions for `ids` (in first-seen order), sandwiched
+    // between two rules, with a back-link from each definition to its
+    // first in-text reference. Plain stacked blocks (not a bulleted list),
+    // each starting with a superscript number - matches Fedlex-style notes.
+    function renderFootnotes(ids, ctx) {
+        if (!ids || !ids.length) return "";
+        var defs = (ctx && ctx.footnoteDefs) || {};
+        var baseUrl = (ctx && ctx.baseUrl) || "";
+        var items = ids.map(function (id) {
+            var text = Object.prototype.hasOwnProperty.call(defs, id) ? defs[id] : "";
+            var backHref = baseUrl ? baseUrl + "fnref-" + id : "#fnref-" + id;
+            return (
+                '<div class="law-footnote-item" id="fn-' + escapeHtml(id) + '">' +
+                '<sup class="law-footnote-marker">' + escapeHtml(id) + '</sup> ' +
+                '<span class="law-footnote-text">' + inline(text, ctx) + '</span>' +
+                ' <a class="law-footnote-backref" href="' + backHref + '" onclick="event.stopPropagation()" title="Back to reference">\u21A9</a>' +
+                '</div>'
+            );
+        }).join("");
+        return (
+            '<div class="law-footnotes">' +
+            '<hr class="law-footnote-rule">' +
+            items +
+            '<hr class="law-footnote-rule">' +
+            '</div>'
+        );
     }
 
     function escapeHtml(s) {
@@ -302,12 +445,34 @@
         );
     }
 
-    function inline(text) {
+    // Renders inline markdown-ish text. Footnote refs ([^N]) are pulled out
+    // into placeholder tokens first so neither escapeHtml nor `marked` can
+    // mangle them, then swapped back in as real links afterwards - which is
+    // also the point where usage gets registered against the current ctx scope.
+    function inline(text, ctx) {
         if (!text) return "";
+        var refs = [];
+        var withPlaceholders = String(text).replace(FOOTNOTE_REF_RE, function (m, id) {
+            var token = "\u0000FN" + refs.length + "\u0000";
+            refs.push(id);
+            return token;
+        });
+
+        var html;
         if (typeof marked !== "undefined" && marked.parseInline) {
-            try { return marked.parseInline(text); } catch (e) { /* fall through */ }
+            try { html = marked.parseInline(withPlaceholders); } catch (e) { html = miniInline(withPlaceholders); }
+        } else {
+            html = miniInline(withPlaceholders);
         }
-        return miniInline(text);
+
+        if (refs.length) {
+            html = html.replace(/\u0000FN(\d+)\u0000/g, function (m, idx) {
+                var id = refs[Number(idx)];
+                registerFootnoteUse(id, ctx);
+                return footnoteRefHtml(id, ctx);
+            });
+        }
+        return html;
     }
 
     function miniInline(text) {
@@ -324,6 +489,8 @@
         render: render,
         toHTML: toHTML,
         HEADING_KEYWORDS: HEADING_KEYWORDS,
-        FLOW_LEVELS: FLOW_LEVELS
+        FLOW_LEVELS: FLOW_LEVELS,
+        FOOTNOTE_DEF_RE: FOOTNOTE_DEF_RE,
+        FOOTNOTE_REF_RE: FOOTNOTE_REF_RE
     };
 });
