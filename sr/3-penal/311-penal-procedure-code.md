@@ -138,7 +138,7 @@ b. document relevant administrative and moderation actions.
 
 <sup>2</sup> Judicial authorities have broad discretion to raise the measure for violations committed by Administrators based on their seniority.
 
-## Chapter 6: Appeals
+## Chapter 5: Appeals
 
 ### Art. 23 Appeals
 <sup>1</sup> A member affected by a moderation or administrative action may appeal that action to judicial authorities.
@@ -162,7 +162,7 @@ e. any evidence or information relied upon.
 
 <sup>3</sup> Minor defects in an appeal must not result in its dismissal where the substance of the complaint can reasonably be understood.
 
-## Chapter 5: Triage and Informal Resolution
+## Chapter 6: Triage and Informal Resolution
 
 ### Art. 25 Screening and classification
 <sup>1</sup> Upon receiving an appeal, the judicial authority must classify the matter as either:
@@ -178,7 +178,7 @@ b. a Formal Proceeding, for severe penalties, staff violations, or complex factu
 
 <sup>3</sup> Enforcing authorities are bound to execute summary orders without delay.
 
-## Chapter 6: Formal judicial proceedings
+## Chapter 7: Formal judicial proceedings
 
 ### Art. 27 Opening of proceedings
 <sup>1</sup> Where a matter is designated for Formal Proceeding, the judicial authority must establish a secure, dedicated channel or ticket off-Server for the exchange of arguments and evidence.
