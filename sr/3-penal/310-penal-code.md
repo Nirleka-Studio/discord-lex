@@ -5,7 +5,7 @@ abbreviation: "Penal Code"
 version: "3.4.0"
 category: "Penal Law"
 enacted_date: "2026-08-11"
-last_amended: "2026-09-07"
+last_amended: "2026-09-10"
 authority: "The Director"
 repeals: "ARCH 300"
 ---
@@ -376,6 +376,17 @@ b. refuse to edit the text to be lawful.
 
 ### Section 4: Other Unsolicited Behaviours and Contents
 
+#### Art. 16d Depictions of incest[^3]
+<sup>1</sup> Members unironically sharing, depicting, or encouraging incest incurs:
+a. a warning on the first offence; and
+b. a 1-hour timeout for any subsequent offences.
+
+<sup>2</sup> Depiction of incest is determined by the persons involved in the sexual or intimate act are closely related by blood by:
+a. explicit mention in the depiction itself; or
+b. an explicit mention by the creators of the depiction.
+
+<sup>3</sup> A member is exempt from paragraph 1 if a reasonable person can interpret the member is being humorous or unserious.
+
 #### Art. 17 Incitement[^2]
 The incitement, endorsement, or encouragement to commit a violation of law, or to disrupt or threaten the order, peace, and unity of the Server incurs a punishment no less than a 1-week timeout and a 6000₣ fine.
 
@@ -432,3 +443,4 @@ c. circumvent moderation systems, verification barriers, or previously issued pe
 
 [^1]: Adopted unilaterally by The Director on 19 June 2026, in force since 19 June 2026.
 [^2]: Adopted unilaterally by The Director on 14 Aug. 2026, in force since 14 Aug. 2026.
+[^3]: Adopted based on a majority vote (Ref. No. 3) initiated on 6 Sept. 2026, in force since 10 Sept. 2026.
