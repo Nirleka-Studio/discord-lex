@@ -316,7 +316,6 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 /* paragraph numbering, e.g. <sup>1</sup> at the start of a paragraph */
 .law-body sup {
   font-family: var(--font-body);
-  font-size: 0.9em;
   font-weight: 100;
   color: var(--rule);
   margin-right: 3px;
@@ -506,8 +505,7 @@ mark.search-highlight {
 }
 .law-body dl.law-list dl.law-list {
   /* nested list: no outer margin, tighter row-gap */
-  margin: 6px 0 4px;
-  row-gap: 6px;
+  margin-left: 1.5rem;
 }
 .law-body .law-list-row {
   display: contents;
@@ -547,7 +545,6 @@ mark.search-highlight {
 }
 .law-paragraph > .law-ptext { font-size: 1rem; }
 dd.law-item > .law-text { font-size: 1rem; }
-dd.law-number > .law-text { font-size: 0.95rem; }
 
 .law-heading .law-anchor {
   font-weight: normal;
