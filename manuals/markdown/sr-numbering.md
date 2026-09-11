@@ -17,8 +17,11 @@
 - 310 Penal Code
 - 311 Penal Procedure Code
 
+32 Penal Law for the Administration
+- 320 Administration Disciplinary Code
+
 4 Administration
-41 Duties and Penalties
+41 Duties and Codes
 - 410 Administration Codes Compilations
 
 5 Culture
