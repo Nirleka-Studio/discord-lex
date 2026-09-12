@@ -5,12 +5,13 @@
 10 Server Charter
 - 101 Charter of the Nirleka Studios Discord Server
 
-2 Civil and Public
+2 The Public, The Server
 21 Public Matters
 - 210 Public Code of Member Conduct
 
 22 Server
 - 220 Server Management Code
+- 221 Roles Management Code
 
 3 Penal Law
 31 Penal Law
