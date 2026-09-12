@@ -59,19 +59,11 @@
 })(typeof self !== "undefined" ? self : this, function () {
     "use strict";
 
-    // ---------------------------------------------------------------------
-    // 1. Grammar
-    // ---------------------------------------------------------------------
     var HEADING_RE = /^#{1,6}\s+(.*)$/;
     var HR_RE = /^(-{3,}|_{3,}|\*{3,})$/;
-
-    // Footnote definition: a whole line, e.g. `[^11] Amended by Annex No...`
-    // Can appear anywhere in the source - its position doesn't matter, only
-    // where the matching [^11] *reference* is used determines where it renders.
     var FOOTNOTE_DEF_RE = /^\[\^([\w-]+)\]:\s+(.*)$/;
-    // Footnote reference: inline, can appear inside any title/paragraph/
-    // item/number text, e.g. `Art. 24 Federal jurisdiction[^11]`.
     var FOOTNOTE_REF_RE = /\[\^([\w-]+)\]/g;
+    var TABLE_ROW_RE = /^\|(.+)\|$/;
 
     var HEADING_KEYWORDS = [
         { type: "chapter", rank: 1, re: /^chapter\s+([\w.]+)\s*[:.]?\s*(.*)$/i },
@@ -110,12 +102,6 @@
         if (isFirstEver) {
             return { type: "title", rank: 0, number: null, text: content.trim() };
         }
-        // Generic in-body heading: ranks between Article (3) and Paragraph (4)
-        // so it always nests inside whatever Chapter/Section/Article is
-        // currently open, and closes any currently-open Paragraph/Item/Number
-        // first, WITHOUT ever popping past the enclosing Article. This is the
-        // fix for plain "# Note" / "## Example" style subheadings blowing away
-        // the surrounding structure.
         return { type: "heading", rank: 3.5, number: null, text: content.trim() };
     }
 
@@ -141,18 +127,18 @@
         var stack = [root];
         var sawAnyNode = false;
 
-        lines.forEach(function (raw) {
-            var line = raw.trim();
+        for (var i = 0; i < lines.length; i++) {
+            var line = lines[i].trim();
 
             if (!line) {
                 while (stack.length > 1 && stack[stack.length - 1].rank > 3.5) stack.pop();
-                return;
+                continue;
             }
 
             if (HR_RE.test(line)) {
                 while (stack.length > 1 && stack[stack.length - 1].rank > 3.5) stack.pop();
                 stack[stack.length - 1].children.push({ type: "hr", rank: 3.9, number: null, title: null, text: null, children: [] });
-                return;
+                continue;
             }
 
             // Footnote definitions are collected globally and never become
@@ -161,7 +147,23 @@
             var fnDef = line.match(FOOTNOTE_DEF_RE);
             if (fnDef) {
                 root.footnotes[fnDef[1]] = fnDef[2].trim();
-                return;
+                continue;
+            }
+
+            // Detect table blocks explicitly in AST
+            if (TABLE_ROW_RE.test(line)) {
+                var tableLines = [];
+                while (i < lines.length && TABLE_ROW_RE.test(lines[i].trim())) {
+                    tableLines.push(lines[i].trim());
+                    i++;
+                }
+                i--; // backtrack line index
+
+                while (stack.length > 1 && stack[stack.length - 1].rank > 3.5) stack.pop();
+                var tableNode = { type: "table", rank: 4, number: null, title: null, text: tableLines.join("\n"), children: [] };
+                stack[stack.length - 1].children.push(tableNode);
+                sawAnyNode = true;
+                continue;
             }
 
             var hit = matchLevel(line, !sawAnyNode);
@@ -181,7 +183,7 @@
             } else {
                 sawAnyNode = true;
                 var top = stack[stack.length - 1];
-                if (top.rank >= 4) {
+                if (top.rank >= 4 && top.type === "paragraph") {
                     top.text = top.text ? top.text + " " + line : line;
                 } else {
                     var para = { type: "paragraph", rank: 4, number: null, title: null, text: line, children: [] };
@@ -189,7 +191,7 @@
                     stack.push(para);
                 }
             }
-        });
+        }
 
         return root;
     }
@@ -321,6 +323,37 @@
         );
     }
 
+    function renderTable(tableText, ctx) {
+        var lines = tableText.split("\n");
+        if (lines.length < 2) return "";
+
+        var parseRow = function(row) {
+            return row.replace(/^\||\|$/g, "").split("|").map(function(c) { return inline(c.trim(), ctx); });
+        };
+
+        var headers = parseRow(lines[0]);
+        var startIdx = 1;
+
+        // Skip markdown separator row (|---|---|)
+        if (lines[1] && /^\|?\s*:?-+:?\s*(\|\s*:?-+:?\s*)+\|?$/.test(lines[1])) {
+            startIdx = 2;
+        }
+
+        var html = '<div class="law-table-wrap"><table class="law-table"><thead><tr>';
+        headers.forEach(function(h) { html += '<th>' + h + '</th>'; });
+        html += '</tr></thead><tbody>';
+
+        for (var i = startIdx; i < lines.length; i++) {
+            var cells = parseRow(lines[i]);
+            html += '<tr>';
+            cells.forEach(function(c) { html += '<td>' + c + '</td>'; });
+            html += '</tr>';
+        }
+
+        html += '</tbody></table></div>';
+        return html;
+    }
+
     function renderNode(node, ctx) {
         ctx = ctx || {};
         switch (node.type) {
@@ -332,16 +365,15 @@
                     '</h1>'
                 );
             }
-
             case "chapter":
             case "section":
             case "article":
             case "heading":
                 return renderContainer(node, ctx);
-
             case "hr":
                 return '<hr class="law-rule">';
-
+            case "table":
+                return renderTable(node.text, ctx);
             case "paragraph": {
                 var pbase = ctx.prefix || "p";
                 var pid = node.number ? pbase + "-" + node.number : pbase + "-p" + Math.random().toString(36).slice(2, 6);
@@ -361,14 +393,12 @@
                     '</div>'
                 );
             }
-
-            default:
-                return "";
+            default: return "";
         }
     }
 
     // ---------------------------------------------------------------------
-    // Footnotes
+    // Footnotes & Inline Parsing
     // ---------------------------------------------------------------------
 
     // Marks id as used in whichever scope is currently open (an Article's
@@ -418,31 +448,15 @@
                 '</div>'
             );
         }).join("");
-        return (
-            '<div class="law-footnotes">' +
-            '<hr class="law-footnote-rule">' +
-            items +
-            '<hr class="law-footnote-rule">' +
-            '</div>'
-        );
+        return '<div class="law-footnotes"><hr class="law-footnote-rule">' + items + '<hr class="law-footnote-rule"></div>';
     }
 
     function escapeHtml(s) {
-        return String(s == null ? "" : s)
-            .replace(/&/g, "&amp;")
-            .replace(/</g, "&lt;")
-            .replace(/>/g, "&gt;");
+        return String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
     }
 
     function slug(s) {
-        return (
-            String(s || "")
-                .toLowerCase()
-                .trim()
-                .replace(/[^\w\s-]/g, "")
-                .replace(/\s+/g, "-")
-                .slice(0, 40) || "x"
-        );
+        return String(s || "").toLowerCase().trim().replace(/[^\w\s-]/g, "").replace(/\s+/g, "-").slice(0, 40) || "x";
     }
 
     // Renders inline markdown-ish text. Footnote refs ([^N]) are pulled out

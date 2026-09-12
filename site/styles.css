@@ -656,3 +656,42 @@ a.law-footnote-ref {
   text-decoration: none;
   color: #2563eb !important;
 }
+
+/* Table Layout, Padding & Vertical Borders */
+.law-table-wrap {
+  margin: 1.25rem 0;
+  overflow-x: auto;
+}
+
+.law-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  border: 1px solid var(--rule); /* Outer border */
+}
+
+.law-table th,
+.law-table td {
+  padding: 0.65rem 1rem;
+  vertical-align: top;
+  border-right: 1px solid var(--rule); /* Vertical column dividers */
+  border-bottom: 1px solid var(--rule); /* Horizontal row dividers */
+}
+
+/* Remove border on the last column so it aligns clean with the outer box */
+.law-table th:last-child,
+.law-table td:last-child {
+  border-right: none;
+}
+
+.law-table th {
+  font-weight: 700;
+  background-color: #f8fafc;
+  border-bottom: 2px solid var(--rule);
+}
+
+.law-table tbody tr:hover {
+  background-color: #ffbdbd;
+}
