@@ -211,4 +211,4 @@ SR 310 Penal Code
 * Organisational containers (Titles, Chapters, Sections) can be omitted for short, simple laws. Just stay consistent: do not toss random orphan Sections under a Code if everything else is organised into Chapters.
 
 ### Interpretation Standard
-**Headings, Chapter titles, and Section names have no zero legal force.** They exist purely for organisation. Only the explicit provisions inside the Articles themselves constitute the law.
+**Headings, Chapter titles, and Section names have no legal force.** They exist purely for organisation. Only the explicit provisions inside the Articles themselves constitute the law.
