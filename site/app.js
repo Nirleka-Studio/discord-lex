@@ -118,13 +118,14 @@
     const regex = new RegExp(`(${escaped})`, "gi");
     return text.replace(regex, "<mark class=\"search-highlight\">$1</mark>");
   }
-  
-  function renderLawMarkdown(rawMarkdown, lawId) {
-    const baseUrl = `#/law/${encodeURIComponent(lawId)}/`;
 
-    let html = LawParser.toHTML(rawMarkdown || "", baseUrl);
-    console.log(html);
-    return html;
+  function renderLawMarkdown(rawMarkdown, law) {
+    if (law && law.kind === "archive") {
+      return window.marked ? marked.parse(rawMarkdown || "") : (rawMarkdown || "");
+    }
+    
+    const baseUrl = `#/law/${encodeURIComponent(law.id)}/`;
+    return LawParser.toHTML(rawMarkdown || "", baseUrl);
   }
 
   // ---------- heading anchors / copy-link ----------
@@ -286,7 +287,7 @@
         </div>`
         : "";
 
-    const bodyHtml = renderLawMarkdown(selected.content || "", law.id);
+    const bodyHtml = renderLawMarkdown(selected.content || "", law);
     
     app.innerHTML = `
       <a class="back-link" href="#/">← Back to registry</a>
