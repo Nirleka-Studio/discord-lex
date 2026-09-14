@@ -12,8 +12,6 @@ authority: "The Director"
 # SR 101 — Charter of the Nirleka Studios Discord Server
 *(Server Charter)*
 
-> **Enactment Notice:** Enacted as the primary governing document of the Nirleka Studios Discord Server. All lower laws, executive decisions, and administrative guidelines derive their authority from this Charter and must comply with its provisions.
-
 ## Preamble
 In the name of The Cat!
 
