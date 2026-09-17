@@ -212,3 +212,14 @@ SR 310 Penal Code
 
 ### Interpretation Standard
 **Headings, Chapter titles, and Section names have no legal force.** They exist purely for organisation. Only the explicit provisions inside the Articles themselves constitute the law.
+
+## Legal principles
+The law has been in development for thousands of years. What problem you encounter has already been encounter centuries before. Most legal principles and maxims are in Latin for reasons an art student like I still do not understand.
+
+1. Equality before the law. No one is above the law.
+2. Principle of legality. *(Nulla Poena Sine Lege)* If there is no law prohibiting it, no one can be punished for it.
+3. Non-retroactivity. A person cannot be punished for an act that committed BEFORE a law prohibits it.
+4. Double jeopardy *(Ne Bis In Idem)* A person who was convicted cannot be convicted again for the same offence.
+5. Intent vs Negligence *(Mens Rea)* A person can be punished if they intentionally commit an offence or through negligence.
+6. Mistake of fact *(Error in facto)* If a person genuinely misapprehends the facts, they are judged based on what they thought was happening. If the mistake was due to carelessness, it degenerates into punishable negligence.
+7. Justification / Authorised Acts. An act that normally constitutes a crime (e.g., seizing property) is lawful if explicitly mandated or authorised by law (e.g., a police officer executing a court warrant).
