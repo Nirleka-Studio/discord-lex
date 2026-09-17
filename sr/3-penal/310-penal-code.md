@@ -242,7 +242,7 @@ a. disrupt normal Server operations or intentionally degrade the usability of ch
 b. harass, overwhelm, or mass-ping Server members; or
 c. circumvent moderation systems, verification barriers, or previously issued penalties
 
-is punished with a Class 4 penalty, alongside the associated accounts.
+is punished with by Class 4 penalty, alongside the associated accounts.
 
 <sup>2</sup> The promotion of, or provision of material support to, external platforms or groups actively engaged in planning or executing a raid, whether targeted at this Server or any other community, is not exempt from paragraph 1.
 
