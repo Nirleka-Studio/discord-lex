@@ -251,7 +251,7 @@ is punished with by Class 4 penalty, alongside the associated accounts.
 #### Art. 33 Non-consensual romantic pairings
 A member who pairs or depicts persons in romantic or sexual contexts without the explicit consent of all persons paired or depicted is punished by a Class 2 penalty and up to a Class 3 penalty.
 
-#### Art. 34 Forced feminisation and suggestive media
+#### Art. 34 Forced feminisation and suggestive media[^1]
 <sup>1</sup> A person who instructs, coerces, or persistently encourages other persons to don specific garments, adopt specific personas, or engage in behaviours that are recognised as elements of sexual roleplay, psychological fetishes, or sexual submissiveness is punished by a Class 1 penalty and up to a Class 4 penalty.
 
 <sup>2</sup> The presentation of media as a humorous image, macro, trend, or meme does not grant exemption from the provisions of this Article.
@@ -328,7 +328,7 @@ is punished by a Class 3 penalty and up to a Class 4 penalty.
 
 <sup>3</sup> A member who intentionally or repeatedly uses non-phallic novelties, dual-use items, or subtle adult items to evade paragraph 1 is punished under paragraph 1.
 
-#### Art. 47 Incest
+#### Art. 47 Incest[^2]
 <sup>1</sup> A member who depicts or encourages incest is punished by a Class 1 penalty and up to a Class 2 penalty, and a 10,000₣ fine.
 
 <sup>2</sup> Incest is depicted where the persons involved in the sexual or intimate act are closely related by blood, as established by:
@@ -398,3 +398,6 @@ b. reclaimed slurs such as nigga.
 
 #### Art. 57 False reporting and moderation abuse
 A member who intentionally submits false reports, fabricates evidence, or maliciously misuses ticket or report systems to trigger moderation action against another member is punished by a Class 2 penalty and up to a Class 3 penalty.
+
+[^1]: Adopted unilaterally by The Director on 19 June 2026, in force since 19 June 2026.
+[^2]: Adopted based on a majority vote (Ref. No. 3) initiated on 6 Sept. 2026, in force since 10 Sept. 2026.
