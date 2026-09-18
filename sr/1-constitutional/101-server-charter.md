@@ -2,10 +2,10 @@
 sr_id: "SR 101"
 title: "Charter of the Nirleka Studios Discord Server"
 abbreviation: "Server Charter"
-version: "2.7.2"
+version: "2.12.3"
 category: "Constitutional Law"
 enacted_date: "2026-08-11"
-last_amended: "2026-09-08"
+last_amended: "2026-09-18"
 authority: "The Director"
 ---
 
@@ -17,9 +17,9 @@ In the name of The Cat!
 
 The Director of Nirleka Studios,
 
-in an attempt to maintain a unified and civil Discord server as apparently simply stating « Don't be a dick » is not enough,
+in an attempt to maintain a unified and civil Discord server as apparently simply stating «Don't be a dick» is not enough,
 
-to both establish rights for all members, constraining their so-called freedom under law to prevent « dickish behaviours »,
+to both establish rights for all members, constraining their so-called freedom under law to prevent «dickish behaviours»,
 
 and to give power to the Administrators to enforce the law and restrict their profound ego,
 
@@ -53,7 +53,7 @@ The Director is the owner of the Nirleka Studios Discord Server.
 The official language of the Server is British English.
 
 #### Art. 4 Rule of Law
-<sup>1</sup> The Server's activities must be based on and limited by the Rule of Law.
+<sup>1</sup> The Server's activities must be based on and limited by law.
 
 <sup>2</sup> Server activity must be in the public interest and proportional to the goals pursued.
 
@@ -65,6 +65,9 @@ The official language of the Server is British English.
 <sup>1</sup> Every person is equal before the law.
 
 <sup>2</sup> A person's natural characteristics, personal identity, beliefs, and sexual orientation are of no interest of the Server.
+
+#### Art. 5a Protection against arbitrary conduct and principle of good faith
+Every person has the right to be treated by Server staffs and administrators in good faith and in a non-arbitrary manner.
 
 #### Art. 6 Principle of Legality
 <sup>1</sup> A member must not be punished for an act that was not a violation under established law at the time it was committed.
@@ -116,7 +119,12 @@ c. The Head Administrator.
 <sup>4</sup> A member holding a position within the Executive Branch or the Judiciary Branch must not simultaneously hold another position within either branch, unless explicitly authorised by this Charter.
 
 #### Art. 11a Good standing
-No person of bad faith or history of malicious behaviour, abuse, or corruption can be in any position of Administration or Server management.
+A person is considered in good standing if they have no history of bad faith, malicious behaviour, abuse, or corruption.
+
+#### Art. 11b Bad standing in Server Administration and staff
+<sup>1</sup> A person in bad standing must not be in any position of Administration, staff, or authority.
+
+<sup>2</sup> A person in bad standing must not be in any honorable recognition by the Administration or staff.
 
 #### Art. 12 Lance Administrator
 <sup>1</sup> Lance Administrators serve as entry-level moderators.
@@ -178,25 +186,26 @@ c. review appeals and void invalid administrative actions.
 
 ---
 
-## Chapter 3: Elections, Referendums, and Removal
+## Chapter 3: Appointments, Referendums, and Removal
 
-### Section 1: Elections
+### Section 1: Appointment of Administrators
 
-#### Art. 16 Election of Lance Administrators
-<sup>1</sup> Elections for Lance Administrators must occur every 6 weeks.
+#### Art. 16 Appointment of Lance Administrators
+<sup>1</sup> Any member in good standing who explicitly consents to serve as a Lance Administrator may be appointed by the Head Administrator or the Director.
 
-<sup>2</sup> A Lance Administrator who has completed a 6-week term must step down before the vote, unless that administrator is actively managing an unresolved case that the administrator is unable to transfer.
+<sup>2</sup> Appointees must receive instruction on executing their duties and must possess working knowledge of the applicable laws.
 
-<sup>3</sup> The election procedure:
-a. one week before the election, the Secretary must compile a list of eligible candidates who consent to run;
-b. the Secretary must publish a server-wide poll lasting 3 days;
-c. members may vote for up to 2 candidates.
+#### Art. 16a Service of Lance Administrators
+<sup>1</sup> A Lance Administrator must not serve for more than 6 weeks on their first term.
 
-<sup>4</sup> Candidates receiving a majority of cast votes is to be appointed as Lance Administrators.
+<sup>2</sup> A Lance Administrator are removed from their position on the end of their term.
 
-<sup>5</sup> If there are no Lance Administrators left in the Administration, the Secretary may call an emergency election within 24 hours, lasting for a duration of 24 hours.
+<sup>3</sup> A Lance Administrator who is actively managing a conflict in good faith may have their removal deferred until the matter is resolved.
 
-<sup>6</sup> If the Server has no members eligible to be Lance Administrators, the Administration may pause the 6-week timer until eligible members are available.
+#### Art. 16b Consecutive terms of Lance Administrators
+<sup>1</sup> Upon the end of a Lance Administrator's first and consecutive terms, a public poll lasting 3 days is called on whether to keep the Lance Administrator or not.
+
+<sup>2</sup> If a majority of votes are in favour of keeping the Lance Administrator, the Lance Administrator may serve for another term for 12 weeks.
 
 ---
 
