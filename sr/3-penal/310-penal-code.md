@@ -5,7 +5,7 @@ abbreviation: "Penal Code"
 version: "4.0.0"
 category: "Penal Law"
 enacted_date: "2026-08-11"
-last_amended: "2026-09-12"
+last_amended: "2026-09-17"
 authority: "The Director"
 repeals: "ARCH 300"
 ---

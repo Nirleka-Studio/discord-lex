@@ -5,7 +5,7 @@ abbreviation: "SMC"
 version: "2.0.0"
 category: "Civil and Public Law"
 enacted_date: "2026-08-31"
-last_amended: "2026-08-31"
+last_amended: "2026-09-07"
 authority: "The Director"
 ---
 
