@@ -2,7 +2,7 @@
 sr_id: "SR 101"
 title: "Charter of the Nirleka Studios Discord Server"
 abbreviation: "Server Charter"
-version: "2.12.3"
+version: "2.13.3"
 category: "Constitutional Law"
 enacted_date: "2026-08-11"
 last_amended: "2026-09-18"
@@ -140,11 +140,7 @@ a. issue permanent bans;
 b. override decisions of higher administrators; or
 c. modify roles outside outlined enforcement procedures.
 
-<sup>4</sup> The number of active Lance Administrators is determined by server population:
-a. under 40 members: minimum of 1;
-b. 40 to 99 members: minimum of 2, maximum of 4;
-c. 100 to 299 members: maximum of 6;
-d. 300 to 500 members: maximum of 10.
+<sup>4</sup> The appointment limits and minimum staffing requirements for Lance Administrators are governed by Annex 1.
 
 #### Art. 13 Senior Administrator
 <sup>1</sup> Senior Administrators supervise Lance Administrators, manage escalated cases, and enforce compliance within the Executive Branch.
@@ -155,9 +151,7 @@ b. review and reverse decisions made by Lance Administrators.
 
 <sup>3</sup> Senior Administrators must not act on disputes in which they are personally involved or reverse decisions of the Head Administrator.
 
-<sup>4</sup> The maximum number of Senior Administrators is:
-a. 1 for the first 20 members; and
-b. 1 additional Senior Administrator for each doubling of total members past 20.
+<sup>4</sup> The maximum number of Senior Administrators is governed by Annex 1.
 
 #### Art. 14 Head Administrator
 <sup>1</sup> The Head Administrator is a single position that oversees operations of the Executive Branch.
@@ -273,3 +267,11 @@ The Director may exercise powers not restricted by law.
 <sup>3</sup> In reaching that decision, judicial authority must take account of established legal writing and previous court decisions.
 
 [^1]: Adopted based on a majority vote on 19 June 2026 (Ref. No. 0), technically in force since 24 September 2022, exercised since 30 May 2023.
+
+## Annex 1: Administrative Ratios and Limits
+| Server Scale Tier                      | Active Engagement Base (Est. 1-10%) | Lance Admins            | Senior Admins        |
+|----------------------------------------|-------------------------------------|-------------------------|----------------------|
+| **Tier 1: Seed** (< 50 members)        | 1-5 active members                  | 1                       | 1                    |
+| **Tier 2: Small** (50-250 members)     | 5-25 active members                 | Max 2                   | 1                    |
+| **Tier 3: Medium** (251-1,000 members) | 25-100 active members               | Max 3-4                 | Max 2                |
+| **Tier 4: Large** (1,000+ members)     | 100+ active members                 | 1 per 25 active members | 1 per 3 Lance Admins |
