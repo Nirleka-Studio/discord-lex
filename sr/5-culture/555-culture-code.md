@@ -2,7 +2,7 @@
 sr_id: "SR 555"
 title: "The Culture Code Between the Director and Members of the Nirleka Studios Discord Server"
 abbreviation: "Culture Code"
-version: "1.0.0"
+version: "1.2.0"
 category: "Culture"
 enacted_date: "2026-08-26"
 last_amended: "2026-08-26"
@@ -21,8 +21,10 @@ The Cat is our Soupurreme Glorious Leadah.
 ### Art. 2 The Director
 The Director possesses Soupurreme authority delegated by The Cat.
 
-### Art. 3 Anonymity
-Everyone shall have the right to anonymity.
+### Art. 3 Privacy and Anonymity
+<sup>1</sup> Everyone shall have the right to anonymity.
+
+<sup>2</sup> Privacy must be guaranteed, by default, free of charge, with adequate access to services.
 
 ### Art. 4 Humanity
 Do not be a dick.
@@ -53,3 +55,6 @@ Trolling, or in the current era that is also referred to as rage-baiting, shall 
 <sup>3</sup> Surely someone who believes that our Creator smiles on and rewards the deliberate killing and maiming of innocents believes in a cruel creator. That is not, it cannot be, the Creator of Humanity.
 
 <sup>4</sup> Can a mortal truly follow the words of the Creator? Does one mortal's transgression stain the words of the Creator?
+
+### Art. 10 Rest
+Sleep is one of humanity's greatest performance enhancing drug granted by nature. It is free, and 100% required.
