@@ -2,10 +2,10 @@
 sr_id: "SR 101"
 title: "Charter of the Nirleka Studios Discord Server"
 abbreviation: "Server Charter"
-version: "2.13.3"
+version: "2.14.3"
 category: "Constitutional Law"
 enacted_date: "2026-08-11"
-last_amended: "2026-09-18"
+last_amended: "2026-09-20"
 authority: "The Director"
 ---
 
@@ -257,7 +257,7 @@ b. with the options: *Yes*, *No*, and *Abstain*.
 #### Art. 22 Powers of the Director
 The Director may exercise powers not restricted by law.
 
-### Section 2: Application and Interpretation
+### Section 2: The Law, Application, and Interpretation
 
 #### Art. 24 Application of the Law
 <sup>1</sup> The law applies to any legal question it covers, whether by its exact wording or by what that wording means when properly read.
@@ -266,7 +266,12 @@ The Director may exercise powers not restricted by law.
 
 <sup>3</sup> In reaching that decision, judicial authority must take account of established legal writing and previous court decisions.
 
-[^1]: Adopted based on a majority vote on 19 June 2026 (Ref. No. 0), technically in force since 24 September 2022, exercised since 30 May 2023.
+#### Art. 24 Publication of law
+<sup>1</sup> The law must be publicly available and easily accessible to all persons.
+
+<sup>2</sup> Laws must be published on a platform that allows users to view and differentiate between versions of a law.
+
+<sup>3</sup> The duty to maintain said platform rests with the Director and their Executive Branch.
 
 ## Annex 1: Administrative Ratios and Limits
 | Server Scale Tier                      | Active Engagement Base (Est. 1-10%) | Lance Admins            | Senior Admins        |
@@ -275,3 +280,5 @@ The Director may exercise powers not restricted by law.
 | **Tier 2: Small** (50-250 members)     | 5-25 active members                 | Max 2                   | 1                    |
 | **Tier 3: Medium** (251-1,000 members) | 25-100 active members               | Max 3-4                 | Max 2                |
 | **Tier 4: Large** (1,000+ members)     | 100+ active members                 | 1 per 25 active members | 1 per 3 Lance Admins |
+
+[^1]: Adopted based on a majority vote on 19 June 2026 (Ref. No. 0), technically in force since 24 September 2022, exercised since 30 May 2023.
