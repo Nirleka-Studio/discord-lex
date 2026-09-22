@@ -2,10 +2,10 @@
 sr_id: "SR 101"
 title: "Charter of the Nirleka Studios Discord Server"
 abbreviation: "Server Charter"
-version: "2.14.3"
+version: "2.15.3"
 category: "Constitutional Law"
 enacted_date: "2026-08-11"
-last_amended: "2026-09-20"
+last_amended: "2026-09-22"
 authority: "The Director"
 ---
 
@@ -163,6 +163,21 @@ c. manage server bot integrations, roles, and channel permissions; and
 d. overturn or uphold any executive moderation decision.
 
 <sup>3</sup> The Head Administrator may be appointed and removed by the Director.
+
+#### Art. 14a The Chief Minister
+<sup>1</sup> The Chief Minister serves as a direct subordinate to the Director.
+
+<sup>2</sup> The Chief Minister may retain legislative authority authorised by law and by the Director.
+
+<sup>3</sup> The Chief Minister has the duty to review existing laws or drafts of laws for:
+a. flaws;
+b. loopholes;
+c. inconsistencies; and
+d. grammatical errors.
+
+<sup>4</sup> The Chief Minister must quickly draft a temporary decree when a loophole or flaw in a law is found, until the problem is ultimately resolved by the Director.
+
+<sup>5</sup> The Chief Minister is appointed directly by the Director.
 
 ---
 
