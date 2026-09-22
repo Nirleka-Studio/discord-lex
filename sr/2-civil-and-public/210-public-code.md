@@ -2,10 +2,10 @@
 sr_id: "SR 210"
 title: "Public Code of Member Conduct"
 abbreviation: "Public Code"
-version: "2.0.0"
+version: "2.1.0"
 category: "Civil and Public Law"
 enacted_date: "2026-08-12"
-last_amended: "2026-09-08"
+last_amended: "2026-09-22"
 authority: "The Director"
 repeals: "ARCH 110"
 ---
@@ -99,7 +99,7 @@ b. it does not disrupt other members' ongoing conversation.
 
 #### Art. 8 Spamming
 Members must not spam in such a manner that:
-a. clogs up a channel with repeated or useless contents; and
+a. clogs up a channel with repeated or useless contents; or
 b. disrupts other members' ongoing conversation.
 
 #### Art. 9 Impersonation
