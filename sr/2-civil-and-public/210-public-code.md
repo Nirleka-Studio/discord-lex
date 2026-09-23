@@ -83,7 +83,7 @@ decrees:
 
 <sup>3</sup> Members are encouraged to follow and respect Server cultures.
 
-<sup>4</sup> A person must not use their status, characteristics, or orientation to assert superiority, unduly emphasise differences, or portray themselves as a victim.
+<sup>4</sup> A person must not use their status, characteristics, or orientation to assert superiority, unduly emphasise differences, or portray themselves as a victim in order to manipulate others, deflect accountability, or justify malicious behavior.
 
 <sup>5</sup> A person must not knowingly present false facts about another person or group as true.
 
@@ -113,7 +113,7 @@ Members must not impersonate another natural person or group with the intent to 
 <sup>2</sup> For slightly distressing or uncomfortable interactions or contents as allowed by law, members must move to designated NSFW channels.
 
 #### Art. 11 Personal information
-<sup>1</sup> Members must not share some of their personal information, including:
+<sup>1</sup> Members must not share some of their personal information, including but not limited to:
 a. home addresses; and
 b. documents with personal identifiable information.
 
@@ -124,6 +124,11 @@ Members must not share any malicious contents that can be accessed or downloaded
 a. viruses;
 b. phishing links; or
 c. gambling sites;
+
+#### Art. 12a Intellectual Property
+<sup>1</sup> Members must not falsely represent themselves as the rightful owners of artwork, programming, multimedia assets, or intellectual property created independently of them.
+
+<sup>2</sup> Members must make an effort to attribute creative works belonging to third parties whenever distributing such works.
 
 ### Section 3: Duties and Obligations
 
