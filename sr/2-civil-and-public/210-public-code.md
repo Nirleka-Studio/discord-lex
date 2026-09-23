@@ -2,7 +2,7 @@
 sr_id: "SR 210"
 title: "Public Code of Member Conduct"
 abbreviation: "Public Code"
-version: "2.1.0"
+version: "2.2.0"
 category: "Civil and Public Law"
 enacted_date: "2026-08-12"
 last_amended: "2026-09-22"
@@ -83,11 +83,11 @@ decrees:
 
 <sup>3</sup> Members are encouraged to follow and respect Server cultures.
 
-<sup>4</sup> A person must not use their status, characteristics, or orientation to assert superiority, unduly emphasise differences, or portray themselves as a victim in order to manipulate others, deflect accountability, or justify malicious behavior.
+<sup>4</sup> A person must not use their status, characteristics, or orientation to assert superiority, unduly emphasise differences, or portray themselves as a victim in order to manipulate others, deflect accountability, or justify malicious behaviour.
 
 <sup>5</sup> A person must not knowingly present false facts about another person or group as true.
 
-<sup>6</sup> Persons confessing or discussing self-harm or suicide must be directed to available insitutional help and approached with respect.
+<sup>6</sup> Persons confessing or discussing self-harm or suicide must be directed to available institutional help and approached with respect.
 
 #### Art. 6 Channels
 Members are encouraged to use channels for their intended purposes as described by the channel’s name, description, or formal pinned messages by Administrators.
@@ -125,7 +125,7 @@ a. viruses;
 b. phishing links; or
 c. gambling sites;
 
-#### Art. 12a Intellectual Property
+#### Art. 12a Intellectual property
 <sup>1</sup> Members must not falsely represent themselves as the rightful owners of artwork, programming, multimedia assets, or intellectual property created independently of them.
 
 <sup>2</sup> Members must make an effort to attribute creative works belonging to third parties whenever distributing such works.
