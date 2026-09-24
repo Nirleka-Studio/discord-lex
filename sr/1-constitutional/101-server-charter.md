@@ -2,10 +2,10 @@
 sr_id: "SR 101"
 title: "Charter of the Nirleka Studios Discord Server"
 abbreviation: "Server Charter"
-version: "2.15.3"
+version: "2.15.4"
 category: "Constitutional Law"
 enacted_date: "2026-08-11"
-last_amended: "2026-09-22"
+last_amended: "2026-09-24"
 authority: "The Director"
 ---
 
@@ -207,7 +207,7 @@ c. review appeals and void invalid administrative actions.
 #### Art. 16a Service of Lance Administrators
 <sup>1</sup> A Lance Administrator must not serve for more than 6 weeks on their first term.
 
-<sup>2</sup> A Lance Administrator are removed from their position on the end of their term.
+<sup>2</sup> A Lance Administrator is removed from their position on the end of their term.
 
 <sup>3</sup> A Lance Administrator who is actively managing a conflict in good faith may have their removal deferred until the matter is resolved.
 
@@ -260,7 +260,7 @@ b. with the options: *Yes*, *No*, and *Abstain*.
 #### Art. 20 Supremacy of the Charter
 <sup>1</sup> This Charter is the primary governing law of the server.
 
-<sup>2</sup> Any lower laws, executive decisions, or channel rules that conflicts with this Charter is invalid and unenforceable.
+<sup>2</sup> Any lower laws, executive decisions, or channel rules that conflict with this Charter are invalid and unenforceable.
 
 #### Art. 21 Amendments
 <sup>1</sup> The Director retains the power to unilaterally enact, amend, or repeal any law or regulation governing this server.[^1]
@@ -281,7 +281,7 @@ The Director may exercise powers not restricted by law.
 
 <sup>3</sup> In reaching that decision, judicial authority must take account of established legal writing and previous court decisions.
 
-#### Art. 24 Publication of law
+#### Art. 24a Publication of law
 <sup>1</sup> The law must be publicly available and easily accessible to all persons.
 
 <sup>2</sup> Laws must be published on a platform that allows users to view and differentiate between versions of a law.

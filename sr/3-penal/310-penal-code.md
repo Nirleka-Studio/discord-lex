@@ -2,10 +2,10 @@
 sr_id: "SR 310"
 title: "Penal Code"
 abbreviation: "Penal Code"
-version: "4.0.0"
+version: "4.0.1"
 category: "Penal Law"
 enacted_date: "2026-08-11"
-last_amended: "2026-09-17"
+last_amended: "2026-09-24"
 authority: "The Director"
 repeals: "ARCH 300"
 ---
@@ -242,7 +242,7 @@ a. disrupt normal Server operations or intentionally degrade the usability of ch
 b. harass, overwhelm, or mass-ping Server members; or
 c. circumvent moderation systems, verification barriers, or previously issued penalties
 
-is punished with by Class 4 penalty, alongside the associated accounts.
+is punished by a Class 4 penalty, alongside the associated accounts.
 
 <sup>2</sup> The promotion of, or provision of material support to, external platforms or groups actively engaged in planning or executing a raid, whether targeted at this Server or any other community, is not exempt from paragraph 1.
 

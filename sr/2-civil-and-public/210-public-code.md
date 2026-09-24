@@ -2,10 +2,10 @@
 sr_id: "SR 210"
 title: "Public Code of Member Conduct"
 abbreviation: "Public Code"
-version: "2.2.0"
+version: "2.2.1"
 category: "Civil and Public Law"
 enacted_date: "2026-08-12"
-last_amended: "2026-09-22"
+last_amended: "2026-09-24"
 authority: "The Director"
 repeals: "ARCH 110"
 ---
@@ -123,7 +123,7 @@ b. documents with personal identifiable information.
 Members must not share any malicious contents that can be accessed or downloaded, including but not limited to:
 a. viruses;
 b. phishing links; or
-c. gambling sites;
+c. gambling sites.
 
 #### Art. 12a Intellectual property
 <sup>1</sup> Members must not falsely represent themselves as the rightful owners of artwork, programming, multimedia assets, or intellectual property created independently of them.

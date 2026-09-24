@@ -2,10 +2,10 @@
 sr_id: "SR 611"
 title: "The Touch Grass Act"
 abbreviation: "Touch Grass Act"
-version: "2.0.0"
+version: "2.0.1"
 category: "Economy"
 enacted_date: "2026-08-12"
-last_amended: "2026-09-08"
+last_amended: "2026-09-24"
 authority: "The Director"
 ---
 
@@ -16,7 +16,7 @@ authority: "The Director"
 ---
 
 ## Art. 1 Touching grass
-A natural person touches grass if they are present outdoors, and is no lower from 500 meters away from their home.
+A natural person touches grass if they are present outdoors, and is at least 500 meters away from their home.
 
 ## Art. 2 Reward for touching grass
 <sup>1</sup> Members may be compensated for providing proof of touching grass.

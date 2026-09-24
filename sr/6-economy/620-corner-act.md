@@ -2,10 +2,10 @@
 sr_id: "SR 620"
 title: "The Corner Act"
 abbreviation: "Corner Act"
-version: "2.0.0"
+version: "2.0.1"
 category: "Economy"
 enacted_date: "2026-08-12"
-last_amended: "2026-09-08"
+last_amended: "2026-09-24"
 authority: "The Director"
 ---
 
@@ -31,12 +31,12 @@ The following are designated as permanent corners and can not be removed or taxe
 a. `nirleka-corner`;
 b. `error-corner`;
 c. `faze-corner`; and
-e. `ueef-corner`.
+d. `ueef-corner`.
 
 ## Art. 3 Archival of corners
 <sup>1</sup> An archived corner is put in the Public Archive category to remain hidden from the public but can be accessed by those who have Archive Access.
 
-<sup>2</sup> Permissions of the archived corner must be sync to the Public Archive category.
+<sup>2</sup> Permissions of the archived corner must be synced to the Public Archive category.
 
 ### Art. 4 Existing corners
 For existing corners, the owner of those corners must pay for their corner tax on 19 August 2026.
@@ -48,13 +48,13 @@ For existing corners, the owner of those corners must pay for their corner tax o
 
 <sup>2</sup> Members who have committed grave violations of law must not acquire any corners.
 
-<sup>3</sup> Members who have purchased a corner must not purchase another corner.
+<sup>3</sup> Members who has purchased a corner must not purchase another corner.
 
 <sup>4</sup> Once a member have purchased a new corner, a corner with their name or nickname followed by `-corner` is created, and put under the Text Channels category.
 
 ### Art. 6 Taxation of corners
 <sup>1</sup> The Director taxes all non-permanent corners for 1,600₣ per week.
 
-<sup>2</sup> The owner of a corner have 48 hours to compensate the tax once rent is due.
+<sup>2</sup> The owner of a corner has 48 hours to compensate the tax once rent is due.
 
 <sup>3</sup> If an owner fails to compensate for the tax, the corner must be archived.
