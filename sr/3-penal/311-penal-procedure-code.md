@@ -2,7 +2,7 @@
 sr_id: "SR 311"
 title: "Penal Procedure Code"
 abbreviation: "ProNaCo, PPC"
-version: "1.0.0"
+version: "1.0.1"
 category: "Penal Law"
 enacted_date: "2026-09-10"
 last_amended: "2026-09-10"
@@ -57,7 +57,7 @@ No person who has been convicted or acquitted in the Server by a final legally b
 
 <sup>2</sup> The judicial authority must be free to interpret the evidence in accordance with the views that it forms over the entire proceedings.
 
-<sup>3</sup> Where there is insurmountable doubt whether the factual requirements of alleged offence have been fulfilled, the judicial authority shall proceed on the assumption that the circumstances more favourable to the accused occurred.
+<sup>3</sup> Where there is insurmountable doubt whether the factual requirements of alleged offence have been fulfilled, the judicial authority must proceed on the assumption that the circumstances more favourable to the accused occurred.
 
 ### Art. 9 Evidence
 The enforcing authority bears the burden of establishing that a violation occurred.
