@@ -2,10 +2,10 @@
 sr_id: "SR 310"
 title: "Penal Code"
 abbreviation: "Penal Code"
-version: "4.0.1"
+version: "4.1.1"
 category: "Penal Law"
 enacted_date: "2026-08-11"
-last_amended: "2026-09-24"
+last_amended: "2026-09-25"
 authority: "The Director"
 repeals: "ARCH 300"
 ---
@@ -73,7 +73,7 @@ A person acts lawfully if their conduct is required or authorised by law, even i
 <sup>3</sup> A person who voluntarily abandons the execution of an offence, or prevents its completion, is not punished for the attempt.
 
 #### Art. 11 Discord's Terms of Service and Community Guidelines
-Administrators may enforce compliance with Discord's Terms of Service (ToS) and Community Guidelines, but must only impose punishments as defined in Server laws. Anything that violates Discord's ToS or Community Guidelines but is undefined or not penalised under any Server law must be referred to the Head Administrator or the Director.
+The enforcing authorities may enforce compliance with Discord's Terms of Service (ToS) and Community Guidelines, but must only impose punishments as defined in Server laws. Anything that violates Discord's ToS or Community Guidelines but is undefined or not penalised under any Server law must be referred to the Head Administrator or the Director.
 
 ### Section 2: Terms and Definitions
 
