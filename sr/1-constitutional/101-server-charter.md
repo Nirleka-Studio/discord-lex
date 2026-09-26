@@ -2,10 +2,10 @@
 sr_id: "SR 101"
 title: "Charter of the Nirleka Studios Discord Server"
 abbreviation: "Server Charter"
-version: "2.15.4"
+version: "2.18.4"
 category: "Constitutional Law"
 enacted_date: "2026-08-11"
-last_amended: "2026-09-24"
+last_amended: "2026-09-26"
 authority: "The Director"
 ---
 
@@ -61,7 +61,10 @@ The official language of the Server is British English.
 
 ### Section 2: Fundamental Member Rights and Guarantees
 
-#### Art. 5 Equality before the Law
+### Art. 4a Human dignity
+Human dignity must be respected and protected.
+
+#### Art. 5 Equality before the law
 <sup>1</sup> Every person is equal before the law.
 
 <sup>2</sup> A person's natural characteristics, personal identity, beliefs, and sexual orientation are of no interest of the Server.
@@ -69,10 +72,22 @@ The official language of the Server is British English.
 #### Art. 5a Protection against arbitrary conduct and principle of good faith
 Every person has the right to be treated by Server staffs and administrators in good faith and in a non-arbitrary manner.
 
+#### Art. 5b Right to freedom of expression, opinion, and information
+<sup>1</sup> Every person has the right to freely express his or her expressions and creative works.
+
+<sup>2</sup> Every person has the right to freely form, express, and impart his or her opinions.
+
+<sup>3</sup> Every person has the right freely to receive information to gather it from generally accessible sources and to disseminate it.
+
 #### Art. 6 Principle of Legality
 <sup>1</sup> A member must not be punished for an act that was not a violation under established law at the time it was committed.
 
 <sup>2</sup> Retroactive enforcement and penalties are prohibited.
+
+#### Art. 6a Prohibition of double jeopardy
+<sup>1</sup> No member may be penalised or incurred any punishment more than once for the same specific violation.
+
+<sup>2</sup> Once an appeal has been resolved or a penalty served, the matter is considered closed.
 
 #### Art. 7 Due process
 <sup>1</sup> No member may be banned, kicked, or penalised without:
