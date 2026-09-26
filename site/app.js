@@ -129,6 +129,12 @@
     };
   }
 
+  // Sets the browser tab title for the current view. Pass null/"" for the
+  // home view (just the site name); otherwise it's "<page> — <site name>".
+  function setTitle(pageTitle) {
+    document.title = pageTitle ? `${pageTitle} — ${CONFIG.siteName}` : CONFIG.siteName;
+  }
+
   function lawUrl(id, anchor) {
     return `#/law/${encodeURIComponent(id)}${anchor ? "/" + encodeURIComponent(anchor) : ""}`;
   }
@@ -145,14 +151,14 @@
         .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1") // Links
         .replace(/<[^>]*>/g, "");    // HTML tags
   }
-  
+
   function highlightMatches(text, query) {
     if (!text || !query) return text || "";
     const escaped = query.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
     const regex = new RegExp(`(${escaped})`, "gi");
     return text.replace(regex, "<mark class=\"search-highlight\">$1</mark>");
   }
-  
+
   function renderLawMarkdown(rawMarkdown, lawId) {
     const baseUrl = `#/law/${encodeURIComponent(lawId)}/`;
 
@@ -175,6 +181,7 @@
   // ---------- views ----------
 
   function renderRegistry(filterText = "") {
+    setTitle(filterText.trim() ? `Search: ${filterText.trim()}` : "Registry");
     const q = filterText.trim().toLowerCase();
     const srLaws = DATA.laws.filter((l) => l.kind === "sr");
 
@@ -286,6 +293,7 @@
   function renderLaw(id, anchor, versionIndex) {
     const law = findLaw(id);
     if (!law) {
+      setTitle("Not found");
       app.innerHTML = `<p class="empty-state">No law found with identifier “${id}”.</p>`;
       return;
     }
@@ -293,6 +301,8 @@
     const idx = versionIndex || 0;
     const selected = versionAt(law, idx);
     const hist = law.history || [];
+
+    setTitle(`${law.id} — ${law.title}${!selected.isCurrent ? " (historical version)" : ""}`);
 
     const historyItems = hist.length
         ? hist
@@ -321,7 +331,7 @@
         : "";
 
     const bodyHtml = renderLawMarkdown(selected.content || "", law.id);
-    
+
     app.innerHTML = `
       <a class="back-link" href="#/">← Back to registry</a>
       <div class="law-layout">
@@ -364,7 +374,7 @@ ${law.repeals ? `<div class="info-row"><dt>Repeals</dt><dd><a href="${lawUrl(law
         </div>
       </div>
     `;
-    
+
     if (anchor) scrollToAnchor(anchor);
 
     app.querySelectorAll(".history-item[data-idx]").forEach((el) => {
@@ -383,6 +393,7 @@ ${law.repeals ? `<div class="info-row"><dt>Repeals</dt><dd><a href="${lawUrl(law
   }
 
   function renderArchive() {
+    setTitle("Archive");
     const items = DATA.laws.filter((l) => l.kind === "archive");
     const rows = items
         .map(
@@ -403,6 +414,7 @@ ${law.repeals ? `<div class="info-row"><dt>Repeals</dt><dd><a href="${lawUrl(law
   }
 
   function renderReferendums() {
+    setTitle("Referendums");
     if (!DATA.referendums.length) {
       app.innerHTML = `<h2 class="category-heading">Referendums</h2><hr class="category-rule" /><p class="empty-state">No referendums recorded.</p>`;
       return;
