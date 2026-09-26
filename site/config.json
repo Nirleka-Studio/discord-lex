@@ -1,0 +1,7 @@
+{
+  "siteName": "Nirleka Studios — Code of Laws",
+  "logo": "./assets/icons/nsat_col.svg",
+  "favicon": "./assets/icons/favicon.svg",
+  "githubRepoUrl": "https://github.com/Nirleka-Studio/discord-lex",
+  "footer": "Internal rules of the Nirleka Studios Discord server. Generated automatically from the law repository, not a substitute for the source Markdown. All users are still subject to Discord's policies, including its Terms of Service and Community Guidelines.\n\nManaged by Nirleka Studio's Administration team. These do not have any real-world legal force.\n\nCC0 1.0 Universal (Public Domain)"
+}

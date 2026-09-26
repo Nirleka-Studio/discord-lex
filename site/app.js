@@ -2,7 +2,41 @@
   const app = document.getElementById("app");
   let DATA = null;
 
-  const GITHUB_REPO_URL = "https://github.com/Nirleka-Studio/discord-lex";
+  // Overwritten by config.json at startup (see applySiteConfig). The values
+  // below are just a fallback in case config.json is missing or fails to
+  // load, so the site never renders with empty branding.
+  let CONFIG = {
+    siteName: "Code of Laws",
+    logo: "./assets/icons/nsat_col.svg",
+    favicon: "./assets/icons/favicon.svg",
+    githubRepoUrl: "",
+    footer: "",
+  };
+
+  function GITHUB_REPO_URL() {
+    return CONFIG.githubRepoUrl;
+  }
+
+  // Applies config.json to the static markup in index.html. This is the
+  // *only* place branding touches the DOM — forking the site is meant to
+  // be "edit config.json", never "grep app.js for a name".
+  function applySiteConfig(config) {
+    CONFIG = Object.assign({}, CONFIG, config || {});
+
+    document.title = CONFIG.siteName;
+
+    const link = document.getElementById("masthead-link");
+    if (link) link.setAttribute("aria-label", CONFIG.siteName);
+
+    const logo = document.getElementById("masthead-logo");
+    if (logo && CONFIG.logo) logo.src = CONFIG.logo;
+
+    const favicon = document.getElementById("site-favicon");
+    if (favicon && CONFIG.favicon) favicon.href = CONFIG.favicon;
+
+    const credit = document.getElementById("footer");
+    if (credit) credit.textContent = CONFIG.footer || "";
+  }
 
   const STATUS_LABEL = {
     in_force: "In force",
@@ -118,14 +152,13 @@
     const regex = new RegExp(`(${escaped})`, "gi");
     return text.replace(regex, "<mark class=\"search-highlight\">$1</mark>");
   }
+  
+  function renderLawMarkdown(rawMarkdown, lawId) {
+    const baseUrl = `#/law/${encodeURIComponent(lawId)}/`;
 
-  function renderLawMarkdown(rawMarkdown, law) {
-    if (law && law.kind === "archive") {
-      return window.marked ? marked.parse(rawMarkdown || "") : (rawMarkdown || "");
-    }
-    
-    const baseUrl = `#/law/${encodeURIComponent(law.id)}/`;
-    return LawParser.toHTML(rawMarkdown || "", baseUrl);
+    let html = LawParser.toHTML(rawMarkdown || "", baseUrl);
+    console.log(html);
+    return html;
   }
 
   // ---------- heading anchors / copy-link ----------
@@ -287,7 +320,7 @@
         </div>`
         : "";
 
-    const bodyHtml = renderLawMarkdown(selected.content || "", law);
+    const bodyHtml = renderLawMarkdown(selected.content || "", law.id);
     
     app.innerHTML = `
       <a class="back-link" href="#/">← Back to registry</a>
@@ -302,14 +335,14 @@
               <div class="info-row mono"><dt>Last amended</dt><dd>${fmtDate(law.last_amended)}</dd></div>
               <div class="info-row"><dt>Authority</dt><dd>${law.authority || "—"}</dd></div>
               <div class="info-row mono"><dt>Viewing version</dt><dd>${selected.version || "—"}</dd></div>
-              <div class="info-row mono">
+              ${CONFIG.githubRepoUrl ? `<div class="info-row mono">
                 <dt>Current source</dt>
                 <dd>
-                  <a href="${GITHUB_REPO_URL}/blob/${selected.commit || "main"}/${law.path || `laws/${law.id}.md`}" target="_blank" rel="noopener noreferrer">
+                  <a href="${GITHUB_REPO_URL()}/blob/${selected.commit || "main"}/${law.path || `laws/${law.id}.md`}" target="_blank" rel="noopener noreferrer">
                     ${selected.commit ? selected.commit.slice(0, 7) : "View file"} ↗
                   </a>
                 </dd>
-              </div>
+              </div>` : ""}
 ${law.repeals ? `<div class="info-row"><dt>Repeals</dt><dd><a href="${lawUrl(law.repeals)}">${law.repeals}</a></dd></div>` : ""}
               ${law.superseded_by ? `<div class="info-row"><dt>Superseded by</dt><dd><a href="${lawUrl(law.superseded_by)}">${law.superseded_by}</a></dd></div>` : ""}
             </dl>
@@ -433,9 +466,12 @@ ${law.repeals ? `<div class="info-row"><dt>Repeals</dt><dd><a href="${lawUrl(law
 
   window.addEventListener("hashchange", route);
 
-  fetch("data/laws.json")
-      .then((r) => r.json())
-      .then((data) => {
+  Promise.all([
+    fetch("config.json").then((r) => (r.ok ? r.json() : {})).catch(() => ({})),
+    fetch("data/laws.json").then((r) => r.json()),
+  ])
+      .then(([config, data]) => {
+        applySiteConfig(config);
         DATA = data;
         route();
       })

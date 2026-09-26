@@ -15,6 +15,8 @@
   --pending: #9a6b13;
   --pending-bg: #f4ecdb;
   --dropdown: #ed1c24;
+  
+  --global-black: #1a1a1a;
 
   --font-display: "Manrope", -apple-system, serif;
   --font-body: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -72,11 +74,10 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 }
 .masthead-nav { display: flex; gap: 22px; }
 .masthead-nav a {
-  font-family: var(--font-mono);
+  font-family: var(--font-display);
   font-size: 12.5px;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--ink);
+  color: var(--global-black);
   padding-bottom: 2px;
   border-bottom: 2px solid transparent;
 }
@@ -86,11 +87,45 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 @keyframes fadein { from { opacity: 0; transform: translateY(4px);} to { opacity:1; transform:none; } }
 
 .site-footer {
-  text-align: center;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 24px 24px 20px 24px;
   font-size: 12px;
   color: var(--ink);
-  padding: 24px;
+  text-align: left;
+  position: relative; 
+}
+
+.site-footer::before {
+  content: "";
+  display: block;
+  width: 100%;
   border-top: 1px solid var(--rule);
+  margin-bottom: 24px;
+}
+
+#footer {
+  white-space: pre-line;
+}
+
+.logo-text{
+  font-size: 12px;
+  line-height: 1em;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--global-black);
+}
+
+.logo-text,
+.logo-text:visited,
+.logo-text:hover,
+.logo-text:active {
+  color: var(--global-black) !important;
+  text-decoration: none !important;
+}
+.logo-text a,
+.logo-text a:visited {
+  color: var(--global-black) !important;
 }
 
 /* ---------- registry index ---------- */
