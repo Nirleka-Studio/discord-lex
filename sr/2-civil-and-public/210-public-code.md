@@ -2,7 +2,7 @@
 sr_id: "SR 210"
 title: "Public Code of Member Conduct"
 abbreviation: "Public Code"
-version: "2.2.1"
+version: "2.2.2"
 category: "Civil and Public Law"
 enacted_date: "2026-08-12"
 last_amended: "2026-09-24"
@@ -22,7 +22,7 @@ Welcome to Nirleka Studios.
 
 You are either reading on our site, GitHub, or plain text, and you may notice we do not have a singular, giant "rules" compared to other Discord servers.
 
-We operate on a rule of law, not rule of vibes. And we have seperate laws governing and outlining seperate procedures and matters to keep things tidy and to let members know what we do and to let Administrators know how to do their Godforsaken, zero salary job.
+We operate on a rule of law, not rule of vibes. And we have separate laws governing and outlining separate procedures and matters to keep things tidy and to let members know what we do and to let Administrators know how to do their Godforsaken, zero salary job.
 
 You also have rights. Shocking, I know. Where other Discord servers operate like pure dictatorships, we operate on a dictatorship with standards. You may see your rights as outlined in our Server Charter (SR 101).
 
@@ -87,10 +87,10 @@ decrees:
 
 <sup>5</sup> A person must not knowingly present false facts about another person or group as true.
 
-<sup>6</sup> Persons confessing or discussing self-harm or suicide must be directed to available institutional help and approached with respect.
+<sup>6</sup> A person who confesses or discusses self-harm or suicide must be directed to available institutional help and approached with respect.
 
 #### Art. 6 Channels
-Members are encouraged to use channels for their intended purposes as described by the channel’s name, description, or formal pinned messages by Administrators.
+A member is encouraged to use channels for their intended purposes as described by the channel’s name, description, or formal pinned messages by Administrators.
 
 #### Art. 7 Advertisement and self-promotion
 Advertisement and self-promotion are permitted if:
@@ -98,45 +98,45 @@ a. it is not constant; and
 b. it does not disrupt other members' ongoing conversation.
 
 #### Art. 8 Spamming
-Members must not spam in such a manner that:
+A member must not spam in such a manner that:
 a. clogs up a channel with repeated or useless contents; or
 b. disrupts other members' ongoing conversation.
 
 #### Art. 9 Impersonation
-Members must not impersonate another natural person or group with the intent to ruin their reputation or mislead others.
+A member must not impersonate another natural person or group with the intent to ruin their reputation or mislead others.
 
 ### Section 2: Contents
 
-#### Art. 10 Discussions and Media
+#### Art. 10 Discussions and media
 <sup>1</sup> Any contents or interaction that is shared or can be viewed or accessed must be safe-for-work.
 
 <sup>2</sup> For slightly distressing or uncomfortable interactions or contents as allowed by law, members must move to designated NSFW channels.
 
 #### Art. 11 Personal information
-<sup>1</sup> Members must not share some of their personal information, including but not limited to:
+<sup>1</sup> A member must not share some of their personal information, including but not limited to:
 a. home addresses; and
 b. documents with personal identifiable information.
 
 <sup>2</sup> Members must not share another person's personally identifiable information without the person's consent.
 
 #### Art. 12 Files and links
-Members must not share any malicious contents that can be accessed or downloaded, including but not limited to:
+A member must not share any malicious contents that can be accessed or downloaded, including but not limited to:
 a. viruses;
 b. phishing links; or
 c. gambling sites.
 
 #### Art. 12a Intellectual property
-<sup>1</sup> Members must not falsely represent themselves as the rightful owners of artwork, programming, multimedia assets, or intellectual property created independently of them.
+<sup>1</sup> A member must not falsely represent themselves as the rightful owners of artwork, programming, multimedia assets, or intellectual property created independently of them.
 
-<sup>2</sup> Members must make an effort to attribute creative works belonging to third parties whenever distributing such works.
+<sup>2</sup> A member must make an effort to attribute creative works belonging to third parties whenever distributing such works.
 
 ### Section 3: Duties and Obligations
 
 #### Art. 13 Duty to vote
-Members have the duty to cast a vote on a formal public poll by Administrators when instructed.
+A member has the duty to cast a vote on a formal public poll by Administrators when instructed.
 
 #### Art. 14 Obligation to report violations
-Members must report violations of law to available Administrators.
+A member must report violations of law to available Administrators.
 
 ### Section 4: Off-Server conduct
 
