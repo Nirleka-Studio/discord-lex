@@ -2,10 +2,10 @@
 sr_id: "SR 310"
 title: "Penal Code"
 abbreviation: "Penal Code"
-version: "4.1.1"
+version: "4.2.1"
 category: "Penal Law"
 enacted_date: "2026-08-11"
-last_amended: "2026-09-25"
+last_amended: "2026-09-27"
 authority: "The Director"
 repeals: "ARCH 300"
 ---
@@ -275,6 +275,9 @@ A member who discusses the measurements or other qualities of sexual organs, or 
 
 #### Art. 38 Vore
 A member who depicts vore is punished by a Class 2 penalty and up to a Class 3 penalty, and a 10,000₣ fine.
+
+#### Art. 38a Prohibition of zoophilia and bestiality
+A person who depicts, encourages, or explicitly expresses sexual attraction with animals is punished by a Class 3 penalty and up to a Class 4 penalty.
 
 #### Art. 39 Explicit sexual acts
 <sup>1</sup> A member who depicts explicit sexual acts is punished by a Class 3 penalty and up to a Class 4 penalty.
