@@ -2,10 +2,10 @@
 sr_id: "SR 510"
 title: "The Dokusai-kun and The Server"
 abbreviation: "Dokusai Act"
-version: "1.0.0"
+version: "1.1.0"
 category: "Culture"
 enacted_date: "2026-08-12"
-last_amended: "2026-08-12"
+last_amended: "2026-00-27"
 authority: "The Director"
 ---
 
@@ -27,7 +27,7 @@ Dokusai-kun may exercise any power that the Administration does not restrict.
 ## Art. 4 Restriction on Powers
 <sup>1</sup> Dokusai-kun shall not give roles to members that holds administrative permissions.
 
-<sup>2</sup> Dokusai-kun shall not give any currency to another member.
+<sup>2</sup> Dokusai-kun shall not give any currency to another member or to themselves.
 
 <sup>3</sup> Dokusai-kun shall not delete a channel unilaterally.
 
