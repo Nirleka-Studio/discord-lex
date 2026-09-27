@@ -11,13 +11,11 @@
   --force-bg: #589164;
   --repealed: #ffffff;
   --repealed-bg: #ff2544;
-  --repealed-border: #ff0027;
   --pending: #9a6b13;
   --pending-bg: #f4ecdb;
   --dropdown: #ed1c24;
-  
+
   --global-black: #1a1a1a;
-  --global-grey: #f5f5f5;
   --dark-grey: #cccccc;
 
   --font-display: "Manrope", -apple-system, serif;
@@ -57,18 +55,6 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 }
 .masthead-title { color: var(--ink); display: flex; flex-direction: column; }
 .masthead-title:hover { text-decoration: none; }
-.masthead-eyebrow {
-  font-family: var(--font-mono);
-  font-size: 11px;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--ink);
-}
-.masthead-main {
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 28px;
-}
 .masthead-logo {
   height: 36px;
   width: auto;
@@ -95,7 +81,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   font-size: 12px;
   color: var(--ink);
   text-align: left;
-  position: relative; 
+  position: relative;
 }
 
 .site-footer::before {
@@ -192,10 +178,10 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 }
 .stamp.repealed, .stamp.superseded { color: var(--repealed); background: var(--repealed-bg); }
 .stamp.pending { color: var(--pending); background: var(--pending-bg); }
-.stamp.historical { color: var(--repealed); background: var(--repealed-bg); border-color: var(--repealed-border); transform: rotate(0deg); }
+.stamp.historical { color: var(--repealed); background: var(--repealed-bg); }
 .stamp.historical::before { content: "○"; }
-.stamp.ongoing { color: var(--pending); background: var(--pending-bg); transform: rotate(0deg); }
-.stamp.closed { color: var(--ink); background: var(--paper-panel); border-color: var(--rule); transform: rotate(0deg); }
+.stamp.ongoing { color: var(--pending); background: var(--pending-bg); }
+.stamp.closed { color: var(--ink); background: var(--paper-panel); border-color: var(--rule); }
 
 /* ---------- law detail ---------- */
 .law-layout { display: grid; grid-template-columns: 260px 1fr; gap: 36px; align-items: start; }
@@ -297,7 +283,6 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   color: var(--ink);
   letter-spacing: 0.06em;
 }
-.law-title { font-family: var(--font-display); font-size: 30px; font-weight: 700; margin: 6px 0 12px; line-height: 1.2; }
 .law-linkrow { display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
 
 .superseded-banner {
@@ -310,42 +295,6 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 }
 
 .empty-state { color: var(--ink); padding: 40px 0; text-align: center; font-family: var(--font-mono); font-size: 13px; }
-
-/* ---------- Legal / Statutory Lists ---------- */
-.law-body ol.law-list,
-.law-body ul.law-list {
-  margin: 12px 0 16px 0;
-  /* 1. INDENT LEFT SIDE OF ENTIRE LIST (Pushes a., b. inward) */
-  padding-left: 2.2rem !important;
-  list-style-position: outside;
-}
-
-.law-body ol.law-list > li,
-.law-body ul.law-list > li {
-  margin: 8px 0;
-  /* 2. INDENT RIGHT SIDE OF MARKER (Pushes text away from a., b.) */
-  padding-left: 2.2rem;
-}
-
-.law-body ol.law-list > li::marker,
-.law-body ul.law-list > li::marker {
-  font-weight: normal;
-}
-
-/* ---------- Sub-lists (1., 2., 3.) ---------- */
-.law-body ol.law-list ol,
-.law-body ol.law-list ul {
-  margin: 8px 0 4px 0;
-  /* 3. INDENT SUB-LIST FROM PARENT TEXT */
-  padding-left: 2.2rem !important;
-}
-
-.law-body ol.law-list ol > li,
-.law-body ol.law-list ul > li {
-  margin: 6px 0;
-  /* SPACING TO THE RIGHT OF NUMBERS (1., 2.) */
-  padding-left: 2.2rem;
-}
 
 .law-body em { color: var(--ink); font-style: italic; }
 
@@ -529,7 +478,7 @@ mark.search-highlight {
   line-height: 1.4;
 }
 
-/* Nests */
+/* ---------- Nested provisions (dl/dt/dd, as emitted by LawParser) ---------- */
 
 .law-body dl.law-list {
   --law-marker-w: 2.2rem;
@@ -555,11 +504,14 @@ mark.search-highlight {
   margin: 0;
 }
 
-/* Nests Sizes */
+/* ---------- Nests sizes ---------- */
 
 .law-title {
+  font-family: var(--font-display);
   font-size: 2rem;
   font-weight: lighter;
+  margin: 6px 0 12px;
+  line-height: 1.2;
 }
 .law-chapter > summary > .law-heading-text {
   font-size: 1.8125rem;
@@ -605,23 +557,6 @@ html { scroll-behavior: smooth; }
 
 /*******************************/
 
-.law-footnote-ref {
-  font-size: 0.7em;
-  font-weight: 600;
-  vertical-align: super;
-  line-height: 0;
-  margin-left: 1px;
-}
-
-.law-footnote-ref a {
-  color: #2563eb;
-  text-decoration: none;
-}
-
-.law-footnote-ref a:hover {
-  text-decoration: underline;
-}
-
 /* --- The block of footnote definitions under an article --- */
 .law-footnotes {
   margin-top: 20px;
@@ -653,16 +588,15 @@ html { scroll-behavior: smooth; }
   margin-right: 2px;
 }
 
-.law-footnote-text a,
+/* Footnote body text - may itself contain real <a> tags from markdown
+   links or nested footnote refs, so the descendant selector is live. */
 .law-footnote-text {
   color: #6b7280;
 }
-
 .law-footnote-text a {
   color: #2563eb;
   text-decoration: none;
 }
-
 .law-footnote-text a:hover {
   text-decoration: underline;
 }
@@ -683,14 +617,20 @@ html { scroll-behavior: smooth; }
   color: #2563eb;
 }
 
-
+/* The [^N] reference itself is rendered as <a class="law-anchor
+   law-footnote-ref">, i.e. this class sits directly ON the anchor -
+   there is no nested <a>, so this is the only rule needed for it. */
 a.law-footnote-ref {
-  vertical-align: super !important;
-  font-size: 0.55em !important;
-  font-weight: normal !important;
-  line-height: 0 !important;
+  vertical-align: super;
+  font-size: 0.55em;
+  font-weight: normal;
+  line-height: 0;
   text-decoration: none;
-  color: #2563eb !important;
+  color: #2563eb;
+  margin-left: 1px;
+}
+a.law-footnote-ref:hover {
+  text-decoration: underline;
 }
 
 /* Table Layout, Padding & Vertical Borders */
