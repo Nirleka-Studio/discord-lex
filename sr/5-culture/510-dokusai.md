@@ -2,10 +2,10 @@
 sr_id: "SR 510"
 title: "The Dokusai-kun and The Server"
 abbreviation: "Dokusai Act"
-version: "1.1.0"
+version: "1.1.1"
 category: "Culture"
 enacted_date: "2026-08-12"
-last_amended: "2026-00-27"
+last_amended: "2026-09-27"
 authority: "The Director"
 ---
 
