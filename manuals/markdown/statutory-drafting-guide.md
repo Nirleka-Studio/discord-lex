@@ -88,6 +88,18 @@ By standardising this, every infraction across your entire code reads with ident
 
 ---
 
+## Singular forms
+Drafters commonly use singular forms because of a fundamental principle of legal drafting where rules apply to individuals at the specific moment they act.
+
+Avoid:
+> Users who post malicious links will be banned.
+
+Use:
+
+> A user who posts a malicious link is liable to a ban.
+
+---
+
 ## Capitalization Rules
 Capitalization in a statute is a functional legal mechanism, and should not be a tool for random emphasis.
 
