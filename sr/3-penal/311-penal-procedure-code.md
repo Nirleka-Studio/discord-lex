@@ -2,10 +2,10 @@
 sr_id: "SR 311"
 title: "Penal Procedure Code"
 abbreviation: "ProNaCo, PPC"
-version: "1.0.1"
+version: "1.1.1"
 category: "Penal Law"
 enacted_date: "2026-09-10"
-last_amended: "2026-09-10"
+last_amended: "2026-09-30"
 authority: "The Director"
 repeals: "SR 415"
 ---
@@ -132,6 +132,10 @@ b. document relevant administrative and moderation actions.
 <sup>2</sup> If substantial evidence of a grave violation of law is reported to a Secretary, or other superior Administrators, the accused Administrator must be suspended.
 
 <sup>3</sup> Judicial authorities must not impose a ban as a measure against an Administrator if the applicable law does not explicitly state such measure.
+
+<sup>4</sup> A suspension must be lifted upon:
+a. a final written judgment clearing the Administrator of the charges under Article 29; or
+b. the passage of 14 days without the opening of formal judicial proceedings.
 
 #### Art. 22 Violations from administrators
 <sup>1</sup> Judicial proceedings are required for Administrators who committed violations of law.
