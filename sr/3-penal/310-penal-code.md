@@ -2,7 +2,7 @@
 sr_id: "SR 310"
 title: "Penal Code"
 abbreviation: "Penal Code"
-version: "4.3.2"
+version: "4.3.3"
 category: "Penal Law"
 enacted_date: "2026-08-11"
 last_amended: "2026-09-30"
@@ -252,7 +252,7 @@ is punished by a Class 4 penalty, alongside the associated accounts.
 A member who pairs or depicts persons in romantic or sexual contexts without the explicit consent of all persons paired or depicted is punished by a Class 2 penalty and up to a Class 3 penalty.
 
 #### Art. 34 Forced feminisation and suggestive media[^1]
-<sup>1</sup> A person who instructs, coerces, or persistently encourages other persons to don specific garments, adopt specific personas, or engage in behaviours that are recognised as elements of sexual roleplay, psychological fetishes, or sexual submissiveness is punished by a Class 1 penalty and up to a Class 4 penalty.
+<sup>1</sup> A person who instructs, coerces, or persistently encourages another person to don specific garments, adopt specific personas, or engage in behaviours that are recognised as elements of sexual roleplay, psychological fetishes, or sexual submissiveness is punished by a Class 1 penalty and up to a Class 4 penalty.
 
 <sup>2</sup> The presentation of media as a humorous image, macro, trend, or meme does not grant exemption from the provisions of this Article.
 
