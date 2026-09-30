@@ -2,10 +2,10 @@
 sr_id: "SR 310"
 title: "Penal Code"
 abbreviation: "Penal Code"
-version: "4.2.1"
+version: "4.3.2"
 category: "Penal Law"
 enacted_date: "2026-08-11"
-last_amended: "2026-09-27"
+last_amended: "2026-09-30"
 authority: "The Director"
 repeals: "ARCH 300"
 ---
@@ -28,7 +28,7 @@ A penalty or measure may only be imposed for an act that has been expressly decl
 #### Art. 2 Scope
 <sup>1</sup> This Code applies to any person who commits an offence on or after the date this Code comes into force.
 
-<sup>2</sup> For offences committed before this Code comes into force, the regulations and penalties in effect at the time of the offence apply.
+<sup>2</sup> For an offence committed before this Code comes into force, the regulations and penalties in effect at the time of the offence apply.
 
 #### Art. 3 Applicability
 Any person who commits an offence in this Server is subject to this Code.
@@ -43,7 +43,7 @@ e. participation in the creation or distribution of gambling sites; and
 f. participation in the creation or distribution of viruses.
 
 #### Art. 5 Prohibition of double jeopardy
-No person who has been convicted or acquitted in the Server by a final, legally binding judgment may be prosecuted again for the same offence.
+No person who has been convicted or acquitted on the Server by a final, legally binding judgment may be prosecuted again for the same offence.
 
 #### Art. 6 Terms
 <sup>1</sup> Unless the law expressly provides otherwise, an offence is punishable only if it is committed intentionally.
@@ -86,7 +86,7 @@ The enforcing authorities may enforce compliance with Discord's Terms of Service
 An alternative account is a secondary or additional account controlled by a member.
 
 #### Art. 14 Interaction
-A person is interacting with another person through any means of communication, regardless of format, medium, or technology used.
+A person interacts with another person through any means of communication, regardless of format, medium, or technology used.
 
 #### Art. 15 Depiction
 To depict means to represent, portray, or convey through visual, textual, auditory, roleplayed, or linked means, a person, act, or scenario in a manner that a reasonable member would recognise as representing that person, act, or scenario. This includes but is not limited to:
@@ -97,7 +97,7 @@ d. AI-generated or edited content representing a real or implied individual; and
 e. hyperlinks, URLs, QR codes, or any other routing medium provided for a user to access, view, or download such representations.
 
 #### Art. 16 NSFW channel
-A channel is designated as NSFW if it is set to be an age-restricted channel for users on or above the age of 18.
+A channel is designated as NSFW if it is set to be an age-restricted channel for users at or above the age of 18.
 
 ### Section 3: Punishments and Measures
 
@@ -120,7 +120,7 @@ c. participate in Server activities.
 The native Discord ban feature is used when imposing a ban.
 
 #### Art. 20 Banishment to The Void
-Banishment to The Void deprives a member from seeing or participate in other public channels and only see the `#the-void` channel and the `#rules` channel.
+Banishment to The Void deprives a member of seeing or participating in public channels and restricts them to seeing only the `#the-void` channel and the `#rules` channel.
 
 #### Art. 21 Fine
 <sup>1</sup> A fine is a financial penalty imposing a fixed liability in Nirleka francs (₣) on the convicted person, in accordance with Article 2, paragraph 2, and Article 6 of the Economy Act (SR 610).
@@ -145,7 +145,7 @@ c. unauthorised personal information or doxxing material;
 d. real-life graphic violence, extreme gore, or animal abuse; or
 e. content violating Discord's Terms of Service or Community Guidelines.
 
-<sup>3</sup> For all other offences (such as mild spam, minor mischanneling, non-consensual pairing, or suggestive media), the enforcing authority may leave the content intact or spoiler-tag it if:
+<sup>3</sup> For all other offences (such as mild spam, minor mischannelling, non-consensual pairing, or suggestive media), the enforcing authority may leave the content intact or spoiler-tag it if:
 a. the content is required as evidence for an ongoing moderation dispute or appeal;
 b. the content does not cause ongoing harm to other members; or
 c. the offending member voluntarily edits or censors the content upon notice.
@@ -234,7 +234,7 @@ g. keyloggers
 
 is punished by a Class 4 penalty.
 
-<sup>2</sup> A member who shares content that is not necessarily harmful but causes temporary disruptions, such as corrupting the rendering of the Discord application, is punished by a Class 2 penalty and up to a Class 3 penalty.
+<sup>2</sup> A member who shares content that is not inherently harmful but causes temporary disruptions, such as corrupting the rendering of the Discord application, is punished by a Class 2 penalty and up to a Class 3 penalty.
 
 #### Art. 32 Server raiding
 <sup>1</sup> A member who organises, participates in, or facilitates a sudden and coordinated influx of accounts, media, or interactions with the intent to:
@@ -277,12 +277,12 @@ A member who discusses the measurements or other qualities of sexual organs, or 
 A member who depicts vore is punished by a Class 2 penalty and up to a Class 3 penalty, and a 10,000₣ fine.
 
 #### Art. 38a Prohibition of zoophilia and bestiality
-A person who depicts, encourages, or explicitly expresses sexual attraction with animals is punished by a Class 3 penalty and up to a Class 4 penalty.
+A person who depicts, encourages, or explicitly expresses sexual attraction towards animals is punished by a Class 3 penalty and up to a Class 4 penalty.
 
 #### Art. 39 Explicit sexual acts
 <sup>1</sup> A member who depicts explicit sexual acts is punished by a Class 3 penalty and up to a Class 4 penalty.
 
-<sup>2</sup> Depictions where substantial context can be inferred to imply a sexual act, even if it is censored, cropped, or hidden in any way, are not exempt from paragraph 1.
+<sup>2</sup> A depiction where substantial context can be inferred to imply a sexual act, even if it is censored, cropped, or hidden in any way, is not exempt from paragraph 1.
 
 #### Art. 40 Depictions of genitalia
 <sup>1</sup> A member who sexually depicts genitalia is punished by a Class 3 penalty and up to a Class 4 penalty.
@@ -300,7 +300,7 @@ a. buttocks;
 b. feet;
 c. armpits;
 d. breasts;
-e. pelvic or genitalia region;
+e. pelvic or genital region;
 f. thighs; and
 g. abdomen.
 
@@ -315,9 +315,7 @@ A member who depicts specific gestures, facial expressions, or movements that ar
 A person who depicts or has depicted CSAM is punished by a Class 4 penalty.
 
 #### Art. 45 Associated accounts
-<sup>1</sup> A member who shares, associates with, has a linked account on their profile, or maintains an account of the same name is subject to this Article.
-
-<sup>2</sup> A member with an associated account that contains or is associated with:
+A person who shares, associates with, has a linked account on their profile, or maintains an account of the same name that contains or is associated with:
 a. pornographic content;
 b. fetish content; or
 c. gore or violent content
@@ -334,7 +332,7 @@ is punished by a Class 3 penalty and up to a Class 4 penalty.
 #### Art. 47 Incest[^2]
 <sup>1</sup> A member who depicts or encourages incest is punished by a Class 1 penalty and up to a Class 2 penalty, and a 10,000₣ fine.
 
-<sup>2</sup> Incest is depicted where the persons involved in the sexual or intimate act are closely related by blood, as established by:
+<sup>2</sup> Incest is depicted where a person involved in the sexual or intimate act is closely related by blood, as established by:
 a. explicit mention in the depiction itself; or
 b. an explicit mention by the creators of the depiction.
 
