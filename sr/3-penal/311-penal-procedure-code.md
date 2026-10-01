@@ -2,10 +2,10 @@
 sr_id: "SR 311"
 title: "Penal Procedure Code"
 abbreviation: "ProNaCo, PPC"
-version: "1.1.1"
+version: "1.1.2"
 category: "Penal Law"
 enacted_date: "2026-09-10"
-last_amended: "2026-09-30"
+last_amended: "2026-10-01"
 authority: "The Director"
 repeals: "SR 415"
 ---
@@ -85,13 +85,13 @@ Judicial authorities must not decide on a case in which they are personally invo
 ## Chapter 3: The Authorities
 
 #### Art. 13 Knowledge of the law
-Administrators, including judicial and enforcing authorities, must be knowledgeable about the law
+Administrators, including judicial and enforcing authorities, must be knowledgeable about the law.
 
 ### Section 1: The Enforcing Authorities
 
 #### Art. 14 The enforcing authorities
 The enforcing authorities are:
-a. members of the Administration's Executive Branch as defined in Section 2 of the Server Charter; and
+a. members of the Administration's Executive Branch as defined in Chapter 2, Section 1 of the Server Charter; and
 b. their appointed staff.
 
 ### Section 2: The Judicial Authorities
