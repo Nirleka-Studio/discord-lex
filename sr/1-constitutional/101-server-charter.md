@@ -61,7 +61,7 @@ The official language of the Server is British English.
 
 ### Section 2: Fundamental Member Rights and Guarantees
 
-### Art. 4a Human dignity
+#### Art. 4a Human dignity
 Human dignity must be respected and protected.
 
 #### Art. 5 Equality before the law
