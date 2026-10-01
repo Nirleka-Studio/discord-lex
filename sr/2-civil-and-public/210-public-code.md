@@ -13,8 +13,6 @@ repeals: "ARCH 110"
 # SR 210 — Public Code of Member Conduct
 *(Public Code)*
 
-> **Enactment Notice:** Enacted in accordance with Chapter 4 of the Server Charter (SR 101). Applies to all server members and administrative staff.
-
 ---
 
 ## Introduction
