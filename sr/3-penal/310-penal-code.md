@@ -2,10 +2,10 @@
 sr_id: "SR 310"
 title: "Penal Code"
 abbreviation: "Penal Code"
-version: "4.3.3"
+version: "4.4.3"
 category: "Penal Law"
 enacted_date: "2026-08-11"
-last_amended: "2026-09-30"
+last_amended: "2026-10-01"
 authority: "The Director"
 repeals: "ARCH 300"
 ---
@@ -172,6 +172,23 @@ a. the offender voluntarily ceased the conduct prior to intervention; or
 b. the act was committed under severe and immediate provocation.
 
 <sup>3</sup> An adjustment under paragraph 1 or paragraph 2 must be justified on the official moderation record, citing the specific statutory ground relied upon.
+
+#### Art. 24a Statute of limitations
+<sup>1</sup> The authority to prosecute an offence under this Code is barred upon the expiration of the following limitation periods, calculated from the day the act was committed:
+a. Class 1 (Minor) offences: 14 days;
+b. Class 2 (Moderate) offences: 30 days;
+c. Class 3 (Major) offences: 90 days; and
+d. Class 4 (Grave) offences: 1 year.
+
+<sup>2</sup> No limitation period applies to the prosecution of:
+a. off-Server grave offences under Article 4;
+b. offences involving minors under:
+  1. Article 35, paragraph 2;
+  2. Article 36, paragraph 2; or
+  3. Article 44; or
+c. server raiding under Article 32.
+
+<sup>3</sup> If formal administrative or moderation proceedings, a report ticket, or an official investigation is opened by an enforcing authority before the expiration of the limitation period, the time limit is suspended and no longer applies.
 
 ---
 
