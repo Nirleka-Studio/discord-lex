@@ -2,10 +2,10 @@
 sr_id: "SR 101"
 title: "Charter of the Nirleka Studios Discord Server"
 abbreviation: "Server Charter"
-version: "2.18.4"
+version: "3.0.0"
 category: "Constitutional Law"
 enacted_date: "2026-08-11"
-last_amended: "2026-09-26"
+last_amended: "2026-10-01"
 authority: "The Director"
 ---
 
@@ -40,10 +40,10 @@ decrees:
 ### Section 1: Fundamentals
 
 #### Art. 1 The Server
-The Director is the owner of the Nirleka Studios Discord Server.
+The Director forms and owns the Nirleka Studios Discord Server.
 
 #### Art. 2 Aims
-<sup>1</sup> The Server is a place for persons to discuss, share, and practice various broad and niche topics.
+<sup>1</sup> The Server is a place for persons to discuss, share, and practice various broad and niche topics, including creative works.
 
 <sup>2</sup> It must promote a common ground and unity among members.
 
@@ -52,7 +52,7 @@ The Director is the owner of the Nirleka Studios Discord Server.
 #### Art. 3 Official language
 The official language of the Server is British English.
 
-#### Art. 4 Rule of Law
+#### Art. 4 Rule of law
 <sup>1</sup> The Server's activities must be based on and limited by law.
 
 <sup>2</sup> Server activity must be in the public interest and proportional to the goals pursued.
@@ -61,94 +61,111 @@ The official language of the Server is British English.
 
 ### Section 2: Fundamental Member Rights and Guarantees
 
-#### Art. 4a Human dignity
+#### Art. 5 Human dignity
 Human dignity must be respected and protected.
 
-#### Art. 5 Equality before the law
+#### Art. 6 Equality before the law
 <sup>1</sup> Every person is equal before the law.
 
-<sup>2</sup> A person's natural characteristics, personal identity, beliefs, and sexual orientation are of no interest of the Server.
+<sup>2</sup> A person's natural characteristics, personal identity, beliefs, and sexual orientation are of no interest to the Server.
 
-#### Art. 5a Protection against arbitrary conduct and principle of good faith
-Every person has the right to be treated by Server staffs and administrators in good faith and in a non-arbitrary manner.
+#### Art. 7 Protection against arbitrary conduct and principle of good faith
+Every person has the right to be treated by Server staff and administrators in good faith and in a non-arbitrary manner.
 
-#### Art. 5b Right to freedom of expression, opinion, and information
+#### Art. 8 Right to freedom of expression, opinion, and information
 <sup>1</sup> Every person has the right to freely express his or her expressions and creative works.
 
 <sup>2</sup> Every person has the right to freely form, express, and impart his or her opinions.
 
 <sup>3</sup> Every person has the right freely to receive information to gather it from generally accessible sources and to disseminate it.
 
-#### Art. 6 Principle of Legality
-<sup>1</sup> A member must not be punished for an act that was not a violation under established law at the time it was committed.
+#### Art. 9 Right to access logs and records
+<sup>1</sup> Members have the right to access and view the audit logs, moderation actions and related internal communications.
 
-<sup>2</sup> Retroactive enforcement and penalties are prohibited.
+<sup>2</sup> Information restricted under Article 15 is exempt from public disclosure.
 
-#### Art. 6a Prohibition of double jeopardy
-<sup>1</sup> No member may be penalised or incurred any punishment more than once for the same specific violation.
+#### Art. 10 Right of petition
+<sup>1</sup> Every person has the right, without prejudice, to petition the authorities.
 
-<sup>2</sup> Once an appeal has been resolved or a penalty served, the matter is considered closed.
+<sup>2</sup> The authorities must acknowledge receiving these petitions.
 
-#### Art. 7 Due process
-<sup>1</sup> No member may be banned, kicked, or penalised without:
-a. formal notice specifying the alleged violation;
-b. an explicit citation of the violated law; and
-c. an opportunity to submit an appeal.
+#### Art. 11 Right to knowledge of use of personal data
+Every person has the right to know how any of their personally identifiable information is used and processed.
 
-<sup>2</sup> Temporary actions taken during emergency situations remain subject to review under paragraph 1.
+---
 
-#### Art. 8 Presumption of innocence
-Every member is presumed innocent. The burden of proof rests on the enforcing authority to establish a violation using verifiable evidence.
+#### Art. 12 Judicial proceedings
+<sup>1</sup> Every person has the right to have their case heard by an independent, impartial, and legally established court. Ad hoc courts are prohibited.
 
-#### Art. 9 Access to logs and records
-<sup>1</sup> Members have the right to access and view the audit logs, moderation actions, related internal communications, and modifications of laws upon request.
+<sup>2</sup> Every person has the right to appeal any decision or punishment to a judicial authority.
 
-<sup>2</sup> Information restricted under Article 10 is exempt from public disclosure.
+<sup>3</sup> Every person is presumed innocent until proven guilty by a final and legally enforceable judgment.
 
-#### Art. 10 Data protection and deletion
+<sup>4</sup> No person may be tried or punished again for an offence for which they have already been acquitted or punished. This protection does not apply if:
+a. the previous trial or punishment was fundamentally unlawful or void; or
+b. new facts or decisive evidence emerge that were unknown during the previous proceedings.
+
+#### Art. 13 Enforcement powers and summary measures
+<sup>1</sup> No person may be punished except under the laws in force at the time the offence was committed.
+
+<sup>2</sup> Enforcement authorities may immediately punish routine infractions under established law.
+
+<sup>3</sup> Immediate punishment is prohibited and formal judicial proceedings under Article 12 are required if:
+a. the alleged offence involves potential real-world harm or serious consequences; and
+b. the facts or evidence are uncertain or disputed.
+
+#### Art. 14 Knowledge of punishment
+A person being punished must be clearly informed of what exact provision of a law they violated, and their punishment.
+
+#### Art. 15 Data protection and deletion
 <sup>1</sup> User messages and IDs are collected solely for moderation and security purposes.
 
-<sup>2</sup> Administrators must not preserve, and must immediately delete:
-a. unredacted personal information; and
+<sup>2</sup> The following contents must not be preserved and must be deleted:
+a. unredacted personally identifiable information; and
 b. Child Sexual Abuse Material (CSAM) or severe illegal content, which must be deleted and reported to Discord Safety.
 
 ---
 
-## Chapter 2: Administration Structure
+## Chapter 2: The Administration
 
-#### Art. 10a An Administrator
-An Administrator is any member of Administration, including the defined roles in Chapter 2, and their appointed staff.
+#### Art. 16 An Administrator
+An Administrator is:
+a. any member of Administration, including the defined roles in Chapter 2; and
+b. their appointed staff.
+
+#### Art. 17 Incompatibility and prohibition of dual-hatting
+<sup>1</sup> A person in one position in the Administration must not simultaneously hold position in another.
+
+<sup>2</sup> The law may provide for further forms of incompatibility.
+
+#### Art. 18 Good standing
+A person is considered in good standing if they have no history of bad faith, malicious behaviour, abuse, or corruption.
+
+#### Art. 19 Bad standing in Server Administration and staff
+<sup>1</sup> A person in bad standing must not be in any position of Administration, staff, or authority.
+
+<sup>2</sup> A person in bad standing must not be in any honorable recognition by the Administration or staff.
 
 ### Section 1: Executive Branch
 
-#### Art. 11 Composition and duties
-<sup>1</sup> The Executive Branch is responsible for enforcing Server laws, maintaining order, and managing server operations.
+#### Art. 20 Composition and duties
+<sup>1</sup> The Executive Branch is responsible for enforcing Server laws, maintaining order, and managing Server operations.
 
 <sup>2</sup> The Executive Branch consists of:
 a. Lance Administrator;
 b. Senior Administrator; and
 c. The Head Administrator.
 
-<sup>3</sup> Members of the Executive are bound by this Charter and lower codes, and must not exercise powers beyond those explicitly assigned to their roles.
+<sup>3</sup> Members of the Executive must not exercise powers beyond those explicitly assigned to their roles.
 
-<sup>4</sup> A member holding a position within the Executive Branch or the Judiciary Branch must not simultaneously hold another position within either branch, unless explicitly authorised by this Charter.
-
-#### Art. 11a Good standing
-A person is considered in good standing if they have no history of bad faith, malicious behaviour, abuse, or corruption.
-
-#### Art. 11b Bad standing in Server Administration and staff
-<sup>1</sup> A person in bad standing must not be in any position of Administration, staff, or authority.
-
-<sup>2</sup> A person in bad standing must not be in any honorable recognition by the Administration or staff.
-
-#### Art. 12 Lance Administrator
+#### Art. 21 Lance Administrator
 <sup>1</sup> Lance Administrators serve as entry-level moderators.
 
 <sup>2</sup> Lance Administrators have the authority to:
 a. issue warnings and timeouts according to Server laws;
 b. restrict members to designated channels (*Banishment to the Void*);
 c. delete messages that violate rules; and
-d. kick members from the server.
+d. kick members from the Server.
 
 <sup>3</sup> Lance Administrators must not:
 a. issue permanent bans;
@@ -157,7 +174,7 @@ c. modify roles outside outlined enforcement procedures.
 
 <sup>4</sup> The appointment limits and minimum staffing requirements for Lance Administrators are governed by Annex 1.
 
-#### Art. 13 Senior Administrator
+#### Art. 22 Senior Administrator
 <sup>1</sup> Senior Administrators supervise Lance Administrators, manage escalated cases, and enforce compliance within the Executive Branch.
 
 <sup>2</sup> Senior Administrators hold all powers of Lance Administrators, and may:
@@ -168,18 +185,18 @@ b. review and reverse decisions made by Lance Administrators.
 
 <sup>4</sup> The maximum number of Senior Administrators is governed by Annex 1.
 
-#### Art. 14 Head Administrator
+#### Art. 23 Head Administrator
 <sup>1</sup> The Head Administrator is a single position that oversees operations of the Executive Branch.
 
 <sup>2</sup> The Head Administrator has authority to:
 a. appoint, demote, suspend, or remove Executive Branch members;
 b. issue executive directives;
-c. manage server bot integrations, roles, and channel permissions; and
+c. manage Server bot integrations, roles, and channel permissions; and
 d. overturn or uphold any executive moderation decision.
 
 <sup>3</sup> The Head Administrator may be appointed and removed by the Director.
 
-#### Art. 14a The Chief Minister
+#### Art. 24 The Chief Minister
 <sup>1</sup> The Chief Minister serves as a direct subordinate to the Director.
 
 <sup>2</sup> The Chief Minister may retain legislative authority authorised by law and by the Director.
@@ -198,7 +215,7 @@ d. grammatical errors.
 
 ### Section 2: Judiciary Branch
 
-#### Art. 15 The Secretary
+#### Art. 25 The Secretary
 <sup>1</sup> Judicial authority and legal oversight rest with the Secretary.
 
 <sup>2</sup> The Secretary is responsible for ensuring compliance with the Charter and laws, and serves as the final authority on the legal validity of moderation actions and rule changes.
@@ -214,19 +231,19 @@ c. review appeals and void invalid administrative actions.
 
 ### Section 1: Appointment of Administrators
 
-#### Art. 16 Appointment of Lance Administrators
+#### Art. 26 Appointment of Lance Administrators
 <sup>1</sup> Any member in good standing who explicitly consents to serve as a Lance Administrator may be appointed by the Head Administrator or the Director.
 
 <sup>2</sup> Appointees must receive instruction on executing their duties and must possess working knowledge of the applicable laws.
 
-#### Art. 16a Service of Lance Administrators
+#### Art. 27 Service of Lance Administrators
 <sup>1</sup> A Lance Administrator must not serve for more than 6 weeks on their first term.
 
-<sup>2</sup> A Lance Administrator is removed from their position on the end of their term.
+<sup>2</sup> A Lance Administrator is removed from their position at the end of their term.
 
 <sup>3</sup> A Lance Administrator who is actively managing a conflict in good faith may have their removal deferred until the matter is resolved.
 
-#### Art. 16b Consecutive terms of Lance Administrators
+#### Art. 28 Consecutive terms of Lance Administrators
 <sup>1</sup> Upon the end of a Lance Administrator's first and consecutive terms, a public poll lasting 3 days is called on whether to keep the Lance Administrator or not.
 
 <sup>2</sup> If a majority of votes are in favour of keeping the Lance Administrator, the Lance Administrator may serve for another term for 12 weeks.
@@ -235,8 +252,8 @@ c. review appeals and void invalid administrative actions.
 
 ### Section 2: Referendums and Impeachment
 
-#### Art. 17 Vote of No Confidence
-<sup>1</sup> A Vote of No Confidence is a server-wide referendum that, if passed, removes all members of the Executive Branch.
+#### Art. 29 Vote of No Confidence
+<sup>1</sup> A Vote of No Confidence is a Server-wide referendum that, if passed, removes all members of the Executive Branch.
 
 <sup>2</sup> To initiate a referendum, a petition must be submitted to the Secretary containing signatures of at least 15% of active members.
 
@@ -248,16 +265,16 @@ b. a minimum voter quorum of 25% of active members is met.
 
 <sup>5</sup> If a motion fails, a 30-day cooldown period applies before another petition may be submitted.
 
-#### Art. 18 Caretaker administration
+#### Art. 30 Caretaker administration
 <sup>1</sup> Upon passage of a Vote of No Confidence:
 a. all Executive Branch members are removed from their positions and lose administrative permissions;
 b. the Secretary assumes the position of Caretaker Administrator.
 
-<sup>2</sup> The Caretaker Administrator has authority only to maintain basic security and delete severe violations (such as illegal content), and must not issue permanent bans, modify roles, or change server settings.
+<sup>2</sup> The Caretaker Administrator has authority only to maintain basic security and delete severe violations (such as illegal content), and must not issue permanent bans, modify roles, or change Server settings.
 
 <sup>3</sup> The Secretary must hold an emergency election for a new Executive Branch within 48 hours.
 
-#### Art. 19 Individual impeachment
+#### Art. 31 Individual impeachment
 <sup>1</sup> Members may petition for the impeachment of an Administrator accused of misconduct, illegal acts, or unpunished rule violations.
 
 <sup>2</sup> The Secretary must review the petition and hold a public poll that:
@@ -268,47 +285,65 @@ b. with the options: *Yes*, *No*, and *Abstain*.
 
 ---
 
-## Chapter 4: Law, Supremacy and Amendments
+## Chapter 4: The Director and The Law
 
-### Section 1: Authority and Revisions
+### Section 1: Authority
 
-#### Art. 20 Supremacy of the Charter
-<sup>1</sup> This Charter is the primary governing law of the server.
+#### Art. 32 The Director
+<sup>1</sup> The Director may exercise powers not restricted by law.
+
+<sup>2</sup> The Director has the power to unilaterally enact, amend, or repeal any law or regulation governing this Server.[^1]
+
+### Section 2: The Law
+
+#### Art. 33 Supremacy of the Charter
+<sup>1</sup> This Charter is the primary governing law of the Server.
 
 <sup>2</sup> Any lower laws, executive decisions, or channel rules that conflict with this Charter are invalid and unenforceable.
 
-#### Art. 21 Amendments
-<sup>1</sup> The Director retains the power to unilaterally enact, amend, or repeal any law or regulation governing this server.[^1]
+#### Art. 34 Amendments of laws
+The modification or enactment of laws must be publicly announced.
 
-<sup>2</sup> All amendments and newly enacted laws and regulations must be publicly announced.
-
-<sup>3</sup> The Director holds judicial authority.
-
-#### Art. 22 Powers of the Director
-The Director may exercise powers not restricted by law.
-
-### Section 2: The Law, Application, and Interpretation
-
-#### Art. 24 Application of the Law
-<sup>1</sup> The law applies to any legal question it covers, whether by its exact wording or by what that wording means when properly read.
-
-<sup>2</sup> If the law does not cover a question, judicial authority must decide it by applying customary law. If there is no relevant customary law, judicial authority must decide the question as it would if it were the one making the law.
-
-<sup>3</sup> In reaching that decision, judicial authority must take account of established legal writing and previous court decisions.
-
-#### Art. 24a Publication of law
+#### Art. 35 Publication of laws
 <sup>1</sup> The law must be publicly available and easily accessible to all persons.
 
 <sup>2</sup> Laws must be published on a platform that allows users to view and differentiate between versions of a law.
 
 <sup>3</sup> The duty to maintain said platform rests with the Director and their Executive Branch.
 
+## Chapter 5: Succession
+
+#### Art. 36 Inability
+A person is incapable of exercising the duties and powers of their role if:
+a. they declare themselves to be so;
+b. their account is deleted or deactivated;
+c. their account is compromised; or
+d. they are inactive on the Server for 14 days.
+
+#### Art. 37 Succession of the Head Administrator
+The Director may assume the duties and powers of the Head Administrator if they are incapable.
+
+#### Art. 38 Acting Director
+The Acting Director retains the duties and powers of the Director but must not:
+a. amend the Charter; or
+b. exercise any powers outside maintaining server security, executing existing laws, and managing basic daily operations.
+
+#### Art. 39 Line of succession of the Director
+In the event the Director is incapable, the authority to serve as Acting Director shall pass in the following order of precedence:
+a. the Chief Minister;
+b. the Head Administrator;
+c. the longest-serving Senior Administrator; and
+d. the longest-serving Lance Administrator.
+
+#### Art. 40 Permanent Acting Director
+After 365 consecutive days during which the Director has not returned, provided the Acting Director remains capable, serving, and in good standing, the Acting Director may be appointed as the new Director if approved by a simple majority in a 1-week public poll.
+
 ## Annex 1: Administrative Ratios and Limits
-| Server Scale Tier                      | Active Engagement Base (Est. 1-10%) | Lance Admins            | Senior Admins        |
-|----------------------------------------|-------------------------------------|-------------------------|----------------------|
-| **Tier 1: Seed** (< 50 members)        | 1-5 active members                  | 1                       | 1                    |
-| **Tier 2: Small** (50-250 members)     | 5-25 active members                 | Max 2                   | 1                    |
-| **Tier 3: Medium** (251-1,000 members) | 25-100 active members               | Max 3-4                 | Max 2                |
-| **Tier 4: Large** (1,000+ members)     | 100+ active members                 | 1 per 25 active members | 1 per 3 Lance Admins |
+| Server Scale Tier                  | Active Engagement Base (Est. 1-10%) | Lance Admins            | Senior Admins        |
+|------------------------------------|-------------------------------------|-------------------------|----------------------|
+| Tier 1: Seed (< 50 members)        | 1-5 active members                  | 1                       | 1                    |
+| Tier 2: Small (50-250 members)     | 5-25 active members                 | Max 2                   | 1                    |
+| Tier 3: Medium (251-1,000 members) | 25-100 active members               | Max 3-4                 | Max 2                |
+| Tier 4: Large (1,000+ members)     | 100+ active members                 | 1 per 25 active members | 1 per 3 Lance Admins |
 
 [^1]: Adopted based on a majority vote on 19 June 2026 (Ref. No. 0), technically in force since 24 September 2022, exercised since 30 May 2023.
