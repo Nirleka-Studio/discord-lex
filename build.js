@@ -23,6 +23,12 @@
  * commit, so the history reflects genuine version bumps rather than a
  * separately-maintained changelog.
  *
+ * Draft commits are ignored. Any commit whose message starts with
+ * `draft:`, `draft(scope):` or `draft(scope)!:` is skipped entirely: it is
+ * not listed in history, and its content/frontmatter is never used. The
+ * current version of a law is the latest NON-draft commit, regardless of
+ * what is in the working tree. A law with only draft commits is omitted.
+ *
  * Usage (run from the repo root, next to sr/, archive/, referendums/):
  *   node build.js                    # writes site/data/laws.json
  *   node build.js . site/data/laws.json   # equivalent, explicit
@@ -34,6 +40,10 @@ const matter = require("gray-matter");
 
 const CONTENT_ROOT = path.resolve(process.argv[2] || ".");
 const OUT_FILE = path.resolve(process.argv[3] || "site/data/laws.json");
+
+// Matches "draft: ...", "draft(scope): ...", and "draft(scope)!: ..."
+const DRAFT_RE = /^draft(\([^)]*\))?!?:/i;
+const isDraftCommit = (message) => DRAFT_RE.test(message.trim());
 
 function isGitRepo(dir) {
   try {
@@ -60,9 +70,17 @@ function relGit(root, file) {
   return path.relative(root, file).split(path.sep).join("/");
 }
 
-// Pulls one history entry per commit that touched the file, including the
-// full frontmatter + body text as they existed at that commit — so the
-// front-end can render any historical version, not just list its metadata.
+function stripFirstH1(markdownText) {
+  if (!markdownText) return markdownText;
+  // Matches the first line that starts with '# ' and removes it along with its trailing newline
+  return markdownText.replace(/^\s*#\s+.*(?:\r?\n)?/, "");
+}
+
+// Pulls one history entry per NON-DRAFT commit that touched the file,
+// including the full frontmatter + body text as they existed at that
+// commit, so the front-end can render any historical version, not just
+// list its metadata. Each entry also carries the raw frontmatter as `data`
+// (internal only; stripped before output in loadLaw).
 function versionHistory(root, file) {
   if (!isGitRepo(root)) return [];
   const relPath = relGit(root, file);
@@ -77,44 +95,59 @@ function versionHistory(root, file) {
   }
   if (!log) return [];
 
-  const entries = log.split("\n").map((line) => {
-    const [hash, date, ...msgParts] = line.split("|");
-    return { hash, date, message: msgParts.join("|") };
-  });
-
-  return entries.map(({ hash, date, message }) => {
-    let version = null;
-    let status = null;
-    let content = null;
-    try {
-      const blob = execSync(`git show ${hash}:"${relPath}"`, {
-        cwd: root,
-        encoding: "utf8",
+  return log
+      .split("\n")
+      .map((line) => {
+        const [hash, date, ...msgParts] = line.split("|");
+        return { hash, date, message: msgParts.join("|") };
+      })
+      .filter(({ message }) => !isDraftCommit(message)) // ignore drafts
+      .map(({ hash, date, message }) => {
+        let data = null;
+        let content = null;
+        try {
+          const blob = execSync(`git show ${hash}:"${relPath}"`, {
+            cwd: root,
+            encoding: "utf8",
+          });
+          const fm = matter(blob);
+          data = fm.data;
+          content = stripFirstH1(fm.content);
+        } catch {
+          // file may not have existed at that path for this commit; skip
+        }
+        return {
+          commit: hash.slice(0, 7),
+          date,
+          message,
+          version: data?.version || null,
+          status: data?.status || null,
+          content,
+          data,
+        };
       });
-      const fm = matter(blob);
-      version = fm.data.version || null;
-      status = fm.data.status || null;
-      content = stripFirstH1(fm.content);
-    } catch {
-      // file may not have existed at that path for this commit; skip
-    }
-    return { commit: hash.slice(0, 7), date, message, version, status, content };
-  });
   // git log already returns entries newest-first, matching what the
   // front-end expects at index 0 — do not reverse this.
 }
 
-function stripFirstH1(markdownText) {
-  if (!markdownText) return markdownText;
-  // Matches the first line that starts with '# ' and removes it along with its trailing newline
-  return markdownText.replace(/^\s*#\s+.*(?:\r?\n)?/, "");
-}
-
 function loadLaw(root, file, kind) {
-  const raw = fs.readFileSync(file, "utf8");
-  const { data, content } = matter(raw);
   const relPath = relGit(root, file);
   const categoryFolder = kind === "sr" ? path.basename(path.dirname(file)) : null;
+  const history = versionHistory(root, file);
+
+  let data, content;
+  if (isGitRepo(root)) {
+    // Current version = newest non-draft commit, NOT the working tree.
+    const latest = history.find((h) => h.data);
+    if (!latest) return null; // never published (only drafts / untracked), skip
+    data = latest.data;
+    content = latest.content;
+  } else {
+    // No git available: fall back to the working tree.
+    const parsed = matter(fs.readFileSync(file, "utf8"));
+    data = parsed.data;
+    content = stripFirstH1(parsed.content);
+  }
 
   return {
     kind, // "sr" | "archive"
@@ -131,8 +164,8 @@ function loadLaw(root, file, kind) {
     superseded_by: data.superseded_by || null,
     repeals: data.repeals || null,
     path: relPath,
-    content: stripFirstH1(content), // raw Markdown body, rendered client-side
-    history: versionHistory(root, file),
+    content, // raw Markdown body, rendered client-side
+    history: history.map(({ data, ...rest }) => rest), // drop internal `data`
   };
 }
 
@@ -166,7 +199,9 @@ function main() {
   const laws = [
     ...srFiles.map((f) => loadLaw(CONTENT_ROOT, f, "sr")),
     ...archiveFiles.map((f) => loadLaw(CONTENT_ROOT, f, "archive")),
-  ].sort((a, b) => (a.id > b.id ? 1 : -1));
+  ]
+      .filter(Boolean) // drop laws with no non-draft commits
+      .sort((a, b) => (a.id > b.id ? 1 : -1));
 
   const referendums = refFiles
       .map((f) => loadReferendum(CONTENT_ROOT, f))
