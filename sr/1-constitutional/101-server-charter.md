@@ -80,7 +80,7 @@ Every person has the right to be treated by Server staff and administrators in g
 <sup>3</sup> Every person has the right freely to receive information to gather it from generally accessible sources and to disseminate it.
 
 #### Art. 9 Right to access logs and records
-<sup>1</sup> Members have the right to access and view the audit logs, moderation actions and related internal communications.
+<sup>1</sup> Members have the right to access and view the audit logs, moderation actions and relevant internal communications.
 
 <sup>2</sup> Information restricted under Article 15 is exempt from public disclosure.
 
@@ -153,8 +153,9 @@ A person is considered in good standing if they have no history of bad faith, ma
 
 <sup>2</sup> The Executive Branch consists of:
 a. Lance Administrator;
-b. Senior Administrator; and
-c. The Head Administrator.
+b. Senior Administrator;
+c. The Head Administrator; and
+d. The Chief Minister.
 
 <sup>3</sup> Members of the Executive must not exercise powers beyond those explicitly assigned to their roles.
 
@@ -309,7 +310,7 @@ The modification or enactment of laws must be publicly announced.
 
 <sup>2</sup> Laws must be published on a platform that allows users to view and differentiate between versions of a law.
 
-<sup>3</sup> The duty to maintain said platform rests with the Director and their Executive Branch.
+<sup>3</sup> The duty to maintain the publication of the law rests with the Director and the Executive Branch.
 
 ## Chapter 5: Succession
 
@@ -329,7 +330,7 @@ a. amend the Charter; or
 b. exercise any powers outside maintaining server security, executing existing laws, and managing basic daily operations.
 
 #### Art. 39 Line of succession of the Director
-In the event the Director is incapable, the authority to serve as Acting Director shall pass in the following order of precedence:
+In the event the Director is incapable, the authority to serve as Acting Director is passed in the following order of precedence:
 a. the Chief Minister;
 b. the Head Administrator;
 c. the longest-serving Senior Administrator; and
@@ -337,6 +338,23 @@ d. the longest-serving Lance Administrator.
 
 #### Art. 40 Permanent Acting Director
 After 365 consecutive days during which the Director has not returned, provided the Acting Director remains capable, serving, and in good standing, the Acting Director may be appointed as the new Director if approved by a simple majority in a 1-week public poll.
+
+## Chapter 6: The People and the Administration
+
+### Section 1: Voting
+
+#### Art. 41 Active member
+A person is considered an active member if:
+a. they are in the Server;
+b. they are a natural person and their account is controlled by one person;
+c. they have been in the Server for more than 1 week; and
+d. they have interacted on the Server in any way in the last 21 days.
+
+#### Art. 42 Right to vote
+Any active member has the right to vote.
+
+#### Art. 43 Polls
+Any poll affecting the decisions of the Administration must be public and not restricted from any member.
 
 ## Annex 1: Administrative Ratios and Limits
 | Server Scale Tier                  | Active Engagement Base (Est. 1-10%) | Lance Admins            | Senior Admins        |
