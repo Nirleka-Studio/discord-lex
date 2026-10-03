@@ -73,11 +73,11 @@ Human dignity must be respected and protected.
 Every person has the right to be treated by Server staff and administrators in good faith and in a non-arbitrary manner.
 
 #### Art. 8 Right to freedom of expression, opinion, and information
-<sup>1</sup> Every person has the right to freely express his or her expressions and creative works.
+<sup>1</sup> Every person has the right to creative expression.
 
-<sup>2</sup> Every person has the right to freely form, express, and impart his or her opinions.
+<sup>2</sup> Every person has the right to form, express, and share his or her opinions.
 
-<sup>3</sup> Every person has the right freely to receive information to gather it from generally accessible sources and to disseminate it.
+<sup>3</sup> Every person has the right to seek, receive, and share information from public sources.
 
 #### Art. 9 Right to access logs and records
 <sup>1</sup> Members have the right to access and view the audit logs, moderation actions and relevant internal communications.
@@ -99,11 +99,13 @@ Every person has the right to know how any of their personally identifiable info
 
 <sup>2</sup> Every person has the right to appeal any decision or punishment to a judicial authority.
 
-<sup>3</sup> Every person is presumed innocent until proven guilty by a final and legally enforceable judgment.
+<sup>3</sup> Every person is presumed innocent in a judicial proceeding until proven guilty by a final and legally enforceable judgment.
 
 <sup>4</sup> No person may be tried or punished again for an offence for which they have already been acquitted or punished. This protection does not apply if:
 a. the previous trial or punishment was fundamentally unlawful or void; or
 b. new facts or decisive evidence emerge that were unknown during the previous proceedings.
+
+<sup>5</sup> Burden of proof rests with the accusing authority.
 
 #### Art. 13 Enforcement powers and summary measures
 <sup>1</sup> No person may be punished except under the laws in force at the time the offence was committed.
@@ -120,9 +122,9 @@ A person being punished must be clearly informed of what exact provision of a la
 #### Art. 15 Data protection and deletion
 <sup>1</sup> User messages and IDs are collected solely for moderation and security purposes.
 
-<sup>2</sup> The following contents must not be preserved and must be deleted:
+<sup>2</sup> The following contents must not be preserved and must be deleted immediately:
 a. unredacted personally identifiable information; and
-b. Child Sexual Abuse Material (CSAM) or severe illegal content, which must be deleted and reported to Discord Safety.
+b. Child Sexual Abuse Material (CSAM) or severe illegal content.
 
 ---
 
@@ -134,7 +136,7 @@ a. any member of Administration, including the defined roles in Chapter 2; and
 b. their appointed staff.
 
 #### Art. 17 Incompatibility and prohibition of dual-hatting
-<sup>1</sup> A person in one position in the Administration must not simultaneously hold position in another.
+<sup>1</sup> A person in one position in the Administration must not simultaneously hold position in another unless allowed by the Charter.
 
 <sup>2</sup> The law may provide for further forms of incompatibility.
 
@@ -158,6 +160,8 @@ c. The Head Administrator; and
 d. The Chief Minister.
 
 <sup>3</sup> Members of the Executive must not exercise powers beyond those explicitly assigned to their roles.
+
+<sup>4</sup> Every Administrator has the duty to report severe illegal materials to Discord Safety.
 
 #### Art. 21 Lance Administrator
 <sup>1</sup> Lance Administrators serve as entry-level moderators.
@@ -190,7 +194,7 @@ b. review and reverse decisions made by Lance Administrators.
 <sup>1</sup> The Head Administrator is a single position that oversees operations of the Executive Branch.
 
 <sup>2</sup> The Head Administrator has authority to:
-a. appoint, demote, suspend, or remove Executive Branch members;
+a. appoint, demote, suspend, or remove lower members of the Executive Branch;
 b. issue executive directives;
 c. manage Server bot integrations, roles, and channel permissions; and
 d. overturn or uphold any executive moderation decision.
@@ -348,13 +352,19 @@ A person is considered an active member if:
 a. they are in the Server;
 b. they are a natural person and their account is controlled by one person;
 c. they have been in the Server for more than 1 week; and
-d. they have interacted on the Server in any way in the last 21 days.
+d. they have interacted on the Server within the past 21 days.
 
 #### Art. 42 Right to vote
-Any active member has the right to vote.
+Any active member has the right to vote unless the Charter explicitly states otherwise.
 
 #### Art. 43 Polls
-Any poll affecting the decisions of the Administration must be public and not restricted from any member.
+Any poll affecting the decisions of the Administration must be publicly viewable on the Server and not restricted from any member.
+
+#### Art. 44 Prohibition of voting with shared accounts
+One person must have one vote and must not use any shared accounts or bad-faith practices to gain more votes.
+
+#### Art. 45 Independence in voting
+A person must vote independently without the instruction of another person.
 
 ## Annex 1: Administrative Ratios and Limits
 | Server Scale Tier                  | Active Engagement Base (Est. 1-10%) | Lance Admins            | Senior Admins        |
