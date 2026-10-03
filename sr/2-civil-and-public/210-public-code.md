@@ -1,16 +1,16 @@
 ---
 sr_id: "SR 210"
-title: "Public Code of Member Conduct"
+title: "The Public Code"
 abbreviation: "Public Code"
-version: "2.2.2"
+version: "3.0.0"
 category: "Civil and Public Law"
 enacted_date: "2026-08-12"
-last_amended: "2026-09-24"
+last_amended: "2026-10-03"
 authority: "The Director"
 repeals: "ARCH 110"
 ---
 
-# SR 210 — Public Code of Member Conduct
+# SR 210 — The Public Code
 *(Public Code)*
 
 ---
@@ -42,16 +42,18 @@ All hail to The Cat!
 
 The Director of Nirleka Studios,
 
+based on Article 32 of the Server Charter (SR 101),
+
 decrees:
 
-## Chapter 1: Fundamentals
+## Chapter 1: General Provisions
 
 ### Art. 1 Acting in good faith
 <sup>1</sup> Every person must act in good faith in the exercise of his or her rights and in the performance of his or her obligations.
 
 <sup>2</sup> The manifest abuse of a right is not protected by law.
 
-### Art. 2 Presumption
+### Art. 2 Presumption of honesty and good faith
 <sup>1</sup> Unless proven otherwise, a person is presumed to be acting honestly and in good faith when required by law.
 
 <sup>2</sup> This assumption does not apply if a person failed to act with the care and caution that the situation reasonably required.
@@ -65,97 +67,103 @@ decrees:
 
 <sup>4</sup> Where an obligation concerns an ongoing violation or a matter requiring timely intervention, the availability of another person capable of fulfilling the same obligation may be taken into account.
 
-### Art. 4 Account
+### Art. 4 Account responsibility
 <sup>1</sup> A person is responsible for conduct carried out through their account unless there is sufficient reason to believe that the account was not under their control at the time.
 
 <sup>2</sup> A claim that an account was compromised must be assessed on the circumstances and available evidence and must not, by itself, excuse a violation.
 
-## Chapter 2: Member Conduct
+## Chapter 2: Law of Persons
 
-### Section 1: Common Conduct
+#### Art. 5 Natural person
+An account is presumed to be fully owned and controlled by one natural person unless proven otherwise.
 
-#### Art. 5 Humanity
-<sup>1</sup> A person must be respectful towards other persons and groups.
+#### Art. 6 Extension of liability to controlled accounts
+<sup>1</sup> Liability for a violation of a law attaches to the natural person responsible.
 
-<sup>2</sup> The use of profanities and crude humour among peers and other persons, while permitted and expected, must not be used to harass, threaten, demean, or otherwise seriously offend another person or group.
+<sup>2</sup> Any administrative sanction, restriction, or obligation imposed on a person applies equally to all accounts owned, operated, or controlled by that person.
 
-<sup>3</sup> Members are encouraged to follow and respect Server cultures.
+#### Art. 7 A minor
+<sup>1</sup> A person is considered a minor if they are under the age of 18.
 
-<sup>4</sup> A person must not use their status, characteristics, or orientation to assert superiority, unduly emphasise differences, or portray themselves as a victim in order to manipulate others, deflect accountability, or justify malicious behaviour.
+<sup>2</sup> Minority status may be established through self-admission, contextual evidence from communication, or formal verification.
 
-<sup>5</sup> A person must not knowingly present false facts about another person or group as true.
+<sup>3</sup> Where reasonable doubt exists regarding a person's age in matters concerning safety or explicit content, the person is presumed to be a minor until proven otherwise.
 
-<sup>6</sup> A person who confesses or discusses self-harm or suicide must be directed to available institutional help and approached with respect.
+#### Art. 8 Persons of minimum platform age
+<sup>1</sup> A person is of minimum platform age if they are the age of 13 or older.
 
-#### Art. 6 Channels
-A member is encouraged to use channels for their intended purposes as described by the channel’s name, description, or formal pinned messages by Administrators.
+<sup>2</sup> Every person is presumed to be of minimum platform age until proven otherwise.
 
-#### Art. 7 Advertisement and self-promotion
-Advertisement and self-promotion are permitted if:
-a. it is not constant; and
-b. it does not disrupt other members' ongoing conversation.
+#### Art. 9 Persons below the minimum platform age
+<sup>1</sup> A person who is under the minimum platform age lacks legal capacity to hold membership or exercise rights under this Code.
 
-#### Art. 8 Spamming
-A member must not spam in such a manner that:
-a. clogs up a channel with repeated or useless contents; or
-b. disrupts other members' ongoing conversation.
+<sup>2</sup> Self-admission or credible evidence of being under the minimum platform age invalidates membership immediately.
 
-#### Art. 9 Impersonation
-A member must not impersonate another natural person or group with the intent to ruin their reputation or mislead others.
+## Chapter 3: Duties and Obligations
 
-### Section 2: Contents
+### Art. 10 Duty to report
+<sup>1</sup> Every person has the duty to report illegal actions or materials to the authorities and Discord Safety.
 
-#### Art. 10 Discussions and media
-<sup>1</sup> Any contents or interaction that is shared or can be viewed or accessed must be safe-for-work.
+<sup>2</sup> Every person has the duty to report violations of Server laws to a competent and available member of the Administration.
 
-<sup>2</sup> For slightly distressing or uncomfortable interactions or contents as allowed by law, members must move to designated NSFW channels.
+### Art. 11 Duty to touch grass
+<sup>1</sup> Every person has an ongoing affirmative duty to disengage periodically from the Server and the global digital infrastructure.
 
-#### Art. 11 Personal information
-<sup>1</sup> A member must not share some of their personal information, including but not limited to:
-a. home addresses; and
-b. documents with personal identifiable information.
+<sup>2</sup> Fulfillment of this duty requires active participation in real-world maintenance, including
+a. be off the Server and the internet;
+b. commit to house chores;
+c. witness nature and the outside world;
+d. socialise with real persons in the outside world;
+e. maintain hygiene;
+f. contribute to society; and
+g. maintain physical and mental health.
 
-<sup>2</sup> Members must not share another person's personally identifiable information without the person's consent.
+<sup>3</sup> Persistent failure to comply with paragraph 2 may be treated as a chronic status infraction, warranting administrative recommendations to disconnect, seek fresh air, or re-evaluate life priorities.
 
-#### Art. 12 Files and links
-A member must not share any malicious contents that can be accessed or downloaded, including but not limited to:
-a. viruses;
-b. phishing links; or
-c. gambling sites.
+### Art. 12 Duty to help
+Every person has the duty to direct a person who confesses or discusses self-harm or suicide to available institutional help and approach the person with respect.
 
-#### Art. 12a Intellectual property
-<sup>1</sup> A member must not falsely represent themselves as the rightful owners of artwork, programming, multimedia assets, or intellectual property created independently of them.
+## Chapter 4: Member Conduct
 
-<sup>2</sup> A member must make an effort to attribute creative works belonging to third parties whenever distributing such works.
+### A. Humanity
 
-### Section 3: Duties and Obligations
+#### Art. 13
+Every person must acknowledge and respect the human dignity of others.
 
-#### Art. 13 Duty to vote
-A member has the duty to cast a vote on a formal public poll by Administrators when instructed.
+### B. Harassment
 
-#### Art. 14 Obligation to report violations
-A member must report violations of law to available Administrators.
+#### Art. 14
+<sup>1</sup> A person must not target another person with persistent, unwanted, or abusive conduct intended to intimidate, degrade, or distress them.
 
-### Section 4: Off-Server conduct
+<sup>2</sup> Conduct is persistent where it continues after the target has clearly asked the person to stop, or where a reasonable person would understand it to be unwelcome.
 
-#### Art. 15 Administrative obligation
-The Administration is under no obligation to investigate off-Server conduct unless a member or credible external source reports it.
+<sup>3</sup> Paragraph 1 does not apply to good-faith disagreement, criticism of ideas, or consensual banter between persons who have established that such interaction is welcome.
 
-#### Art. 16 Off-Server misconduct
-A person must not act or have acted in serious misconduct, including but not limited to:
-a. predatory conduct;
-b. doxxing another person;
-c. targeted harassment, blackmail, or credible threats of harm;
-d. promotion or sharing of gambling sites; and
-e. malicious distribution of malware, phishing links, scams, or other illegal materials.
+#### Art. 15
+<sup>1</sup> In matters where harassment is not a penal offence, the applicant may request to a judicial authority to order the offending party from:
+a. uh
 
-### Section 5: Abuse
+### Section 2: Representation
 
-#### Art. 17 Abuse and exploits of Server features
-A person must not abuse, tamper with, or intentionally exploit bots, commands, reactions, threads, webhooks, or other platform features in a manner that disrupts server operations, creates excessive system load, or bypasses established restrictions.
+## Art. 16 Truthful representation of facts
+<sup>1</sup> Every person must act with honesty when asserting facts regarding other members, the Server, or critical real-world matters.
 
-#### Art. 18 Bypassing punishments
-A person must not bypass punishments through any means, including but not limited to:
-a. using alternative accounts;
-b. exploiting Server features; or
-c. delegating actions to another person.
+<sup>2</sup> A person must not knowingly, recklessly, or maliciously disseminate false information that:
+a. constitutes a severe, unverified accusation against another person;
+b. is intended to deceive the community on matters of administrative or safety concern; or
+c. causes unjust reputational, emotional, or social harm to a member or group.
+
+<sup>3</sup> Paragraph 2 does not apply to:
+a. statements that a reasonable person would recognise as humour, satire, hyperbole, or fiction;
+b. the sharing of third-party news or media for the purpose of debate, commentary, or debunking; or
+c. mistaken claims made in good faith where the person corrects the information upon notice.
+
+## Art. 17 Plagiarism and intellectual attribution[^1]
+<sup>1</sup> A person must not claim authorship of another person’s creative or intellectual work, nor knowingly present it in a manner that conceals or misleads as to its true origin.
+
+<sup>2</sup> Paragraph 1 does not apply where the work is shared with proper attribution, under appropriate licence or consent, or as a reasonable component of transformative use or commentary.
+
+## Art. 18 Prohibition of illegal acts and materials
+Promoting, facilitating, or providing actionable instructions for illegal acts or materials that cause real-world harm to life, infrastructure, or nature is prohibited.
+
+[^1]: Originally adopted by the Chief Minister on 22 Sep. 2026, officially revised and adopted by the Director on 3 Oct. 2026.
