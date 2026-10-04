@@ -46,8 +46,6 @@ based on Article 32 of the Server Charter (SR 101),
 
 decrees:
 
-Title 1: Civil...?
-
 ## Chapter 1: General Provisions
 
 ### Art. 1 Acting in good faith
