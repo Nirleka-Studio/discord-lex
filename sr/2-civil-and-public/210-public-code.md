@@ -145,8 +145,8 @@ An account is presumed to be fully owned and controlled by one natural person un
 ### Art. 17 Duty to touch grass
 <sup>1</sup> Every person has an ongoing affirmative duty to disengage periodically from the Server and the global digital infrastructure.
 
-<sup>2</sup> Fulfillment of this duty requires active participation in real-world maintenance, including
-a. be off the Server and the internet;
+<sup>2</sup> Fulfillment of this duty requires active participation in real-world maintenance, including the obligation to:
+a. being off the Server and the internet;
 b. commit to house chores;
 c. witness nature and the outside world;
 d. socialise with real persons in the outside world;
@@ -203,7 +203,7 @@ c. mistaken claims made in good faith where the person corrects the information 
 
 ### Section 3: Safety and Legality
 
-#### Art. 25 Prohibition of destructive and materials
+#### Art. 25 Prohibition of destructive and illegal materials
 <sup>1</sup> Promoting, facilitating, or providing actionable instructions for illegal acts or materials that cause real-world harm to life, infrastructure, or nature is prohibited.
 
 <sup>2</sup> Where a material serves dual or multipurpose functions, its display, promotion, or distribution is permitted only when strictly contextualised by its lawful utilisation and balanced by good faith adherence to applicable regulations and safety standards.
@@ -231,7 +231,7 @@ b. to shock, degrade, or glorify real suffering or harm.
 <sup>2</sup> Content that sexualises a minor is prohibited in every case, whatever its stated purpose.
 
 #### Art. 30 Restricted content
-<sup>1</sup> Sensitive content that serves a genuine educational, medical, artistic, journalistic, or comparable purpose, and is not prohibited under Article 28, may be shared only:
+<sup>1</sup> Sensitive content that serves a genuine educational, medical, artistic, journalistic, or comparable purpose, and is not prohibited under Article 29, may be shared only:
 a. in a designated channel, where its character is principally sexual or intimate; or
 b. elsewhere, concealed and accompanied by a notice sufficient for others to decide whether to view it, where its character is principally disturbing.
 
