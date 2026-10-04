@@ -130,19 +130,19 @@ An account is presumed to be fully owned and controlled by one natural person un
 
 <sup>4</sup> A person who cannot reasonably act for themselves may be represented by another.
 
-### Art. 16 Consideration for the community
+### Art. 15 Consideration for the community
 <sup>1</sup> A person must not use the Server in a way that unreasonably burdens others' use of it or disrupts its ongoing life.
 
 <sup>2</sup> A person must not impose on others content, volume, or promotion they have not agreed to receive and which the setting does not reasonably call for.
 
 ## Chapter 4: Duties and Obligations
 
-### Art. 17 Duty to report
+### Art. 16 Duty to report
 <sup>1</sup> Every person has the duty to report illegal actions or materials to the authorities and Discord Safety.
 
 <sup>2</sup> Every person has the duty to report violations of Server laws to a competent and available member of the Administration.
 
-### Art. 18 Duty to touch grass
+### Art. 17 Duty to touch grass
 <sup>1</sup> Every person has an ongoing affirmative duty to disengage periodically from the Server and the global digital infrastructure.
 
 <sup>2</sup> Fulfillment of this duty requires active participation in real-world maintenance, including
@@ -156,29 +156,29 @@ g. maintain physical and mental health.
 
 <sup>3</sup> Persistent failure to comply with paragraph 2 may be treated as a chronic status infraction, warranting administrative recommendations to disconnect, seek fresh air, or re-evaluate life priorities.
 
-### Art. 19 Duty to help
+### Art. 18 Duty to help
 Every person has the duty to direct a person who confesses or discusses self-destructive behaviour to available institutional help and approach the person with respect.
 
 ## Chapter 5: Member Conduct
 
 ### Section 1: Dignity and Respect
 
-#### Art. 20 Human dignity
+#### Art. 19 Human dignity
 Every person must acknowledge and respect the human dignity of others.
 
-#### Art. 21 Harassment
+#### Art. 20 Harassment
 <sup>1</sup> A person must not target another with persistent, unwanted, or abusive conduct intended to intimidate, degrade, or distress them.
 
 <sup>2</sup> Conduct is persistent where it continues after the target has clearly asked the person to stop, or where a reasonable person would understand it to be unwelcome.
 
 <sup>3</sup> Paragraph 1 does not apply to good-faith disagreement, criticism of ideas, or consensual banter between persons who have established that it is welcome.
 
-#### Art. 22 Invocation of personal status
+#### Art. 21 Invocation of personal status
 A person must not invoke their status, natural characteristics, or orientation to claim superiority, to portray themselves as a victim in bad faith, to deflect accountability, or to justify malicious conduct.
 
 ### Section 2: Representation and Honesty
 
-#### Art. 23 Truthful representation of facts
+#### Art. 22 Truthful representation of facts
 <sup>1</sup> Every person must act with honesty when asserting facts regarding other members, the Server, or critical real-world matters.
 
 <sup>2</sup> A person must not knowingly, recklessly, or maliciously disseminate false information that:
@@ -191,82 +191,82 @@ a. statements that a reasonable person would recognise as humour, satire, hyperb
 b. the sharing of third-party news or media for the purpose of debate, commentary, or debunking; or
 c. mistaken claims made in good faith where the person corrects the information upon notice.
 
-#### Art. 24 Plagiarism and intellectual attribution[^1]
+#### Art. 23 Plagiarism and intellectual attribution[^1]
 <sup>1</sup> A person must not claim authorship of another person’s creative or intellectual work, nor knowingly present it in a manner that conceals or misleads as to its true origin.
 
 <sup>2</sup> Paragraph 1 does not apply where the work is shared with proper attribution, under appropriate licence or consent, or as a reasonable component of transformative use or commentary.
 
-#### Art. 23 Identity and impersonation
+#### Art. 24 Identity and impersonation
 <sup>1</sup> A person must not present themselves as another person, real or invented, in a manner likely to mislead others to the detriment of that person or of others.
 
 <sup>2</sup> Impersonation is lawful where it is consented to, or where it is obviously playful, unless it is used in bad faith to mislead or make false claims.
 
 ### Section 3: Safety and Legality
 
-#### Art. 24 Prohibition of destructive and materials
+#### Art. 25 Prohibition of destructive and materials
 <sup>1</sup> Promoting, facilitating, or providing actionable instructions for illegal acts or materials that cause real-world harm to life, infrastructure, or nature is prohibited.
 
 <sup>2</sup> Where a material serves dual or multipurpose functions, its display, promotion, or distribution is permitted only when strictly contextualised by its lawful utilisation and balanced by good faith adherence to applicable regulations and safety standards.
 
-#### Art. 25 Self-endangerment
+#### Art. 26 Self-endangerment
 A person must not expose themselves, through what they disclose or publish, to a danger a reasonable person would consider serious.
 
-#### Art. 26 Aestheticization of suicide
+#### Art. 27 Aestheticization of suicide
 The intentional or negligent aestheticization of suicide is prohibited.
 
 ### Section 4: Contents
 
-#### Art. 27 Sensitive content
+#### Art. 28 Sensitive content
 <sup>1</sup> Sensitive content is content of a sexual, violent, or otherwise disturbing character that a reasonable person would expect to offend or distress others, or to be unsuitable for minors.
 
 <sup>2</sup> Whether content is sensitive, and how it is treated, is determined by its function, context, and likely effect on those who encounter it, not by its subject alone.
 
 <sup>3</sup> The Administration designates age-restricted channels and determines in guidelines how sensitive content is to be marked or concealed.
 
-#### Art. 28 Prohibited content
+#### Art. 29 Prohibited content
 <sup>1</sup> Sensitive content is prohibited where its predominant function or effect is:
 a. sexual arousal or gratification; or
 b. to shock, degrade, or glorify real suffering or harm.
 
 <sup>2</sup> Content that sexualises a minor is prohibited in every case, whatever its stated purpose.
 
-#### Art. 29 Restricted content
+#### Art. 30 Restricted content
 <sup>1</sup> Sensitive content that serves a genuine educational, medical, artistic, journalistic, or comparable purpose, and is not prohibited under Article 28, may be shared only:
 a. in a designated channel, where its character is principally sexual or intimate; or
 b. elsewhere, concealed and accompanied by a notice sufficient for others to decide whether to view it, where its character is principally disturbing.
 
 <sup>2</sup> Where it is doubtful whether content is prohibited or restricted, it is treated as restricted.
 
-#### Art. 30 Content outside scope
+#### Art. 31 Content outside scope
 Content is not sensitive where, in the context, a reasonable person would not be offended or distressed by it, in particular where it is crude or childish in nature, or appears incidentally and briefly within other material and is concealed or removed upon request.
 
-#### Art. 31 Presentation
+#### Art. 32 Presentation
 Content does not lose its character because it is presented as humour, fiction, or stylisation, or is partially concealed or reached indirectly, where a reasonable person would still perceive that character.
 
 ## Chapter 6: Persons and The Server
 
 ### Section 1: Use of Facilities
 
-#### Art. 32 Use of channels
+#### Art. 33 Use of channels
 <sup>1</sup> A member is encouraged to use channels for the purposes indicated by their name, description, or formal pinned messages by the Administration.
 
 <sup>2</sup> If a channel has no designated or clear purpose, members may communicate freely within the limits of law.
 
-#### Art. 33 Use of Server facilities
+#### Art. 34 Use of Server facilities
 <sup>1</sup> Every facility, tool, or permission the Server provides must be used in good faith and in accordance with its purpose.
 
 <sup>2</sup> A person must not use any facility to circumvent a restriction, to impair the operation of the Server, or to gain an advantage over others that the facility was not designed to give.
 
 ### Section 2: Rights of Members
 
-#### Art. 34 Deletion of personal data
+#### Art. 35 Deletion of personal data
 <sup>1</sup> A person may request the deletion of any personal data present on the Server.
 
 <sup>2</sup> Data forming part of evidence in an ongoing administrative proceeding may not be deleted until it concludes.
 
 <sup>3</sup> Upon the conclusion of such proceeding, the data must be deleted unless the person explicitly states otherwise.
 
-#### Art. 35 Appeal against administrative acts
+#### Art. 36 Appeal against administrative acts
 A person adversely affected by an unlawful administrative decision, action, or proceeding may appeal to a judicial authority to have it reversed.
 
 [^1]: Originally adopted by the Chief Minister on 22 Sep. 2026, officially revised and adopted by the Director on 3 Oct. 2026.
