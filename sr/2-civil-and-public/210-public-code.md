@@ -2,7 +2,7 @@
 sr_id: "SR 210"
 title: "The Public Code"
 abbreviation: "Public Code"
-version: "3.0.0"
+version: "3.3.0"
 category: "Civil and Public Law"
 enacted_date: "2026-08-12"
 last_amended: "2026-10-03"
@@ -207,6 +207,21 @@ c. mistaken claims made in good faith where the person corrects the information 
 <sup>1</sup> Promoting, facilitating, or providing actionable instructions for illegal acts or materials that cause real-world harm to life, infrastructure, or nature is prohibited.
 
 <sup>2</sup> Where a material serves dual or multipurpose functions, its display, promotion, or distribution is permitted only when strictly contextualised by its lawful utilisation and balanced by good faith adherence to applicable regulations and safety standards.
+
+#### Art. 25a Protection of devices and data
+<sup>1</sup> No person may create, distribute, or facilitate software, links, or data intended or likely to compromise the security, operation, or access controls of another person's system or data.
+
+<sup>2</sup> Measures taken for system security, authorised testing, education, or reporting are exempt.
+
+#### Art. 25b Unlawful deception
+<sup>1</sup> A person who intentionally deceives another to secure an unlawful advantage for themselves or a third party, or to cause financial or material loss, acts unlawfully.
+
+<sup>2</sup> Statements made in good faith or in the context of fiction, entertainment, or satire do not constitute unlawful deception.
+
+#### Art. 25c Gambling
+<sup>1</sup> Organising, promoting, or soliciting participation in games of chance where stakes or prizes of real-world value are involved is prohibited.
+
+<sup>2</sup> Schemes involving solely internal virtual tokens or currency without real-world exchange value are permitted.
 
 #### Art. 26 Self-endangerment
 A person must not expose themselves, through what they disclose or publish, to a danger a reasonable person would consider serious.
