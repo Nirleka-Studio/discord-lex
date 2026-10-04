@@ -2,7 +2,7 @@
 sr_id: "SR 310"
 title: "Penal Code"
 abbreviation: "Penal Code"
-version: "4.4.3"
+version: "4.5.3"
 category: "Penal Law"
 enacted_date: "2026-08-11"
 last_amended: "2026-10-01"
@@ -238,6 +238,11 @@ b. maliciously bypasses established Server measures or restrictions
 is punished by a Class 3 penalty and up to a Class 4 penalty.
 
 <sup>2</sup> A person who discovers a method to bypass Server measures or restrictions but fails to report it is punished by a Class 2 penalty and up to a Class 3 penalty.
+
+#### Art. 30a Disobedience of judicial orders
+<sup>1</sup> A person who knowingly fails to comply with an order issued to them by a judicial authority is punished by a Class 2 penalty and up to a Class 3 penalty.
+
+<sup>2</sup> Paragraph 1 applies only where the order was communicated to the person, expressly warned that non-compliance is punishable under this Article, and has not been suspended or set aside.
 
 #### Art. 31 Files and links
 <sup>1</sup> A person who shares files or other downloadable content containing:
