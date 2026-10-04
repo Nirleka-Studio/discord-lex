@@ -46,6 +46,8 @@ based on Article 32 of the Server Charter (SR 101),
 
 decrees:
 
+Title 1: Civil...?
+
 ## Chapter 1: General Provisions
 
 ### Art. 1 Acting in good faith
@@ -141,11 +143,13 @@ Every person must acknowledge and respect the human dignity of others.
 
 #### Art. 15
 <sup>1</sup> In matters where harassment is not a penal offence, the applicant may request to a judicial authority to order the offending party from:
-a. uh
+a. uh[^2]
+
+[^2]: whos the mf who didnt finish this
 
 ### Section 2: Representation
 
-## Art. 16 Truthful representation of facts
+#### Art. 16 Truthful representation of facts
 <sup>1</sup> Every person must act with honesty when asserting facts regarding other members, the Server, or critical real-world matters.
 
 <sup>2</sup> A person must not knowingly, recklessly, or maliciously disseminate false information that:
@@ -158,12 +162,86 @@ a. statements that a reasonable person would recognise as humour, satire, hyperb
 b. the sharing of third-party news or media for the purpose of debate, commentary, or debunking; or
 c. mistaken claims made in good faith where the person corrects the information upon notice.
 
-## Art. 17 Plagiarism and intellectual attribution[^1]
+#### Art. 17 Plagiarism and intellectual attribution[^1]
 <sup>1</sup> A person must not claim authorship of another person’s creative or intellectual work, nor knowingly present it in a manner that conceals or misleads as to its true origin.
 
 <sup>2</sup> Paragraph 1 does not apply where the work is shared with proper attribution, under appropriate licence or consent, or as a reasonable component of transformative use or commentary.
 
-## Art. 18 Prohibition of illegal acts and materials
+#### Art. 18 Prohibition of illegal acts and materials
 Promoting, facilitating, or providing actionable instructions for illegal acts or materials that cause real-world harm to life, infrastructure, or nature is prohibited.
+
+#### Art. 19
+The intentional or negligent aestheticization of suicide is prohibited.
+
+#### Art. 20
+A person must not use their status, natural characteristics, or orientation to assert superiority, unduly emphasise differences, or portray themselves as a victim in order to manipulate others, deflect accountability, or justify malicious behaviour.
+
+#### Art. 20a
+<sup>1</sup> An obligation is invalid if it is impossible, unlawful under Server or real-world laws, or contrary to good morals.
+
+<sup>2</sup> Persons however must act in good faith and competently act in an obligation with considerable effort.
+
+#### Art. 20b
+<sup>1</sup> Any person whose personality rights are unlawfully infringed may petition a judicial authority for protection against all those causing the infringement.
+
+<sup>2</sup> An infringement is unlawful unless it is justified by the consent of the person whose rights are infringed or by an overriding private or public interest or by law.
+
+NOTES: 20b must be broad enough to cover without explicitly mentioning:
+a. harassment
+b. repetitve unwanted behaviour by members;
+c. right to annontmity;
+d. real-world-safety
+e. reputation
+f. safety of others
+g. prohibition of NSFW contents
+
+#### Art. 20c
+Advertisement or self-promotion is principled in good faith:
+a. repetitive, abusive practices to promote;
+b. in a way that disrupts members ongoing conversations or sanity;
+c. wildly distracting
+
+#### Art. 20d Spamming
+A member must not spam in such a manner that:
+a. floods up a channel with repeated or useless contents; or
+b. disrupts other members' ongoing conversation.
+
+NOTES:
+make this shit broad enough but enforceable
+
+#### Art. 20e Real-world self-endangering
+
+NOTES:
+again, broad. for example posting your fucking government documents unredacted. mods have the duty to delete these.
+
+#### Art. 20f Impersonation
+NOTES: Dont accidentally ban consented impersonation, playful parody where its obvious its a joke, unless bad faith comes in and they start to mislead or make false claims. but again, we dont need to define the intricasies.
+
+## Title 2: Persons and The Server
+
+#### Art. 21 Deletion of personal data
+<sup>1</sup> A person may request the deletion of any personal data present on the Server.
+
+<sup>2</sup> Specific personal data may not be deleted if it is part of evidence to an ongoing administrative proceeding.
+
+<sup>3</sup> Upon the conclusion of such administrative proceeding, their personal data must be deleted if the person does not explicitly state to stop.
+
+#### Art. 22 Use of channels
+<sup>1</sup> A member is encouraged to use channels for their intended purposes as described by the channel’s name, description, or formal pinned messages by Administrators.
+
+<sup>2</sup> Where a channel has no clear intended use, a member may message in the channel to their intentions.
+
+#### Art. 23
+A person may appeal to a judicial authority for an administrative decision, action, or proceeding that is unlawful, and causes unfavourable circumstances to the person, to reverse the decision or action.[^3]
+
+[^3]: i think art 2b already covers this
+
+#### Art. 24 Abuse and exploits of Server features
+NOTES: must be broad enough to stand the test of time while also somewhat enforceable and understandable.
+
+#### Art. 25 alternative accounts
+NOTES:
+broad. principle of good faith or is this already covered in another? for example using alternative accounts to gain an unfair advantage, for example in harassment, gaining votes, bypassing punishments.
+
 
 [^1]: Originally adopted by the Chief Minister on 22 Sep. 2026, officially revised and adopted by the Director on 3 Oct. 2026.
