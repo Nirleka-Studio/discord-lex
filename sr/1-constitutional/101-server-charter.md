@@ -369,9 +369,9 @@ A person must vote independently without the instruction of another person.
 ## Annex 1: Administrative Ratios and Limits
 | Server Scale Tier                  | Active Engagement Base (Est. 1-10%) | Lance Admins            | Senior Admins        |
 |------------------------------------|-------------------------------------|-------------------------|----------------------|
-| Tier 1: Seed (< 50 members)        | 1-5 active members                  | 1                       | 1                    |
-| Tier 2: Small (50-250 members)     | 5-25 active members                 | Max 2                   | 1                    |
-| Tier 3: Medium (251-1,000 members) | 25-100 active members               | Max 3-4                 | Max 2                |
+| Tier 1: Seed (< 50 members)        | 1-5 active members                  | 2                       | 1                    |
+| Tier 2: Small (50-250 members)     | 5-25 active members                 | Max 3                   | 1                    |
+| Tier 3: Medium (251-1,000 members) | 25-100 active members               | Max 4                   | Max 2                |
 | Tier 4: Large (1,000+ members)     | 100+ active members                 | 1 per 25 active members | 1 per 3 Lance Admins |
 
 [^1]: Adopted based on a majority vote on 19 June 2026 (Ref. No. 0), technically in force since 24 September 2022, exercised since 30 May 2023.
