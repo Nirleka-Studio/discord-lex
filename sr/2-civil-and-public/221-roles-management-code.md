@@ -14,7 +14,7 @@ authority: "The Director"
 
 *The Director of Nirleka Studios,*
 
-based on Article 24 of the Server Charter (SR 101),
+based on Article 32 of the Server Charter (SR 101),
 
 decrees:
 
