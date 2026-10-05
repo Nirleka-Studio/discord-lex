@@ -2,10 +2,10 @@
 sr_id: "SR 610"
 title: "The Economy Act"
 abbreviation: "Economy Act"
-version: "2.0.0"
+version: "2.1.0"
 category: "Economy"
 enacted_date: "2026-08-12"
-last_amended: "2026-09-08"
+last_amended: "2026-10-05"
 authority: "The Director"
 ---
 
@@ -40,6 +40,17 @@ authority: "The Director"
 <sup>1</sup> Transactions of Nirleka francs in any way must only be restricted within the features of the server.
 
 <sup>2</sup> Violating paragraph 1 incurs a 16000₣ fine and 48-hour timeout.
+
+### Art. 4a Personal property
+<sup>1</sup> The personal property of a member comprises their Nirleka Franc balance and whatever they acquire with it legally.
+
+<sup>2</sup> The Administration must not confiscate, freeze, or transfer the personal property of a member except in case it is permitted by this Act, the Penal Code (SR 310) or any other law in compliance with Chapter 4 of the Server Charter (SR 101).
+
+<sup>3</sup> The personal property of a member is forfeited upon a permanent ban. Neither timeout, temporary ban, nor Banishment to the Void affects the personal property of a member, and they keep it on their return.
+
+<sup>4</sup> A member who appropriates or transfers the personal property of another member without their consent, by deceit, exploitation, or misuse of the Administration rank, must be punished according to the Penal Code (SR 310).
+
+<sup>5</sup> The Administration must not confiscate, freeze, or transfer personal property that a member acquired before the enactment of this Article.
 
 ### Art. 6 Fines
 The Administration may codify a fixed fine for violations of law.
