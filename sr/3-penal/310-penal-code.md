@@ -2,7 +2,7 @@
 sr_id: "SR 310"
 title: "Penal Code"
 abbreviation: "Penal Code"
-version: "4.12.3"
+version: "4.13.3"
 category: "Penal Law"
 enacted_date: "2026-08-11"
 last_amended: "2026-10-05"
@@ -42,8 +42,7 @@ d. participation in scams or malicious distribution of scams;
 e. participation in the creation or distribution of gambling sites; and
 f. participation in the creation or distribution of viruses.
 
-#### Art. 5 Prohibition of double jeopardy
-No person who has been convicted or acquitted on the Server by a final, legally binding judgment may be prosecuted again for the same offence.
+#### Art. 5[^10]
 
 #### Art. 6 Terms
 <sup>1</sup> Unless the law expressly provides otherwise, an offence is punishable only if it is committed intentionally.
@@ -404,3 +403,4 @@ A member who intentionally submits false reports, fabricates evidence, or malici
 [^7]: Repealed by the Director, on 5 Oct. 2026, in force since 5 Oct. 2026. Procedural laws should ideally be moved to other laws.
 [^8]: Repealed by the Director, on 5 Oct. 2026, in force since 5 Oct. 2026. Provisions concerning persons and their accounts are moved to the Public Code.
 [^9]: Repealed by the Director, on 5 Oct. 2026, in force since 5 Oct. 2026. Procedural laws should ideally be moved to other laws.
+[^10]: Repealed by the Director, on 5 Oct. 2026, in force since 5 Oct. 2026. Prohibition of double jeopardy is not full, according to the Charter (SR 101), and moved to the ProNaCo (SR 311).
