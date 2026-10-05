@@ -2,10 +2,10 @@
 sr_id: "SR 310"
 title: "Penal Code"
 abbreviation: "Penal Code"
-version: "4.5.3"
+version: "4.12.3"
 category: "Penal Law"
 enacted_date: "2026-08-11"
-last_amended: "2026-10-01"
+last_amended: "2026-10-05"
 authority: "The Director"
 repeals: "ARCH 300"
 ---
@@ -14,7 +14,7 @@ repeals: "ARCH 300"
 
 *The Director of Nirleka Studios,*
 
-based on Article 34 of the Server Charter (SR 101),
+based on Article 32 of the Server Charter (SR 101),
 
 *decrees:*
 
@@ -73,17 +73,15 @@ A person acts lawfully if their conduct is required or authorised by law, even i
 <sup>3</sup> A person who voluntarily abandons the execution of an offence, or prevents its completion, is not punished for the attempt.
 
 #### Art. 11 Discord's Terms of Service and Community Guidelines
-The enforcing authorities may enforce compliance with Discord's Terms of Service (ToS) and Community Guidelines, but must only impose punishments as defined in Server laws. Anything that violates Discord's ToS or Community Guidelines but is undefined or not penalised under any Server law must be referred to the Head Administrator or the Director.
+<sup>1</sup> The enforcing authorities may enforce compliance with Discord's Terms of Service (ToS) and Community Guidelines, but must only impose punishments as defined in Server laws.
+
+<sup>2</sup> Anything that violates Discord's ToS or Community Guidelines but is undefined or not penalised under any Server law must be referred to the Head Administrator, Chief Minister, or Director.
 
 ### Section 2: Terms and Definitions
 
-#### Art. 12 A minor
-<sup>1</sup> A person is considered a minor if they are under the age of 18.
+#### Art. 12[^3]
 
-<sup>2</sup> A person is treated as a minor based on self-admission, contextual evidence, or verified age.
-
-#### Art. 13 Alternative account
-An alternative account is a secondary or additional account controlled by a member.
+#### Art. 13[^8]
 
 #### Art. 14 Interaction
 A person interacts with another person through any means of communication, regardless of format, medium, or technology used.
@@ -96,8 +94,7 @@ c. audio recordings, voice acting, or impersonated sounds;
 d. AI-generated or edited content representing a real or implied individual; and
 e. hyperlinks, URLs, QR codes, or any other routing medium provided for a user to access, view, or download such representations.
 
-#### Art. 16 NSFW channel
-A channel is designated as NSFW if it is set to be an age-restricted channel for users at or above the age of 18.
+#### Art. 16[^5]
 
 ### Section 3: Punishments and Measures
 
@@ -122,33 +119,9 @@ The native Discord ban feature is used when imposing a ban.
 #### Art. 20 Banishment to The Void
 Banishment to The Void deprives a member of seeing or participating in public channels and restricts them to seeing only the `#the-void` channel and the `#rules` channel.
 
-#### Art. 21 Fine
-<sup>1</sup> A fine is a financial penalty imposing a fixed liability in Nirleka francs (₣) on the convicted person, in accordance with Article 2, paragraph 2, and Article 6 of the Economy Act (SR 610).
+#### Art. 21[^4]
 
-<sup>2</sup> The execution of a fine takes place through the immediate and automatic deduction of the specified amount from the person's account balance by the competent authority. If the account balance is insufficient to satisfy the full amount, the remaining sum constitutes a binding debt against the member, resulting in a negative balance.
-
-<sup>3</sup> Unless a fixed fine is provided, a fine is imposed:
-a. as a standalone penalty of not less than 1,000₣ and not more than 10,000₣; or
-b. as a supplementary penalty alongside a timeout, suspension, or demotion.
-
-<sup>4</sup> The enforcing authority assesses the amount of the fine taking into account:
-a. the severity of the offence; and
-b. the financial situation of the offender at the time of judgment.
-
-#### Art. 22 Deletion of content
-<sup>1</sup> Deletion of content is a remedial measure that removes offending messages, media, links, or files from public view.
-
-<sup>2</sup> The enforcing authority must delete content immediately if it constitutes:
-a. CSAM or predatory content;
-b. malicious files, viruses, or spyware;
-c. unauthorised personal information or doxxing material;
-d. real-life graphic violence, extreme gore, or animal abuse; or
-e. content violating Discord's Terms of Service or Community Guidelines.
-
-<sup>3</sup> For all other offences (such as mild spam, minor mischannelling, non-consensual pairing, or suggestive media), the enforcing authority may leave the content intact or spoiler-tag it if:
-a. the content is required as evidence for an ongoing moderation dispute or appeal;
-b. the content does not cause ongoing harm to other members; or
-c. the offending member voluntarily edits or censors the content upon notice.
+#### Art. 22[^9]
 
 ### Section 4: Penalty Framework
 
@@ -203,7 +176,7 @@ b. repetitively pings (@mentions) another member
 
 is punished by a Class 1 penalty and up to a Class 3 penalty.
 
-<sup>2</sup> Any content in paragraph 1 may be deleted if requested.
+<sup>2</sup>[^6] ...
 
 #### Art. 26 Advertising and self-promotion
 A member who:
@@ -372,7 +345,7 @@ b. provides instructions or methods for self-harm or suicide
 
 is punished by a Class 4 penalty.
 
-<sup>2</sup> A member who expresses personal thoughts of self-harm or suicide must be directed to support resources and may be placed on a temporary timeout for safety and moderation review.
+<sup>2</sup>[^7] ... 
 
 #### Art. 50 Violence and bodily harm threats
 <sup>1</sup> A person who threatens another individual with violence, death, or physical harm is punished by a Class 3 penalty and up to a Class 4 penalty.
@@ -424,3 +397,10 @@ A member who intentionally submits false reports, fabricates evidence, or malici
 
 [^1]: Adopted unilaterally by The Director on 19 June 2026, in force since 19 June 2026.
 [^2]: Adopted based on a majority vote (Ref. No. 3) initiated on 6 Sept. 2026, in force since 10 Sept. 2026.
+[^3]: Repealed by the Director on 5 Oct. 2026, in force since 5 Oct. 2026.
+[^4]: Repealed by the Director, on 5 Oct. 2026, in force since 5 Oct. 2026.
+[^5]: Repealed by the Director, on 5 Oct. 2026, in force since 5 Oct. 2026.
+[^6]: Repealed by the Director, on 5 Oct. 2026, in force since 5 Oct. 2026. Procedural laws should ideally be moved to other laws.
+[^7]: Repealed by the Director, on 5 Oct. 2026, in force since 5 Oct. 2026. Procedural laws should ideally be moved to other laws.
+[^8]: Repealed by the Director, on 5 Oct. 2026, in force since 5 Oct. 2026. Provisions concerning persons and their accounts are moved to the Public Code.
+[^9]: Repealed by the Director, on 5 Oct. 2026, in force since 5 Oct. 2026. Procedural laws should ideally be moved to other laws.
