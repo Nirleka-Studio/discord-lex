@@ -48,11 +48,11 @@ Any content that might endanger a person must be deleted immediately, including 
 
 #### Section 2: Suspicious Activities
 
-##### Art. 7 Suspicious accounts
+##### Art. 8 Suspicious accounts
 Any account exhibiting suspicious activities as defined in Annex 1 must be banned immediately.
 
 ## Annex 1
-(Art. 7)
+(Art. 8)
 
 ### Indicators of Suspicious Account Activity
 
