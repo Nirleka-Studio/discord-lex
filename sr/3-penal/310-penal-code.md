@@ -2,10 +2,10 @@
 sr_id: "SR 310"
 title: "Penal Code"
 abbreviation: "Penal Code"
-version: "4.13.3"
+version: "4.14.3"
 category: "Penal Law"
 enacted_date: "2026-08-11"
-last_amended: "2026-10-05"
+last_amended: "2026-10-06"
 authority: "The Director"
 repeals: "ARCH 300"
 ---
@@ -345,6 +345,9 @@ b. provides instructions or methods for self-harm or suicide
 is punished by a Class 4 penalty.
 
 <sup>2</sup>[^7] ... 
+
+#### Art. 49a Discrediting institutional help for self-harm
+A person who discredits support institutions or intentionally prevents, obstructs, or deters a person from seeking or receiving help for self-harm or suicide is punished by a Class 4 penalty.
 
 #### Art. 50 Violence and bodily harm threats
 <sup>1</sup> A person who threatens another individual with violence, death, or physical harm is punished by a Class 3 penalty and up to a Class 4 penalty.
