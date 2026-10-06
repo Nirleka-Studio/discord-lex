@@ -2,10 +2,10 @@
 sr_id: "SR 610"
 title: "The Economy Act"
 abbreviation: "Economy Act"
-version: "2.1.0"
+version: "2.1.1"
 category: "Economy"
 enacted_date: "2026-08-12"
-last_amended: "2026-10-05"
+last_amended: "2026-10-06"
 authority: "The Director"
 ---
 
@@ -42,7 +42,7 @@ authority: "The Director"
 <sup>2</sup> Violating paragraph 1 incurs a 16000₣ fine and 48-hour timeout.
 
 ### Art. 4a Personal property
-<sup>1</sup> The personal property of a member comprises their Nirleka Franc balance and whatever they acquire with it legally.
+<sup>1</sup> The personal property of a member comprises their Nirleka franc balance and whatever they acquire with it legally.
 
 <sup>2</sup> The Administration must not confiscate, freeze, or transfer the personal property of a member except in case it is permitted by this Act, the Penal Code (SR 310) or any other law in compliance with Chapter 4 of the Server Charter (SR 101).
 
