@@ -522,6 +522,29 @@ mark.search-highlight {
 
 /* ---------- Nests sizes ---------- */
 
+.law-node > summary > .law-heading-text {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.law-book > summary > .law-heading-text {
+  font-size: 1.9375rem;
+  font-weight: lighter;
+  letter-spacing: 0.08em;
+  margin: 28px 0 12px;
+}
+.law-part > summary > .law-heading-text {
+  font-size: 1.875rem;
+  font-weight: lighter;
+  letter-spacing: 0.04em;
+  margin: 24px 0 12px;
+}
+.law-tit > summary > .law-heading-text {
+  font-size: 1.8125rem;
+  font-weight: lighter;
+  margin: 22px 0 11px;
+}
+
 .law-title {
   font-family: var(--font-display);
   font-size: 2rem;
