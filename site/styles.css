@@ -522,6 +522,11 @@ mark.search-highlight {
 
 /* ---------- Nests sizes ---------- */
 
+.law-label .law-suffix {
+  font-weight: normal;
+  font-style: italic;
+}
+
 .law-node > summary > .law-heading-text {
   font-size: 1.5rem;
   font-weight: normal;

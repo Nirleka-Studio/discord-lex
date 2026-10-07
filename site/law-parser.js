@@ -68,6 +68,12 @@
         return new RegExp("^(?:" + words + ")\\b\\.?\\s*([\\w.]+)\\s*[:.]?\\s*(.*)$", "i");
     }
 
+    // "5bis" -> 5<span class="law-suffix">bis</span>, "44a" -> 44<span ...>a</span>
+    // Plain numbers ("5", "5.2") and non-numeric ones ("A") pass through untouched.
+    function formatNumber(n) {
+        return escapeHtml(n).replace(/^(\d[\d.]*)([a-z].*)$/i, '$1<span class="law-suffix">$2</span>');
+    }
+
     var DEFAULT_HEADINGS = [
         { type: "book", label: "Book", idPrefix: "book", re: kw("book") },
         { type: "part", label: "Part", idPrefix: "part", re: kw("part") },
@@ -366,9 +372,12 @@
             var cctx = childCtx(ctx, id, collector);
             var href = ctx.baseUrl ? ctx.baseUrl + id : "#" + id;
 
-            var label = "";
-            if (cfg.label && node.number) label = cfg.label + " " + node.number;
-            else if (cfg.bareLabel) label = cfg.bareLabel;
+            var labelHtml = "";
+            if (cfg.label && node.number) {
+                labelHtml = escapeHtml(cfg.label) + " " + formatNumber(node.number);
+            } else if (cfg.bareLabel) {
+                labelHtml = escapeHtml(cfg.bareLabel);
+            }
 
             // Render the title first so a [^N] in it counts toward this scope.
             var titleHtml = inline(node.title, cctx);
@@ -380,7 +389,7 @@
                 '<summary class="law-heading">' +
                 tag.open +
                 '<a class="law-anchor" href="' + href + '" onclick="event.stopPropagation()">' +
-                (label ? '<span class="law-label">' + escapeHtml(label) + "</span> " : "") +
+                (labelHtml ? '<span class="law-label">' + labelHtml + "</span> " : "") +
                 titleHtml + "</a>" + tag.close +
                 "</summary>" +
                 '<div class="law-body">' + bodyHtml + "</div>" +
