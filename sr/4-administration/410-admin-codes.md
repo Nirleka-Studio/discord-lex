@@ -2,7 +2,7 @@
 sr_id: "SR 410"
 title: "Administration Codes Compilations"
 abbreviation: "Admin Codes"
-version: "DRAFT 2.0.0"
+version: "2.0.0"
 category: "Administration"
 enacted_date: "2026-08-12"
 last_amended: "2026-10-05"
@@ -50,6 +50,11 @@ Any content that might endanger a person must be deleted immediately, including 
 
 ##### Art. 8 Suspicious accounts
 Any account exhibiting suspicious activities as defined in Annex 1 must be banned immediately.
+
+##### Art. 9 Compromised accounts
+<sup>1</sup> Any account exhibiting compromised or suspicious activities as defined in Annex 1 must be banned immediately.
+
+<sup>2</sup> If the owner of the account gains back control of the account, they must be unbanned and may be invited to the Server.
 
 ## Annex 1
 (Art. 8)
