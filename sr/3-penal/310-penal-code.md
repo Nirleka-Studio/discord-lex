@@ -2,10 +2,10 @@
 sr_id: "SR 310"
 title: "Penal Code"
 abbreviation: "Penal Code"
-version: "4.14.3"
+version: "4.18.3"
 category: "Penal Law"
 enacted_date: "2026-08-11"
-last_amended: "2026-10-06"
+last_amended: "2026-10-07"
 authority: "The Director"
 repeals: "ARCH 300"
 ---
@@ -390,12 +390,41 @@ A member who insults, demeans, or asserts superiority over another natural perso
 #### Art. 56 Slurs
 <sup>1</sup> A member who uses a slur is punished by a Class 1 penalty and up to a Class 2 penalty.
 
-<sup>2</sup> The following uses of slurs are exempt from paragraph 1 if they are not personally directed at, or made to remark on, another person, and a reasonable person may interpret the context as humorous or banter:
-a. retard / retarded; and
-b. reclaimed slurs such as nigga.
+<sup>2</sup> The uses of slurs defined in Annex 1 are exempt from paragraph 1 if they are not personally directed at, or made to remark on, another person, and a reasonable person may interpret the context as humorous or banter.
 
 #### Art. 57 False reporting and moderation abuse
 A member who intentionally submits false reports, fabricates evidence, or maliciously misuses ticket or report systems to trigger moderation action against another member is punished by a Class 2 penalty and up to a Class 3 penalty.
+
+#### Art. 58 Misuse of Server features
+A person who uses a Server facility to:
+a. circumvent a restriction;
+b. to impair the operation of the Server; or
+c. gain an advantage over others that the facility was not designed to give
+
+is punished by a Class 2 penalty and up to a Class 3 penalty.
+
+#### Art. 59 Bad-faith practices in voting
+A person who uses bad-faith practices to vote, including through:
+a. misuse of Server facilities;
+b. restricting access from eligible members;
+c. coercing others; and
+d. using alternative accounts
+
+is punished by a Class 2 penalty and up to a Class 3 penalty.
+
+## Annex 1:
+*(Art. 56, para. 2)*
+
+### 1
+Article 56 still applies if a word in another language has an equivalent meaning or social weight.
+
+### 2
+The following use of slurs are permitted if used in accordance with Article 56:
+
+| Base form | Other forms / slangs  |
+|-----------|-----------------------|
+| retard    | retarded, retardation |
+| nigga     | nigger, negro         |
 
 [^1]: Adopted unilaterally by The Director on 19 June 2026, in force since 19 June 2026.
 [^2]: Adopted based on a majority vote (Ref. No. 3) initiated on 6 Sept. 2026, in force since 10 Sept. 2026.
