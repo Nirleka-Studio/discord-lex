@@ -2,7 +2,7 @@
 sr_id: "SR 311"
 title: "Penal Procedure Code"
 abbreviation: "ProNaCo, PPC"
-version: "2.0.0"
+version: "2.1.0"
 category: "Penal Law"
 enacted_date: "2026-09-10"
 last_amended: "2026-10-07"
@@ -238,6 +238,8 @@ b. the DM if the offender is off the Server.
 a. the punishing enforcing authority;
 b. any other enforcing authority if requested or the punishing enforcing authority fails or stalls to do so; or
 c. an automated system such as bots.
+
+<sup>3</sup> A notice of punishment is written and sent immediately after the punishment is given.
 
 #### Section 2: Punishments
 
