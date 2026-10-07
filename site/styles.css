@@ -520,6 +520,22 @@ mark.search-highlight {
   margin: 0;
 }
 
+/* ---------- Markers ---------- */
+
+.law-body summary::marker {
+  color: var(--dropdown);
+  font-size: 1.6rem;
+}
+
+.law-body summary {
+  list-style-type: "+  ";
+  font-weight: bold;
+}
+.law-body details[open] > summary {
+  list-style-type: "−  ";
+  font-weight: bold;
+}
+
 /* ---------- Nests sizes ---------- */
 
 .law-label .law-suffix {
