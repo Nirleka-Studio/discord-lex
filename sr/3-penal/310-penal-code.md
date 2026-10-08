@@ -2,10 +2,10 @@
 sr_id: "SR 310"
 title: "Penal Code"
 abbreviation: "Penal Code"
-version: "4.18.3"
+version: "4.21.3"
 category: "Penal Law"
 enacted_date: "2026-08-11"
-last_amended: "2026-10-07"
+last_amended: "2026-10-08"
 authority: "The Director"
 repeals: "ARCH 300"
 ---
@@ -71,10 +71,10 @@ A person acts lawfully if their conduct is required or authorised by law, even i
 
 <sup>3</sup> A person who voluntarily abandons the execution of an offence, or prevents its completion, is not punished for the attempt.
 
-#### Art. 11 Discord's Terms of Service and Community Guidelines
-<sup>1</sup> The enforcing authorities may enforce compliance with Discord's Terms of Service (ToS) and Community Guidelines, but must only impose punishments as defined in Server laws.
+#### Art. 11 Platform's Terms of Service and Community Guidelines
+<sup>1</sup> The enforcing authorities may enforce compliance with the Platform's Terms of Service (ToS) and Community Guidelines, but must only impose punishments as defined in Server laws.
 
-<sup>2</sup> Anything that violates Discord's ToS or Community Guidelines but is undefined or not penalised under any Server law must be referred to the Head Administrator, Chief Minister, or Director.
+<sup>2</sup> Anything that violates the Platform's ToS or Community Guidelines but is undefined or not penalised under any Server law must be referred to the Head Administrator, Chief Minister, or Director.
 
 ### Section 2: Terms and Definitions
 
@@ -217,16 +217,7 @@ is punished by a Class 3 penalty and up to a Class 4 penalty.
 <sup>2</sup> Paragraph 1 applies only where the order was communicated to the person, expressly warned that non-compliance is punishable under this Article, and has not been suspended or set aside.
 
 #### Art. 31 Files and links
-<sup>1</sup> A person who shares files or other downloadable content containing:
-a. malicious code;
-b. malware;
-c. viruses;
-d. trojans;
-e. ransomware;
-f. spyware; or
-g. keyloggers
-
-is punished by a Class 4 penalty.
+<sup>1</sup> A person who shares files, links or other content designed to impair, disrupt or gain unauthorised access to a system, or to the data or processes it carries, is punished by a Class 4 penalty.
 
 <sup>2</sup> A member who shares content that is not inherently harmful but causes temporary disruptions, such as corrupting the rendering of the Discord application, is punished by a Class 2 penalty and up to a Class 3 penalty.
 
@@ -360,9 +351,11 @@ A person who discredits support institutions or intentionally prevents, obstruct
 A person who depicts or encourages real-life animal abuse, torture, or cruelty is punished by a Class 4 penalty.
 
 #### Art. 52 Weapons and dangerous substances
-<sup>1</sup> A person who provides instructions, blueprints, or methods for fabricating explosives, dangerous chemical weapons, illegal firearms, or lethal devices is punished by a Class 4 penalty.
+<sup>1</sup> A person who provides instructions, blueprints or methods for making a weapon, substance or device that is unlawful to make or designed to cause death or serious injury to many persons or without discrimination is punished by a Class 4 penalty.
 
-<sup>2</sup> A member who displays real-life weapons in a threatening, unsafe, or brandishing manner is punished by a Class 2 penalty and up to a Class 3 penalty.
+<sup>2</sup> Paragraph 1 does not apply to the lawful use, maintenance or handling of a lawfully held item, or to educational, historical or journalistic discussion that does not enable its making.
+
+<sup>3</sup> A member who displays real-life weapons in a threatening, unsafe, or brandishing manner is punished by a Class 2 penalty and up to a Class 3 penalty.
 
 #### Art. 53 Manufacturing and synthesis of illicit substances
 <sup>1</sup> A person who provides actionable instructions, recipes, formulas, chemical synthesis methods, or step-by-step guides for the creation, refinement, or mass production of:
@@ -379,7 +372,7 @@ c. informal references to common non-controlled substances (such as caffeine, al
 
 ### Section 6: Offences Against Respect, Authority, and Server Integrity
 
-#### Art. 54 Tiresome behaviours
+#### Art. 54 Disrespecting the death of a significant other
 <sup>1</sup> A member who explicitly disrespects the death of another member's friend, family member, pet, or significant other is punished by Banishment to The Void for 2 weeks.
 
 <sup>2</sup> Upon request of the victim, the perpetrator may be released early from the Void.
@@ -424,7 +417,7 @@ The following use of slurs are permitted if used in accordance with Article 56:
 | Base form | Other forms / slangs  |
 |-----------|-----------------------|
 | retard    | retarded, retardation |
-| nigga     | nigger, negro         |
+| nigger    | nigga, negro          |
 
 [^1]: Adopted unilaterally by The Director on 19 June 2026, in force since 19 June 2026.
 [^2]: Adopted based on a majority vote (Ref. No. 3) initiated on 6 Sept. 2026, in force since 10 Sept. 2026.
