@@ -76,6 +76,9 @@ A person acts lawfully if their conduct is required or authorised by law, even i
 
 <sup>2</sup> Anything that violates the Platform's ToS or Community Guidelines but is undefined or not penalised under any Server law must be referred to the Head Administrator, Chief Minister, or Director.
 
+#### Art. 11a Ordinance delegation
+The Director and the Chief Minister may issue ordinances listing examples or technical details of the offences in Chapter 2. They must not create offences or alter penalty classes.
+
 ### Section 2: Terms and Definitions
 
 #### Art. 12[^3]
