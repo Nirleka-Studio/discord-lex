@@ -2,10 +2,10 @@
 sr_id: "SR 101"
 title: "Charter of the Nirleka Studios Discord Server"
 abbreviation: "Server Charter"
-version: "3.0.0"
+version: "3.6.0"
 category: "Constitutional Law"
 enacted_date: "2026-08-11"
-last_amended: "2026-10-01"
+last_amended: "2026-10-08"
 authority: "The Director"
 ---
 
@@ -315,6 +315,48 @@ The modification or enactment of laws must be publicly announced.
 <sup>2</sup> Laws must be published on a platform that allows users to view and differentiate between versions of a law.
 
 <sup>3</sup> The duty to maintain the publication of the law rests with the Director and the Executive Branch.
+
+### Section 3: Ordinances
+
+#### Art. 35a Ordinances
+<sup>1</sup> An ordinance is a general and binding rule issued by an Administrator on the basis of a delegation in the Charter or in a law.
+
+<sup>2</sup> Ordinances rank below the Charter and laws.
+
+#### Art. 35b Authority to issue ordinances
+<sup>1</sup> The Director may issue ordinances on any matter.
+
+<sup>2</sup> The Chief Minister may issue ordinances where a law delegates the matter to them.
+
+<sup>3</sup> The Head Administrator may issue ordinances on operational matters within Article 23, paragraph 2, item c, and where a law delegates the matter to them.
+
+<sup>4</sup> A delegation must specify its subject and limits. Further delegation is prohibited unless the delegating law expressly allows it.
+
+#### Art. 35c Limits
+An ordinance must not:
+a. contradict or amend the Charter or a law;
+b. create an offence or a penalty, or change a statutory penalty class;
+c. restrict a right guaranteed in Chapter 1, Section 2; or
+d. go beyond its delegation.
+
+#### Art. 35d Temporary ordinances
+<sup>1</sup> Where a matter is not regulated by law and requires urgent regulation, the Chief Minister or the Head Administrator may issue a temporary ordinance, stating the gap and the reason for urgency.
+
+<sup>2</sup> A temporary ordinance may regulate procedure and operations and may order non-punitive measures, such as the removal of content pending a decision. It must not impose a punishment.
+
+<sup>3</sup> A temporary ordinance expires after 30 days unless the Director confirms it or enacts a law in its place.
+
+#### Art. 35e Publication and entry into force
+<sup>1</sup> Ordinances are announced under Article 34 and published under Article 35.
+
+<sup>2</sup> An ordinance enters into force on publication and has no retroactive effect.
+
+#### Art. 35f Review and repeal
+<sup>1</sup> The Secretary may void an ordinance that violates Article 35c.
+
+<sup>2</sup> The Director may repeal any ordinance at any time.
+
+<sup>3</sup> An ordinance lapses when the provision delegating it is repealed.
 
 ## Chapter 5: Succession
 
