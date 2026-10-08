@@ -2,7 +2,7 @@
 sr_id: "SR 410"
 title: "Administration Codes Compilations"
 abbreviation: "Admin Codes"
-version: "2.0.0"
+version: "2.1.0"
 category: "Administration"
 enacted_date: "2026-08-12"
 last_amended: "2026-10-05"
@@ -42,6 +42,9 @@ Any prohibited content must be deleted immediately.
 <sup>1</sup> Any personally identifiable information of a person without their consent must be deleted immediately, including from records.
 
 <sup>2</sup> Any illegal content must be deleted immediately, including from records.
+
+##### Art. 6a Deletion of content impairing systems
+Any content that is designed or likely to damage, disable or compromise the integrity, availability or confidentiality of a system, resource or function must be deleted immediately, including from records.
 
 ##### Art. 7 Deletion of endangering content
 Any content that might endanger a person must be deleted immediately, including from records.
