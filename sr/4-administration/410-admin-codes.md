@@ -13,6 +13,12 @@ repeals: "ARCH 400"
 # SR 410 — Administration Codes Compilations
 *(Administration Codes)*
 
+*The Director of Nirleka Studios,*
+
+based on Article 32 of the Server Charter (SR 101),
+
+*decrees:*
+
 ## Title 1: General Provisions
 
 ### Chapter 1: Fundamentals
