@@ -29,27 +29,25 @@ function write(rel, html) {
   fs.writeFileSync(f, html);
 }
 
-function page({ title, desc, urlPath, depth, body, jsonld }) {
-  const up = "../".repeat(depth);
+// Every static page is a copy of the real site/index.html shell (same header,
+// nav, footer, scripts). The law text is placed inside <main> so crawlers see
+// it without JavaScript; app.js then renders the full interface over it.
+// Nothing here duplicates app.js layout, so changing app.js needs no changes here.
+const SHELL = fs.readFileSync(path.join(SITE, "index.html"), "utf8");
+
+function page({ title, desc, urlPath, body, jsonld }) {
   const canonical = `${ORIGIN}${BASE}${urlPath}`;
-  return `<!doctype html>
-<html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>${esc(title)} — ${esc(cfg.siteName)}</title>
+  const head = `<title>${esc(title)} — ${esc(cfg.siteName)}</title>
 <meta name="description" content="${esc(desc)}">
 <link rel="canonical" href="${canonical}">
 <meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(desc)}">
 <meta property="og:url" content="${canonical}"><meta property="og:type" content="article">
-<link rel="icon" type="image/svg+xml" href="${up}assets/icons/favicon.svg">
-<link rel="stylesheet" href="${up}styles.css">
-<script type="application/ld+json">${JSON.stringify(jsonld)}</script>
-</head><body>
-<header class="masthead"><div class="masthead-inner">
-<a href="${BASE}/" class="masthead-title"><img src="${up}assets/icons/nsat_col.svg" alt="${esc(cfg.siteName)}" class="masthead-logo"></a>
-</div></header>
-<main class="app">${body}</main>
-<footer class="site-footer"><span>${esc(cfg.footer || "").replace(/\n/g, "<br>")}</span></footer>
-</body></html>`;
+<script type="application/ld+json">${JSON.stringify(jsonld)}</script>`;
+  return SHELL
+    .replace(/<title>[^<]*<\/title>/, head)
+    .replace(/<script>\s*\/\/ Old hash links[\s\S]*?<\/script>/, "")   // redirect only belongs on the homepage
+    .replace(/(href|src)="(?:\.\/)?(assets\/[^"]+|styles\.css|app\.js|law-parser\.js)"/g, `$1="${BASE}/$2"`)
+    .replace(/<main id="app" class="app"><\/main>/, `<main id="app" class="app">${body}</main>`);
 }
 
 // Split a law's markdown into articles ("#### Art. 5 Title").
@@ -97,7 +95,7 @@ for (const law of sr) {
   write(`law/${ls}`, page({
     title: `${law.id} — ${law.title}`,
     desc: clip(`${law.id} ${law.title}. ${plain(law.content || "")}`),
-    urlPath: lawPath, depth: 2,
+    urlPath: lawPath,
     body: `<a class="back-link" href="${BASE}/">← Registry</a><article><h1>${esc(law.id)} — ${esc(law.title)}</h1>${meta}${lawHtml}${toc}</article>`,
     jsonld: { "@context": "https://schema.org", "@type": "Legislation", name: `${law.id} — ${law.title}`,
       legislationIdentifier: law.id, legislationDate: law.enacted_date, dateModified: law.last_amended,
@@ -111,7 +109,7 @@ for (const law of sr) {
     write(`law/${ls}/art-${a.num}`, page({
       title: `${aLabel}${a.title ? " " + a.title : ""} — ${label}`,
       desc: clip(plain(a.md.split("\n").slice(1).join(" ")) || `${aLabel} of the ${law.title}`),
-      urlPath: aPath, depth: 3,
+      urlPath: aPath,
       body: `<a class="back-link" href="${BASE}${lawPath}">← ${esc(law.id)} ${esc(label)}</a><article><h1>${esc(aLabel)}${a.title ? " — " + esc(a.title) : ""}</h1>${LawParser.toHTML(a.md, `${BASE}${aPath}#`)}<p><a href="${BASE}${lawPath}">Read the full ${esc(label)}</a></p></article>`,
       jsonld: { "@context": "https://schema.org", "@type": "Legislation", name: aLabel, legislationIdentifier: aLabel,
         isPartOf: { "@type": "Legislation", name: law.title, url: `${ORIGIN}${BASE}${lawPath}` },

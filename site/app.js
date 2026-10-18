@@ -1,4 +1,9 @@
 (function () {
+  // Folder this script lives in, so config.json / data / assets resolve
+  // correctly even when the page is served from /law/sr-101/.
+  const SCRIPT_BASE = document.currentScript ? new URL(".", document.currentScript.src).href : location.href;
+  const asset = (p) => new URL(p, SCRIPT_BASE).href;
+  const slugify = (s) => String(s).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
   const app = document.getElementById("app");
   let DATA = null;
 
@@ -29,10 +34,10 @@
     if (link) link.setAttribute("aria-label", CONFIG.siteName);
 
     const logo = document.getElementById("masthead-logo");
-    if (logo && CONFIG.logo) logo.src = CONFIG.logo;
+    if (logo && CONFIG.logo) logo.src = asset(CONFIG.logo);
 
     const favicon = document.getElementById("site-favicon");
-    if (favicon && CONFIG.favicon) favicon.href = CONFIG.favicon;
+    if (favicon && CONFIG.favicon) favicon.href = asset(CONFIG.favicon);
 
     const credit = document.getElementById("footer");
     if (credit) credit.textContent = CONFIG.footer || "";
@@ -453,6 +458,17 @@ ${law.repeals ? `<div class="info-row"><dt>Repeals</dt><dd><a href="${lawUrl(law
   // ---------- router ----------
 
   function route() {
+    // Real URLs (/law/sr-101/ or /law/sr-310/art-5/) open that law directly.
+    // A hash route, when present, always wins (in-app navigation).
+    const pm = !location.hash && location.pathname.match(/\/law\/([^/]+)\/(?:art-([^/]+)\/)?$/);
+    if (pm) {
+      const law = DATA.laws.find((l) => slugify(l.id) === pm[1]);
+      if (law) {
+        renderLaw(law.id, pm[2] ? "art-" + pm[2] : null);
+        if (!pm[2]) window.scrollTo(0, 0);
+        return;
+      }
+    }
     const hash = location.hash || "#/";
     const lawMatch = hash.match(/^#\/law\/([^/]+)(?:\/(.+))?$/);
 
@@ -480,8 +496,8 @@ ${law.repeals ? `<div class="info-row"><dt>Repeals</dt><dd><a href="${lawUrl(law
   window.addEventListener("hashchange", route);
 
   Promise.all([
-    fetch("config.json").then((r) => (r.ok ? r.json() : {})).catch(() => ({})),
-    fetch("data/laws.json").then((r) => r.json()),
+    fetch(asset("config.json")).then((r) => (r.ok ? r.json() : {})).catch(() => ({})),
+    fetch(asset("data/laws.json")).then((r) => r.json()),
   ])
       .then(([config, data]) => {
         applySiteConfig(config);
