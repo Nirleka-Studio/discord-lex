@@ -9,8 +9,8 @@ on:
       - "referendums/**"
       - "site/**"
       - "build.js"
-      - "sitemap.xml"
-      - "robots.txt"
+      - "scripts/prerender.js"
+      - "package.json"
   workflow_dispatch: {}
 
 permissions:
@@ -41,6 +41,9 @@ jobs:
 
       - name: Generate laws.json from sr/, archive/, referendums/
         run: node build.js
+
+      - name: Prerender crawlable law pages, sitemap.xml, llms.txt
+        run: node scripts/prerender.js
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
