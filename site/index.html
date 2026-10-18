@@ -14,6 +14,17 @@
     <!-- Real title/favicon/logo/footer are filled in at runtime from config.json
          (see applySiteConfig() in app.js) — edit config.json, not this file. -->
     <title>Code of Laws</title>
+    <script>
+      // Old hash links (#/law/SR%20310/art-5) -> real crawlable URLs
+      (function () {
+        var m = location.hash.match(/^#\/law\/([^/]+)(?:\/(.+))?$/);
+        if (!m) return;
+        var id = decodeURIComponent(m[1]).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+        var a = m[2] && m[2].match(/^art-(\d+[a-z]?)/i);
+        var base = location.pathname.replace(/[^/]*$/, "");
+        location.replace(base + "law/" + id + "/" + (a ? "art-" + a[1].toLowerCase() + "/" : "") + (m[2] && !a ? "#" + m[2] : ""));
+      })();
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
       <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&family=Roboto:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
