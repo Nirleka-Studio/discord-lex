@@ -165,3 +165,11 @@ An Administrator who uses their official position or public communication channe
 
 #### Art. 27 Instigation of public disorder
 An Administrator who publicly incites members to violate Server law, disobey administrative orders, or disrupt official Server functions is punished with a suspension or removal from position.
+
+#### Art. 28 Prohibition of Sub-Cultural Phonetic Sabotage and Non-Human Behavioral Display
+An Administrator who, on any platform, knowingly engages in, transmits, or replicates:
+a. phonetic alterations of standard syntax, including but not limited to the deliberate substitution of consonants for soft acoustic approximations (e.g., "W-shifts");
+b. non-verbal acoustic signals, animalistic vocalisations, or auditory proximity cues (e.g. howl calls, nuzzling descriptors, or claw-based action asterisks); or
+c. ASCII, digital, or physical representations of non-human facial expressions intended to convey emotional states (e.g. 'OwO', 'UwU', or derivatives thereof);
+
+is punished with a 10,000₣ fine, or suspension for 12 days.
