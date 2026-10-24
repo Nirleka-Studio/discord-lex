@@ -2,10 +2,10 @@
 sr_id: "SR 320"
 title: "Administration Disciplinary Code"
 abbreviation: "ADC"
-version: "1.0.0"
+version: "1.1.0"
 category: "Penal Law"
 enacted_date: "2026-09-11"
-last_amended: "2026-09-11"
+last_amended: "2026-10-24"
 authority: "The Director"
 ---
 
@@ -166,10 +166,14 @@ An Administrator who uses their official position or public communication channe
 #### Art. 27 Instigation of public disorder
 An Administrator who publicly incites members to violate Server law, disobey administrative orders, or disrupt official Server functions is punished with a suspension or removal from position.
 
-#### Art. 28 Prohibition of Sub-Cultural Phonetic Sabotage and Non-Human Behavioral Display
-An Administrator who, on any platform, knowingly engages in, transmits, or replicates:
-a. phonetic alterations of standard syntax, including but not limited to the deliberate substitution of consonants for soft acoustic approximations (e.g., "W-shifts");
-b. non-verbal acoustic signals, animalistic vocalisations, or auditory proximity cues (e.g. howl calls, nuzzling descriptors, or claw-based action asterisks); or
-c. ASCII, digital, or physical representations of non-human facial expressions intended to convey emotional states (e.g. 'OwO', 'UwU', or derivatives thereof);
+#### Art. 28 Frivolous conduct in an official capacity
+<sup>1</sup> An Administrator who, in an official capacity, intentionally communicates in a mocking or frivolous manner that would lead a reasonable person to doubt the seriousness or impartiality of their official conduct is punished with a timeout not exceeding 3 days, a fine not exceeding 500₣, or both.
 
-is punished with a 10,000₣ fine, or suspension for 12 days.
+<sup>2</sup> An Administrator acts in an official capacity when they:
+a. perform an official administrative act;
+b. conduct a Formal Proceeding under the Penal Procedure Code (SR 311); or
+c. communicate in a channel that the Administration designates for announcements, tickets, appeals, or Formal Proceedings.
+
+<sup>3</sup> An Administrator who quotes, reproduces, or forwards the content of another person as evidence or in the course of a moderation action does not commit an offence under paragraph 1.
+
+<sup>4</sup> This Article does not restrict an Administrator's avatar, personal identity, community membership, or communication outside their official capacity, whether on or off the Server.
