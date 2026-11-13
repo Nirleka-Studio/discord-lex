@@ -2,7 +2,7 @@
 sr_id: "SR 320"
 title: "Administration Disciplinary Code"
 abbreviation: "ADC"
-version: "1.1.0"
+version: "1.3.10"
 category: "Penal Law"
 enacted_date: "2026-09-11"
 last_amended: "2026-10-24"
@@ -14,7 +14,7 @@ authority: "The Director"
 
 *The Director of Nirleka Studios,*
 
-based on Article 2 and 24 of the Server Charter (SR 101),
+based on Article 2 and 32 of the Server Charter (SR 101),
 
 decrees:
 
@@ -29,6 +29,9 @@ A penalty or measure may only be imposed for an act that has been expressly decl
 <sup>1</sup> This Code applies to any offence committed by any Administrator on or after the date it comes into force.
 
 <sup>2</sup> For offences committed before the date this Code comes into force, the regulations and penalties in effect at the time of the offence apply.
+
+#### Art. 2a Offences defined elsewhere
+Unless stated otherwise, where an offence is defined in another law other than this Code, this Code applies.
 
 #### Art. 3 Prohibition of double jeopardy
 No person who has been convicted or acquitted in the Server by a final legally binding judgment may be prosecuted again for the same offence.
@@ -73,7 +76,7 @@ A person acts lawfully if their conduct is required or authorised by law, even i
 ### Section 4: Terminology
 
 #### Art. 11 Moderation action
-<sup>1</sup> A moderation action is any exercise of administrative or technical power that restricts, alters, removes, or penalizes a member’s ability to participate, communicate, or access features within the Server.
+<sup>1</sup> A moderation action is any exercise of administrative or technical power that restricts, alters, removes, or penalises a member’s ability to participate, communicate, or access features within the Server.
 
 <sup>2</sup> Moderation actions include, in particular:
 a. timeouts, mutes, and suspensions;
@@ -126,39 +129,39 @@ b. the financial situation of the offender at the time of judgment.
 ### Section 1: Offences Against Administrative Authority and Duties
 
 #### Art. 17 Neglect of duty
-An Administrator who, through gross negligence, fails to perform an administrative duty assigned to them by law or order, causing disruption to Server operations or administration, is punished with a timeout not exceeding 7 days, a fine not exceeding 1,000₣, or both.
+An Administrator who, through gross negligence, fails to perform an administrative duty assigned to them by law or order, causing disruption to Server operations or administration, is punished with a timeout not exceeding 7 days, a fine not exceeding 10,000₣, or both.
 
 #### Art. 18 Disobeying a lawful order
 An Administrator who intentionally refuses or fails to execute a lawful directive or order issued by a superior administrative authority is punished with a timeout not exceeding 14 days, a fine not exceeding 2,500₣, or suspension.
 
 #### Art. 19 Execution of an unlawful order
-<sup>1</sup> An Administrator who executes an order knowing, or under circumstances where they ought to have known, that the order violates Server law is punished with a timeout not exceeding 7 days or a fine not exceeding 1,000₣.
+<sup>1</sup> An Administrator who executes an order knowing, or under circumstances where they ought to have known, that the order violates Server law is punished with a timeout not exceeding 7 days or a fine not exceeding 10,000₣.
 
 <sup>2</sup> If the Administrator acted under direct threat of retaliatory administrative action by a superior, the penalty may be mitigated or waived.
 
 #### Art. 20 Excess of official authority
-An Administrator who exercises an administrative, technical, or judicial power not granted to them by law, or who exercises a power in direct violation of express statutory restrictions, is punished with a suspension, a fine not exceeding 5,000₣, or removal from position.
+An Administrator who exercises an administrative, technical, or judicial power not granted to them by law, or who exercises a power in direct violation of express statutory restrictions, is punished with a suspension, a fine not exceeding 10,000₣, or removal from position.
 
 ### Section 2: Offences Against Administrative Records and Integrity
 
 #### Art. 21 Failure to log moderation actions
-An Administrator who carries out a moderation action without recording the required entry in the official audit log or designated record within the prescribed timeframe is punished with a fine not exceeding 500₣.
+An Administrator who carries out a moderation action without recording the required entry in the official audit log or designated record within the prescribed timeframe is punished with a fine not exceeding 1,000₣.
 
 #### Art. 22 Tampering with moderation logs
-An Administrator who intentionally alters, falsifies, deletes, or conceals an official audit log, moderation record, or administrative entry is punished with a suspension, a fine not exceeding 5,000₣, or removal from position.
+An Administrator who intentionally alters, falsifies, deletes, or conceals an official audit log, moderation record, or administrative entry is punished with a suspension, a fine not exceeding 10,000₣, or removal from position.
 
 #### Art. 23 Bribery
-<sup>1</sup> An Administrator who solicits, accepts, or promises to accept Nirleka francs, real-world currency, or any other personal advantage in exchange for performing or omitting an official administrative act is punished with removal from position and a fine of not less than 2,000₣.
+<sup>1</sup> An Administrator who solicits, accepts, or promises to accept favours or any other personal advantage in exchange for performing or omitting an official administrative act is punished with removal from position and a fine of not less than 100,000₣.
 
 <sup>2</sup> Whoever offers, promises, or grants an advantage to an Administrator to influence their official conduct is subject to penalties under ordinary Server law.
 
 #### Art. 24 Abuse of power
-An Administrator who intentionally uses their administrative position, access privileges, or technical powers to secure an unlawful advantage for themselves or a third party, or to intentionally cause harm to a member, is punished with a suspension, a fine not exceeding 5,000₣, or removal from position.
+An Administrator who intentionally uses their administrative position, access privileges, or technical powers to secure an unlawful advantage for themselves or a third party, or to intentionally cause harm to a member, is punished with a suspension, a fine not exceeding 10,000₣, or removal from position.
 
 ### Section 3: Offences Against Member Rights and Public Order
 
 #### Art. 25 Unlawful moderation
-An Administrator who intentionally imposes a ban, kick, timeout, or other restriction on a member without a factual basis or legal ground provided by Server law is punished with a timeout not exceeding 14 days, a fine not exceeding 2,500₣, or suspension.
+An Administrator who intentionally imposes a ban, kick, timeout, or other restriction on a member without a factual basis or legal ground provided by Server law is punished with a timeout not exceeding 14 days, a fine not exceeding 10,500₣, or suspension.
 
 #### Art. 26 Targeted harassment and personal hostility
 An Administrator who uses their official position or public communication channels to repeatedly insult, intimidate, dox, or publish private personal details of a member or another Administrator without consent is punished with a suspension, a fine not exceeding 5,000₣, or removal from position.
