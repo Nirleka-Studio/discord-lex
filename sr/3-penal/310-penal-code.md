@@ -2,7 +2,7 @@
 sr_id: "SR 310"
 title: "Penal Code"
 abbreviation: "Penal Code"
-version: "4.21.3"
+version: "4.23.3"
 category: "Penal Law"
 enacted_date: "2026-08-11"
 last_amended: "2026-10-08"
@@ -407,6 +407,20 @@ c. coercing others; and
 d. using alternative accounts
 
 is punished by a Class 2 penalty and up to a Class 3 penalty.
+
+#### Art. 60 High treason
+A person who carries out an intentional act where they:
+a. threaten the existence of the Server;
+b. depose the constitutionally appointed Director; or
+c. depose, delegitimise, or limit the powers of The Cat
+is punished by a Class 1 penalty and up to a Class 4 penalty.
+
+#### Art. 61 Regular treason
+A person who carries out an act with the aim, through the use of abuse or violence,
+of changing the Charter,
+of deposing the constitutionally appointed Server authorities or rendering them unable to exercise their powers, or
+of causing extraordinary technical or cultural damage to the Server, its facilities, and members,
+is punished by a Class 4 penalty.
 
 ## Annex 1:
 *(Art. 56, para. 2)*
