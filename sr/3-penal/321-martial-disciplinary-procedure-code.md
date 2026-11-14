@@ -2,7 +2,7 @@
 sr_id: "SR 321"
 title: "Martial Disciplinary Procedure Code"
 abbreviation: "MarDiProCo, MDPC"
-version: "1.0.0"
+version: "1.1.0"
 category: "Penal Law"
 enacted_date: "2026-11-14"
 last_amended: "2026-11-14"
@@ -146,8 +146,64 @@ For light infractions, Article 8 applies.
 a. convict the offender guilty on all or some charges; or
 b. find the offender not guilty and void the charges.
 
-### Chapter 3: Appeals[^3]
+### Chapter 3: Appeals
+ 
+ #### Art. 19 Right of appeal
+<sup>1</sup> An Administrator punished under Article 8 or convicted in a court-martial under Article 18 has the right to appeal the punishment or conviction.
+
+<sup>2</sup> An appeal may challenge:
+a. whether the alleged conduct occurred;
+b. whether the conduct violated a law;
+c. whether the law was correctly interpreted or applied;
+d. whether the punishment was lawful or proportionate; or
+e. whether the procedure followed was lawful.
+
+#### Art. 20 Filing an appeal
+<sup>1</sup> An appeal must be filed within 14 days of the notice of punishment under Article 10. Late filings are dismissed as inadmissible unless extraordinary circumstances exist.
+
+<sup>2</sup> An appeal must identify:
+a. the appellant;
+b. the punishment or conviction being challenged;
+c. the grounds of appeal; and
+d. any evidence or information relied upon.
+
+<sup>3</sup> Minor defects in an appeal must not result in its dismissal where the substance of the complaint is reasonably understandable.
+
+#### Art. 21 Deciding the appeal
+<sup>1</sup> The Secretary decides an appeal, unless the Secretary presided over the case at first instance or must abstain under Article 5.
+
+<sup>2</sup> Where the Secretary does not decide the appeal, the Director may decide it or appoint a Judge.
+
+<sup>3</sup> A person who imposed the punishment or presided over the court-martial must not decide the appeal against it. Article 6 applies where this leaves no judicial authority.
+
+#### Art. 22 Procedure
+<sup>1</sup> The Judge must give the appellant and the enforcing authority an opportunity to present their positions and evidence.
+
+<sup>2</sup> The enforcing authority has 48 hours from notice of the appeal to submit the logs, records, and statement of facts establishing the violation, and bears the burden of proof.
+
+<sup>3</sup> If the enforcing authority fails to submit sufficient evidence within that time, the Judge must void the punishment.
+
+<sup>4</sup> The appellant has a single opportunity to review the evidence and submit a final rebuttal.
+
+#### Art. 23 Effect of an appeal
+<sup>1</sup> An appeal does not suspend the punishment, unless the Judge grants a temporary stay.
+
+<sup>2</sup> The Judge must decide on a request for a temporary stay within 24 hours.
+
+#### Art. 24 Decision
+<sup>1</sup> The Judge must issue a written decision within 7 days of the appeal being filed.
+
+<sup>2</sup> The decision must contain:
+a. a summary of the facts;
+b. the legal provisions applied; and
+c. the verdict, being upheld, modified, or overturned.
+
+<sup>3</sup> Where only the appellant appealed, the Judge must not impose a more severe punishment than the one appealed.
+
+<sup>4</sup> A decision under this Article is final.
+
+#### Art. 25 Restoration
+Where a punishment is modified or overturned, the enforcing authority must immediately restore the appellant to the extent the decision requires, including by refunding any fine paid, and must record the correction in the official audit log.
 
 [^1]: SR 101.
 [^2]: SR 610.
-[^3]: This may be completed by the Chief Minister.
