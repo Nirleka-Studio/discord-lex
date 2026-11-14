@@ -36,10 +36,6 @@
   // correctly even when the page is served from /law/sr-101/.
   const SCRIPT_BASE = document.currentScript ? new URL(".", document.currentScript.src).href : location.href;
   const asset = (p) => new URL(p, SCRIPT_BASE).href;
-  // Root that serves the hash app. Hash links MUST be absolute to this,
-  // otherwise "#/law/X" resolves against the current path and you get
-  // /law/sr-620/#/law/SR 210 when browsing from a real law URL.
-  const HOME = SCRIPT_BASE;
   const slugify = (s) => String(s).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
   const app = document.getElementById("app");
   let DATA = null;
@@ -142,7 +138,6 @@
     return `<span class="stamp ${key}">${label}</span>`;
   }
 
-  // Rewrites [text](sr:310/art-5) into the real, canonical law URLs.
   function resolveSrLinks(md) {
     return md.replace(/\]\(sr:([^)\s/]+)(?:\/([^)\s]+))?\)/g, (m, n, anchor) => {
       const law = DATA.laws.find(
@@ -150,9 +145,7 @@
       );
       if (!law) console.warn("No law found for sr:" + n);
       const slug = law ? slugify(law.id) : slugify("sr " + n);
-      // HOME (not a bare "/") so this works on project sites served from
-      // a subpath like https://user.github.io/<repo>/
-      return `](${HOME}law/${slug}/${anchor ? anchor + "/" : ""})`;
+      return `](/law/${slug}/${anchor ? anchor + "/" : ""})`;
     });
   }
 
@@ -192,7 +185,7 @@
   }
 
   function lawUrl(id, anchor) {
-    return `${HOME}#/law/${encodeURIComponent(id)}${anchor ? "/" + encodeURIComponent(anchor) : ""}`;
+    return `#/law/${encodeURIComponent(id)}${anchor ? "/" + encodeURIComponent(anchor) : ""}`;
   }
 
   function findLaw(id) {
@@ -219,7 +212,7 @@
     if (law && law.kind === "archive") {
       return window.marked ? marked.parse(rawMarkdown || "") : (rawMarkdown || "");
     }
-    const baseUrl = `${HOME}#/law/${encodeURIComponent(law.id)}/`;
+    const baseUrl = `#/law/${encodeURIComponent(law.id)}/`;
     return LawParser.toHTML(resolveSrLinks(rawMarkdown || ""), baseUrl);
   }
 
@@ -389,7 +382,7 @@
     const bodyHtml = renderLawMarkdown(selected.content || "", law);
 
     app.innerHTML = `
-      <a class="back-link" href="${HOME}#/">← Back to registry</a>
+      <a class="back-link" href="#/">← Back to registry</a>
       <div class="law-layout">
         <aside>
           <div class="sidebar-panel">
@@ -545,8 +538,30 @@ ${law.repeals ? `<div class="info-row"><dt>Repeals</dt><dd><a href="${lawUrl(law
     if (hash === "#/referendums") return renderReferendums();
     return renderRegistry();
   }
+  
+  const REAL_LAW_PATH = /\/law\/[^/]+\/(?:art-[^/]+\/)?$/;
+  let lastHref = null;
 
-  window.addEventListener("hashchange", route);
+  function navigate() {
+    if (location.href === lastHref) return; // hashchange + popstate both fire
+    lastHref = location.href;
+    route();
+  }
+
+  document.addEventListener("click", (e) => {
+    if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+    const a = e.target.closest && e.target.closest('a[href^="#/"]');
+    if (!a) return;
+    const m = location.pathname.match(REAL_LAW_PATH);
+    if (!m) return;
+    e.preventDefault();
+    const root = location.pathname.slice(0, m.index + 1);
+    history.pushState(null, "", root + a.getAttribute("href"));
+    navigate();
+  });
+
+  window.addEventListener("hashchange", navigate);
+  window.addEventListener("popstate", navigate);
 
   Promise.all([
     fetch(asset("config.json")).then((r) => (r.ok ? r.json() : {})).catch(() => ({})),
@@ -555,6 +570,7 @@ ${law.repeals ? `<div class="info-row"><dt>Repeals</dt><dd><a href="${lawUrl(law
       .then(([config, data]) => {
         applySiteConfig(config);
         DATA = data;
+        lastHref = location.href;
         route();
       })
       .catch((err) => {
