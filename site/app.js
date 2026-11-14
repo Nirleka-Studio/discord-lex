@@ -36,6 +36,10 @@
   // correctly even when the page is served from /law/sr-101/.
   const SCRIPT_BASE = document.currentScript ? new URL(".", document.currentScript.src).href : location.href;
   const asset = (p) => new URL(p, SCRIPT_BASE).href;
+  // Root that serves the hash app. Hash links MUST be absolute to this,
+  // otherwise "#/law/X" resolves against the current path and you get
+  // /law/sr-620/#/law/SR 210 when browsing from a real law URL.
+  const HOME = SCRIPT_BASE;
   const slugify = (s) => String(s).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
   const app = document.getElementById("app");
   let DATA = null;
@@ -138,6 +142,7 @@
     return `<span class="stamp ${key}">${label}</span>`;
   }
 
+  // Rewrites [text](sr:310/art-5) into the real, canonical law URLs.
   function resolveSrLinks(md) {
     return md.replace(/\]\(sr:([^)\s/]+)(?:\/([^)\s]+))?\)/g, (m, n, anchor) => {
       const law = DATA.laws.find(
@@ -185,7 +190,7 @@
   }
 
   function lawUrl(id, anchor) {
-    return `#/law/${encodeURIComponent(id)}${anchor ? "/" + encodeURIComponent(anchor) : ""}`;
+    return `${HOME}#/law/${encodeURIComponent(id)}${anchor ? "/" + encodeURIComponent(anchor) : ""}`;
   }
 
   function findLaw(id) {
@@ -212,7 +217,7 @@
     if (law && law.kind === "archive") {
       return window.marked ? marked.parse(rawMarkdown || "") : (rawMarkdown || "");
     }
-    const baseUrl = `#/law/${encodeURIComponent(law.id)}/`;
+    const baseUrl = `${HOME}#/law/${encodeURIComponent(law.id)}/`;
     return LawParser.toHTML(resolveSrLinks(rawMarkdown || ""), baseUrl);
   }
 
@@ -382,7 +387,7 @@
     const bodyHtml = renderLawMarkdown(selected.content || "", law);
 
     app.innerHTML = `
-      <a class="back-link" href="#/">← Back to registry</a>
+      <a class="back-link" href="${HOME}#/">← Back to registry</a>
       <div class="law-layout">
         <aside>
           <div class="sidebar-panel">
@@ -501,7 +506,8 @@ ${law.repeals ? `<div class="info-row"><dt>Repeals</dt><dd><a href="${lawUrl(law
   // ---------- router ----------
 
   function route() {
-    // Real URLs (/law/sr-101/ or /law/sr-310/art-5/) open that law directly.
+    // Real URLs (/law/sr-101/ or /law/sr-310/art-5/) open that law directly
+    // and are left untouched in the address bar.
     // A hash route, when present, always wins (in-app navigation).
     const pm = !location.hash && location.pathname.match(/\/law\/([^/]+)\/(?:art-([^/]+)\/)?$/);
     if (pm) {
@@ -517,7 +523,9 @@ ${law.repeals ? `<div class="info-row"><dt>Repeals</dt><dd><a href="${lawUrl(law
 
     if (lawMatch) {
       const lawId = decodeURIComponent(lawMatch[1]);
-      const anchor = lawMatch[2] ? decodeURIComponent(lawMatch[2]) : null;
+      // Tolerate a trailing slash on the anchor (e.g. #/law/SR%20310/art-5/)
+      const rawAnchor = lawMatch[2] ? lawMatch[2].replace(/\/+$/, "") : "";
+      const anchor = rawAnchor ? decodeURIComponent(rawAnchor) : null;
 
       renderLaw(lawId, anchor);
 
