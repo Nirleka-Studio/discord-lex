@@ -105,6 +105,17 @@
     return `<span class="stamp ${key}">${label}</span>`;
   }
 
+  function resolveSrLinks(md) {
+    return md.replace(/\]\(sr:([^)\s/]+)(?:\/([^)\s]+))?\)/g, (m, n, anchor) => {
+      const law = DATA.laws.find(
+          (l) => slugify(l.id) === slugify("sr " + n) || slugify(l.id) === slugify(n)
+      );
+      if (!law) console.warn("No law found for sr:" + n);
+      const slug = law ? slugify(law.id) : slugify("sr " + n);
+      return `](/law/${slug}/${anchor ? anchor + "/" : ""})`;
+    });
+  }
+
   // Resolves what should be shown for a given entry in the version history.
   // history[] is sorted newest-first, so index 0 is always the current text.
   // Older entries are labelled "historical" regardless of what `status` was
@@ -168,9 +179,8 @@
     if (law && law.kind === "archive") {
       return window.marked ? marked.parse(rawMarkdown || "") : (rawMarkdown || "");
     }
-
     const baseUrl = `#/law/${encodeURIComponent(law.id)}/`;
-    return LawParser.toHTML(rawMarkdown || "", baseUrl);
+    return LawParser.toHTML(resolveSrLinks(rawMarkdown || ""), baseUrl);
   }
 
   // ---------- heading anchors / copy-link ----------
