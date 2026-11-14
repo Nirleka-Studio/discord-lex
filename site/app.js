@@ -36,6 +36,9 @@
   // correctly even when the page is served from /law/sr-101/.
   const SCRIPT_BASE = document.currentScript ? new URL(".", document.currentScript.src).href : location.href;
   const asset = (p) => new URL(p, SCRIPT_BASE).href;
+  const SITE_ROOT = location.pathname
+      .replace(/\/law\/[^/]+\/(?:art-[^/]+\/)?$/, "/")
+      .replace(/[^/]*$/, "");
   const slugify = (s) => String(s).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
   const app = document.getElementById("app");
   let DATA = null;
@@ -145,7 +148,7 @@
       );
       if (!law) console.warn("No law found for sr:" + n);
       const slug = law ? slugify(law.id) : slugify("sr " + n);
-      return `](/law/${slug}/${anchor ? anchor + "/" : ""})`;
+      return `](${SITE_ROOT}law/${slug}/${anchor ? anchor + "/" : ""})`;
     });
   }
 
@@ -501,8 +504,7 @@ ${law.repeals ? `<div class="info-row"><dt>Repeals</dt><dd><a href="${lawUrl(law
   // ---------- router ----------
 
   function route() {
-    // Real URLs (/law/sr-101/ or /law/sr-310/art-5/) open that law directly
-    // and are left untouched in the address bar.
+    // Real URLs (/law/sr-101/ or /law/sr-310/art-5/) open that law directly.
     // A hash route, when present, always wins (in-app navigation).
     const pm = !location.hash && location.pathname.match(/\/law\/([^/]+)\/(?:art-([^/]+)\/)?$/);
     if (pm) {
@@ -518,7 +520,6 @@ ${law.repeals ? `<div class="info-row"><dt>Repeals</dt><dd><a href="${lawUrl(law
 
     if (lawMatch) {
       const lawId = decodeURIComponent(lawMatch[1]);
-      // Tolerate a trailing slash on the anchor (e.g. #/law/SR%20310/art-5/)
       const rawAnchor = lawMatch[2] ? lawMatch[2].replace(/\/+$/, "") : "";
       const anchor = rawAnchor ? decodeURIComponent(rawAnchor) : null;
 
@@ -538,12 +539,12 @@ ${law.repeals ? `<div class="info-row"><dt>Repeals</dt><dd><a href="${lawUrl(law
     if (hash === "#/referendums") return renderReferendums();
     return renderRegistry();
   }
-  
+
   const REAL_LAW_PATH = /\/law\/[^/]+\/(?:art-[^/]+\/)?$/;
   let lastHref = null;
 
   function navigate() {
-    if (location.href === lastHref) return; // hashchange + popstate both fire
+    if (location.href === lastHref) return;
     lastHref = location.href;
     route();
   }
@@ -552,11 +553,9 @@ ${law.repeals ? `<div class="info-row"><dt>Repeals</dt><dd><a href="${lawUrl(law
     if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
     const a = e.target.closest && e.target.closest('a[href^="#/"]');
     if (!a) return;
-    const m = location.pathname.match(REAL_LAW_PATH);
-    if (!m) return;
+    if (!REAL_LAW_PATH.test(location.pathname)) return;
     e.preventDefault();
-    const root = location.pathname.slice(0, m.index + 1);
-    history.pushState(null, "", root + a.getAttribute("href"));
+    history.pushState(null, "", SITE_ROOT + a.getAttribute("href"));
     navigate();
   });
 
