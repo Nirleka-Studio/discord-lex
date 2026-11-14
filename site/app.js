@@ -150,7 +150,9 @@
       );
       if (!law) console.warn("No law found for sr:" + n);
       const slug = law ? slugify(law.id) : slugify("sr " + n);
-      return `](/law/${slug}/${anchor ? anchor + "/" : ""})`;
+      // HOME (not a bare "/") so this works on project sites served from
+      // a subpath like https://user.github.io/<repo>/
+      return `](${HOME}law/${slug}/${anchor ? anchor + "/" : ""})`;
     });
   }
 
