@@ -15,6 +15,17 @@
          (see applySiteConfig() in app.js) — edit config.json, not this file. -->
     <title>Code of Laws</title>
     <script>
+      // The absolute fucking monstrosity of inserting a function in HTML but idgaf any more its 10 PM
+      (function () {
+        var t = null;
+        try { t = localStorage.getItem("theme"); } catch (e) {}
+        if (t !== "dark" && t !== "light") {
+          t = window.matchMedia && matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.setAttribute("data-theme", t);
+      })();
+    </script>
+    <script>
       // Old hash links (#/law/SR%20310/art-5) -> real crawlable URLs
       (function () {
         var m = location.hash.match(/^#\/law\/([^/]+)(?:\/(.+))?$/);
@@ -50,11 +61,16 @@
           </div>
           </div>
         </div>
-        <nav class="masthead-nav">
-          <a href="#/">Registry</a>
-          <a href="#/referendums">Referendums</a>
-          <a href="#/archive">Archive</a>
-        </nav>
+        <div class="masthead-actions">
+          <nav class="masthead-nav">
+            <a href="#/">Registry</a>
+            <a href="#/referendums">Referendums</a>
+            <a href="#/archive">Archive</a>
+          </nav>
+          <button type="button" id="theme-toggle" class="theme-toggle" aria-label="Switch to dark mode" title="Toggle dark mode">
+            <span id="theme-toggle-label">Dark</span>
+          </button>
+        </div>
       </div>
     </header>
     

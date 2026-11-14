@@ -8,6 +8,7 @@
   --paper-panel: #ffffff;
   --panel-border: var(--dark-grey);
   --rule: var(--global-black);
+  --paragraph-num: var(--global-black);
   --rule-strong: #1c2438;
   --accent: #2b3a67;
   --accent-soft: #e7e9f2;
@@ -18,6 +19,19 @@
   --pending: #9a6b13;
   --pending-bg: #f4ecdb;
   --dropdown: #ed1c24;
+
+  /* extra tokens so dark mode can override what used to be hardcoded */
+  --muted: #6b7280;
+  --muted-2: #64748b;
+  --muted-3: #9ca3af;
+  --hairline: #e5e7eb;
+  --link: #2563eb;
+  --table-head-bg: #f8fafc;
+  --row-hover: #ffbdbd;
+  --mark-bg: #fef08a;
+  --mark-ink: #854d0e;
+  --toast-ink: #fdfdfa;
+  color-scheme: light;
 
   --font-display: "Manrope", -apple-system, serif;
   --font-body: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -42,7 +56,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 /* ---------- masthead ---------- */
 .masthead {
   background: var(--paper);
-  border-bottom: 1px solid var(--dark-grey);
+  border-bottom: 1px solid var(--panel-border);
 }
 .masthead-inner {
   max-width: 1080px;
@@ -66,7 +80,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   font-family: var(--font-body);
   font-size: 12.5px;
   letter-spacing: 0.06em;
-  color: var(--global-black);
+  color: var(--ink);
 }
 
 .masthead-nav a {
@@ -111,19 +125,19 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   line-height: 1em;
   font-weight: bold;
   text-decoration: none;
-  color: var(--global-black);
+  color: var(--ink);
 }
 
 .logo-text,
 .logo-text:visited,
 .logo-text:hover,
 .logo-text:active {
-  color: var(--global-black) !important;
+  color: var(--ink) !important;
   text-decoration: none !important;
 }
 .logo-text a,
 .logo-text a:visited {
-  color: var(--global-black) !important;
+  color: var(--ink) !important;
 }
 
 /* ---------- registry index ---------- */
@@ -318,7 +332,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .law-body sup {
   font-family: var(--font-body);
   font-weight: 100;
-  color: var(--rule);
+  color: var(--paragraph-num);
   margin-right: 3px;
 }
 
@@ -362,7 +376,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   left: 50%;
   transform: translateX(-50%) translateY(8px);
   background: var(--ink);
-  color: #fdfdfa;
+  color: var(--toast-ink);
   font-family: var(--font-mono);
   font-size: 12px;
   letter-spacing: 0.03em;
@@ -462,8 +476,8 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 }
 
 mark.search-highlight {
-  background-color: #fef08a;
-  color: #854d0e;
+  background-color: var(--mark-bg);
+  color: var(--mark-ink);
   padding: 0 2px;
   border-radius: 2px;
 }
@@ -482,13 +496,13 @@ mark.search-highlight {
 
 .search-count {
   font-size: 0.85rem;
-  color: #64748b;
+  color: var(--muted-2);
   white-space: nowrap;
 }
 
 .search-snippet {
   font-size: 0.85rem;
-  color: #64748b;
+  color: var(--muted-2);
   margin-top: 4px;
   font-weight: normal;
   line-height: 1.4;
@@ -622,12 +636,12 @@ html { scroll-behavior: smooth; }
   margin-top: 20px;
   font-size: 0.875rem;
   line-height: 1.6;
-  color: #6b7280;
+  color: var(--muted);
 }
 
 .law-footnote-rule {
   border: none;
-  border-top: 1px solid #e5e7eb;
+  border-top: 1px solid var(--hairline);
   margin: 0 0 12px;
 }
 
@@ -642,7 +656,7 @@ html { scroll-behavior: smooth; }
 .law-footnote-marker {
   font-size: 0.75em;
   font-weight: 600;
-  color: #6b7280;
+  color: var(--muted);
   vertical-align: super;
   line-height: 0;
   margin-right: 2px;
@@ -651,10 +665,10 @@ html { scroll-behavior: smooth; }
 /* Footnote body text - may itself contain real <a> tags from markdown
    links or nested footnote refs, so the descendant selector is live. */
 .law-footnote-text {
-  color: #6b7280;
+  color: var(--muted);
 }
 .law-footnote-text a {
-  color: #2563eb;
+  color: var(--link);
   text-decoration: none;
 }
 .law-footnote-text a:hover {
@@ -662,7 +676,7 @@ html { scroll-behavior: smooth; }
 }
 
 .law-footnote-backref {
-  color: #9ca3af;
+  color: var(--muted-3);
   text-decoration: none;
   font-size: 0.85em;
   opacity: 0;
@@ -674,7 +688,7 @@ html { scroll-behavior: smooth; }
 }
 
 .law-footnote-backref:hover {
-  color: #2563eb;
+  color: var(--link);
 }
 
 /* The [^N] reference itself is rendered as <a class="law-anchor
@@ -686,7 +700,7 @@ a.law-footnote-ref {
   font-weight: normal;
   line-height: 0;
   text-decoration: none;
-  color: #2563eb;
+  color: var(--link);
   margin-left: 1px;
 }
 a.law-footnote-ref:hover {
@@ -724,10 +738,63 @@ a.law-footnote-ref:hover {
 
 .law-table th {
   font-weight: 700;
-  background-color: #f8fafc;
+  background-color: var(--table-head-bg);
   border-bottom: 2px solid var(--rule);
 }
 
 .law-table tbody tr:hover {
-  background-color: #ffbdbd;
+  background-color: var(--row-hover);
 }
+
+/* ---------- dark mode ---------- */
+:root[data-theme="dark"] {
+  --pure-white: #1e2128;       /* "white" surfaces (inputs, cards) become dark panels */
+  --global-black: #e8e8e8;
+  --dark-grey: #3a3f4b;
+
+  --ink: #e8e8e8;
+  --paper: #14161a;
+  --paper-panel: #1e2128;
+  --panel-border: #3a3f4b;
+  --rule: #4a5060;
+  --rule-strong: #8b93a8;
+  --paragraph-num: e8e8e8;
+  --accent: #8fa6ee;
+  --accent-soft: #272d42;
+  --pending: #e0b25a;
+  --pending-bg: #3a3020;
+
+  --muted: #9aa1b0;
+  --muted-2: #9aa1b0;
+  --muted-3: #6f7685;
+  --hairline: #2f343f;
+  --link: #6ea8ff;
+  --table-head-bg: #232733;
+  --row-hover: #4a2a2e;
+  --mark-bg: #7a6a1a;
+  --mark-ink: #fff3b0;
+  --toast-ink: #14161a;
+  color-scheme: dark;
+}
+
+.masthead-actions { display: flex; align-items: center; gap: 18px; }
+
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-body);
+  font-size: 12.5px;
+  letter-spacing: 0.06em;
+  color: var(--ink);
+  background: transparent;
+  border: 1px solid var(--panel-border);
+  border-radius: 999px;
+  padding: 4px 12px;
+  cursor: pointer;
+  transition: border-color .25s ease, color .25s ease, background .25s ease;
+}
+.theme-toggle:hover { border-color: var(--ink); }
+.theme-toggle .icon-sun { display: none; }
+:root[data-theme="dark"] .theme-toggle .icon-sun { display: inline; }
+:root[data-theme="dark"] .theme-toggle .icon-moon { display: none; }

@@ -1,3 +1,36 @@
+// ---------- dark mode toggle ----------
+(function () {
+  const root = document.documentElement;
+  const btn = document.getElementById("theme-toggle");
+  const label = document.getElementById("theme-toggle-label");
+  if (!btn) return;
+
+  function render() {
+    const dark = root.getAttribute("data-theme") === "dark";
+    label.textContent = dark ? "███" : "░░░";
+    btn.setAttribute("aria-label", dark ? "Switch to light mode" : "Switch to dark mode");
+  }
+
+  btn.addEventListener("click", function () {
+    const next = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
+    root.setAttribute("data-theme", next);
+    try { localStorage.setItem("theme", next); } catch (e) {}
+    render();
+  });
+
+  // Follow the OS setting live, but only if the visitor hasn't picked one themselves
+  if (window.matchMedia) {
+    matchMedia("(prefers-color-scheme: dark)").addEventListener("change", function (e) {
+      let saved = null;
+      try { saved = localStorage.getItem("theme"); } catch (err) {}
+      if (saved) return;
+      root.setAttribute("data-theme", e.matches ? "dark" : "light");
+      render();
+    });
+  }
+  render();
+})();
+
 (function () {
   // Folder this script lives in, so config.json / data / assets resolve
   // correctly even when the page is served from /law/sr-101/.
