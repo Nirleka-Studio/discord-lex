@@ -148,6 +148,6 @@ b. find the offender not guilty and void the charges.
 
 ### Chapter 3: Appeals[^3]
 
-[^1]: SR 101.
-[^2]: SR 610.
+[^1]: [SR 101](sr:101).
+[^2]: [SR 610](sr:610).
 [^3]: This may be completed by the Chief Minister.
