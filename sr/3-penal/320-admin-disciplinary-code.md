@@ -9,7 +9,7 @@ last_amended: "2026-11-13"
 authority: "The Director"
 ---
 
-# SR 320 – Administration Disciplinary Code
+# SR 320 — Administration Disciplinary Code
 *(ADC, AdminDisCo)*
 
 *The Director of Nirleka Studios,*
