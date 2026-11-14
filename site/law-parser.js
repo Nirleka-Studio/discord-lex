@@ -114,7 +114,8 @@
             footnoteDefs: ctx.footnoteDefs,
             rootFootnotes: ctx.rootFootnotes,
             seenRefIds: ctx.seenRefIds,
-            footnoteCollector: footnoteCollector || ctx.footnoteCollector
+            footnoteCollector: footnoteCollector || ctx.footnoteCollector,
+            inScope: footnoteCollector ? true : ctx.inScope
         };
     }
 
@@ -429,9 +430,19 @@
                     var pbase = ctx.prefix || "p";
                     var pid = node.number ? pbase + "-" + node.number : pbase + "-p" + Math.random().toString(36).slice(2, 6);
                     var marker = node.number ? '<sup class="law-marknum">' + escapeHtml(node.number) + "</sup> " : "";
+
+                    // Orphan paragraph (no footnote-scoped ancestor): own its footnotes.
+                    var ownScope = !ctx.inScope;
+                    var pcollector = ownScope ? [] : null;
+                    var pctx = ownScope ? childCtx(ctx, pid, pcollector) : childCtx(ctx, pid);
+
+                    var textHtml = inline(node.text, pctx);
+                    var kids = renderChildren(node.children, pctx);
+                    var fns = ownScope ? renderFootnotes(pcollector, pctx) : "";
+
                     return '<div class="law-node law-paragraph" id="' + pid + '">' +
-                        '<p class="law-ptext">' + marker + inline(node.text, ctx) + "</p>" +
-                        renderChildren(node.children, childCtx(ctx, pid)) + "</div>";
+                        '<p class="law-ptext">' + marker + textHtml + '</p>' +
+                        kids + fns + '</div>';
                 }
                 default:
                     return "";
@@ -445,7 +456,8 @@
                 footnoteDefs: tree.footnotes || {},
                 rootFootnotes: rootFootnotes,
                 footnoteCollector: rootFootnotes,
-                seenRefIds: {}
+                seenRefIds: {},
+                inScope: false
             };
             var body = renderChildren(tree.children, ctx);
             return body + renderFootnotes(rootFootnotes, ctx);
