@@ -2,7 +2,7 @@
 sr_id: "SR 310"
 title: "Penal Code"
 abbreviation: "Penal Code"
-version: "4.25.3"
+version: "4.26.3"
 category: "Penal Law"
 enacted_date: "2026-08-11"
 last_amended: "2026-11-15"
@@ -416,7 +416,7 @@ is punished by a Class 2 penalty and up to a Class 3 penalty.
 #### Art. 60 High treason
 A person who carries out an intentional act where they:
 a. threaten the existence of the Server;
-b. depose the constitutionally appointed Director; or
+b. depose, delegitimise, or restrict the rights or powers of the constitutionally appointed Director; or
 c. depose, delegitimise, or limit the powers of The Cat
 is punished by a Class 1 penalty and up to a Class 4 penalty.
 
