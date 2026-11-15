@@ -42,7 +42,7 @@ All hail to The Cat!
 
 The Director of Nirleka Studios,
 
-based on Article 32 of the Server Charter (SR 101),
+based on Article 32 of the Server Charter[^1],
 
 decrees:
 
@@ -191,7 +191,7 @@ a. statements that a reasonable person would recognise as humour, satire, hyperb
 b. the sharing of third-party news or media for the purpose of debate, commentary, or debunking; or
 c. mistaken claims made in good faith where the person corrects the information upon notice.
 
-#### Art. 23 Plagiarism and intellectual attribution[^1]
+#### Art. 23 Plagiarism and intellectual attribution[^2]
 <sup>1</sup> A person must not claim authorship of another person’s creative or intellectual work, nor knowingly present it in a manner that conceals or misleads as to its true origin.
 
 <sup>2</sup> Paragraph 1 does not apply where the work is shared with proper attribution, under appropriate licence or consent, or as a reasonable component of transformative use or commentary.
@@ -284,4 +284,5 @@ Content does not lose its character because it is presented as humour, fiction, 
 #### Art. 36 Appeal against administrative acts
 A person adversely affected by an unlawful administrative decision, action, or proceeding may appeal to a judicial authority to have it reversed.
 
-[^1]: Originally adopted by the Chief Minister on 22 Sep. 2026, officially revised and adopted by the Director on 3 Oct. 2026.
+[^1]: [SR 101](sr:101)
+[^2]: Originally adopted by the Chief Minister on 22 Sep. 2026, officially revised and adopted by the Director on 3 Oct. 2026.

@@ -2,7 +2,7 @@
 sr_id: "SR 611"
 title: "The Touch Grass Act"
 abbreviation: "Touch Grass Act"
-version: "2.0.1"
+version: "2.0.2"
 category: "Economy"
 enacted_date: "2026-08-12"
 last_amended: "2026-09-24"
@@ -11,9 +11,11 @@ authority: "The Director"
 
 # SR 611 — The Touch Grass Act
 
-> **Enactment Notice:** Enacted in accordance with Chapter 4 of the Server Charter (SR 101), by the Director
+*The Director of Nirleka Studios,*
 
----
+based on Article 32 of the Server Charter[^1],
+
+*decrees:*
 
 ## Art. 1 Touching grass
 A natural person touches grass if they are present outdoors, and is at least 500 meters away from their home.
@@ -38,3 +40,5 @@ d. GPS tracking.
 <sup>1</sup> Members submitting a fake proof incurs:
 a. a warning on the first offence; and
 b. a 1-week timeout and a fine of ranging from 1200₣ to 10,000₣.
+
+[^1]: [SR 101](sr:101)

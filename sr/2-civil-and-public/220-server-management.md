@@ -12,9 +12,11 @@ authority: "The Director"
 # SR 220 — Server Management Code
 *(Server Management Code, SMC)*
 
-> **Enactment Notice:** Enacted in accordance with Chapter 4 of the Server Charter (SR 101).
+*The Director of Nirleka Studios,*
 
----
+based on Article 32 of the Server Charter[^1],
+
+decrees:
 
 ## Chapter 1: General Provisions
 
@@ -63,3 +65,5 @@ a. gaming events; and
 b. competitions.
 
 <sup>5</sup> Events concerning an individual's personal identity or natural characteristics are prohibited.
+
+[^1]: [SR 101](sr:101)

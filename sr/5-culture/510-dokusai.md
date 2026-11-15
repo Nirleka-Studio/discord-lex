@@ -11,9 +11,11 @@ authority: "The Director"
 
 # SR 510 — The Dokusai-kun and The Server
 
-> **Enactment Notice:** Enacted in accordance with Chapter 4 of the Server Charter (SR 101), by the Director
+*The Director of Nirleka Studios,*
 
----
+based on Article 32 of the Server Charter[^1],
+
+*decrees:*
 
 ## Art. 1 Purpose
 Dokusai-kun shall be the symbol and Dicktator of the server and its unity.

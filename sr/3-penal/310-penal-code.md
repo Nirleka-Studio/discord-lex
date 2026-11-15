@@ -14,7 +14,7 @@ repeals: "ARCH 300"
 
 *The Director of Nirleka Studios,*
 
-based on Article 32 of the Server Charter (SR 101),
+based on Article 32 of the Server Charter[^11],
 
 *decrees:*
 
@@ -436,6 +436,7 @@ The following use of slurs are permitted if used in accordance with Article 56:
 | retard    | retarded, retardation |
 | nigger    | nigga, negro          |
 
+[^11]: [SR 101](sr:101)
 [^1]: Adopted unilaterally by The Director on 19 June 2026, in force since 19 June 2026.
 [^2]: Adopted based on a majority vote (Ref. No. 3) initiated on 6 Sept. 2026, in force since 10 Sept. 2026.
 [^3]: Repealed by the Director on 5 Oct. 2026, in force since 5 Oct. 2026.

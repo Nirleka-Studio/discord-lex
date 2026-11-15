@@ -9,12 +9,12 @@ last_amended: "2026-09-12"
 authority: "The Director"
 ---
 
-# SR 221 – Roles Management Code
+# SR 221 — Roles Management Code
 *(RMC)*
 
 *The Director of Nirleka Studios,*
 
-based on Article 32 of the Server Charter (SR 101),
+based on Article 32 of the Server Charter[^1],
 
 decrees:
 
@@ -83,3 +83,5 @@ A member who is lawfully appointed to their position under Section 2 of the Serv
 | Update Ping          | Notification | `1115292592184242249` |
 | Banished to The Void | Restriction  | `1278345596863909938` |
 | Void Observer        | Restriction  | `1294336401659133953` |
+
+[^1]: [SR 101](sr:101)

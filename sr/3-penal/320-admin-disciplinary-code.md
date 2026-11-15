@@ -14,7 +14,7 @@ authority: "The Director"
 
 *The Director of Nirleka Studios,*
 
-based on Article 2 and 32 of the Server Charter (SR 101),
+based on Article 2 and 32 of the Server Charter[^1],
 
 decrees:
 
@@ -37,7 +37,7 @@ Unless stated otherwise, where an offence is defined in another law other than t
 No person who has been convicted or acquitted in the Server by a final legally binding judgment may be prosecuted again for the same offence.
 
 #### Art. 4 An Administrator
-An Administrator is a member of Administration, including the positions defined in Chapter 2 of the Server Charter (SR 101), and their appointed staff.
+An Administrator is a member of Administration, including the positions defined in Chapter 2 of the Server Charter[^2], and their appointed staff.
 
 #### Art. 5 Equality
 The persons subject to penal laws for the Administration remains subject to ordinary penal laws and other Server laws.
@@ -110,7 +110,7 @@ c. exercise any power or technical privilege attached to their position.
 A demotion consists of stripping the Administrator of their current tier or rank and assigning them to a lower subordinate role within the Administration hierarchy.
 
 ### Art. 16 Fine
-<sup>1</sup> A fine is a financial penalty imposing a fixed liability in Nirleka francs (₣) on the convicted Administrator, in accordance with Article 2, Paragraph 2 and Article 6 of the Economy Act (SR 610).
+<sup>1</sup> A fine is a financial penalty imposing a fixed liability in Nirleka francs (₣) on the convicted Administrator, in accordance with Article 2, Paragraph 2 and Article 6 of the Economy Act[^3].
 
 <sup>2</sup> The execution of a fine takes place through the immediate and automatic deduction of the specified amount from the Administrator’s account balance by the competent authority. If the account balance is insufficient to satisfy the full amount, the remaining sum constitutes a binding debt against the member, resulting in a negative balance.
 
@@ -184,3 +184,7 @@ b. communicate in a channel of the Server that the Administration designates for
 <sup>4</sup> This Article applies only on the Server. It does not apply to anything an Administrator does or communicates off the Server, on another platform, or in person.
 
 <sup>5</sup> This Article does not restrict an Administrator's avatar, personal identity, or community membership.
+
+[^1]: [SR 101](sr:101)
+[^2]: [SR 101](sr:101)
+[^3]: [SR 610](sr:610)

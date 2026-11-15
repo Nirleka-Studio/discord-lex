@@ -15,7 +15,7 @@ repeals: "ARCH 400"
 
 *The Director of Nirleka Studios,*
 
-based on Article 32 of the Server Charter (SR 101),
+based on Article 32 of the Server Charter[^1],
 
 *decrees:*
 
@@ -98,3 +98,5 @@ c. it uses self-bots, automated account scripts, or user-bots to bypass human in
 <sup>1</sup> Administrators and automated enforcement tools must evaluate the indicators in Section 2 using server Audit Logs, AutoMod flags, and bot event logs.
 
 <sup>2</sup> The exact numerical limits (e.g., maximum messages per second, account age minimums) is configured in the administrative settings of the server moderation tools.
+
+[^1]: [SR 101](sr:101)

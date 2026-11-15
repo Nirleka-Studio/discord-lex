@@ -15,7 +15,7 @@ repeals: "SR 415"
 
 The Director of Nirleka Studios,
 
-based on Article 32 of the Server Charter (SR 101),
+based on Article 32 of the Server Charter[^1],
 
 decrees:
 
@@ -148,7 +148,7 @@ a. a final written judgment clearing the Administrator of the charges under Arti
 b. the passage of 14 days without the opening of formal judicial proceedings.
 
 ##### Art. 22 Violations from administrators
-<sup>1</sup> ...[^1]
+<sup>1</sup> ...[^2]
 
 <sup>2</sup> Judicial authorities have broad discretion to raise the measure for violations committed by Administrators based on their seniority.
 
@@ -267,4 +267,5 @@ the account must be banned immediately.
 The following acts are repealed:
 a. SR 415 on Courts and Appeals Proceedings
 
-[^1]: Repealed by the Director on 14 Nov. 2026, in force since 14 Nov. 2026.
+[^1]: [SR 101](sr:101)
+[^2]: Repealed by the Director on 14 Nov. 2026, in force since 14 Nov. 2026.

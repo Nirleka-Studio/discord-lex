@@ -2,7 +2,7 @@
 sr_id: "SR 610"
 title: "The Economy Act"
 abbreviation: "Economy Act"
-version: "2.1.1"
+version: "2.1.2"
 category: "Economy"
 enacted_date: "2026-08-12"
 last_amended: "2026-10-06"
@@ -11,9 +11,11 @@ authority: "The Director"
 
 # SR 610 — The Economy Act
 
-> **Enactment Notice:** Enacted in accordance with Chapter 4 of the Server Charter (SR 101), by the Director
+*The Director of Nirleka Studios,*
 
----
+based on Article 32 of the Server Charter[^1],
+
+*decrees:*
 
 ## Section 1: Currency and Issuing Authority
 
@@ -54,3 +56,5 @@ authority: "The Director"
 
 ### Art. 6 Fines
 The Administration may codify a fixed fine for violations of law.
+
+[^1]: [SR 101](sr:101)
