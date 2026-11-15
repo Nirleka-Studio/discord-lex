@@ -289,7 +289,7 @@ A person adversely affected by an unlawful administrative decision, action, or p
 #### Art. 37 Unjust enrichment
 <sup>1</sup> A person who has enriched themselves without just cause at the expense of another is obliged to make restitution.
 
-<sup>1</sup> In particular, restitution is owed for money benefits obtained for no valid reason whatsoever, for a reason that did not transpire or for a reason that subsequently ceased to exist.
+<sup>2</sup> In particular, restitution is owed for money benefits obtained for no valid reason whatsoever, for a reason that did not transpire or for a reason that subsequently ceased to exist.
 
 [^1]: [SR 101](sr:101)
 [^2]: Originally adopted by the Chief Minister on 22 Sep. 2026, officially revised and adopted by the Director on 3 Oct. 2026.
