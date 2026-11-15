@@ -2,7 +2,7 @@
 sr_id: "SR 320"
 title: "Administration Disciplinary Code"
 abbreviation: "ADC"
-version: "1.6.10"
+version: "1.7.10"
 category: "Penal Law"
 enacted_date: "2026-09-11"
 last_amended: "2026-11-15"
@@ -169,14 +169,9 @@ An Administrator who uses their official position or public communication channe
 #### Art. 27 Instigation of public disorder
 An Administrator who publicly incites members to violate Server law, disobey administrative orders, or disrupt official Server functions is punished with a suspension or removal from position.
 
-#### Art. 28 Frivolous conduct
-<sup>1</sup> An Administrator who intentionally communicates with the intention of, or where a reasonable person can infer:
-a. animal-like affectionate language; or
-b. roleplay-like playful personally affectionate language
-is punished by a fine of not less or more than 2,500₣.
-
-<sup>2</sup> Paragraph 1 does not apply in private matters or where the Administrator does not broadcast it publicly where a reasonable person can clearly see or hear it.
+#### Art. 28[^4]
 
 [^1]: [SR 101](sr:101)
 [^2]: [SR 101](sr:101)
 [^3]: [SR 610](sr:610)
+[^4]: Unlawfully repealed by the Director on 15 Nov. 2026, in force since 15 Nov. 2026. Repealed under coercion from the Chief Minister.
