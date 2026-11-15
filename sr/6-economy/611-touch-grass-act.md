@@ -2,10 +2,10 @@
 sr_id: "SR 611"
 title: "The Touch Grass Act"
 abbreviation: "Touch Grass Act"
-version: "2.0.2"
+version: "2.1.2"
 category: "Economy"
 enacted_date: "2026-08-12"
-last_amended: "2026-09-24"
+last_amended: "2026-11-15"
 authority: "The Director"
 ---
 
@@ -36,9 +36,8 @@ d. GPS tracking.
 
 <sup>3</sup> Members must not submit a proof that was not taken by them or another individual that was with them.
 
-## Art. 4 Touching grass fraud
-<sup>1</sup> Members submitting a fake proof incurs:
-a. a warning on the first offence; and
-b. a 1-week timeout and a fine of ranging from 1200₣ to 10,000₣.
+## Art. 4[^2]
 
 [^1]: [SR 101](sr:101)
+[^2]: Repealed by the Director on 15 Nov. 2026, in force since 15 Nov. 2026. Punishments for fraud is moved to the Penal Code[^3].
+[^3]: [SR 310](sr:310)
