@@ -2,10 +2,10 @@
 sr_id: "SR 320"
 title: "Administration Disciplinary Code"
 abbreviation: "ADC"
-version: "1.5.10"
+version: "1.6.10"
 category: "Penal Law"
 enacted_date: "2026-09-11"
-last_amended: "2026-11-14"
+last_amended: "2026-11-15"
 authority: "The Director"
 ---
 
@@ -169,21 +169,13 @@ An Administrator who uses their official position or public communication channe
 #### Art. 27 Instigation of public disorder
 An Administrator who publicly incites members to violate Server law, disobey administrative orders, or disrupt official Server functions is punished with a suspension or removal from position.
 
-#### Art. 28 Frivolous conduct in an official capacity
-<sup>1</sup> An Administrator who, on the Server and in an official capacity, intentionally communicates in a manner that a reasonable person would regard as:
+#### Art. 28 Frivolous conduct
+<sup>1</sup> An Administrator who intentionally communicates with the intention of, or where a reasonable person can infer:
 a. animal-like affectionate language; or
-b. roleplay-like, playful, and personally affectionate language
-is punished with a fine of 2,500₣.
+b. roleplay-like playful personally affectionate language
+is punished by a fine of not less or more than 2,500₣.
 
-<sup>2</sup> An Administrator acts in an official capacity when they:
-a. perform an official administrative act on the Server; or
-b. communicate in a channel of the Server that the Administration designates for announcements, tickets, or appeals.
-
-<sup>3</sup> An Administrator who quotes, reproduces, or forwards the content of another person as evidence or in the course of a moderation action does not commit an offence under paragraph 1.
-
-<sup>4</sup> This Article applies only on the Server. It does not apply to anything an Administrator does or communicates off the Server, on another platform, or in person.
-
-<sup>5</sup> This Article does not restrict an Administrator's avatar, personal identity, or community membership.
+<sup>2</sup> Paragraph 1 does not apply in private matters or where the Administrator does not broadcast it publicly where a reasonable person can clearly see or hear it.
 
 [^1]: [SR 101](sr:101)
 [^2]: [SR 101](sr:101)
