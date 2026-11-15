@@ -2,7 +2,7 @@
 sr_id: "SR 310"
 title: "Penal Code"
 abbreviation: "Penal Code"
-version: "4.24.3"
+version: "4.25.3"
 category: "Penal Law"
 enacted_date: "2026-08-11"
 last_amended: "2026-11-15"
@@ -78,6 +78,11 @@ A person acts lawfully if their conduct is required or authorised by law, even i
 
 #### Art. 11a Ordinance delegation
 The Director and the Chief Minister may issue ordinances listing examples or technical details of the offences in Chapter 2. They must not create offences or alter penalty classes.
+
+#### Art. 11b Return of assets
+<sup>1</sup> The Administration has the authority to seize Server assets from another member that is unlawfully acquired under this Code or other laws.
+
+<sup>2</sup> If such asset is unlawfully taken from another member, person, or entity, the Administration must return it to the rightful owner in accordance with the law.
 
 ### Section 2: Terms and Definitions
 
