@@ -44,3 +44,5 @@ Dokusai-kun may exercise any power that the Administration does not restrict.
 <sup>1</sup> Dokusai-kun shall be subject to impeachment.
 
 <sup>2</sup> If 25% of the server's total active natural members are in favour of impeachment, Dokusai-kun shall be removed from position.
+
+[^1]: [SR 101](sr:101)
