@@ -344,7 +344,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .anchor-link {
   position: absolute;
   left: -1.1em;
-  color: var(--rule);
+  color: var(--link);
   font-family: var(--font-mono);
   font-size: 0.75em;
   text-decoration: none;
@@ -625,7 +625,7 @@ dd.law-item > .law-text { font-size: 1rem; }
 .law-body hr.law-rule { border: none; border-top: 1px solid var(--rule); margin: 24px 0; }
 
 /* Link styling + smooth scroll (scroll-behavior on :root, once, site-wide) */
-.law-body .law-anchor { color: inherit; text-decoration: none; }
+.law-body .law-anchor { text-decoration: none; }
 .law-body .law-anchor:hover { text-decoration: underline; }
 html { scroll-behavior: smooth; }
 
@@ -694,7 +694,9 @@ html { scroll-behavior: smooth; }
 /* The [^N] reference itself is rendered as <a class="law-anchor
    law-footnote-ref">, i.e. this class sits directly ON the anchor -
    there is no nested <a>, so this is the only rule needed for it. */
-a.law-footnote-ref {
+a.law-footnote-ref,
+a.law-footnote-ref:link,
+a.law-footnote-ref:visited {
   vertical-align: super;
   font-size: 0.55em;
   font-weight: normal;
@@ -798,3 +800,20 @@ a.law-footnote-ref:hover {
 .theme-toggle .icon-sun { display: none; }
 :root[data-theme="dark"] .theme-toggle .icon-sun { display: inline; }
 :root[data-theme="dark"] .theme-toggle .icon-moon { display: none; }
+
+/* fuck all*/
+.law-body .law-anchor,
+.law-body .law-anchor:link,
+.law-body .law-anchor:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+.law-body a.law-anchor.law-footnote-ref,
+.law-body a.law-anchor.law-footnote-ref:link,
+.law-body a.law-anchor.law-footnote-ref:visited,
+.law-body .law-footnote-text a,
+.law-body .law-footnote-backref,
+.law-body .law-footnote-marker {
+  color: var(--link);
+}
