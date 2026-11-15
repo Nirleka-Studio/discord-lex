@@ -2,10 +2,10 @@
 sr_id: "SR 311"
 title: "Penal Procedure Code"
 abbreviation: "ProNaCo, PPC"
-version: "2.1.0"
+version: "2.2.0"
 category: "Penal Law"
 enacted_date: "2026-09-10"
-last_amended: "2026-10-07"
+last_amended: "2026-11-15"
 authority: "The Director"
 repeals: "SR 415"
 ---
@@ -262,6 +262,16 @@ the account must be banned immediately.
 <sup>3</sup> For any other content, the account may stay intact and an enforcing authority must instruct the user to remove or alter the content to abide by Server laws.
 
 <sup>4</sup> If the user intentionally fails to alter the content following the instructions as defined in paragraph 3 within a reasonable time, they may be banned temporarily until their profile abides by Server laws.
+
+### Chapter 6: Enforcement of Assets
+
+#### Section 1: Assets Acquired Through Unlawful Means
+
+##### Art. 35 Managing authority of Server assets
+The managing authority obliged to seize assets from other members and return it to its rightful owners are:
+a. The Director;
+b. The Head Administrator; and
+c. The Senior Administrators.
 
 ## Annex 1
 The following acts are repealed:
