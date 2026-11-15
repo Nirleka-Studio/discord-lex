@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T00:04:50.234Z",
+  "generated_at": "2026-11-15T00:26:16.932Z",
   "categories": [
     "Constitutional Law",
     "Civil and Public Law",
@@ -1746,8 +1746,16 @@
       "superseded_by": null,
       "repeals": null,
       "path": "sr/5-culture/510-dokusai.md",
-      "content": "\n*The Director of Nirleka Studios,*\n\nbased on Article 32 of the Server Charter[^1],\n\n*decrees:*\n\n## Art. 1 Purpose\nDokusai-kun shall be the symbol and Dicktator of the server and its unity.\n\n## Art. 2 Authority\nDokusai-kun remains subjected under the law and the Administration.\n\n## Art. 3 Power\nDokusai-kun may exercise any power that the Administration does not restrict.\n\n## Art. 4 Restriction on Powers\n<sup>1</sup> Dokusai-kun shall not give roles to members that holds administrative permissions.\n\n<sup>2</sup> Dokusai-kun shall not give any currency to another member or to themselves.\n\n<sup>3</sup> Dokusai-kun shall not delete a channel unilaterally.\n\n## Art. 5 Passing the Crown\n<sup>1</sup> If Dokusai-kun did not send a message or done an interaction in the last 90-days, the People may do a server-wide vote to replace Dokusai-kun with another member.\n\n<sup>2</sup> Candidates of Dokusai-kun shall not have comitted any grave violations or predatory conduct.\n\n<sup>3</sup> Dokusai-kun may declare to pass the crown onto another person. Said person is not exempt from paragraph 2's restriction.\n\n## Art. 6 Impeachment\n<sup>1</sup> Dokusai-kun shall be subject to impeachment.\n\n<sup>2</sup> If 25% of the server's total active natural members are in favour of impeachment, Dokusai-kun shall be removed from position.",
+      "content": "\n*The Director of Nirleka Studios,*\n\nbased on Article 32 of the Server Charter[^1],\n\n*decrees:*\n\n## Art. 1 Purpose\nDokusai-kun shall be the symbol and Dicktator of the server and its unity.\n\n## Art. 2 Authority\nDokusai-kun remains subjected under the law and the Administration.\n\n## Art. 3 Power\nDokusai-kun may exercise any power that the Administration does not restrict.\n\n## Art. 4 Restriction on Powers\n<sup>1</sup> Dokusai-kun shall not give roles to members that holds administrative permissions.\n\n<sup>2</sup> Dokusai-kun shall not give any currency to another member or to themselves.\n\n<sup>3</sup> Dokusai-kun shall not delete a channel unilaterally.\n\n## Art. 5 Passing the Crown\n<sup>1</sup> If Dokusai-kun did not send a message or done an interaction in the last 90-days, the People may do a server-wide vote to replace Dokusai-kun with another member.\n\n<sup>2</sup> Candidates of Dokusai-kun shall not have comitted any grave violations or predatory conduct.\n\n<sup>3</sup> Dokusai-kun may declare to pass the crown onto another person. Said person is not exempt from paragraph 2's restriction.\n\n## Art. 6 Impeachment\n<sup>1</sup> Dokusai-kun shall be subject to impeachment.\n\n<sup>2</sup> If 25% of the server's total active natural members are in favour of impeachment, Dokusai-kun shall be removed from position.\n\n[^1]: [SR 101](sr:101)",
       "history": [
+        {
+          "commit": "f58cfee",
+          "date": "2026-11-15",
+          "message": "style(SR 510): fix footnote",
+          "version": "1.1.1",
+          "status": null,
+          "content": "\n*The Director of Nirleka Studios,*\n\nbased on Article 32 of the Server Charter[^1],\n\n*decrees:*\n\n## Art. 1 Purpose\nDokusai-kun shall be the symbol and Dicktator of the server and its unity.\n\n## Art. 2 Authority\nDokusai-kun remains subjected under the law and the Administration.\n\n## Art. 3 Power\nDokusai-kun may exercise any power that the Administration does not restrict.\n\n## Art. 4 Restriction on Powers\n<sup>1</sup> Dokusai-kun shall not give roles to members that holds administrative permissions.\n\n<sup>2</sup> Dokusai-kun shall not give any currency to another member or to themselves.\n\n<sup>3</sup> Dokusai-kun shall not delete a channel unilaterally.\n\n## Art. 5 Passing the Crown\n<sup>1</sup> If Dokusai-kun did not send a message or done an interaction in the last 90-days, the People may do a server-wide vote to replace Dokusai-kun with another member.\n\n<sup>2</sup> Candidates of Dokusai-kun shall not have comitted any grave violations or predatory conduct.\n\n<sup>3</sup> Dokusai-kun may declare to pass the crown onto another person. Said person is not exempt from paragraph 2's restriction.\n\n## Art. 6 Impeachment\n<sup>1</sup> Dokusai-kun shall be subject to impeachment.\n\n<sup>2</sup> If 25% of the server's total active natural members are in favour of impeachment, Dokusai-kun shall be removed from position.\n\n[^1]: [SR 101](sr:101)"
+        },
         {
           "commit": "0649ae4",
           "date": "2026-11-15",

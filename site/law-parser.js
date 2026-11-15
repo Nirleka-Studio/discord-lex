@@ -353,6 +353,16 @@
                     var groupType = node.type, group = [];
                     while (i < nodes.length && nodes[i].type === groupType) { group.push(nodes[i]); i++; }
                     out += renderList(group, ctx);
+                } else if (!ctx.inScope && (node.type === "paragraph" || node.type === "table")) {
+                    // Run of orphan blocks: share one footnote scope, render notes after the run.
+                    var run = [];
+                    while (i < nodes.length && (nodes[i].type === "paragraph" || nodes[i].type === "table")) {
+                        run.push(nodes[i]); i++;
+                    }
+                    var collector = [];
+                    var rctx = childCtx(ctx, ctx.prefix, collector); // sets inScope = true
+                    out += run.map(function (n) { return renderNode(n, rctx); }).join("") +
+                        renderFootnotes(collector, rctx);
                 } else {
                     out += renderNode(node, ctx);
                     i++;
