@@ -2,10 +2,10 @@
 sr_id: "SR 101"
 title: "Charter of the Nirleka Studios Discord Server"
 abbreviation: "Server Charter"
-version: "3.6.0"
+version: "4.0.0"
 category: "Constitutional Law"
 enacted_date: "2026-08-11"
-last_amended: "2026-10-08"
+last_amended: "2026-11-20"
 authority: "The Director"
 ---
 
@@ -17,7 +17,7 @@ In the name of The Cat!
 
 The Director of Nirleka Studios,
 
-in an attempt to maintain a unified and civil Discord server as apparently simply stating «Don't be a dick» is not enough,
+in an attempt to maintain a unified and civil Discord server as apparently simply stating «Don't be a dick» was not enough,
 
 to both establish rights for all members, constraining their so-called freedom under law to prevent «dickish behaviours»,
 
@@ -33,33 +33,31 @@ and recognising a full democracy is simply impossible due to the nature of a Dis
 
 decrees:
 
----
+## Title 1: General Provisions
 
-## Chapter 1: General Provisions
-
-### Section 1: Fundamentals
-
-#### Art. 1 The Server
+### Art. 1 The Server
 The Director forms and owns the Nirleka Studios Discord Server.
 
-#### Art. 2 Aims
+### Art. 2 Aims
 <sup>1</sup> The Server is a place for persons to discuss, share, and practice various broad and niche topics, including creative works.
 
-<sup>2</sup> It must promote a common ground and unity among members.
+<sup>2</sup> It must promote a common ground and unity among all members.
 
 <sup>3</sup> It must protect the security of itself and its members, and prevent the infestation of degeneracy.
 
-#### Art. 3 Official language
+### Art. 3 Official language
 The official language of the Server is British English.
 
-#### Art. 4 Rule of law
+### Art. 4 Rule of law
 <sup>1</sup> The Server's activities must be based on and limited by law.
 
 <sup>2</sup> Server activity must be in the public interest and proportional to the goals pursued.
 
-<sup>3</sup> Server bodies and persons must act in good faith.
+<sup>3</sup> Server bodies and members must act in good faith.
 
-### Section 2: Fundamental Member Rights and Guarantees
+## Title 2: Fundamental Rights and Guarantees
+
+### Chapter 1: Fundamental Rights
 
 #### Art. 5 Human dignity
 Human dignity must be respected and protected.
@@ -69,8 +67,8 @@ Human dignity must be respected and protected.
 
 <sup>2</sup> A person's natural characteristics, personal identity, beliefs, and sexual orientation are of no interest to the Server.
 
-#### Art. 7 Protection against arbitrary conduct and principle of good faith
-Every person has the right to be treated by Server staff and administrators in good faith and in a non-arbitrary manner.
+#### Art. 7 Right to knowledge of use of personal data
+Every person has the right to know how any of their personally identifiable information is used and processed.
 
 #### Art. 8 Right to freedom of expression, opinion, and information
 <sup>1</sup> Every person has the right to creative expression.
@@ -79,22 +77,36 @@ Every person has the right to be treated by Server staff and administrators in g
 
 <sup>3</sup> Every person has the right to seek, receive, and share information from public sources.
 
-#### Art. 9 Right to access logs and records
+#### Art. 9 Freedom to use any language
+The freedom to use any language is guaranteed.
+
+### Chapter 2: Rights Regarding the Relationship With the Administration
+
+#### Section 1: Fundamentals
+
+##### Art. 10 Protection against arbitrary conduct and principle of good faith
+Every person has the right to be treated by Server staff and administrators in good faith and in a non-arbitrary manner.
+
+##### Art. 11 Right to access logs and records
 <sup>1</sup> Members have the right to access and view the audit logs, moderation actions and relevant internal communications.
 
-<sup>2</sup> Information restricted under Article 15 is exempt from public disclosure.
+<sup>2</sup> Information restricted under Article 12 is exempt from public disclosure.
 
-#### Art. 10 Right of petition
+##### Art. 12 Data protection and deletion
+<sup>1</sup> User messages and IDs are collected solely for moderation and security purposes.
+
+<sup>2</sup> The following contents must not be preserved and must be deleted immediately:
+a. sensitive personal data; and
+b. severe illegal content.
+
+##### Art. 13 Right of petition
 <sup>1</sup> Every person has the right, without prejudice, to petition the authorities.
 
 <sup>2</sup> The authorities must acknowledge receiving these petitions.
 
-#### Art. 11 Right to knowledge of use of personal data
-Every person has the right to know how any of their personally identifiable information is used and processed.
+#### Section 2: Punishments and Proceedings
 
----
-
-#### Art. 12 Judicial proceedings
+##### Art. 14 Judicial proceedings
 <sup>1</sup> Every person has the right to have their case heard by an independent, impartial, and legally established court. Ad hoc courts are prohibited.
 
 <sup>2</sup> Every person has the right to appeal any decision or punishment to a judicial authority.
@@ -107,51 +119,57 @@ b. new facts or decisive evidence emerge that were unknown during the previous p
 
 <sup>5</sup> Burden of proof rests with the accusing authority.
 
-#### Art. 13 Enforcement powers and summary measures
-<sup>1</sup> No person may be punished except under the laws in force at the time the offence was committed.
+##### Art. 15 Principle of legality and compromise
+<sup>1</sup> No person may be punished for an act unless both the offence and its punishment are defined by law.
 
-<sup>2</sup> Enforcement authorities may immediately punish routine infractions under established law.
+<sup>2</sup> The Administration may punish members retroactively for the safety of the Server and the real-world safety of other members.
 
-<sup>3</sup> Immediate punishment is prohibited and formal judicial proceedings under Article 12 are required if:
-a. the alleged offence involves potential real-world harm or serious consequences; and
-b. the facts or evidence are uncertain or disputed.
+##### Art. 16 Knowledge of punishment
+Any person being punished must be clearly informed of what exact provision of a law they violated, and the details of their punishment.
 
-#### Art. 14 Knowledge of punishment
-A person being punished must be clearly informed of what exact provision of a law they violated, and their punishment.
+## Title 3: The Administration
 
-#### Art. 15 Data protection and deletion
-<sup>1</sup> User messages and IDs are collected solely for moderation and security purposes.
+### Chapter 1: In General
 
-<sup>2</sup> The following contents must not be preserved and must be deleted immediately:
-a. unredacted personally identifiable information; and
-b. Child Sexual Abuse Material (CSAM) or severe illegal content.
-
----
-
-## Chapter 2: The Administration
-
-#### Art. 16 An Administrator
+#### Art. 17 An Administrator
 An Administrator is:
 a. any member of Administration, including the defined roles in Chapter 2; and
 b. their appointed staff.
 
-#### Art. 17 Incompatibility and prohibition of dual-hatting
+#### Art. 18 Incompatibility and prohibition of dual-hatting
 <sup>1</sup> A person in one position in the Administration must not simultaneously hold position in another unless allowed by the Charter.
 
 <sup>2</sup> The law may provide for further forms of incompatibility.
 
-#### Art. 18 Good standing
-A person is considered in good standing if they have no history of bad faith, malicious behaviour, abuse, or corruption.
+#### Art. 19 Powers and adherence to the rule of law
+<sup>1</sup> Members of the Administration are subject to the law and must not exercise powers beyond those assigned to their roles.
 
-#### Art. 19 Bad standing in Server Administration and staff
-<sup>1</sup> A person in bad standing must not be in any position of Administration, staff, or authority.
+<sup>2</sup> Lower laws may specify the procedures, limitations, and administrative details necessary to execute those powers.
 
-<sup>2</sup> A person in bad standing must not be in any honorable recognition by the Administration or staff.
+<sup>3</sup> Where an immediate threat to server security, safety, or operational integrity is not covered by existing law, the Administration may take temporary, proportionate protective measures, subject to prompt disclosure and review under the law.
 
-### Section 1: Executive Branch
+#### Art. 20 Good standing
+A person is considered in good standing if they uphold the letter and spirit of the law and have no substantiated history of bad faith, malicious behaviour, abuse, corruption, or conduct detrimental to the integrity and safety of the Server and its membership.
 
-#### Art. 20 Composition and duties
-<sup>1</sup> The Executive Branch is responsible for enforcing Server laws, maintaining order, and managing Server operations.
+#### Art. 21 Consequences of bad standing
+<sup>1</sup> A person in bad standing is ineligible to hold any position of Administration, staff, moderation, or delegated authority, and must be removed from such roles if they lose good standing.
+
+<sup>2</sup> A person in bad standing must not receive or retain any honourable recognition, special titles, or endorsements from the Administration or staff.
+
+### Chapter 2: Executive Branch
+
+#### Section 1: Purpose and Duties
+
+##### Art. 22 Purpose
+The Executive Branch is responsible for enforcing Server laws, maintaining order, and managing Server operations.
+
+##### Art. 23 Duty to report
+Every Administrator has the duty to report severe illegal materials to the platform's safety entity and real-world authorities.
+
+#### Section 2: Organisation
+
+##### Art. 24 Composition and mandate
+<sup>1</sup> Executive and administrative authority rests with the Executive Branch, operating under the overall authority of the Director.
 
 <sup>2</sup> The Executive Branch consists of:
 a. Lance Administrator;
@@ -159,105 +177,42 @@ b. Senior Administrator;
 c. The Head Administrator; and
 d. The Chief Minister.
 
-<sup>3</sup> Members of the Executive must not exercise powers beyond those explicitly assigned to their roles.
+<sup>3</sup> Lower laws define the specific powers, duties, qualifications, and terms of service for each position.
 
-<sup>4</sup> Every Administrator has the duty to report severe illegal materials to Discord Safety.
+##### Art. 25 The Chief Minister
+<sup>1</sup> The Chief Minister acts as the main legislative and policy advisor to the Director, drafting, enacting, and repealing laws and fixing loopholes as authorised by law and the Director.
 
-#### Art. 21 Lance Administrator
-<sup>1</sup> Lance Administrators serve as entry-level moderators.
+<sup>2</sup> The Director may appoint or remove the Chief Minister.
 
-<sup>2</sup> Lance Administrators have the authority to:
-a. issue warnings and timeouts according to Server laws;
-b. restrict members to designated channels (*Banishment to the Void*);
-c. delete messages that violate rules; and
-d. kick members from the Server.
+##### Art. 26 The Head Administrator
+<sup>1</sup> The Head Administrator oversees day-to-day operations and staff within the Executive Branch.
 
-<sup>3</sup> Lance Administrators must not:
-a. issue permanent bans;
-b. override decisions of higher administrators; or
-c. modify roles outside outlined enforcement procedures.
+<sup>2</sup> The Director may appoint or remove the Head Administrator.
 
-<sup>4</sup> The appointment limits and minimum staffing requirements for Lance Administrators are governed by Annex 1.
+##### Art. 27 Administrative staff
+<sup>1</sup> Senior Administrators supervise operational staff, handle escalated cases, and enforce internal compliance.
 
-#### Art. 22 Senior Administrator
-<sup>1</sup> Senior Administrators supervise Lance Administrators, manage escalated cases, and enforce compliance within the Executive Branch.
+<sup>2</sup> Lance Administrators serve as entry-level moderators.
 
-<sup>2</sup> Senior Administrators hold all powers of Lance Administrators, and may:
-a. issue temporary or permanent bans; and
-b. review and reverse decisions made by Lance Administrators.
+<sup>3</sup> Lower laws govern the appointment, term limits, retention, and removal of Senior and Lance Administrators, provided they remain in good standing.
 
-<sup>3</sup> Senior Administrators must not act on disputes in which they are personally involved or reverse decisions of the Head Administrator.
+### Chapter 3: Judiciary Branch
 
-<sup>4</sup> The maximum number of Senior Administrators is governed by Annex 1.
+#### Art. 28 The Secretary
+<sup>1</sup> Judicial authority and legal oversight rest with the Secretary, who operates independently and is bound solely by the law.
 
-#### Art. 23 Head Administrator
-<sup>1</sup> The Head Administrator is a single position that oversees operations of the Executive Branch.
+<sup>2</sup> The Secretary interprets this Charter, ensures legal compliance, and serves as the final authority on whether administrative actions and lower laws are valid.
 
-<sup>2</sup> The Head Administrator has authority to:
-a. appoint, demote, suspend, or remove lower members of the Executive Branch;
-b. issue executive directives;
-c. manage Server bot integrations, roles, and channel permissions; and
-d. overturn or uphold any executive moderation decision.
+<sup>3</sup> The Secretary may:
+a. review appeals and void any administrative action or lower law that conflicts with higher law; and
+b. create or dissolve investigative and judicial committees as regulated by law.
 
-<sup>3</sup> The Head Administrator may be appointed and removed by the Director.
+#### Art. 29 Appointment of the Secretary
+The Director may appoint or remove the Secretary.
 
-#### Art. 24 The Chief Minister
-<sup>1</sup> The Chief Minister serves as a direct subordinate to the Director.
+### Chapter 4: Referendums and Impeachment
 
-<sup>2</sup> The Chief Minister may retain legislative authority authorised by law and by the Director.
-
-<sup>3</sup> The Chief Minister has the duty to review existing laws or drafts of laws for:
-a. flaws;
-b. loopholes;
-c. inconsistencies; and
-d. grammatical errors.
-
-<sup>4</sup> The Chief Minister must quickly draft a temporary decree when a loophole or flaw in a law is found, until the problem is ultimately resolved by the Director.
-
-<sup>5</sup> The Chief Minister is appointed directly by the Director.
-
----
-
-### Section 2: Judiciary Branch
-
-#### Art. 25 The Secretary
-<sup>1</sup> Judicial authority and legal oversight rest with the Secretary.
-
-<sup>2</sup> The Secretary is responsible for ensuring compliance with the Charter and laws, and serves as the final authority on the legal validity of moderation actions and rule changes.
-
-<sup>3</sup> The Secretary has authority to:
-a. form judicial or investigative committees within Administration;
-b. appoint or dissolve members of such committees; and
-c. review appeals and void invalid administrative actions.
-
----
-
-## Chapter 3: Appointments, Referendums, and Removal
-
-### Section 1: Appointment of Administrators
-
-#### Art. 26 Appointment of Lance Administrators
-<sup>1</sup> Any member in good standing who explicitly consents to serve as a Lance Administrator may be appointed by the Head Administrator or the Director.
-
-<sup>2</sup> Appointees must receive instruction on executing their duties and must possess working knowledge of the applicable laws.
-
-#### Art. 27 Service of Lance Administrators
-<sup>1</sup> A Lance Administrator must not serve for more than 6 weeks on their first term.
-
-<sup>2</sup> A Lance Administrator is removed from their position at the end of their term.
-
-<sup>3</sup> A Lance Administrator who is actively managing a conflict in good faith may have their removal deferred until the matter is resolved.
-
-#### Art. 28 Consecutive terms of Lance Administrators
-<sup>1</sup> Upon the end of a Lance Administrator's first and consecutive terms, a public poll lasting 3 days is called on whether to keep the Lance Administrator or not.
-
-<sup>2</sup> If a majority of votes are in favour of keeping the Lance Administrator, the Lance Administrator may serve for another term for 12 weeks.
-
----
-
-### Section 2: Referendums and Impeachment
-
-#### Art. 29 Vote of No Confidence
+#### Art. 30 Vote of No Confidence
 <sup>1</sup> A Vote of No Confidence is a Server-wide referendum that, if passed, removes all members of the Executive Branch.
 
 <sup>2</sup> To initiate a referendum, a petition must be submitted to the Secretary containing signatures of at least 15% of active members.
@@ -270,7 +225,7 @@ b. a minimum voter quorum of 25% of active members is met.
 
 <sup>5</sup> If a motion fails, a 30-day cooldown period applies before another petition may be submitted.
 
-#### Art. 30 Caretaker administration
+#### Art. 31 Caretaker administration
 <sup>1</sup> Upon passage of a Vote of No Confidence:
 a. all Executive Branch members are removed from their positions and lose administrative permissions;
 b. the Secretary assumes the position of Caretaker Administrator.
@@ -279,7 +234,7 @@ b. the Secretary assumes the position of Caretaker Administrator.
 
 <sup>3</sup> The Secretary must hold an emergency election for a new Executive Branch within 48 hours.
 
-#### Art. 31 Individual impeachment
+#### Art. 32 Individual impeachment
 <sup>1</sup> Members may petition for the impeachment of an Administrator accused of misconduct, illegal acts, or unpunished rule violations.
 
 <sup>2</sup> The Secretary must review the petition and hold a public poll that:
@@ -288,132 +243,74 @@ b. with the options: *Yes*, *No*, and *Abstain*.
 
 <sup>3</sup> An Administrator is removed immediately if a simple majority (50% + 1) of voting members vote in favour. The accused Administrator cannot vote on their own impeachment.
 
----
+## Title 4: The Director and The Law
 
-## Chapter 4: The Director and The Law
+### Chapter 1: Powers of the Director
 
-### Section 1: Authority
-
-#### Art. 32 The Director
+#### Art. 33 The Director
 <sup>1</sup> The Director may exercise powers not restricted by law.
 
 <sup>2</sup> The Director has the power to unilaterally enact, amend, or repeal any law or regulation governing this Server.[^1]
 
-### Section 2: The Law
+### Chapter 2: The Law
 
-#### Art. 33 Supremacy of the Charter
+#### Section 1: In General
+
+##### Art. 34 Supremacy of the Charter
 <sup>1</sup> This Charter is the primary governing law of the Server.
 
 <sup>2</sup> Any lower laws, executive decisions, or channel rules that conflict with this Charter are invalid and unenforceable.
 
-#### Art. 34 Amendments of laws
+##### Art. 35 Amendments of laws
 The modification or enactment of laws must be publicly announced.
 
-#### Art. 35 Publication of laws
+##### Art. 36 Publication of laws
 <sup>1</sup> The law must be publicly available and easily accessible to all persons.
 
 <sup>2</sup> Laws must be published on a platform that allows users to view and differentiate between versions of a law.
 
 <sup>3</sup> The duty to maintain the publication of the law rests with the Director and the Executive Branch.
 
-### Section 3: Ordinances
+#### Section 2: Ordinances
 
-#### Art. 35a Ordinances
-<sup>1</sup> An ordinance is a general and binding rule issued by an Administrator on the basis of a delegation in the Charter or in a law.
+##### Art. 37 Ordinances
+<sup>1</sup> An ordinance is a general and binding rule issued by an Administrator on the basis of authority under the Charter or a delegation in a law.
 
 <sup>2</sup> Ordinances rank below the Charter and laws.
 
-#### Art. 35b Authority to issue ordinances
-<sup>1</sup> The Director may issue ordinances on any matter.
+##### Art. 38 Authority to issue ordinances
+<sup>1</sup> The Director may issue ordinances on any matter within the scope of the Charter and laws, subject to Article 39.
 
 <sup>2</sup> The Chief Minister may issue ordinances where a law delegates the matter to them.
 
-<sup>3</sup> The Head Administrator may issue ordinances on operational matters within Article 23, paragraph 2, item c, and where a law delegates the matter to them.
+<sup>3</sup> The Head Administrator may issue ordinances on operational matters as their position requires and where a law delegates the matter to them.
 
-<sup>4</sup> A delegation must specify its subject and limits. Further delegation is prohibited unless the delegating law expressly allows it.
+<sup>4</sup> A statutory delegation must specify its subject and limits. Further delegation is prohibited unless the delegating law expressly allows it.
 
-#### Art. 35c Limits
+##### Art. 39 Limits
 An ordinance must not:
 a. contradict or amend the Charter or a law;
 b. create an offence or a penalty, or change a statutory penalty class;
-c. restrict a right guaranteed in Chapter 1, Section 2; or
-d. go beyond its delegation.
+c. restrict a right guaranteed by the Charter or
+d. go beyond its scope or delegation.
 
-#### Art. 35d Temporary ordinances
+##### Art. 40 Temporary ordinances
 <sup>1</sup> Where a matter is not regulated by law and requires urgent regulation, the Chief Minister or the Head Administrator may issue a temporary ordinance, stating the gap and the reason for urgency.
 
-<sup>2</sup> A temporary ordinance may regulate procedure and operations and may order non-punitive measures, such as the removal of content pending a decision. It must not impose a punishment.
+<sup>2</sup> A temporary ordinance may regulate procedure and operations and order non-punitive measures, including interim content removal pending a decision. It must not impose a punishment.
 
 <sup>3</sup> A temporary ordinance expires after 30 days unless the Director confirms it or enacts a law in its place.
 
-#### Art. 35e Publication and entry into force
-<sup>1</sup> Ordinances are announced under Article 34 and published under Article 35.
+##### Art. 41 Publication and entry into force
+<sup>1</sup> Ordinances are announced under Article 35 and published under Article 36.
 
-<sup>2</sup> An ordinance enters into force on publication and has no retroactive effect.
+<sup>2</sup> An ordinance enters into force upon publication unless it specifies a later date, and has no retroactive effect.
 
-#### Art. 35f Review and repeal
-<sup>1</sup> The Secretary may void an ordinance that violates Article 35c.
+##### Art. 42 Review and repeal
+<sup>1</sup> The Secretary may void an ordinance that violates Article 39.
 
 <sup>2</sup> The Director may repeal any ordinance at any time.
 
-<sup>3</sup> An ordinance lapses when the provision delegating it is repealed.
-
-## Chapter 5: Succession
-
-#### Art. 36 Inability
-A person is incapable of exercising the duties and powers of their role if:
-a. they declare themselves to be so;
-b. their account is deleted or deactivated;
-c. their account is compromised; or
-d. they are inactive on the Server for 14 days.
-
-#### Art. 37 Succession of the Head Administrator
-The Director may assume the duties and powers of the Head Administrator if they are incapable.
-
-#### Art. 38 Acting Director
-The Acting Director retains the duties and powers of the Director but must not:
-a. amend the Charter; or
-b. exercise any powers outside maintaining server security, executing existing laws, and managing basic daily operations.
-
-#### Art. 39 Line of succession of the Director
-In the event the Director is incapable, the authority to serve as Acting Director is passed in the following order of precedence:
-a. the Chief Minister;
-b. the Head Administrator;
-c. the longest-serving Senior Administrator; and
-d. the longest-serving Lance Administrator.
-
-#### Art. 40 Permanent Acting Director
-After 365 consecutive days during which the Director has not returned, provided the Acting Director remains capable, serving, and in good standing, the Acting Director may be appointed as the new Director if approved by a simple majority in a 1-week public poll.
-
-## Chapter 6: The People and the Administration
-
-### Section 1: Voting
-
-#### Art. 41 Active member
-A person is considered an active member if:
-a. they are in the Server;
-b. they are a natural person and their account is controlled by one person;
-c. they have been in the Server for more than 1 week; and
-d. they have interacted on the Server within the past 21 days.
-
-#### Art. 42 Right to vote
-Any active member has the right to vote unless the Charter explicitly states otherwise.
-
-#### Art. 43 Polls
-Any poll affecting the decisions of the Administration must be publicly viewable on the Server and not restricted from any member.
-
-#### Art. 44 Prohibition of voting with shared accounts
-One person must have one vote and must not use any shared accounts or bad-faith practices to gain more votes.
-
-#### Art. 45 Independence in voting
-A person must vote independently without the instruction of another person.
-
-## Annex 1: Administrative Ratios and Limits
-| Server Scale Tier                  | Active Engagement Base (Est. 1-10%) | Lance Admins            | Senior Admins        |
-|------------------------------------|-------------------------------------|-------------------------|----------------------|
-| Tier 1: Seed (< 50 members)        | 1-5 active members                  | 2                       | 1                    |
-| Tier 2: Small (50-250 members)     | 5-25 active members                 | Max 3                   | 1                    |
-| Tier 3: Medium (251-1,000 members) | 25-100 active members               | Max 4                   | Max 2                |
-| Tier 4: Large (1,000+ members)     | 100+ active members                 | 1 per 25 active members | 1 per 3 Lance Admins |
+<sup>3</sup> A delegated ordinance lapses when the provision delegating it is repealed.
 
 [^1]: Adopted based on a majority vote on 19 June 2026 (Ref. No. 0), technically in force since 24 September 2022, exercised since 30 May 2023.
