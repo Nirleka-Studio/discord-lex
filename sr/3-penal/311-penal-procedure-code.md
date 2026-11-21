@@ -2,10 +2,10 @@
 sr_id: "SR 311"
 title: "Penal Procedure Code"
 abbreviation: "ProNaCo, PPC"
-version: "2.2.0"
+version: "2.3.1"
 category: "Penal Law"
 enacted_date: "2026-09-10"
-last_amended: "2026-11-15"
+last_amended: "2026-11-21"
 authority: "The Director"
 repeals: "SR 415"
 ---
@@ -99,7 +99,7 @@ Administrators, including judicial and enforcing authorities, must be knowledgea
 
 ##### Art. 14 The enforcing authorities
 The enforcing authorities are:
-a. members of the Administration's Executive Branch as defined in Chapter 2, Section 1 of the Server Charter; and
+a. members of the Administration's Executive Branch, excluding the Chief Minister, as defined in Title 3, Chapter 2 of the Server Charter; and
 b. their appointed staff.
 
 #### Section 2: The Judicial Authorities
