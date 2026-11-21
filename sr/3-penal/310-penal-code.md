@@ -2,462 +2,389 @@
 sr_id: "SR 310"
 title: "Penal Code"
 abbreviation: "Penal Code"
-version: "4.26.3"
+version: "5.0.0"
 category: "Penal Law"
 enacted_date: "2026-08-11"
-last_amended: "2026-11-15"
+last_amended: "2026-11-21"
 authority: "The Director"
 repeals: "ARCH 300"
 ---
 
-# SR 310 — Penal Code
+# SR 310 — The Penal Code
 
 *The Director of Nirleka Studios,*
 
-based on Article 32 of the Server Charter[^11],
+based on Article 33 of the Server Charter[^1],
 
 *decrees:*
 
-## Chapter 1: General Provisions
+## Part 1: General Provisions
 
-### Section 1: Fundamentals
+### Title 1: Offences and Legality
 
-#### Art. 1 No penalty without a law
+#### Chapter 1: Scope
+
+##### Art. 1 No penalty without a law
 A penalty or measure may only be imposed for an act that has been expressly declared to be an offence by law.
 
-#### Art. 2 Scope
+##### Art. 2 Temporal scope
 <sup>1</sup> This Code applies to any person who commits an offence on or after the date this Code comes into force.
 
 <sup>2</sup> For an offence committed before this Code comes into force, the regulations and penalties in effect at the time of the offence apply.
 
-#### Art. 3 Applicability
-Any person who commits an offence in this Server is subject to this Code.
+##### Art. 3 Spatial scope
+<sup>1</sup> This Code applies to any member who commits an offence on the Server.
 
-#### Art. 4 Off-Server conduct
-This Code also applies to any person in this Server who, outside the Server, commits any of the following grave offences:
-a. distribution of Child Sexual Abuse Material (CSAM) or any other illegal materials;
-b. doxxing of another person;
-c. abuse, exploitation, or predatory conduct against minors;
-d. participation in scams or malicious distribution of scams;
-e. participation in the creation or distribution of gambling sites; and
-f. participation in the creation or distribution of viruses.
+<sup>2</sup> Where a serious offence committed outside the Server endangers the Server or its members, this Code applies to the person who committed it.
 
-#### Art. 5[^10]
+##### Art. 4 Offences against the Server
+This Code also applies to any person who commits an offence against the Server.
 
-#### Art. 6 Terms
+#### Chapter 2: Culpability
+
+##### Art. 5 Concept
 <sup>1</sup> Unless the law expressly provides otherwise, an offence is punishable only if it is committed intentionally.
 
 <sup>2</sup> A person commits an offence intentionally if they carry out the act with knowledge and intent. It is also intentional if the perpetrator considers the commission of the offence possible and accepts its occurrence.
 
 <sup>3</sup> A person commits an offence negligently if they fail to consider or take into account the consequences of their conduct due to a breach of their duty of care. Negligence exists if the offender fails to exercise the caution to which they are obliged under the circumstances and according to their personal situation.
 
-#### Art. 7 Mistake of fact
-<sup>1</sup> If the offender acts under a mistaken appreciation of the facts, judicial authority must judge the act according to the facts as the offender believed them to be.
+##### Art. 6 Error of fact
+<sup>1</sup> If the offender acts under a mistaken appreciation of a fact, judicial authority must judge the act according to the facts as the offender believed them to be.
 
 <sup>2</sup> If the offender could have avoided the mistake had they exercised due care, they are punishable for negligence if the negligent commission of the act is itself an offence.
 
-#### Art. 8 Acts authorised by law
-A person acts lawfully if their conduct is required or authorised by law, even if that conduct would otherwise constitute an offence under this Code or any other law.
+##### Art. 7 Lawful action
+A person acts lawfully if their conduct is required or authorised by law, even if that conduct would otherwise constitute an offence under this or another law.
 
-#### Art. 9 Incitement and complicity
-<sup>1</sup> A person who intentionally induces another person to commit an offence (inciter) is liable to the same penalty as the principal perpetrator.
+##### Art. 8 Incitement and complicity
+<sup>1</sup> A person who intentionally induces another person to commit an offence is liable to the same penalty as the principal perpetrator.
 
-<sup>2</sup> A person who intentionally assists another person in committing an offence (accomplice) is subject to a mitigated penalty.
+<sup>2</sup> A person who intentionally assists another person in committing an offence is subject to a mitigated penalty.
 
-#### Art. 10 Attempt
+##### Art. 9 Attempt
 <sup>1</sup> An attempt occurs when a person initiates the execution of an offence but fails to complete it.
 
 <sup>2</sup> An attempt is punishable only if the offence itself is punishable when committed intentionally. Judicial authority may mitigate the penalty for an attempted offence.
 
 <sup>3</sup> A person who voluntarily abandons the execution of an offence, or prevents its completion, is not punished for the attempt.
 
-#### Art. 11 Platform's Terms of Service and Community Guidelines
-<sup>1</sup> The enforcing authorities may enforce compliance with the Platform's Terms of Service (ToS) and Community Guidelines, but must only impose punishments as defined in Server laws.
+#### Chapter 3: Statute of Limitations
 
-<sup>2</sup> Anything that violates the Platform's ToS or Community Guidelines but is undefined or not penalised under any Server law must be referred to the Head Administrator, Chief Minister, or Director.
+##### Art. 10 Periods
+The right to prosecute is subject to a time limit of:
+a. 3 years if the most severe punishment the offence carries is a permanent ban;
+b. 1 year if the most severe punishment the offence carries is a temporary ban; and
+c. 6 months if the offence carries only a timeout.
 
-#### Art. 11a Ordinance delegation
-The Director and the Chief Minister may issue ordinances listing examples or technical details of the offences in Chapter 2. They must not create offences or alter penalty classes.
+##### Art. 11 Commencement
+The limitation period begins:
+a. on the day on which the offender committed the offence;
+b. on the day on which the final act was carried out if the offence consists of a series of acts carried out at different times;
+c. on the day on which the conduct ceases if the conduct continues over a period of time.
 
-#### Art. 11b Return of assets
-<sup>1</sup> The Administration has the authority to seize Server assets from another member that is unlawfully acquired under this Code or other laws.
+##### Art. 12 Interruption
+The limitation period stops running once a report is filed or proceedings are opened by an authority before it expires.
 
-<sup>2</sup> If such asset is unlawfully taken from another member, person, or entity, the Administration must return it to the rightful owner in accordance with the law.
+##### Art. 13 Exclusion from limitation
+There is no statute of limitations for the offences of:
+a. sexual depiction or sexual exploitation of a minor; and
+b. sexual harassment or unsolicited sexual roleplay where the victim is a minor.
 
-### Section 2: Terms and Definitions
+#### Chapter 4: Penalties and Measures
 
-#### Art. 12[^3]
+##### Section 1: Measures In General
 
-#### Art. 13[^8]
+###### Art. 14 Timeout
+The minimum duration of a timeout is 1 hour.
 
-#### Art. 14 Interaction
-A person interacts with another person through any means of communication, regardless of format, medium, or technology used.
+###### Art. 15 Temporary ban
+<sup>1</sup> Unless otherwise specified, a temporary ban is imposed for a minimum of 30 days and a maximum of 180 days.
 
-#### Art. 15 Depiction
-To depict means to represent, portray, or convey through visual, textual, auditory, roleplayed, or linked means, a person, act, or scenario in a manner that a reasonable member would recognise as representing that person, act, or scenario. This includes but is not limited to:
-a. images, videos, GIFs, or other visual media;
-b. written or narrated descriptions, including roleplay or story-format text;
-c. audio recordings, voice acting, or impersonated sounds;
-d. AI-generated or edited content representing a real or implied individual; and
-e. hyperlinks, URLs, QR codes, or any other routing medium provided for a user to access, view, or download such representations.
+<sup>2</sup> Where aggravating circumstances or repeat-offender provisions would warrant a ban exceeding 180 days, a permanent ban is imposed instead.
 
-#### Art. 16[^5]
+##### Section 2: Penalty Measurement
 
-### Section 3: Punishments and Measures
+###### Art. 16 Penalty measurement
+<sup>1</sup> Where an Article provides a range of punishment or alternative penalties, the moderator must determine the appropriate measure based on the severity of the violation, the degree of intent, and the offender's prior conduct.
 
-#### Art. 17 Timeout
-<sup>1</sup> A timeout deprives a member of the ability to:
-a. interact with other members on the Server;
-b. interact with Server features; and
-c. participate in Server activities.
+<sup>2</sup> Unless aggravating or mitigating circumstances justify a deviation, the baseline punishment for a first-time offence must be the minimum of the prescribed range, or the lesser alternative penalty.
 
-<sup>2</sup> A timeout must be imposed for a minimum duration of 1 hour and a maximum duration of 28 days.
+###### Art. 17 Repeat offences
+<sup>1</sup> Where a member commits a new offence within 90 days of completing a previous penalty, the minimum and maximum limits of the prescribed penalty are doubled.
 
-<sup>3</sup> The native Discord timeout feature may be used to execute this measure.
+<sup>2</sup> Where doubling a timeout exceeds 28 days, a temporary ban of 30 to 90 days is imposed instead.
 
-#### Art. 18 Kick
-<sup>1</sup> The native Discord kick feature is used when imposing a kick.
+<sup>3</sup> A member who commits three or more punishable offences within a rolling 180-day period, or who demonstrates a persistent disregard for the rules after a temporary ban, may be subject to a permanent ban, regardless of the maximum penalty prescribed for the individual offence.
 
-<sup>2</sup> A kick results in immediate removal from the Server and revocation of all assigned roles.
+###### Art. 18 Multiple offences
+<sup>1</sup> Where a single act violates multiple Articles simultaneously, only the Article providing the most severe penalty applies, while the additional violations act as aggravating factors.
 
-#### Art. 19 Ban
-The native Discord ban feature is used when imposing a ban.
+<sup>2</sup> Where a member commits multiple separate offences before being punished, the moderator may aggregate the penalties up to the prescribed higher penalty.
 
-#### Art. 20 Banishment to The Void
-Banishment to The Void deprives a member of seeing or participating in public channels and restricts them to seeing only the `#the-void` channel and the `#rules` channel.
+#### Chapter 5: Platform's Terms of Service and Community Guidelines
 
-#### Art. 21[^4]
+##### Art. 19 In general
+<sup>1</sup> The platform's Terms of Service and Community Guidelines apply to the Server and the platform.
 
-#### Art. 22[^9]
+<sup>2</sup> A violation of the platform's Terms of Service or Community Guidelines is an offence only if this Code so provides.
 
-### Section 4: Penalty Framework
+### Title 2: Terms and Definitions
 
-#### Art. 23 Statutory penalties and classes
-<sup>1</sup> Offences under this Code are classified by gravity into the following statutory penalty classes:
-a. Class 1 (Minor): a timeout of not less than 1 hour and not more than 24 hours;
-b. Class 2 (Moderate): a timeout of 7 days;
-c. Class 3 (Major): a timeout of 28 days or a temporary ban of up to 8 months; and
-d. Class 4 (Grave): a permanent ban.
+#### Art. 20 View restriction
+A content's view is restricted if:
+a. it is delivered in a designated NSFW channel; or
+b. viewing it is not immediate and requires confirmation, using reasonable measures the content requires.
 
-<sup>2</sup> Where an offence article designates a baseline class, the enforcing authority must impose the baseline penalty established under paragraph 1, unless an adjustment is authorised under Article 24.
+#### Art. 21 Depiction
+A depiction in particular includes any portrayal or conveyance through any medium, including linked means, that a reasonable person would recognise as such, provided it is accessible to persons.
 
-#### Art. 24 Adjustment of penalties
-<sup>1</sup> The enforcing authority may raise the baseline penalty by one class if one or more of the following aggravating circumstances exist:
-a. the offender committed the offence repeatedly within a 30-day period;
-b. the offender attempted to conceal the act or evade detection; or
-c. the offender targeted a member out of malice or for extortion.
+#### Art. 22 Other terms
+<sup>1</sup> *Illegal* means prohibited under real-world laws.
 
-<sup>2</sup> The enforcing authority may lower the baseline penalty by one class if one or more of the following mitigating circumstances exist:
-a. the offender voluntarily ceased the conduct prior to intervention; or
-b. the act was committed under severe and immediate provocation.
+### Title 3: The Authorities
 
-<sup>3</sup> An adjustment under paragraph 1 or paragraph 2 must be justified on the official moderation record, citing the specific statutory ground relied upon.
+#### Art. 23 Ordinance delegation
+<sup>1</sup> The Director and the Chief Minister may issue ordinances listing examples or technical details of the offences in Part 2.
 
-#### Art. 24a Statute of limitations
-<sup>1</sup> The authority to prosecute an offence under this Code is barred upon the expiration of the following limitation periods, calculated from the day the act was committed:
-a. Class 1 (Minor) offences: 14 days;
-b. Class 2 (Moderate) offences: 30 days;
-c. Class 3 (Major) offences: 90 days; and
-d. Class 4 (Grave) offences: 1 year.
+<sup>2</sup> They must not create offences or alter measures.
 
-<sup>2</sup> No limitation period applies to the prosecution of:
-a. off-Server grave offences under Article 4;
-b. offences involving minors under:
-  1. Article 35, paragraph 2;
-  2. Article 36, paragraph 2; or
-  3. Article 44; or
-c. server raiding under Article 32.
+#### Art. 24 Return of assets
+<sup>1</sup> The Administration has the authority to seize Server assets from another member that is unlawfully acquired under this law or another.
 
-<sup>3</sup> If formal administrative or moderation proceedings, a report ticket, or an official investigation is opened by an enforcing authority before the expiration of the limitation period, the time limit is suspended and no longer applies.
+<sup>2</sup> If such asset is unlawfully taken from a member, the Administration must return it to the rightful owner in accordance with the law.
 
----
+## Part 2: Specific Provisions
 
-## Chapter 2: Offences
+### Title 1: NSFW
 
-### Section 1: Minor Offences
+#### Chapter 1: Sexual Materials
 
-#### Art. 25 Spamming and ping abuse
-<sup>1</sup> A member who:
-a. floods channels with meaningless or repetitive content; or
-b. repetitively pings (@mentions) another member
+##### Section 1: Explicit Sexual Imagery
 
-is punished by a Class 1 penalty and up to a Class 3 penalty.
+###### Art. 25 Sexually explicit material
+Any member who depicts sexually explicit material, either intentionally or negligently, unless a special provision of the following articles applies, is punished by a timeout of no less than 28 days, a temporary ban, or a permanent ban.
 
-<sup>2</sup>[^6] ...
+###### Art. 26 Sexual depiction of a minor
+<sup>1</sup> Where the material sexually depicts a minor, a permanent ban is imposed.
 
-#### Art. 26 Advertising and self-promotion
-A member who:
-a. continuously advertises or self-promotes;
-b. continuously disrupts other ongoing conversations; or
-c. uses abusive or bad-faith practices for advertisement or self-promotion
+<sup>2</sup> Material that is not sexual in itself does not become sexually explicit merely because a person depicted was a minor at the time of its creation.
 
-is punished by a Class 1 penalty and up to a Class 3 penalty.
+<sup>3</sup> Paragraph 2 does not apply where the member sexualises the material by their own contribution.
 
-### Section 2: Accounts and Identity
+###### Art. 27 Obstructed sexual material
+Where the material depicts parts that are obstructed but a reasonable person would infer a sexual act, a timeout of no less than 7 days and no more than 28 days, or a temporary ban, is imposed.
 
-#### Art. 27 Personal information
-A person who maliciously shares personally identifiable information of another individual without that individual's explicit consent is punished by a Class 3 penalty and up to a Class 4 penalty.
+###### Art. 28 Non-sexual nudity
+<sup>1</sup> Where the material depicts nudity in a way that is not sexual, it is permitted if its view is restricted to the extent the material reasonably requires.
 
-#### Art. 28 Impersonation
-A member who impersonates another person and thereby:
-a. deceives or misleads others into believing that they are that person; or
-b. makes false claims about that person
+<sup>2</sup> Where it is not so restricted, a timeout of no more than 14 days is imposed.
 
-is punished by a Class 3 penalty and up to a Class 4 penalty.
+##### Section 2: Other Sexual Imagery
 
-#### Art. 29 Alternative accounts
-A person who uses an alternative account to gain additional votes, entries, or influence in polls, giveaways, or Server events is punished by a Class 2 penalty and up to a Class 3 penalty.
+###### Art. 29 Fetish and kink material
+<sup>1</sup> Any member who depicts sexual fetish material but does not satisfy Article 25 is punished by a timeout of 7 to 28 days.
 
-### Section 3: Malicious Contents and Behaviours
+<sup>2</sup> Where the material is not inherently sexual but the member sexualises the material by their own contribution, a timeout of a higher duration is imposed.
 
-#### Art. 30 Bypassing punishments and measures
-<sup>1</sup> A person who:
-a. bypasses lawful punishments or measures imposed on them; or
-b. maliciously bypasses established Server measures or restrictions
+<sup>3</sup> Where the fetish includes the abuse of an animal, a temporary or permanent ban is imposed.
 
-is punished by a Class 3 penalty and up to a Class 4 penalty.
+###### Art. 30 Incest[^3]
+Any member who depicts or encourages incest is punished by a timeout of 1 to 7 days.
 
-<sup>2</sup> A person who discovers a method to bypass Server measures or restrictions but fails to report it is punished by a Class 2 penalty and up to a Class 3 penalty.
+###### Art. 31 Sexual gestures
+Any member who depicts a bodily expression that is otherwise only made during, to represent, or encourage a sexual act is punished by a timeout of 12 hours to 7 days.
 
-#### Art. 30a Disobedience of judicial orders
-<sup>1</sup> A person who knowingly fails to comply with an order issued to them by a judicial authority is punished by a Class 2 penalty and up to a Class 3 penalty.
+###### Art. 32 Adult novelties
+<sup>1</sup> Any member who depicts an adult novelty as the primary focus or subject and does not restrict its view, is punished by a timeout of no less than 24 hours and no more than 28 days.
 
-<sup>2</sup> Paragraph 1 applies only where the order was communicated to the person, expressly warned that non-compliance is punishable under this Article, and has not been suspended or set aside.
+<sup>2</sup> If the member presents or discusses the adult novelty in a sexual way, a raised punishment of a timeout of no less than 3 days is imposed.
 
-#### Art. 31 Files and links
-<sup>1</sup> A person who shares files, links or other content designed to impair, disrupt or gain unauthorised access to a system, or to the data or processes it carries, is punished by a Class 4 penalty.
+<sup>3</sup> Paragraph 1 does not apply if the adult novelty appears incidentally, briefly, or inadvertently within longer media, and is neither the primary focus nor highlighted by the member.
 
-<sup>2</sup> A member who shares content that is not inherently harmful but causes temporary disruptions, such as corrupting the rendering of the Discord application, is punished by a Class 2 penalty and up to a Class 3 penalty.
+#### Chapter 2: Sexual Communications
 
-#### Art. 32 Server raiding
-<sup>1</sup> A member who organises, participates in, or facilitates a sudden and coordinated influx of accounts, media, or interactions with the intent to:
-a. disrupt normal Server operations or intentionally degrade the usability of channels;
-b. harass, overwhelm, or mass-ping Server members; or
-c. circumvent moderation systems, verification barriers, or previously issued penalties
+##### Section 1: Sexual Harassment
 
-is punished by a Class 4 penalty, alongside the associated accounts.
+###### Art. 33 General sexual harassment
+<sup>1</sup> Any person who sexually harasses another is punished by a temporary or permanent ban.
 
-<sup>2</sup> The promotion of, or provision of material support to, external platforms or groups actively engaged in planning or executing a raid, whether targeted at this Server or any other community, is not exempt from paragraph 1.
+<sup>2</sup> Where the victim is a minor, the person is punished by a permanent ban.
 
-### Section 4: Sexual and Romantic Depictions and Communications
+###### Art. 34 Unsolicited sexual roleplay and encouragement[^2]
+<sup>1</sup> Any person who instructs, coerces, or persistently encourages another person to don a specific garment, adopt a specific persona, or engage in behaviour that a reasonable person would recognise as an element of sexual roleplay, fetish, or sexual submissiveness is punished by a timeout of no less than 7 days.
 
-#### Art. 33 Non-consensual romantic pairings
-A member who pairs or depicts persons in romantic or sexual contexts without the explicit consent of all persons paired or depicted is punished by a Class 2 penalty and up to a Class 3 penalty.
+<sup>2</sup> Where the victim is a minor, the person is punished by a permanent ban.
 
-#### Art. 34 Forced feminisation and suggestive media[^1]
-<sup>1</sup> A person who instructs, coerces, or persistently encourages another person to don specific garments, adopt specific personas, or engage in behaviours that are recognised as elements of sexual roleplay, psychological fetishes, or sexual submissiveness is punished by a Class 1 penalty and up to a Class 4 penalty.
+###### Art. 35 Unsolicited sexual trade
+Any person who uses the platform to buy, sell, trade, or solicit commercial sexual services, prostitution, or paid adult content transactions is punished by a temporary or permanent ban.
 
-<sup>2</sup> The presentation of media as a humorous image, macro, trend, or meme does not grant exemption from the provisions of this Article.
+###### Art. 36 Non-consensual romantic pairings
+Any member who pairs or depicts persons in a romantic or sexual circumstance without the explicit consent of all persons paired or depicted is punished by a timeout of 1 to 28 days.
 
-#### Art. 35 Unsolicited sexual requests
-<sup>1</sup> A person who:
-a. requests sexual favours, explicit media, or intimate acts from another member without prior clear, mutual consent; or
-b. engages in persistent, unwanted sexual propositions after receiving an explicit refusal
+##### Section 2: Sexual Discussions
 
-is punished by a Class 3 penalty and up to a Class 4 penalty.
+###### Art. 37 In general
+<sup>1</sup> Any member who discusses or depicts sexual matters outside a designated NSFW channel in a sexually explicit manner, or in a way whose predominant function is sexual arousal or gratification, is liable on complaint to a timeout of no more than 14 days.
 
-<sup>2</sup> Where the target of the unsolicited request is a minor, or the target claims to be a minor, or the request involves explicit content depicting a minor, paragraph 1 does not apply, and the member is punished by a Class 4 penalty.
+<sup>2</sup> Paragraph 1 does not apply to educational, medical, or supportive discussion, nor to humour or passing references that a reasonable person would not consider explicit.
 
-#### Art. 36 Sexual interactions
-<sup>1</sup> A member who depicts or interacts in a way that depicts or provokes sexual acts, suggestions, or submissiveness is punished by a Class 1 penalty and up to a Class 3 penalty.
+#### Chapter 3: Violent, Disturbing, and Dangerous Materials
 
-<sup>2</sup> Where one of the persons involved is a minor, the member is punished by a Class 4 penalty.
+##### Section 1: Violent Imagery
 
-#### Art. 37 Discussions of sexual qualities or fetishes
-A member who discusses the measurements or other qualities of sexual organs, or body-part fetishes, outside NSFW channels is punished by a Class 2 penalty and up to a Class 3 penalty.
+###### Art. 38 In general
+Any member who depicts violent or disturbing material, unless a special provision of the following articles applies, is punished by a timeout of no less than 28 days, a temporary ban, or a permanent ban.
 
-#### Art. 38 Vore
-A member who depicts vore is punished by a Class 2 penalty and up to a Class 3 penalty, and a 10,000₣ fine.
+###### Art. 39 Exceptions if restricted
+<sup>1</sup> Where the material is educational, historical, journalistic, or artistic, it is permitted if its view is restricted to the extent the material reasonably requires.
 
-#### Art. 38a Prohibition of zoophilia and bestiality
-A person who depicts, encourages, or explicitly expresses sexual attraction towards animals is punished by a Class 3 penalty and up to a Class 4 penalty.
+<sup>2</sup> Where it is not so restricted, a timeout of no more than 14 days is imposed.
 
-#### Art. 39 Explicit sexual acts
-<sup>1</sup> A member who depicts explicit sexual acts is punished by a Class 3 penalty and up to a Class 4 penalty.
+##### Section 2: Weapons and Dangerous Substances
 
-<sup>2</sup> A depiction where substantial context can be inferred to imply a sexual act, even if it is censored, cropped, or hidden in any way, is not exempt from paragraph 1.
+###### Art. 40 In general
+<sup>1</sup> Any person who provides instructions or methods for making a weapon, substance or device that is unlawful to make or designed to cause death or serious injury to many persons or without discrimination is punished by a permanent ban.
 
-#### Art. 40 Depictions of genitalia
-<sup>1</sup> A member who sexually depicts genitalia is punished by a Class 3 penalty and up to a Class 4 penalty.
+<sup>2</sup> Paragraph 1 does not apply to the lawful use, maintenance or handling of a lawfully held item, or to educational, historical, artistic, or journalistic discussion that does not enable its making.
 
-<sup>2</sup> A member who depicts genitalia in a medical, clinical, educational, or non-sexual context outside NSFW channels is punished by a Class 2 penalty and up to a Class 3 penalty.
+###### Art. 41 Manufacturing and synthesis of illicit substances
+<sup>1</sup> Any person who provides an actionable instruction, recipe, formula, chemical synthesis method, or step-by-step guide for the creation, refinement, or mass production of:
+a. a controlled illicit substance;
+b. a hazardous chemical compound intended for psychoactive misuse; or
+c. an illegal prescription-only pharmaceutical
 
-#### Art. 41 Nudity
-<sup>1</sup> A member who sexually depicts nudity is punished by a Class 3 penalty and up to a Class 4 penalty.
-
-<sup>2</sup> A member who depicts nudity that is not sexually suggestive and is purely artistic, educational, or medical outside NSFW channels is punished by a Class 2 penalty and up to a Class 3 penalty.
-
-#### Art. 42 Suggestive body parts
-<sup>1</sup> "Suggestive body parts" are:
-a. buttocks;
-b. feet;
-c. armpits;
-d. breasts;
-e. pelvic or genital region;
-f. thighs; and
-g. abdomen.
-
-<sup>2</sup> A member who depicts suggestive close-ups of body parts defined in paragraph 1 is punished by a Class 2 penalty and up to a Class 3 penalty.
-
-<sup>3</sup> Paragraph 2 also applies to depictions where the body parts are part of the main content, unmistakably distracting, or occupy a significant portion of the depiction.
-
-#### Art. 43 Sexual gestures
-A member who depicts specific gestures, facial expressions, or movements that are otherwise only made during or to represent sexual acts is punished by a Class 2 penalty and up to a Class 3 penalty.
-
-#### Art. 44 CSAM
-A person who depicts or has depicted CSAM is punished by a Class 4 penalty.
-
-#### Art. 45 Associated accounts
-A person who shares, associates with, has a linked account on their profile, or maintains an account of the same name that contains or is associated with:
-a. pornographic content;
-b. fetish content; or
-c. gore or violent content
-
-is punished by a Class 3 penalty and up to a Class 4 penalty.
-
-#### Art. 46 Adult novelties
-<sup>1</sup> A member who depicts adult novelties as the primary focus or subject of media outside designated NSFW channels is punished by a Class 2 penalty and up to a Class 3 penalty.
-
-<sup>2</sup> Where an adult novelty appears incidentally, briefly, or inadvertently within longer media, and is neither the primary focus nor highlighted by the member, no violation has occurred, provided the member removes or timestamps the content upon notice.
-
-<sup>3</sup> A member who intentionally or repeatedly uses non-phallic novelties, dual-use items, or subtle adult items to evade paragraph 1 is punished under paragraph 1.
-
-#### Art. 47 Incest[^2]
-<sup>1</sup> A member who depicts or encourages incest is punished by a Class 1 penalty and up to a Class 2 penalty, and a 10,000₣ fine.
-
-<sup>2</sup> Incest is depicted where a person involved in the sexual or intimate act is closely related by blood, as established by:
-a. explicit mention in the depiction itself; or
-b. an explicit mention by the creators of the depiction.
-
-### Section 5: Violent Contents and Controlled Substances
-
-#### Art. 48 Graphic violence and gore
-<sup>1</sup> A person who depicts real-life graphic violence, extreme bodily harm, dismemberment, or gore is punished by a Class 4 penalty.
-
-<sup>2</sup> A member who depicts fictional, stylised, or animated violence or gore that exceeds normal artistic contexts outside designated channels is punished by a Class 2 penalty and up to a Class 3 penalty.
-
-#### Art. 49 Self-harm and suicide
-<sup>1</sup> A person who:
-a. depicts, encourages, instructs, or glorifies self-harm or suicide; or
-b. provides instructions or methods for self-harm or suicide
-
-is punished by a Class 4 penalty.
-
-<sup>2</sup>[^7] ... 
-
-#### Art. 49a Discrediting institutional help for self-harm
-A person who discredits support institutions or intentionally prevents, obstructs, or deters a person from seeking or receiving help for self-harm or suicide is punished by a Class 4 penalty.
-
-#### Art. 50 Violence and bodily harm threats
-<sup>1</sup> A person who threatens another individual with violence, death, or physical harm is punished by a Class 3 penalty and up to a Class 4 penalty.
-
-<sup>2</sup> A person who incites or organises targeted harassment or violent acts against a person or group inside or outside the Server is punished by a Class 4 penalty.
-
-<sup>3</sup> Paragraph 1 does not apply if a reasonable person can interpret the statement as humorous or as banter, and the receiving person does not exhibit distress or file a report.
-
-#### Art. 51 Animal abuse and cruelty
-A person who depicts or encourages real-life animal abuse, torture, or cruelty is punished by a Class 4 penalty.
-
-#### Art. 52 Weapons and dangerous substances
-<sup>1</sup> A person who provides instructions, blueprints or methods for making a weapon, substance or device that is unlawful to make or designed to cause death or serious injury to many persons or without discrimination is punished by a Class 4 penalty.
-
-<sup>2</sup> Paragraph 1 does not apply to the lawful use, maintenance or handling of a lawfully held item, or to educational, historical or journalistic discussion that does not enable its making.
-
-<sup>3</sup> A member who displays real-life weapons in a threatening, unsafe, or brandishing manner is punished by a Class 2 penalty and up to a Class 3 penalty.
-
-#### Art. 53 Manufacturing and synthesis of illicit substances
-<sup>1</sup> A person who provides actionable instructions, recipes, formulas, chemical synthesis methods, or step-by-step guides for the creation, refinement, or mass production of:
-a. controlled illicit substances;
-b. hazardous chemical compounds intended for psychoactive misuse; or
-c. illegal prescription-only pharmaceuticals
-
-is punished by a Class 3 penalty and up to a Class 4 penalty.
+is punished by a permanent ban.
 
 <sup>2</sup> Paragraph 1 does not apply to:
 a. general academic, historical, or educational discussions regarding pharmacology or chemistry;
 b. discussions regarding legal, over-the-counter medications or lawfully prescribed treatments; or
-c. informal references to common non-controlled substances (such as caffeine, alcohol, or tobacco) consumed in accordance with applicable laws.
+c. informal references to common non-controlled substances consumed in accordance with applicable laws.
 
-### Section 6: Offences Against Respect, Authority, and Server Integrity
+### Title 2: General Member Conduct
 
-#### Art. 54 Disrespecting the death of a significant other
-<sup>1</sup> A member who explicitly disrespects the death of another member's friend, family member, pet, or significant other is punished by Banishment to The Void for 2 weeks.
+#### Chapter 1: Offences Against Persons
 
-<sup>2</sup> Upon request of the victim, the perpetrator may be released early from the Void.
+##### Section 1: Predatory Conduct
 
-#### Art. 55 Breach of equality
-A member who insults, demeans, or asserts superiority over another natural person or group, based on their natural physical traits, sexual orientation, or religious beliefs, is punished by a Class 2 penalty and up to a Class 3 penalty.
+###### Art. 42 Sexual exploitation of minors
+Any person who engages in sexual intercourse with a minor, sexually exploits a minor, or luring them to engage in sexual intercourse or meet in person is punished by a permanent ban.
 
-#### Art. 56 Slurs
-<sup>1</sup> A member who uses a slur is punished by a Class 1 penalty and up to a Class 2 penalty.
+##### Section 2: Gambling, Illegal Materials and Acts
 
-<sup>2</sup> The uses of slurs defined in Annex 1 are exempt from paragraph 1 if they are not personally directed at, or made to remark on, another person, and a reasonable person may interpret the context as humorous or banter.
+###### Art. 43 Illegal activities
+Any person who commits, facilitates, promotes, or gives instructions for a serious illegal act, including deception for unlawful gain, is punished by a temporary or permanent ban.
 
-#### Art. 57 False reporting and moderation abuse
-A member who intentionally submits false reports, fabricates evidence, or maliciously misuses ticket or report systems to trigger moderation action against another member is punished by a Class 2 penalty and up to a Class 3 penalty.
+###### Art. 44 Malicious files and links
+<sup>1</sup> Any person who shares files, links or other content designed to impair, disrupt, or gain unauthorised access to a system, account, or data is punished by a permanent ban.
 
-#### Art. 58 Misuse of Server features
-A person who uses a Server facility to:
-a. circumvent a restriction;
-b. to impair the operation of the Server; or
-c. gain an advantage over others that the facility was not designed to give
+<sup>2</sup> Where the content is not inherently harmful but disrupts the platform or Server, a timeout of 7 to 28 days or a temporary ban is imposed.
 
-is punished by a Class 2 penalty and up to a Class 3 penalty.
+###### Art. 45 Gambling
+Any person who uses the Server to facilitate, promote, or give instruction for gambling where real-world values are used, is punished by a temporary or permanent ban.
 
-#### Art. 59 Bad-faith practices in voting
-A person who uses bad-faith practices to vote, including through:
-a. misuse of Server facilities;
-b. restricting access from eligible members;
-c. coercing others; and
-d. using alternative accounts
+##### Section 3: Harassment and Threats
 
-is punished by a Class 2 penalty and up to a Class 3 penalty.
+###### Art. 46 General harassment
+<sup>1</sup> Any person who repeatedly harasses or expresses unwelcome behaviour to another despite being told to stop, is liable on complaint to a timeout of no more than 28 days or a temporary ban.
 
-#### Art. 60 High treason
-A person who carries out an intentional act where they:
+###### Art. 47 Harmful threats
+<sup>1</sup> Any person who threatens another with violence or death is liable on complaint to a timeout of no less than 14 days, a temporary or permanent ban.
+
+<sup>2</sup> Any person who incites or organises targeted harassment or violent acts against a person or group inside or outside the Server is punished by a temporary or permanent ban.
+
+<sup>3</sup> Paragraph 1 does not apply if a reasonable person would interpret the statement as humorous or banter.
+
+###### Art. 48 Coercion
+Any person who, by the use of force or the threat of serious detriment or other restriction of another's freedom to act compels another to carry out an act, to fail to carry out an act or to tolerate an act, is punished by a permanent ban.
+
+##### Section 4: Personal Identity
+
+###### Art. 49 Impersonation
+Any person who uses the identity of another person without that person’s consent in order to harm that person or in order to obtain an unlawful advantage for themselves or another is punished a temporary or permanent ban.
+
+###### Art. 50 Unlawfully obtaining personal data
+Any person who without authorisation obtains personal data that are particularly sensitive and that are not publicly accessible is liable on complaint to a temporary or permanent ban.
+
+###### Art. 51 Sharing of personal information
+Any person who, maliciously or negligently, shares personal data of another person that are particularly sensitive and that are not publicly accessible, to another without that person's consent, is punished by a timeout of no less than 7 days and no more than 14 days, a temporary or permanent ban.
+
+##### Section 5: Health and Self-harm
+
+###### Art. 52 Self-harm and suicide
+Any person who:
+a. encourages, instructs, or glorifies self-harm or suicide; or
+b. provides instructions or methods for self-harm or suicide
+
+is punished by a temporary or permanent ban.
+
+###### Art. 53 Discrediting institutional help
+<sup>1</sup> Any person who discredits support institutions in a way that is particularly depraved, or intentionally prevents, misleads, obstructs, or deters a person from seeking or receiving proper care for physical or mental health is punished by a temporary or permanent ban.
+
+<sup>2</sup> Where the person does it negligently, a timeout of no less than 7 days and no more than 28 days is imposed.
+
+##### Section 6: Endangerment
+
+###### Art. 54 In general
+Any person who, maliciously or negligently, puts another in serious risk of danger is punished by a temporary or permanent ban.
+
+##### Section 7: Disrespect Against Persons
+
+###### Art. 55 Breach of equality
+Any person who insults, demeans, or asserts superiority over another natural person or group, based on their natural characteristic, sexual orientation, or religious belief, is punished by a timeout of no less than 7 days, a temporary or permanent ban.
+
+###### Art. 56 Slurs
+Any member who uses a slur is liable on complaint to a timeout of 1 hour to 28 days or a temporary ban.
+
+###### Art. 57 Disrespecting the death of a significant other
+Any person who disrespects the death, serious injury, or mental health of another person's friend, family member, pet, or significant other is liable on complaint to a timeout of no less than 7 days, or a temporary ban.
+
+#### Chapter 2: Offences Against the General Membership
+
+##### Art. 58 Disruption of the Server
+<sup>1</sup> Any member who floods a channel with meaningless or repetitive content, repeatedly mentions another member, or persistently advertises or promotes something where it is unwanted, is liable on complaint to a timeout of no more than 14 days.
+
+<sup>2</sup> Where the nature is particularly depraved and causes the channel to be unusable, the member is punished by a temporary or permanent ban.
+
+### Title 3: Offences Against the Administration, Server, and its Integrity
+
+#### Chapter 1: Server Systems
+
+###### Art. 59 Abuse of Server systems
+<sup>1</sup> Any person who uses a Server facility or process to circumvent a restriction, impair the Server, or gain an advantage it was not designed to give is punished by a timeout of 7 to 28 days, a temporary ban, or a permanent ban.
+
+<sup>2</sup> Where the abuse is carried out by the coordinated action of several persons or accounts, a permanent ban is imposed.
+
+###### Art. 60 Bypassing measures
+Any person who evades or bypasses a penalty or measure imposed on them, or a restriction established by the Server, is punished by a temporary or permanent ban.
+
+#### Chapter 2: Judicial Orders
+
+###### Art. 61 Disobedience of judicial order
+<sup>1</sup> Any person who knowingly fails to comply with an order issued to them by a judicial authority is punished by a timeout of no less than 7 days and no more than 28, or a temporary ban.
+
+<sup>2</sup> Paragraph 1 applies only where the order was communicated to the person, expressly warned that non-compliance is punishable under this Article, and has not been suspended or set aside.
+
+#### Chapter 3: Treason
+
+##### Art. 62 High treason
+Any person who carries out an intentional act where they:
 a. threaten the existence of the Server;
 b. depose, delegitimise, or restrict the rights or powers of the constitutionally appointed Director; or
 c. depose, delegitimise, or limit the powers of The Cat
-is punished by a Class 1 penalty and up to a Class 4 penalty.
+is punished by a timeout of no more than 14 days, or temporary ban.
 
-#### Art. 61 Regular treason
-A person who carries out an act with the aim, through the use of abuse or violence,
+##### Art. 63 Regular treason
+Any person who carries out an act with the aim, through the use of abuse or violence,
+
 of changing the Charter,
+
 of deposing the constitutionally appointed Server authorities or rendering them unable to exercise their powers, or
+
 of causing extraordinary technical or cultural damage to the Server, its facilities, and members,
-is punished by a Class 4 penalty.
 
-### Section 7: Abuse of Agreements
+is punished by a temporary or permanent ban.
 
-#### Art. 62 Falsification of documents
-A person who, with the intention of causing financial loss or damage to the rights of another or in order to obtain an unlawful advantage for themselves or another,
-produces a false document, falsifies a genuine document, uses the genuine signature or mark of another to produce a false document, falsely certifies or causes to be falsely certified a fact of legal significance or,
-makes use of a false or falsified document in order to deceive,
-
-is punished by a Class 3 penalty and up to a Class 4 penalty.
-
-## Annex 1:
-*(Art. 56, para. 2)*
-
-### 1
-Article 56 still applies if a word in another language has an equivalent meaning or social weight.
-
-### 2
-The following use of slurs are permitted if used in accordance with Article 56:
-
-| Base form | Other forms / slangs  |
-|-----------|-----------------------|
-| retard    | retarded, retardation |
-| nigger    | nigga, negro          |
-
-[^11]: [SR 101](sr:101)
-[^1]: Adopted unilaterally by The Director on 19 June 2026, in force since 19 June 2026.
-[^2]: Adopted based on a majority vote (Ref. No. 3) initiated on 6 Sept. 2026, in force since 10 Sept. 2026.
-[^3]: Repealed by the Director on 5 Oct. 2026, in force since 5 Oct. 2026.
-[^4]: Repealed by the Director, on 5 Oct. 2026, in force since 5 Oct. 2026.
-[^5]: Repealed by the Director, on 5 Oct. 2026, in force since 5 Oct. 2026.
-[^6]: Repealed by the Director, on 5 Oct. 2026, in force since 5 Oct. 2026. Procedural laws should ideally be moved to other laws.
-[^7]: Repealed by the Director, on 5 Oct. 2026, in force since 5 Oct. 2026. Procedural laws should ideally be moved to other laws.
-[^8]: Repealed by the Director, on 5 Oct. 2026, in force since 5 Oct. 2026. Provisions concerning persons and their accounts are moved to the Public Code.
-[^9]: Repealed by the Director, on 5 Oct. 2026, in force since 5 Oct. 2026. Procedural laws should ideally be moved to other laws.
-[^10]: Repealed by the Director, on 5 Oct. 2026, in force since 5 Oct. 2026. Prohibition of double jeopardy is not full, according to the Charter (SR 101), and moved to the ProNaCo (SR 311).
+[^1]: [SR 101](sr:101)
+[^2]: Adopted unilaterally by The Director on 19 June 2026, in force since 19 June 2026.
+[^3]: Adopted based on a majority vote (Ref. No. 3) initiated on 6 Sept. 2026, in force since 10 Sept. 2026.
