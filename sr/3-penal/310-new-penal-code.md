@@ -181,7 +181,7 @@ Where the material depicts parts that are obstructed but a reasonable person wou
 
 ##### Section 2: Other Sexual Imagery
 
-###### Art. 32 Fetish and mink material
+###### Art. 32 Fetish and kink material
 <sup>1</sup> Any member who depicts sexual fetish material but does not satisfy Article 28 is punished by a timeout of 7 to 28 days.
 
 <sup>2</sup> Where the material is not inherently sexual but the member sexualises the material by their own contribution, a timeout of a higher duration is imposed.
