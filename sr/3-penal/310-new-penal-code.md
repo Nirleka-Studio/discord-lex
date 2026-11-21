@@ -34,7 +34,7 @@ A penalty or measure may only be imposed for an act that has been expressly decl
 ##### Art. 3 Spatial scope
 <sup>1</sup> This Code applies to any member who commits an offence on the Server.
 
-<sup>2</sup> Where an offence committed outside the Server affects the real-world safety of a Server member, this Code applies to the person who committed it.
+<sup>2</sup> Where a serious offence committed outside the Server endangers the Server or its members, this Code applies to the person who committed it.
 
 ##### Art. 4 Offences against the Server
 This Code also applies to any person who commits an offence against the Server.
@@ -68,68 +68,90 @@ A person acts lawfully if their conduct is required or authorised by law, even i
 
 <sup>3</sup> A person who voluntarily abandons the execution of an offence, or prevents its completion, is not punished for the attempt.
 
-#### Chapter 3: Penalties and Measures
+#### Chapter 3: Statute of Limitations
+
+##### Art. 10 Periods
+The right to prosecute is subject to a time limit of:
+a. 3 years if the most severe punishment the offence carries is a permanent ban;
+b. 1 year if the most severe punishment the offence carries is a temporary ban; and
+c. 6 months if the offence carries only a timeout.
+
+##### Art. 11 Commencement
+The limitation period begins:
+a. on the day on which the offender committed the offence;
+b. on the day on which the final act was carried out if the offence consists of a series of acts carried out at different times;
+c. on the day on which the conduct ceases if the conduct continues over a period of time.
+
+##### Art. 12 Interruption
+The limitation period stops running once a report is filed or proceedings are opened by an authority before it expires.
+
+##### Art. 13 Exclusion from limitation
+There is no statute of limitations for the offences of:
+a. sexual depiction or sexual exploitation of a minor; and
+b. sexual harassment or unsolicited sexual roleplay where the victim is a minor.
+
+#### Chapter 4: Penalties and Measures
 
 ##### Section 1: Measures In General
 
-###### Art. 10 Timeout
+###### Art. 14 Timeout
 The minimum duration of a timeout is 1 hour.
 
-###### Art. 11 Temporary ban
+###### Art. 15 Temporary ban
 <sup>1</sup> Unless otherwise specified, a temporary ban is imposed for a minimum of 30 days and a maximum of 180 days.
 
 <sup>2</sup> Where aggravating circumstances or repeat-offender provisions would warrant a ban exceeding 180 days, a permanent ban is imposed instead.
 
 ##### Section 2: Penalty Measurement
 
-###### Art. 12 Penalty measurement
+###### Art. 16 Penalty measurement
 <sup>1</sup> Where an Article provides a range of punishment or alternative penalties, the moderator must determine the appropriate measure based on the severity of the violation, the degree of intent, and the offender's prior conduct.
 
 <sup>2</sup> Unless aggravating or mitigating circumstances justify a deviation, the baseline punishment for a first-time offence must be the minimum of the prescribed range, or the lesser alternative penalty.
 
-###### Art. 13 Repeat offences
+###### Art. 17 Repeat offences
 <sup>1</sup> Where a member commits a new offence within 90 days of completing a previous penalty, the minimum and maximum limits of the prescribed penalty are doubled.
 
 <sup>2</sup> Where doubling a timeout exceeds 28 days, a temporary ban of 30 to 90 days is imposed instead.
 
 <sup>3</sup> A member who commits three or more punishable offences within a rolling 180-day period, or who demonstrates a persistent disregard for the rules after a temporary ban, may be subject to a permanent ban, regardless of the maximum penalty prescribed for the individual offence.
 
-###### Art. 14 Multiple offences
+###### Art. 18 Multiple offences
 <sup>1</sup> Where a single act violates multiple Articles simultaneously, only the Article providing the most severe penalty applies, while the additional violations act as aggravating factors.
 
-<sup>2</sup> Where a member commits multiple separate offences before being punished, the moderator may aggregate the penalties up to the next higher penalty tier.
+<sup>2</sup> Where a member commits multiple separate offences before being punished, the moderator may aggregate the penalties up to the prescribed higher penalty.
 
-#### Chapter 4: Platform's Terms of Service and Community Guidelines
+#### Chapter 5: Platform's Terms of Service and Community Guidelines
 
-##### Art. 15 In general
-<sup>1</sup> The platform's Terms of Service and Community Guidelines applies to the Server and the platform.
+##### Art. 19 In general
+<sup>1</sup> The platform's Terms of Service and Community Guidelines apply to the Server and the platform.
 
-<sup>2</sup> Where an act is prohibited in the platform's Terms of Service or Community Guidelines and is an offence under this Code, this Code applies to the offender.
+<sup>2</sup> A violation of the platform's Terms of Service or Community Guidelines is an offence only if this Code so provides.
 
 ### Title 2: Terms and Definitions
 
-#### Art. 16 View restriction
+#### Art. 20 View restriction
 A content's view is restricted if:
 a. it is delivered in a designated NSFW channel; or
 b. viewing it is not immediate and requires confirmation, using reasonable measures the content requires.
 
-#### Art. 17 Depiction
+#### Art. 21 Depiction
 A depiction in particular includes any portrayal or conveyance through any medium, including linked means, that a reasonable person would recognise as such, provided it is accessible to persons.
 
-#### Art. 18 Terms and definitions
+#### Art. 22 Other terms
 <sup>1</sup> *Illegal* means prohibited under real-world laws.
 
 ### Title 3: The Authorities
 
-#### Art. 19 Ordinance delegation
+#### Art. 23 Ordinance delegation
 <sup>1</sup> The Director and the Chief Minister may issue ordinances listing examples or technical details of the offences in Part 2.
 
-<sup>2</sup> They must not create offences or alter penalty classes.
+<sup>2</sup> They must not create offences or alter measures.
 
-#### Art. 20 Return of assets
+#### Art. 24 Return of assets
 <sup>1</sup> The Administration has the authority to seize Server assets from another member that is unlawfully acquired under this law or another.
 
-<sup>2</sup> If such asset is unlawfully taken from another member, the Administration must return it to the rightful owner in accordance with the law.
+<sup>2</sup> If such asset is unlawfully taken from a member, the Administration must return it to the rightful owner in accordance with the law.
 
 ## Part 2: Specific Provisions
 
