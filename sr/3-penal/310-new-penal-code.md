@@ -92,7 +92,7 @@ The minimum duration of a timeout is 1 hour.
 
 <sup>2</sup> Where doubling a timeout exceeds 28 days, a temporary ban of 30 to 90 days is imposed instead.
 
-<sup>3</sup> A member who commits three or more punishable offences within a rolling 180-day period, or who demonstrates a persistent disregard for the rules after a temporary ban, is subject to a permanent ban, regardless of the maximum penalty prescribed for the individual offence.
+<sup>3</sup> A member who commits three or more punishable offences within a rolling 180-day period, or who demonstrates a persistent disregard for the rules after a temporary ban, may be subject to a permanent ban, regardless of the maximum penalty prescribed for the individual offence.
 
 ###### Art. 14 Multiple offences
 <sup>1</sup> Where a single act violates multiple Articles simultaneously, only the Article providing the most severe penalty applies, while the additional violations act as aggravating factors.
@@ -159,15 +159,20 @@ Where the material depicts parts that are obstructed but a reasonable person wou
 
 ##### Section 2: Other Sexual Imagery
 
-###### Art. 32 Sexual fetish material
+###### Art. 32 Fetish and mink material
 <sup>1</sup> Any member who depicts sexual fetish material but does not satisfy Article 28 is punished by a timeout of 7 to 28 days.
 
 <sup>2</sup> Where the material is not inherently sexual but the member sexualises the material by their own contribution, a timeout of a higher duration is imposed.
 
-###### Art. 33 Sexual gestures
+<sup>3</sup> Where the fetish includes the abuse of an animal, a temporary or permanent ban is imposed.
+
+###### Art. 33 Incest
+Any member who depicts or encourages incest is punished by a timeout of 1 to 7 days.
+
+###### Art. 34 Sexual gestures
 Any member who depicts a bodily expression that is otherwise only made during, to represent, or encourage a sexual act is punished by a timeout of 12 hours to 7 days.
 
-###### Art. 34 Adult novelties
+###### Art. 35 Adult novelties
 <sup>1</sup> Any member who depicts an adult novelty as the primary focus or subject and does not restrict its view, is punished by a timeout of no less than 24 hours and no more than 28 days.
 
 <sup>2</sup> If the member presents or discusses the adult novelty in a sexual way, a raised punishment of a timeout of no less than 3 days is imposed.
@@ -178,42 +183,49 @@ Any member who depicts a bodily expression that is otherwise only made during, t
 
 ##### Section 1: Sexual Harassment
 
-###### Art. 35 General sexual harassment
+###### Art. 36 General sexual harassment
 <sup>1</sup> Any person who sexually harasses another is punished by a temporary or permanent ban.
 
 <sup>2</sup> Where the victim is a minor, the person is punished by a permanent ban.
 
-###### Art. 36 Unsolicited sexual roleplay and encouragement
+###### Art. 37 Unsolicited sexual roleplay and encouragement
 <sup>1</sup> Any person who instructs, coerces, or persistently encourages another person to don a specific garment, adopt a specific persona, or engage in behaviour that a reasonable person would recognise as an element of sexual roleplay, fetish, or sexual submissiveness is punished by a timeout of no less than 7 days.
 
 <sup>2</sup> Where the victim is a minor, the person is punished by a permanent ban.
 
-###### Art. 37 Unsolicited explicit media
+###### Art. 38 Unsolicited explicit media
 Any person who uses the platform to buy, sell, trade, or solicit commercial sexual services, prostitution, or paid adult content transactions is punished by a temporary or permanent ban.
 
-###### Art. 38 Non-consensual romantic pairings
+###### Art. 39 Non-consensual romantic pairings
 Any member who pairs or depicts persons in a romantic or sexual circumstance without the explicit consent of all persons paired or depicted is punished by a timeout of 1 to 28 days.
+
+##### Section 2: Sexual Discussions
+
+###### Art. 40 In general
+<sup>1</sup> Any member who discusses or depicts sexual matters outside a designated NSFW channel in a sexually explicit manner, or in a way whose predominant function is sexual arousal or gratification, is liable on complaint to a timeout of no more than 14 days.
+
+<sup>2</sup> Paragraph 1 does not apply to educational, medical, or supportive discussion, nor to humour or passing references that a reasonable person would not consider explicit.
 
 #### Chapter 3: Violent, Disturbing, and Dangerous Materials
 
 ##### Section 1: Violent Imagery
 
-###### Art. 39 In general
+###### Art. 41 In general
 Any member who depicts violent or disturbing material, unless a special provision of the following articles applies, is punished by a timeout of no less than 28 days, a temporary ban, or a permanent ban.
 
-###### Art. 40 Exceptions if restricted
+###### Art. 42 Exceptions if restricted
 <sup>1</sup> Where the material is educational, historical, journalistic, or artistic, it is permitted if its view is restricted to the extent the material reasonably requires.
 
 <sup>2</sup> Where it is not so restricted, a timeout of no more than 14 days is imposed.
 
 ##### Section 2: Weapons and Dangerous Substances
 
-###### Art. 41 In general
+###### Art. 43 In general
 <sup>1</sup> Any person who provides instructions or methods for making a weapon, substance or device that is unlawful to make or designed to cause death or serious injury to many persons or without discrimination is punished by a permanent ban.
 
 <sup>2</sup> Paragraph 1 does not apply to the lawful use, maintenance or handling of a lawfully held item, or to educational, historical, artistic, or journalistic discussion that does not enable its making.
 
-###### Art. 42 Manufacturing and synthesis of illicit substances
+###### Art. 44 Manufacturing and synthesis of illicit substances
 <sup>1</sup> Any person who provides an actionable instruction, recipe, formula, chemical synthesis method, or step-by-step guide for the creation, refinement, or mass production of:
 a. a controlled illicit substance;
 b. a hazardous chemical compound intended for psychoactive misuse; or
@@ -232,80 +244,117 @@ c. informal references to common non-controlled substances consumed in accordanc
 
 ##### Section 1: Predatory Conduct
 
-###### Art. 43 Sexual exploitation of minors
-Any person who engages in sexual intercourse with a minor, sexually exploits a minor, luring them to engage in sexual intercourse or meet in person is punished by a permanent ban.
+###### Art. 45 Sexual exploitation of minors
+Any person who engages in sexual intercourse with a minor, sexually exploits a minor, or luring them to engage in sexual intercourse or meet in person is punished by a permanent ban.
+
+##### Section 2: Gambling, Illegal Materials and Acts
+
+###### Art. 46 Illegal activities
+Any person who commits, facilitates, promotes, or gives instructions for a serious illegal act, including deception for unlawful gain, is punished by a temporary or permanent ban.
+
+###### Art. 47 Malicious files and links
+<sup>1</sup>Any person who shares files, links or other content designed to impair, disrupt, or gain unauthorised access to a system, account, or data is punished by a permanent ban.
+
+<sup>2</sup> Where the content is not inherently harmful but disrupts the platform or Server, a timeout of 7 to 28 days or a temporary ban is imposed.
 
 ##### Section 2: Harassment and Threats
 
-###### Art. 44 General harassment
+###### Art. 48 General harassment
 <sup>1</sup> Any person who repeatedly harasses or expresses unwelcome behaviour to another despite being told to stop, is liable on complaint to a timeout of no more than 28 days or a temporary ban.
 
-###### Art. 45 Harmful threats
+###### Art. 49 Harmful threats
 <sup>1</sup> Any person who threatens another with violence or death is liable on complaint to a timeout of no less than 14 days, a temporary or permanent ban.
 
 <sup>2</sup> Any person who incites or organises targeted harassment or violent acts against a person or group inside or outside the Server is punished by a temporary or permanent ban.
 
 <sup>3</sup> Paragraph 1 does not apply if a reasonable person would interpret the statement as humorous or banter.
 
-###### Art. 46 Coercion
+###### Art. 50 Coercion
 Any person who, by the use of force or the threat of serious detriment or other restriction of another's freedom to act compels another to carry out an act, to fail to carry out an act or to tolerate an act, is punished by a permanent ban.
 
 ##### Section 3: Personal Identity
 
-###### Art. 47 Impersonation
+###### Art. 51 Impersonation
 Any person who uses the identity of another person without that person’s consent in order to harm that person or in order to obtain an unlawful advantage for themselves or another is punished a temporary or permanent ban.
 
-###### Art. 48 Unlawfully obtaining personal data
+###### Art. 52 Unlawfully obtaining personal data
 Any person who without authorisation obtains personal data that are particularly sensitive and that are not publicly accessible is liable on complaint to a temporary or permanent ban.
 
-###### Art. 49 Sharing of personal information
+###### Art. 53 Sharing of personal information
 Any person who, maliciously or negligently, shares personal data of another person that are particularly sensitive and that are not publicly accessible, to another without that person's consent, is punished by a timeout of no less than 7 days and no more than 14 days, a temporary or permanent ban.
 
-##### Section 4: Self-harm
+##### Section 4: Health and Self-harm
 
-###### Art. 50 Self-harm and suicide
+###### Art. 54 Self-harm and suicide
 Any person who:
 a. encourages, instructs, or glorifies self-harm or suicide; or
 b. provides instructions or methods for self-harm or suicide
 
 is punished by a temporary or permanent ban.
 
-###### Art. 51 Discrediting institutional help for self-harm
-Any person who discredits support institutions in a way that is particularly depraved, or intentionally prevents, obstructs, or deters a person from seeking or receiving help for self-harm or suicide is punished by a temporary or permanent ban.
+###### Art. 55 Discrediting institutional help
+<sup>1</sup> Any person who discredits support institutions in a way that is particularly depraved, or intentionally prevents, misleads, obstructs, or deters a person from seeking or receiving proper care for physical or mental health is punished by a temporary or permanent ban.
+
+<sup>2</sup> Where the person does it negligently, a timeout of no less than 7 days and no more than 28 days is imposed.
 
 ##### Section 6: Endangerment
 
-###### Art. 52 In general
+###### Art. 56 In general
 Any person who, maliciously or negligently, puts another in serious risk of danger is punished by a temporary or permanent ban.
 
 ##### Section 7: Disrespect Against Persons
 
-###### Art. 53 Breach of equality
+###### Art. 57 Breach of equality
 Any person who insults, demeans, or asserts superiority over another natural person or group, based on their natural characteristic, sexual orientation, or religious belief, is punished by a timeout of no less than 7 days, a temporary or permanent ban.
 
-###### Art. 54 Disrespecting the death of a significant other
+###### Art. 58 Slurs
+Any member who uses a slur is liable on complaint to a timeout of 1 hour to 28 days or a temporary ban.
+
+###### Art. 59 Disrespecting the death of a significant other
 Any person who disrespects the death, serious injury, or mental health of another person's friend, family member, pet, or significant other is liable on complaint to a timeout of no less than 7 days, or a temporary ban.
-
-##### Section 1931: General Malicious Acts
-
-###### Art. 31 Malicious files
-ITS 2 AM WHAT THE FUCK IS THIS SHIT
-
-PLEASE
-
-WHAT
-
-HOW DO WE EVEN DEFINE THIS
-
-ALSO HOW IN THE ABSOLUTE EVER LOVING FUCK 
-
-SHOULDNT WE PUTT HIS SOMEHWEEREEEE
 
 #### Chapter 2: Offences Against the General Membership
 
-##### Section 1: Use of Server Facilities
-
-###### Art. 55 Spamming
-<sup>1</sup> Any member who floods a channel with a meaningless or repetitive content is liable on complaint to a timeout of no more than 14 days.
+##### Art. 60 Disruption of the Server
+<sup>1</sup> Any member who floods a channel with meaningless or repetitive content, repeatedly mentions another member, or persistently advertises or promotes something where it is unwanted, is liable on complaint to a timeout of no more than 14 days.
 
 <sup>2</sup> Where the nature is particularly depraved and causes the channel to be unusable, the member is punished by a temporary or permanent ban.
+
+### Title 3: Offences Against the Administration, Server, and its Integrity
+
+#### Chapter 1: Server Systems
+
+###### Art. 61 Abuse of Server systems
+<sup>1</sup> Any person who uses a Server facility or process to circumvent a restriction, impair the Server, or gain an advantage it was not designed to give is punished by a timeout of 7 to 28 days, a temporary ban, or a permanent ban.
+
+<sup>2</sup> Where the abuse is carried out by the coordinated action of several persons or accounts, a permanent ban is imposed.
+
+###### Art. 62 Bypassing measures
+Any person who evades or bypasses a penalty or measure imposed on them, or a restriction established by the Server, is punished by a temporary or permanent ban.
+
+#### Chapter 2: Judicial Orders
+
+###### Art. 63 Disobedience of judicial order
+<sup>1</sup> Any person who knowingly fails to comply with an order issued to them by a judicial authority is punished by a timeout of no less than 7 days and no more than 28, or a temporary ban.
+
+<sup>2</sup> Paragraph 1 applies only where the order was communicated to the person, expressly warned that non-compliance is punishable under this Article, and has not been suspended or set aside.
+
+#### Chapter 3: Treason
+
+##### Art. 64 High treason
+Any person who carries out an intentional act where they:
+a. threaten the existence of the Server;
+b. depose, delegitimise, or restrict the rights or powers of the constitutionally appointed Director; or
+c. depose, delegitimise, or limit the powers of The Cat
+is punished by a timeout of no more than 14 days, or temporary ban.
+
+##### Art. 65 Regular treason
+Any person who carries out an act with the aim, through the use of abuse or violence,
+
+of changing the Charter,
+
+of deposing the constitutionally appointed Server authorities or rendering them unable to exercise their powers, or
+
+of causing extraordinary technical or cultural damage to the Server, its facilities, and members,
+
+is punished by a temporary or permanent ban.
