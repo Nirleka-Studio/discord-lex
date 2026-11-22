@@ -616,6 +616,10 @@ dd.law-item > .law-text { font-size: 1rem; }
   font-weight: bold;
 }
 
+.law-preamble {
+  --h-size: 1.4rem;
+}
+
 /* Collapsible */
 .law-body summary { cursor: pointer; }
 .law-body summary::marker { color: var(--dropdown); }

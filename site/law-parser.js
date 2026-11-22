@@ -10,6 +10,9 @@
  *                                ## = 2nd level, ### = 3rd ... clamped to the
  *                                deepest level. It renders (and is styled) like
  *                                that level, minus the "Part 3" style label.
+ *                                It is also its own footnote scope, so notes
+ *                                referenced inside (e.g. in a Preamble) render
+ *                                at the end of that heading, not the document.
  *                                EXCEPTION: a single # on the very first line of
  *                                the document is the document title.
  *   <sup>N</sup> paragraph text  (numbered paragraph)
@@ -412,7 +415,7 @@
             // Generic headings borrow the level they map to, but have no "Part 3" style
             // label, always nest their id under the parent, and use a neutral id prefix.
             var cfg = node.cfg
-                ? assign({}, node.cfg, { label: null, bareLabel: null, idPrefix: "h", nestId: true })
+                ? assign({}, node.cfg, { label: null, bareLabel: null, idPrefix: "h", nestId: true, footnoteScope: true })
                 : containers[node.type];
             var id = containerId(node, cfg, ctx);
             var collector = cfg.footnoteScope ? [] : ctx.footnoteCollector;
