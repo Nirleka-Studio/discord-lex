@@ -565,13 +565,11 @@ mark.search-highlight {
 .law-book > summary > .law-heading-text {
   font-size: 1.9375rem;
   font-weight: lighter;
-  letter-spacing: 0.08em;
   margin: 28px 0 12px;
 }
 .law-part > summary > .law-heading-text {
   font-size: 1.875rem;
   font-weight: lighter;
-  letter-spacing: 0.04em;
   margin: 24px 0 12px;
 }
 .law-tit > summary > .law-heading-text {
@@ -616,9 +614,10 @@ dd.law-item > .law-text { font-size: 1rem; }
   font-weight: bold;
 }
 
-.law-preamble {
-  --h-size: 1.4rem;
-}
+/* gap between article header and its contents: tweak the padding-top */
+.law-article > .law-body { padding-top: 3px; }
+.law-article > .law-body > .law-paragraph:first-child > .law-ptext { margin-top: 0; }
+
 
 /* Collapsible */
 .law-body summary { cursor: pointer; }
