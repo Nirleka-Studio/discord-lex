@@ -253,7 +253,7 @@ Every person must use Server facilities, systems, and processes as intended and 
 #### Chapter 1: General Principles
 
 ###### Art. 32 Appropriateness of content
-ALl content must be appropriate in the context and circumstance that it is placed and to the persons in that circumstance.
+All content must be appropriate in the context and circumstance that it is placed and to the persons in that circumstance.
 
 ###### Art. 33 Restriction of access
 All content must have its access restricted in a way the content reasonably requires so that it cannot be accessed by persons who have not consented or for whom it is inappropriate.
