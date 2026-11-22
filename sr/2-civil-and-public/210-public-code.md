@@ -15,13 +15,13 @@ repeals: "ARCH 110"
 ## Preamble
 Welcome to Nirleka Studios.
 
-You are either reading on our site, GitHub, or plain text, and you may notice we do not have a singular, long "rules" list compared to other Discord servers. Our rules here are named "laws".
+You might be reading this on our site, GitHub, or plain text, and you may notice we do not have a singular, long "rules" list compared to other Discord servers. Our rules here are named "laws".
 
-We operate on a rule of law, not rule of vibes. And we have separate laws governing and outlining separate procedures and matters to keep things tidy and to let members know what we do and to let Administrators know how to do their zero salary job.
+We operate on a rule of law, not rule of vibes. And we have separate laws governing and outlining procedures and matters to keep things tidy and to let members know what we do and to let Administrators know how to do their zero-salary job.
 
 You also have rights. Shocking, we know. Where other Discord servers operate like pure dictatorships, we operate on a dictatorship with standards. You may see your rights as outlined in our Server Charter[^1].
 
-Here, the "Public Code" mainly serves as the general rules governing the horizontal relationship between members. The exact offences and their punishments are outlined by the Penal Code[^2], preventing members from arbitrary punishments by moderators.
+Here, the "Public Code" mainly serves as the general rules governing the horizontal relationship between members. The exact offences and their punishments are outlined by the Penal Code[^2], protecting members from arbitrary punishments.
 
 ---
 
@@ -33,7 +33,7 @@ If you do not agree with this, you may leave the Server.
 
 ---
 
-All hail to The Cat!
+All hail The Cat!
 
 The Director of Nirleka Studios,
 
@@ -64,12 +64,12 @@ decrees:
 ###### Art. 3 Application of the law
 <sup>1</sup> The law applies to any matter falling within the scope of its text, spirit, or purpose.
 
-<sup>2</sup> In the absence of a provision, the judicial authority decides in accordance with customary law and, in the absence of customary law, in accordance with the rule that it would make as legislator.
+<sup>2</sup> In the absence of a provision, the judicial authority decides in accordance with customary law and, in the absence of customary law, in accordance with the rule that it would make as a legislator.
 
 <sup>3</sup> In doing so, the judicial authority must consider established legal doctrine and precedent.
 
 ###### Art. 4 Administrative discretion
-When a law gives an interpreting authority to make its own judgment, asks it to weigh the situation, or requires a good reason to act, the interpreting authority must decide fairly and reasonably based on the circumstances of the case.
+When a law gives an interpreting authority the discretion to make its own judgment, asks it to weigh the situation, or requires a good reason to act, the interpreting authority must decide fairly and reasonably based on the circumstances of the case.
 
 #### Chapter 2: Rules of Evidence
 
@@ -77,10 +77,10 @@ When a law gives an interpreting authority to make its own judgment, asks it to 
 Any person who asserts a fact to establish a right has the burden of proving that fact, unless the law provides otherwise.
 
 ##### Art. 6 Proof by public document
-Public and the platform's records are presumed to be true, unless their content is shown to be incorrect.
+Public and platform records are presumed to be true, unless their content is shown to be incorrect.
 
 ##### Art. 7 Acquiring evidence
-<sup>1</sup> A person must use and assume a fact from the sufficient evidence available to them or from sources they can lawfully obtain.
+<sup>1</sup> A person must use and assume a fact from sufficient evidence available to them or from sources they can lawfully obtain.
 
 <sup>2</sup> The use of bad faith practices for acquiring evidence is prohibited, unless in circumstances allowed by law.
 
@@ -94,7 +94,7 @@ Public and the platform's records are presumed to be true, unless their content 
 <sup>2</sup> Every other obligation must be performed competently and with reasonable effort.
 
 ##### Art. 9 Reliance on fact
-Where an obligation requires a person to be informed on a fact, such fact must be communicated clearly.
+Where an obligation requires a person to be informed of a fact, that fact must be communicated clearly.
 
 ##### Art. 10 Availability
 <sup>1</sup> Where an obligation is placed on a person, they are not required to act while they are reasonably unavailable to do so.
@@ -187,12 +187,12 @@ An account is presumed to be fully owned and controlled by one natural person un
 <sup>2</sup> Legal entities do not possess personality rights, membership standing, or independent legal capacity under this Code unless expressly granted by law.
 
 ##### Art. 22 Prohibition of impersonation
-A legal entity must not be used to impersonate another natural person or mislead others to assume it is a natural person.
+A legal entity must not be used to impersonate another natural person or mislead others into assuming it is a natural person.
 
 ##### Art. 23 Authorisation and admission
 <sup>1</sup> No legal entity may be introduced to, integrated with, or operated within the Server without the prior authorisation of a competent administrative authority.
 
-<sup>2</sup> Authorization is granted for a specific functional purpose and may be modified, suspended, or revoked at any time without prior notice.
+<sup>2</sup> Authorisation is granted for a specific functional purpose and may be modified, suspended, or revoked at any time without prior notice.
 
 ##### Art. 24 Attribution of conduct and liability
 <sup>1</sup> A legal entity cannot bear personal culpability. All actions made by a legal entity are legally attributed to the natural person who owns, deploys, configures, or controls it.
@@ -216,6 +216,8 @@ A persistent entity is a legal entity possessing a distinct identity, profile, o
 ###### Art. 27 Definition and scope
 A unidirectional interface is a technical endpoint or automated conduit that transmits information or executes predefined actions into the Server from an external source without possessing an independent member presence.
 
+---
+
 ## Part 3: Conduct of Persons
 
 ### Title 1: General Principles
@@ -230,7 +232,7 @@ Every person must respect the human dignity of another.
 ##### Art. 29 Responsibility
 <sup>1</sup> Every person is responsible for conduct on and outside the Server.
 
-<sup>2</sup> This includes on what can be accessed by other members through their presence in the Server.
+<sup>2</sup> This includes what can be accessed by other members through their presence in the Server.
 
 <sup>3</sup> This also includes, in some circumstances as defined by law, what a person associates with.
 
@@ -251,15 +253,15 @@ Every person must use Server facilities, systems, and processes as intended and 
 #### Chapter 1: General Principles
 
 ###### Art. 32 Appropriateness of content
-Every content must be appropriate in the context and circumstance that it is placed and to the persons in that circumstance.
+ALl content must be appropriate in the context and circumstance that it is placed and to the persons in that circumstance.
 
 ###### Art. 33 Restriction of access
-Every content must have its access restricted in a way the content reasonably requires so that it cannot be accessed by persons who have not consented or for whom it is inappropriate.
+All content must have its access restricted in a way the content reasonably requires so that it cannot be accessed by persons who have not consented or for whom it is inappropriate.
 
 #### Chapter 2: Restricted Contents
 
-###### Art. 34 Other contents
-Content is otherwise prohibited if meeting the special requirements the following articles defines.
+###### Art. 34 Other content
+Content is otherwise prohibited if it meets the special requirements that the following articles define.
 
 ###### Art. 35 Sensitive content
 <sup>1</sup> Sensitive content is content of a sexual, violent, or otherwise disturbing character that a reasonable person would expect to offend or distress others, or to be unsuitable for minors.
@@ -310,7 +312,7 @@ Content does not lose its character because it is presented as humour, fiction, 
 <sup>3</sup> This does not apply to representations that a reasonable person would recognise as humorous, inaccurate, or untrue.
 
 ##### Art. 43 Reliance on claims
-Every member must make a genuine effort to verify the truthfulness of a claim before commiting an act based on that claim.
+Every member must make a genuine effort to verify the truthfulness of a claim before committing an act based on that claim.
 
 #### Chapter 2: Affirmative Duties
 
@@ -323,8 +325,8 @@ Every person has the duty to direct a person who expresses or exhibits signs of 
 ##### Art. 46 Duty to touch grass
 <sup>1</sup> Every person has an ongoing duty to disengage periodically from the Server and the global digital infrastructure.
 
-<sup>2</sup> Fulfillment of this duty requires active participation in real-world maintenance, including the obligation to:
-a. being off the Server and the internet;
+<sup>2</sup> Fulfilment of this duty requires active participation in real-world maintenance, including the obligation to:
+a. be off the Server and the internet;
 b. commit to house chores;
 c. witness nature and the outside world;
 d. socialise with real persons in the outside world;
