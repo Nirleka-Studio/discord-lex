@@ -2,7 +2,7 @@
 sr_id: "SR 210"
 title: "The Public Code"
 abbreviation: "Public Code"
-version: "DRAFT 4.0.0"
+version: "4.0.0"
 category: "Civil and Public Law"
 enacted_date: "2026-08-12"
 last_amended: "2026-11-22"
