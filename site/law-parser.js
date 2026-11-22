@@ -1,12 +1,17 @@
 /*!
  * Grammar:
  *   #  <keyword> <n>: <title>    Any heading whose text starts with one of the
- *                                configured keywords (default: Chapter, Section,
- *                                Art./Article). Add your own (Book, Part, Title,
- *                                Annex...) in the HEADINGS list below, or pass
- *                                them to LawParser.create({ headings: [...] }).
- *   #  <anything else>           Generic in-body sub-heading, NOT the document
- *                                title, unless it's literally the first line.
+ *                                configured keywords (default: Book, Part, Title,
+ *                                Chapter, Section, Art./Article). Add your own in
+ *                                the HEADINGS list below, or pass them to
+ *                                LawParser.create({ headings: [...] }).
+ *   #  <anything else>           Unrecognised heading. The number of # picks the
+ *                                level by position in HEADINGS: # = 1st level,
+ *                                ## = 2nd level, ### = 3rd ... clamped to the
+ *                                deepest level. It renders (and is styled) like
+ *                                that level, minus the "Part 3" style label.
+ *                                EXCEPTION: a single # on the very first line of
+ *                                the document is the document title.
  *   <sup>N</sup> paragraph text  (numbered paragraph)
  *   a. item text                 (lettered item, "a\." also accepted)
  *     1. sub-item text           (numbered sub-item)
@@ -22,10 +27,15 @@
  *   readers treat identically. Style with `.law-heading-text` or
  *   `[data-level="7"]`, not with bare h2..h6 selectors.
  *
+ * Adding a header type (one line in HEADINGS):
+ *   "annex"
+ *       matches "Annex 3: Foo", label "Annex", CSS class .law-annex, id annex-3
+ *   { type: "x", ...overrides }
+ *       overrides: words, label, bareLabel, idPrefix, nestId, footnoteScope
+ *
  * Heading type options:
  *   type            unique name; becomes the CSS class `law-<type>`
- *   re              regex; capture 1 = number, capture 2 = title text
- *                   (use kw("book", "bk") to build the usual keyword regex)
+ *   words           keywords that trigger it (default: [type])
  *   label           prefix shown before the number ("Book" -> "Book 3")
  *   bareLabel       label used when there is no number (optional)
  *   idPrefix        anchor id prefix ("book" -> id="book-3")
@@ -34,12 +44,11 @@
  *   footnoteScope   true = footnotes referenced inside render directly below
  *                   this container instead of at the bottom of the document
  *
- * Indentation and "#" count in the source are decorative; only the keyword
- * decides the rank.
- *
  * Rendering:
  *   - Containers are <details>/<summary> (collapsible), heading element nested
  *     in <summary>, heading text is a real <a href="#id">.
+ *   - Unrecognised headings get the class of the level they map to plus
+ *     `law-generic`, so `.law-part` styles both "Part 3" and a plain "## Preamble".
  *   - Items/Numbers render as <dl>/<dt>/<dd>.
  *   - Footnotes: see footnoteScope above. Unreferenced definitions are never
  *     rendered. References outside any footnoteScope container land at the
@@ -74,15 +83,29 @@
         return escapeHtml(n).replace(/^(\d[\d.]*)([a-z].*)$/i, '$1<span class="law-suffix">$2</span>');
     }
 
-    var DEFAULT_HEADINGS = [
-        { type: "book", label: "Book", idPrefix: "book", re: kw("book") },
-        { type: "part", label: "Part", idPrefix: "part", re: kw("part") },
-        { type: "tit",   label: "Title", idPrefix: "title", re: kw("title") },
-        { type: "chapter", label: "Chapter", idPrefix: "chap", re: kw("chapter") },
-        { type: "section", label: "Section", idPrefix: "sec", nestId: true, re: kw("section") },
-        { type: "article", label: "Art.", bareLabel: "Article", idPrefix: "art",
-            footnoteScope: true, re: kw("art", "article") }
+    // ORDER = HIERARCHY (first = outermost). To add a header type, add a line.
+    //   "annex"                       -> matches "Annex 3: Foo", label "Annex", class .law-annex
+    //   { type: "x", ...overrides }   -> any of: label, bareLabel, idPrefix, words, nestId, footnoteScope
+    var HEADINGS = [
+        "book",
+        "part",
+        // class "law-title" is taken by the document <h1>, so this type is called "tit"
+        { type: "tit", words: ["title"], label: "Title", idPrefix: "title" },
+        "chapter",
+        { type: "section", nestId: true },
+        { type: "article", words: ["art", "article"], label: "Art.", bareLabel: "Article", footnoteScope: true }
     ];
+
+    function normalizeHeading(h) {
+        if (typeof h === "string") h = { type: h };
+        return assign({
+            label: h.type.charAt(0).toUpperCase() + h.type.slice(1),
+            idPrefix: h.type,
+            re: kw.apply(null, h.words || [h.type]),
+            nestId: false,
+            footnoteScope: false
+        }, h);
+    }
 
     function assign(target) {
         for (var i = 1; i < arguments.length; i++) {
@@ -216,29 +239,25 @@
     // Parsing
 
     function create(userConfig) {
-        var headings = ((userConfig && userConfig.headings) || DEFAULT_HEADINGS).map(function (h, i) {
-            return assign({ nestId: false, footnoteScope: false }, h, {
-                rank: i + 1,      // outline depth, derived from position
-                level: i + 2      // h2, h3, ... (h1 is the document title)
+        var headings = ((userConfig && userConfig.headings) || HEADINGS)
+            .map(normalizeHeading)
+            .map(function (h, i) {
+                return assign({}, h, {
+                    rank: i + 1,      // outline depth, derived from position
+                    level: i + 2      // h2, h3, ... (h1 is the document title)
+                });
             });
-        });
         var H = headings.length;
 
-        // Derived ranks: nothing below is a magic number any more.
-        var GENERIC_RANK = H + 0.5;   // in-body "# whatever" sub-heading
+        // Derived ranks: nothing below is a magic number.
+        var GENERIC_RANK = H + 0.5;   // floor: everything above this is a container
         var HR_RANK = H + 0.9;
         var PARA_RANK = H + 1;
         var ITEM_RANK = H + 2;
         var NUMBER_RANK = H + 3;
 
-        var GENERIC = {
-            type: "heading", rank: GENERIC_RANK, level: H + 2,
-            label: null, idPrefix: "h", nestId: true, footnoteScope: false
-        };
-
         var containers = {};
         headings.forEach(function (h) { containers[h.type] = h; });
-        containers.heading = GENERIC;
 
         var FLOW_LEVELS = [
             { type: "paragraph", rank: PARA_RANK, re: /^<sup>\s*(\d+[a-z]*)\s*<\/sup>\s*(.*)$/i },
@@ -250,7 +269,7 @@
             while (stack.length > 1 && stack[stack.length - 1].rank > GENERIC_RANK) stack.pop();
         }
 
-        function classifyHeading(content, isFirstEver) {
+        function classifyHeading(content, hashes, isFirstEver) {
             for (var i = 0; i < headings.length; i++) {
                 var m = content.match(headings[i].re);
                 if (m) {
@@ -261,15 +280,21 @@
                     };
                 }
             }
-            if (isFirstEver) return { type: "doctitle", rank: 0, number: null, text: content.trim() };
-            return { type: "heading", rank: GENERIC_RANK, number: null, text: content.trim() };
+            // A lone # on the very first line is the document title.
+            if (isFirstEver && hashes === 1) {
+                return { type: "doctitle", rank: 0, number: null, text: content.trim() };
+            }
+            // Unrecognised heading: the Nth # takes the Nth defined level (clamped to the deepest).
+            var cfg = headings[Math.min(hashes, H) - 1];
+            return { type: "heading", cfg: cfg, rank: cfg.rank, number: null, text: content.trim() };
         }
 
         function matchLevel(line, isFirstEver) {
             var h = line.match(HEADING_RE);
             if (h) {
-                var d = classifyHeading(h[1].trim(), isFirstEver);
-                return { type: d.type, rank: d.rank, number: d.number, text: d.text, isHeading: true };
+                var hashes = line.match(/^#+/)[0].length;
+                var d = classifyHeading(h[1].trim(), hashes, isFirstEver);
+                return { type: d.type, cfg: d.cfg, rank: d.rank, number: d.number, text: d.text, isHeading: true };
             }
             for (var i = 0; i < FLOW_LEVELS.length; i++) {
                 var m = line.match(FLOW_LEVELS[i].re);
@@ -319,11 +344,18 @@
                 if (hit) {
                     sawAnyNode = true;
                     var node = {
-                        type: hit.type, rank: hit.rank, number: hit.number,
+                        type: hit.type, cfg: hit.cfg, rank: hit.rank, number: hit.number,
                         title: hit.isHeading ? hit.text : null,
                         text: hit.isHeading ? null : hit.text,
                         children: []
                     };
+
+                    // The doc title is a leaf: nothing nests under it.
+                    if (node.type === "doctitle") {
+                        rootNode.children.push(node);
+                        continue;
+                    }
+
                     while (stack.length > 1 && stack[stack.length - 1].rank >= node.rank) stack.pop();
                     stack[stack.length - 1].children.push(node);
                     stack.push(node);
@@ -377,7 +409,11 @@
         }
 
         function renderContainer(node, ctx) {
-            var cfg = containers[node.type];
+            // Generic headings borrow the level they map to, but have no "Part 3" style
+            // label, always nest their id under the parent, and use a neutral id prefix.
+            var cfg = node.cfg
+                ? assign({}, node.cfg, { label: null, bareLabel: null, idPrefix: "h", nestId: true })
+                : containers[node.type];
             var id = containerId(node, cfg, ctx);
             var collector = cfg.footnoteScope ? [] : ctx.footnoteCollector;
             var cctx = childCtx(ctx, id, collector);
@@ -396,7 +432,7 @@
             var footnotesHtml = cfg.footnoteScope ? renderFootnotes(collector, cctx) : "";
             var tag = headingTags(cfg.level);
 
-            return '<details class="law-node law-' + node.type + '" id="' + id + '" open>' +
+            return '<details class="law-node law-' + cfg.type + (node.cfg ? ' law-generic' : '') + '" id="' + id + '" open>' +
                 '<summary class="law-heading">' +
                 tag.open +
                 '<a class="law-anchor" href="' + href + '" onclick="event.stopPropagation()">' +
@@ -423,7 +459,7 @@
 
         function renderNode(node, ctx) {
             ctx = ctx || {};
-            if (containers[node.type]) return renderContainer(node, ctx);
+            if (node.type === "heading" || containers[node.type]) return renderContainer(node, ctx);
 
             switch (node.type) {
                 case "doctitle": {
@@ -487,7 +523,7 @@
     return assign({}, def, {
         create: create,
         kw: kw,
-        DEFAULT_HEADINGS: DEFAULT_HEADINGS,
+        DEFAULT_HEADINGS: HEADINGS,
         FOOTNOTE_DEF_RE: FOOTNOTE_DEF_RE,
         FOOTNOTE_REF_RE: FOOTNOTE_REF_RE
     });
