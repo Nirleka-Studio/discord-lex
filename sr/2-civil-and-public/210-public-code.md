@@ -84,7 +84,7 @@ Public and platform records are presumed to be true, unless their content is sho
 
 <sup>2</sup> The use of bad faith practices for acquiring evidence is prohibited, unless in circumstances allowed by law.
 
-<sup>3</sup> Where no sufficient evidence exists, an assumption must be made that favours the person against whom the fact is asserted, unless the law or the circumstances require otherwise.
+<sup>3</sup> Where no sufficient evidence exists, an assumption must be made that favours the person against who is the subject of the assertion, unless the law or the circumstances require otherwise.
 
 #### Chapter 3: Rules of Obligations and Duties
 
@@ -256,7 +256,7 @@ Every person must use Server facilities, systems, and processes as intended and 
 ALl content must be appropriate in the context and circumstance that it is placed and to the persons in that circumstance.
 
 ###### Art. 33 Restriction of access
-All content must have its access restricted in a way the content reasonably requires so that it cannot be accessed by persons who have not consented or for whom it is inappropriate.
+All content must have its access restricted in a way the content reasonably requires so that it cannot be accessed by persons who have not consented or who it is inappropriate for.
 
 #### Chapter 2: Restricted Contents
 
